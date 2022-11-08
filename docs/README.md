@@ -12,7 +12,7 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 | 18/0119231 | Eduardo Maia Rezende          |  [eduardomr](https://github.com/eduardomr)   |
 | 180121995 | Herick de Carvalho Lima | |
 | 120123459 | João Vitor de Souza Durso | |
-| 170107426 | Kayro César Silva Machado | |
+| 170107426 | Kayro César Silva Machado | [kayrocesar](https://github.com/kayrocesar) |
 | 202028202 | Klyssmann Henrique Ferreira de Oliveira | [klyssmannoliveira](https://github.com/klyssmannoliveira) | 
 | 190111836 | Luan Vasco Cavalcante | |
 | 200042360 | Nicolas Roberto de Queiroz | |
