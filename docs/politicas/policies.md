@@ -4,7 +4,8 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 07/11/2021 | 0.1 | Criação da primeira versão do documento | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
+| 07/11/2022 | 0.1 | Criação da primeira versão do documento | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
+| 08/11/2022 | 0.2 | Revisão e aprimoramento do documento| [@kayrocesar](https://github.com/kayrocesar) |
 
 ## Objetivo:
 
@@ -118,15 +119,39 @@ git checkout -b doc/indice-nome-da-issue
 ## Política de Commits
 
 Os commits são essenciais para acompanharmos as alterações e adições ao projeto. 
-
 Deve ser usado o modo imperativo (ações e ordens assertivas) para mencionar o que foi feito.
 
+### Princípios básicos
+
+####  1. Faça commits atômicos quando possível
+
+Os commits atômicos são aqueles que gravam apenas uma única mudança – ainda que envolva vários arquivos – em um único commit. É claro que nem sempre dá para fazer, mas é uma prática excelente se conseguir fazer.
+
+
+####  2. Faça commits regulares e frequentes
+
+Não espere demais!
+
+Algumas pessoas esperam demais até gravar alguma alteração, às vezes ficam ali melhorando algo que já está funcionando, buscando algum tipo de perfeição antes de gravar. Ao gravar com frequência você vai rastrear inclusive como você foi melhorando aquele código ao longo do seu processo e histórico de desenvolvimento.
+
+
+####  3. Escreva mensagens de commit claras
+
+As mensagens precisam fazer sentido e ser úteis para todos do time.
+
+
+
+#### 4. Faça commits pontuais e objetivos
+Evite fazer um commit com dezenas de arquivos, em especial se esses arquivos trazem mais de uma mudança ou correção. Devemos evitar isso pois fica difícil rastrear, entender e revisar o que foi feito no commit. Prefira fazer commits pequenos e pontuais de algo que está terminado, algo que funciona e que não traga muitas alterações de uma vez só.
+
+### Modelo do commit
+#### Commit Simples
 Caso o commit trate de uma questão simples, faça o commit da seguinte maneira:
 
 ```git
 git commit -m "#IdIssue - Mensagem"
 ```
-
+#### Commit Complexo
 Devido à importância, caso o commit trate de algo mais complexo, use o seguinte template para padronização, substituindo o texto dos comentários '# não será lido no commit':
 
 ``` txt
