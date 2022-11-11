@@ -5,7 +5,9 @@
 
 
 - **Base**
-
+  - Brainstorm
+  - Mapa Mental 
+  - Observação/Introspecção
 - **Modelagem**
 
 - **Padrões de Projeto**
