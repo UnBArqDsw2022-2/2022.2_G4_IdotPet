@@ -2,9 +2,10 @@
 
 ## Histórico de versão
 
-| Data       | Versão | Modificação                             | Autor                                                                                                                                                                |
-| :--------- | :----- | :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 10/11/2022 | 0.1    | Criação da primeira versão do documento | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+| Data       | Versão | Modificação                              | Autor                                                                                                                                                                |
+| :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10/11/2022 | 0.1    | Criação da primeira versão do documento  | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+| 10/11/2022 | 0.2    | Mudança no endereço da imagem do heatmap | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
 
 ## Introdução
 
@@ -99,7 +100,15 @@ O XP é uma metodologia focada em agilidade de equipes e qualidade de projetos, 
 
 - Reunião rápida com no máximo 15 minutos para o acompanhamento das atividades;
 
-- Devido à agenda curta do semestre atual o daily meet neste projeto será realizado por meio de mensagens no grupo oficial de comunicação da equipe.
+- Devido à agenda curta do semestre atual o daily meet neste projeto será realizado por meio de mensagens no grupo oficial de comunicação da equipe;
+
+## Kanban
+
+O Kanban é uma metodologia de organização das issues para melhor perfomance e produtividade da equipe.
+
+- A equipe está utilizando o ZenHub que facilita a integração das issues criadas no Github com os gráficos de perfomance da equipe;
+
+- Scrumban é aplicado a cada sprint onde teremos um backlog de atividades que será acompanhado por meio de um Kanban, proporcinando um melhor gerenciamento contínua de melhorias.
 
 ## Cronograma de encontros
 
