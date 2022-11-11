@@ -16,7 +16,7 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 | 202028202 | Klyssmann Henrique Ferreira de Oliveira | [klyssmannoliveira](https://github.com/klyssmannoliveira) | 
 | 190111836 | Luan Vasco Cavalcante | [Luan-Cavalcante](https://github.com/Luan-Cavalcante) |
 | 200042360 | Nicolas Roberto de Queiroz | |
-| 190036567 | Pedro Lucas Cassiano Martins | |
+| 190036567 | Pedro Lucas Cassiano Martins | [PedroLucasCM](https://github.com/PedroLucasCM) |
 | 190117401 | Thalisson Alves Gonçalves de Jesus | [Thalisson-Alves](https://github.com/Thalisson-Alves) |
 | 190038900 | Victor de Souza Cabral | [victordscabral](https://github.com/victordscabral) |
 | 190118288 | Vitor Eduardo Kühl Rodrigues | |
