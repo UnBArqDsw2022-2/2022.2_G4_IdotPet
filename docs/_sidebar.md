@@ -2,7 +2,7 @@
 
 - [Home](/)
 - [Diretrizes](/Diretrizes/Diretrizes.md)
-
+- [Política de Branchs e Commits](/politicas/policies.md)
 
 - **Base**
 
