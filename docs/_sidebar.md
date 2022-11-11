@@ -5,6 +5,7 @@
 - [Política de Branchs e Commits](/politicas/policies.md)
 
 - **Base**
+    *[Personas](/base/personas.md)
 
 - **Modelagem**
 
