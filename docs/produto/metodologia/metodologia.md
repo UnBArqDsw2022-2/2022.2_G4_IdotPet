@@ -110,4 +110,4 @@ O XP é uma metodologia focada em agilidade de equipes e qualidade de projetos, 
 
 ### Heatmap
 
-[heatmap](assets/heatmap_team)
+[heatmap](docs/assets/heatmap_team)
