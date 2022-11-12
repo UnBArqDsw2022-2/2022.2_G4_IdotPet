@@ -18,4 +18,5 @@
 
 # Histórico de Versões 
 | Entrega | Data | Autor(es) | Revisor |
+|---------|------|-----------|---------|
 | Criação do documento | 10/11/2022 | Luan Vasco | --- |
