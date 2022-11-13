@@ -7,6 +7,8 @@
 | 12/11/2022 |  0.1   |                Criação do documento                | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
 | 12/11/2022 |  0.2   |                Descrição, proposta e justificativa              | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
 | 12/11/2022 |  0.3   |                Requisitos de alto nível e objetivos             | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
+| 12/11/2022 |  0.4   |               Riscos e estimativa de custo                | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+
 
 ## 1. Introdução
 
@@ -35,15 +37,22 @@ Desta maneira, a aplicação IdotPet tem como principal objetivo aproximar quem 
 Estão entre os requisitos de alto nível:
 
 - Deve ser implementado em uma plataforma mobile;
-- Cadastro de doadores de pets (seja OnGs ou pessoa física)
-- Cadastro de pessoas que querem adotar um pet
-- Registro de dados dos pets (fotos, nome, vacinação e etc)
-- Página para indicação de pets em situação de risco com informações do órgão competente para resgate
+- Cadastro de doadores de pets (seja OnGs ou pessoa física);
+- Cadastro de pessoas que querem adotar um pet;
+- Cadastro de pessoas que querem doar alimentos para instituições de doação;
+- Registro de dados dos pets (fotos, nome, vacinação e etc); e
+- Página para indicação de pets em situação de risco com informações do órgão competente para resgate.
 
 ## 5. Riscos
 
 | **Risco**                                                                                                      | **Ação Preventiva**                                                                                                                                       | **Ação Reativa**                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Desistência da disciplina                                                                                      | Estimular a máxima participação dos membros da equipe                                                                                                     | Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível. |
+| Divergência de horários entre membros da equipe                                                                | Elaboração de quadro de horários disponíveis da cada membro da equipe                                                                                     | Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.                           |
+| Alteração do escopo                                                                                            | Documentar e refinar de forma constante os requisitos                                                                                                     | Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas à página web                             |
+| Dificuldades da equipe com as novas tecnologias inseridas                                                      | Seleção de alunos experientes para aplicação de treinamento.                                                                                              | Realização de treinamento sobre tecnologias                                                                                                          |
+| Ausência ou instabilidade da energia elétrica / Problemas com a Internet ou com o funcionamento do computador. | Conferir, de forma prévia às reuniões e entregas, o nível de estabilidade da conexão via Internet. Evitar, se possível, ficar longe do roteador de sinal. | Em caso de ausência inesperada de energia, remarcar o compromisso e avisar imediatamente ao time.                                                    |
+| Pandemia                                                                                                       | Seguir as orientações da Organização Mundial da Saúde para a prevenção da COVID-19                                                                        | Em caso de infecção ou luto, redistribuir a função do envolvido para não sobrecarregá-lo respeitando seu tempo de recuperação.                       |
 
 ## 6. Estimativa de Custo
 
@@ -51,18 +60,36 @@ Estão entre os requisitos de alto nível:
 
 | **Equipamento**  | **Quantidade**                 | **Finalidade**                 | **Valor unitário** | **Preço**    |
 | ---------------- | ------------------------------ | ------------------------------ | ------------------ | ------------ |
+| Notebooks        | 11 unidades                    | Desenvolvimento e planejamento | R$ 3.000           | R$ 33.000,00 |
+| Energia elétrica | 5 horas por semana cada membro por 3 meses | Desenvolvimento e planejamento | 0,925 \* R$/KWh    | R$ 610,5    |
+| Internet         | 3 meses                        | Desenvolvimento e planejamento | R$ 100 \*\*        | R$ 300       |
+
+\* Fonte: https://www.neoenergiabrasilia.com.br/residencial-e-rural/Paginas/tarifas.aspx, acesso: 13/11/2021 <br>
+\*\* Valor médio de um plano de internet na região do DF.
+
+
 
 
 ### 6.2 Custo de Ferramentas
 
-| **Ferramenta**         | **Finalidade**                              | **Preço total** |
+| **Ferramenta**         | **Finalidade**                              | **Preço tota** |
 | ---------------------- | ------------------------------------------- | -------------- |
+| Whatsapp               | Comunicação entre os membros                | R$ 0           |
+| Discord                | Comunicação entre os membros                | R$ 0           |
+| Editor de Texto        | Elaboração de documentos e código           | R$ 0           |
+| GitHub           | Versionamento de arquivos                   | R$ 0           |
+| Linux                  | Ambiente de desenvolvimento                 | R$ 0           |
+| Falta definir | Tecnologias utilizadas para desenvolvimento | R$ 0           |
 
 
 ### 6.3 Custo total
 
 | **Custo**   | **Valor total** |
 | ----------- | --------------- |
+| Aquisição   | R$ 33.910,50\*   |
+| Ferramentas | R$0             |
+
+\* Os desenvolvedores podem ceder o dispositivo que possuem e os custos de energia elétrica e internet, deixando a produção do app à custo R$ 0,00.
 
 ## 7. Partes Interessadas
 
@@ -84,7 +111,7 @@ FRANÇA, Diego; SCONETTO, João; MENDES, Mariana; ARNAUD, Victor. Dr. Down - Ter
 
 EGEWARTH, Eliseu; EGEWARTH, João; GAMA, Gabriela; ALVES, Isaque. Dulce - Termo de Abertura de Projeto. Disponível em: https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Termo-de-Abertura-do-Projeto. Acesso em 12 de novembro de 2021 às 23:38.
 
-AUGUSTO,Guilherme; OLIVEIRA, Ícaro; SOUZA, Letícia. Lino, o bot - Termo de Abertura de Projeto. Disponível em: https://botlino.github.io/docs/doc-tap. Acesso em 12 de novembro de 2021 às 23:34.
+AUGUSTO, Guilherme; OLIVEIRA, Ícaro; SOUZA, Letícia. Lino, o bot - Termo de Abertura de Projeto. Disponível em: https://botlino.github.io/docs/doc-tap. Acesso em 12 de novembro de 2021 às 23:34.
 
 R7, Portal. DF tem mais de 700 mil animais abandonados pelas ruas. Disponível em: https://noticias.r7.com/brasilia/df-no-ar/videos/df-tem-mais-de-700-mil-animais-abandonados-pelas-ruas-01112021#:~:text=Levantamento%20da%20Confederação%20Brasileira%20de,animais%20já%20estão%20super%20lotados. Acesso em 12 de novembro de 2021 às 23:40.
 
