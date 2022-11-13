@@ -73,7 +73,7 @@ Estão entre os requisitos de alto nível:
 
 ### 6.2 Custo de Ferramentas
 
-| **Ferramenta**         | **Finalidade**                              | **Preço tota** |
+| **Ferramenta**         | **Finalidade**                              | **Preço total** |
 | ---------------------- | ------------------------------------------- | -------------- |
 | Whatsapp               | Comunicação entre os membros                | R$ 0           |
 | Discord                | Comunicação entre os membros                | R$ 0           |
