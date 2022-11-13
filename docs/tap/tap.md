@@ -8,6 +8,7 @@
 | 12/11/2022 |  0.2   |                Descrição, proposta e justificativa              | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
 | 12/11/2022 |  0.3   |                Requisitos de alto nível e objetivos             | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
 | 12/11/2022 |  0.4   |               Riscos e estimativa de custo                | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+| 13/11/2022 |  0.5   |                Partes interessadas            |  e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
 
 
 ## 1. Introdução
@@ -93,16 +94,32 @@ Estão entre os requisitos de alto nível:
 
 ## 7. Partes Interessadas
 
-### 7.1. Usuários
+### 7.1. Doador
+
+Pessoa física, instituição ou organização sem fins lucrativos com o objetivo de doar um animal de estimação.
+
+### 7.2. Pessoa que quer adotar
+
+Pessoa física que quer adotar um pet e que tenha condições para acolher um animal de estimação.
 
 
-### 7.2. Equipe
+### 7.2. Equipe de desenvolvimento
 
 A equipe é composta por graduandos dos cursos de Engenharia de Produto de Software - Arquitetura e Desenho de Software.
 
-|                **Nome**                 |   **Papel**   |           **Email**           |
+|                **Nome**                 |   **Papel**   |           **Github**           |
 | :-------------------------------------: | :-----------: | :---------------------------: |
-|                 ------                  |    Time A     |            ------             |
+| Eduardo Maia Rezende          | Desenvolvedor |[eduardomr](https://github.com/eduardomr)   |
+| Herick de Carvalho Lima | Desenvolvedor | [hericklima22](https://github.com/hericklima22) |
+| João Vitor de Souza Durso | Desenvolvedor | [jvsdurso](https://github.com/jvsdurso)|
+| Kayro César Silva Machado | Desenvolvedor | [kayrocesar](https://github.com/kayrocesar) |
+| Klyssmann Henrique Ferreira de Oliveira | Product Owner |[klyssmannoliveira](https://github.com/klyssmannoliveira) | 
+| Luan Vasco Cavalcante | Desenvolvedor |[Luan-Cavalcante](https://github.com/Luan-Cavalcante) |
+| Nicolas Roberto de Queiroz | Desenvolvedor | [Nicolas-Roberto](https://github.com/Nicolas-Roberto) |
+| Pedro Lucas Cassiano Martins | Product Owner | [PedroLucasCM](https://github.com/PedroLucasCM) |
+| Thalisson Alves Gonçalves de Jesus | Desenvolvedor |[Thalisson-Alves](https://github.com/Thalisson-Alves) |
+| Victor de Souza Cabral | Scrum Master | [victordscabral](https://github.com/victordscabral) |
+| Vitor Eduardo Kühl Rodrigues |Desenvolvedor | [vitorekr](https://github.com/vitorekr)|
 
 
 ## 8. Referências
