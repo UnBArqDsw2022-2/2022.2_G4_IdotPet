@@ -1,8 +1,8 @@
 # Personas
 
 ## Histórico de versões
-| Data       | Versão | Descrição            | Autor(es)                                                                                                                                   | Revisor(es)                                  |
-| ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Data       | Versão | Descrição            | Autor(es)     |
+| ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
 | 11/11/2022 | 1.0    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
 | 13/11/2022 | 1.1    | Criação de personas e Antipersonas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
 
