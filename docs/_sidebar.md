@@ -5,6 +5,7 @@
 - [Política de Branchs e Commits](/politicas/policies.md)
 
 - **Base**
+    - [5W2H](/base/5W2H.md)
 
 - **Modelagem**
 
