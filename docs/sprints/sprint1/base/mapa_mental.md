@@ -7,6 +7,7 @@
 |10/11/2022 | 0.1 | Criação do documento | Luan Vasco Cavalcante |
 |13/11/2022 | 0.2 | Adição da Introdução e Metodologia | Thalisson Alves |
 |13/11/2022 | 0.3 | Adição da Resultados e Conclusão | Thalisson Alves |
+|13/11/2022 | 0.4 | Numeração das legendas | Luan Vasco |
 
 ## Introdução
 
@@ -26,19 +27,19 @@ Para a elaboração desse artefatos fizemos uma análise das funcionalidades des
 
 <figure>
   <img src="https://user-images.githubusercontent.com/67024690/201451949-c851363a-523c-43b6-a4db-ae82b0c163f4.jpeg" alt="Mapa Mental"/>
-  <figcaption style="text-align:center">Figura 1: Mapa Mental - Herick de Carvalho.</figcaption>
+  <figcaption style="text-align:center">Figura 2: Mapa Mental - Herick de Carvalho.</figcaption>
   <figcaption style="text-align:center">Fonte: Autor.</figcaption>
 </figure>
 
 <figure>
   <img src="https://user-images.githubusercontent.com/67024690/201451952-969d0a50-78e6-438d-a4d9-fde136238ae7.jpeg" alt="Mapa Mental"/>
-  <figcaption style="text-align:center">Figura 1: Mapa Mental - Vitor Cabral.</figcaption>
+  <figcaption style="text-align:center">Figura 3: Mapa Mental - Vitor Cabral.</figcaption>
   <figcaption style="text-align:center">Fonte: Autor.</figcaption>
 </figure>
 
 <figure>
   <img src="https://user-images.githubusercontent.com/62034738/201532229-e51c427b-5553-4a58-8047-8b1691fb30da.png" alt="Mapa Mental"/>
-  <figcaption style="text-align:center">Figura 1: Mapa Mental - Thalisson Alves.</figcaption>
+  <figcaption style="text-align:center">Figura 4: Mapa Mental - Thalisson Alves.</figcaption>
   <figcaption style="text-align:center">Fonte: Autor.</figcaption>
 </figure>
 
