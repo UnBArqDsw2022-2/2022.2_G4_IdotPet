@@ -1,1 +1,28 @@
+# <center> Protótipo de Alta Fidelidade
+
+## 1. Introdução
+
+A prototipação de alta fidelidade consiste em criar uma representação visual de um certo produto de software, tentando dessa forma simular fielmente o que seria o estado final desse produto e permitindo ao usuário visualizar e até propor melhorias para tal.
+
+## 2. Objetivo
+
+<p align="justify">
+O objetivo deste documento é apresentar o protótipo de alta fidelidade desenvolvido na plataforma figma, pois, com este protótipo, teremos um rumo para seguir acerca do design estético da aplicação, além de ser possível analisar as funcionalidades básicas do sistema.
+</p>
+
+## 3. Protótipo
+
+<p align="justify">
+Na figura 1 podemos observar o protótipo de alta fidelidade criado pela equipe, utilizando a ferramenta do <a href="">Figma</a>. Por meio <a href="">deste</a> link, também é possível visualizar o protótipo de forma interativa.
+</p>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="" allowfullscreen></iframe>
+
+<figcaption align='center'>
+    <b>Figura 1: Protótipo de alta fidelidade do IPet </b>
+</figcaption>
+
+## 4. Conclusão
+
+Com base no protótipo apresentado, poderão ser propostar novas melhorias para que seja entregue, no fim, uma melhor experiência para o usuário.
 
