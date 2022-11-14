@@ -6,6 +6,7 @@ Projeto realizado pelos alunos do Grupo 04 da disciplina de Arquitetura e Desenh
 ## Introdução
 
 
+
 ## Tecnologias
 
 A geração do site estático é realizada utilizando o [Docsify](https://docsify.js.org/).
