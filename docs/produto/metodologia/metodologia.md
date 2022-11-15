@@ -6,6 +6,7 @@
 | :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 10/11/2022 | 0.1    | Criação da primeira versão do documento  | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
 | 10/11/2022 | 0.2    | Mudança no endereço da imagem do heatmap | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+| 14/11/2022 | 0.3    | Revisão realizada | [@jvsdurso](https://github.com/jvsdurso) |
 
 ## Introdução
 
@@ -36,12 +37,12 @@ O SCRUM é uma estrutura simples e iterativa para o gerenciamento de projetos, s
 - Desenhar e diagramar a Arquitetura do produto;
 - Alinhar as orientações com o DevOps;
 - Construir o ambiente de desenvolvimento;
-- Acompanhar a equipe de desenvolvimento visando o cumprimento de cada tarefa.
+- Acompanhar a equipe de desenvolvimento visando ao cumprimento de cada tarefa.
 
 ### DevOps
 
 - Controle de qualidade dos arquivos de desenvolvimento;
-- auxliar no desenho e diagramação da Arquitetura;
+- Auxiliar no desenho e diagramação da Arquitetura;
 - Gerenciar o Pull Request dos códigos.
 
 ### Desenvolvedores
@@ -63,7 +64,7 @@ O presente documento tem como objetivo elicitar as ferramentas utilizadas para p
 ### Planejamento da Sprint
 
 - Reuniões entre o Scrum Master e o Product Owner para o planejamento das tarefas e atividades (issues);
-- Definição do pareamento da equipe parar a elaboração das tarefas em conjunto.
+- Definição do pareamento da equipe para a elaboração das tarefas em conjunto.
 
 ### Revisão da Sprint
 
@@ -108,7 +109,7 @@ O Kanban é uma metodologia de organização das issues para melhor perfomance e
 
 - A equipe está utilizando o ZenHub que facilita a integração das issues criadas no Github com os gráficos de perfomance da equipe;
 
-- Scrumban é aplicado a cada sprint onde teremos um backlog de atividades que será acompanhado por meio de um Kanban, proporcinando um melhor gerenciamento contínua de melhorias.
+- Scrumban é aplicado a cada sprint, onde teremos um backlog de atividades que será acompanhado por meio de um Kanban, proporcinando um melhor gerenciamento contínua de melhorias.
 
 ## Cronograma de encontros
 
