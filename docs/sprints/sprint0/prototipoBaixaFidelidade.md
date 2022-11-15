@@ -6,10 +6,10 @@
 | 15/11/2022 | 0.1    | Criação e estruturação do documento | [Vitor Eduardo](https://github.com/vitorekr) & [João Vitor de Souza Durso](https://github.com/jvsdurso)| 
   
 # <center> Introdução
-O protótipo de alta fidelidade consiste em uma técnica cujo objetivo visa definir, de modo simples, como seria a interação do usuário com o projeto. Tal técnica
+O protótipo de baixa fidelidade consiste em uma técnica cujo objetivo visa definir, de modo simples, como seria a interação do usuário com o projeto. Tal técnica
 é barata e facil de fazer, além de servir de base para criação de novos protótipos, com níveis maiores de fidelidade, durante o desenvolvimento do produto. Somado
-a isso, é interessante ressaltar que um protótipo de baixa fidalidade auxilia a identificação de problemas de usabilidade antes mesmo de construir uma solução de IHC,
-justificando o ganho econômico citado. É nesse contexto que o próximo tópico explicará, com mais detalhes, qual métodologia de protitipação de baixo nível foi aplicada
+a isso, é interessante ressaltar que um protótipo de baixa fidelidade auxilia a identificação de problemas de usabilidade antes mesmo de construir uma solução de IHC,
+justificando o ganho econômico citado. É nesse contexto que o próximo tópico explicará, com mais detalhes, qual metodologia de prototipação de baixo nível foi aplicada
 na construção desse documento (artefato). 
   
   
