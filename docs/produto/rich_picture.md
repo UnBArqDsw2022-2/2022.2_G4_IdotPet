@@ -46,3 +46,4 @@
   
 # Referências bibliográficas
 
+> Introducing Rich Pictures - Rich Picture Drawing Guidelines
