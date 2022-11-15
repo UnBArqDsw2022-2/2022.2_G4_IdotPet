@@ -2,12 +2,11 @@
 
 - [Home](/)
 - [Diretrizes](/Diretrizes/Diretrizes.md)
-
+- [Política de Branchs e Commits](/politicas/policies.md)
 
 - **Base**
-  - Brainstorm
-  - Mapa Mental 
-  - Observação/Introspecção
+    - [5W2H](/base/5W2H.md)
+
 - **Modelagem**
 
 - **Padrões de Projeto**

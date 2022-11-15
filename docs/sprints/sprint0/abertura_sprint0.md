@@ -1,4 +1,4 @@
-# Abertura da Sprint 01
+# Abertura da Sprint 00
 
 ## Histórico de versão
 
@@ -11,8 +11,6 @@
 Essa Sprint tem como principais objetivos:
 
 - Texto.
-
-## Duração
 
 **Duração:** 14 dias
 <br>
