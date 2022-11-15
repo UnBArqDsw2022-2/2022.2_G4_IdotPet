@@ -14,7 +14,13 @@ segundo plano. Tal técnica pode ser aplicada de várias maneiras, como desenhos
 documento, foram projetados interfaces por meio de papel e grafite. As seções a seguir apresentarão os resultados da aplicação dessa técnica no contexto do projeto.
   
 # <center> Resultados
-A sequência de imagens a seguir, inumeradas de 1 a X, evidenciam as simulações desenvolvidas das páginas, onde pode ser visto as funcionalidades e algumas alternativas
+A sequência de imagens a seguir, inumeradas de 1 a 6, evidenciam as simulações desenvolvidas das páginas, onde pode ser visto as funcionalidades e algumas alternativas
 de design.<br>
 
-![My Image](../assets/prot_papel_ads/login.jpeg)
+![My Image](../../assets/prot_papel_ads/login.jpeg)
+
+
+## Histórico de versões
+| Data | Versão | Modificação | Autor |
+| :- | :- | :- | :- |
+| 15/11/2022 | 0.1    | Criação e estruturação do documento | [Vitor Eduardo](https://github.com/vitorekr) & João Vitor de Souza Durso]()| 
