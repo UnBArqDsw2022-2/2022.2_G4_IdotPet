@@ -14,6 +14,7 @@ O diagrama de causa e efeito, também conhecido como diagrama de Ishikawa foi cr
 A elaboração deste artefato foi embasada por um processo criativo, no qual os autores pesquisaram o modo de elaboração de um diagrama de causa e efeito, utilizando vídeos e sites como exemplo. Este artefato envolve Mão-de-obra, Máquinas, Materiais, Método, Meio-ambiente e Medição. Além disso, como problema, utilizar-se-á o fato de que existem pessoas que querem adotar animais de estimação, mas possuem uma rotina apertada e não conseguem ir aos centros de adoção. Dessa forma, o objetivo é solucionar essa dor por meio do aplicativo IDotPet.
 
 Para entender melhor esse documento, têm-se as seguintes definições:
+
     Mão de obra: Problemas que envolvem os motivos individuais da equipe.
     Máquinas: Ferramentas utilizadas pela equipe durante os processos.
     Materiais: Utilização das tecnologias e técnicas na produção e implementação da solução computacional.
