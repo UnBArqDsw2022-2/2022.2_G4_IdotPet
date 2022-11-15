@@ -1,11 +1,5 @@
 # <center> Rich Picture
 
-# Histórico de Versão
-| Data | Versão | Modificação | Autor(es) | Revisor |
-| :-   | :- | :- | :- | :- |
-| 10/11/2022 | 0.1 | Criação do documento | Luan Vasco | --- |
-| 10/11/2022 | 0.2 | Escrita sobre Rich picture |Luan Vasco | --- |
-
 # Introdução 
 
   Uma das atividades mais importantes do desenvolvimento de um bom software está em uma boa elicitação de requisitos, afinal, é nessa etapa que listamos o que o cliente quer. Uma das maneiras mais livres e espontâneas de se elicitar esses requisitos é usando a técnica do Rich Picture. 
@@ -51,4 +45,4 @@
   Com os nossos resultados, conseguimos notar funcionalidades que poderão surgir, entender melhor as já estabelecidas e ter uma noção completa do projeto. 
   
 # Referências bibliográficas
- 
+
