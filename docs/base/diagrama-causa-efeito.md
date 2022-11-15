@@ -4,6 +4,7 @@
 | Data       | Versão | Descrição            | Autor(es)     |
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
 | 14/11/2022 | 1.0    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Victor Kühl](https://github.com/vitorekr)|  |
+|  14/11/2022 | 1.1 | Formulação do diagrama  |   [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [hericklima22](https://github.com/hericklima22)|
 
 ## Introdução
 
@@ -25,6 +26,12 @@ Para entender melhor esse documento, têm-se as seguintes definições:
 
 ## Diagrama de Ishikawa (Causa e Efeito)
 
+<figure>
+  <img src="https://user-images.githubusercontent.com/66215835/202049178-31544724-cd76-4096-9df9-d66af99f2d4d.png" alt="Diagrama Causa e Uso"/>
+  <figcaption style="text-align:center">Diagrama de causa e efeito
+  .</figcaption>
+  <figcaption style="text-align:center">Fonte: Nicolas e Herick Lima.</figcaption>
+</figure>
 
 ## Referências
 
