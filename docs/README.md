@@ -10,7 +10,7 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 | Matrícula  | Aluno                                    | Github                                                |
 | ---------- | ---------------------------------------- | ----------------------------------------------------- |
 | 18/0119231 | Eduardo Maia Rezende          |  [eduardomr](https://github.com/eduardomr)   |
-| 180121995 | Herick de Carvalho Lima | |   [hericklima22](https://github.com/hericklima22) |
+| 180121995 | Herick de Carvalho Lima |   [hericklima22](https://github.com/hericklima22) |
 | 120123459 | João Vitor de Souza Durso | |
 | 170107426 | Kayro César Silva Machado | [kayrocesar](https://github.com/kayrocesar) |
 | 202028202 | Klyssmann Henrique Ferreira de Oliveira | [klyssmannoliveira](https://github.com/klyssmannoliveira) | 
