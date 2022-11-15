@@ -5,7 +5,8 @@
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 10/11/2022 | 0.1 | Criação do documento | Luan Vasco Cavalcante |
-| 15/11/2022 | 0.2 | Elaboração da Metodologia e Introspeções | Thalisson Alves |
+| 15/11/2022 | 0.2 | Elaboração da metodologia e introspeções | Thalisson Alves |
+| 15/11/2022 | 0.3 | Elaboração dos resultados | Thalisson Alves |
 
 ## Introdução 
   A técnica de Introspecção consiste em uma técnica de elicitar requisitos. Essa técnica é considerada reflexiva, pois você irá se imaginar, ou refletir, como seria você ou uma persona utilizando o sistema. Sendo assim, para um bom resultado da técnica, basta refletir sobre o que o sistema deveria ter para que ele fosse considerado ótimo.
@@ -29,7 +30,21 @@ Quero poder ver os anúncios que existem de animais para adoção, com possibili
 Gostaria também de poder compartilhar um determinado anúncio com a minha esposa para que ela possa dar uma olhada, ou até mesmo criar uma aba compartilhada para que possamos ir colocando os nossos anúncios favoritos nela, assim facilitaria a nossa escolha final do cãozinho perfeito.
 
 ## Resultados
-  Coloca já os requisitos ? ? ?
+
+Legenda
+- IN: Introspecção
+- RF: Requisito Funcional
+- RNF: Requisito Não Funcional
+
+| ID | Descrição | Tipo de requisito |
+|:-: | :-: | :-: |
+| IN01 | O usuário deve ser capaz de cadastrar um anúncio de animal para adoção | RF |
+| IN02 | O usuário deve ser capaz de listar os anúncios de animais para adoção | RF |
+| IN03 | O usuário deve ser capaz de trocar mensagens através do app | RF |
+| IN04 | O usuário deve ser capaz de encontrar anúncios para doar recursos | RF |
+| IN05 | O usuário deve ser capaz de filtrar os anúncios por espécie, raça, idade, localização | RF |
+| IN06 | O usuário deve ser capaz de compartilhar anúncios com outros usuários | RF |
+| IN07 | O usuário deve ser capaz de criar uma aba compartilhada com outros usuários para gerenciar seus anúncios favoritos | RF |
 
 ## Conclusão
   Concluii-se por meio disso, que a técnica de Introspeç
