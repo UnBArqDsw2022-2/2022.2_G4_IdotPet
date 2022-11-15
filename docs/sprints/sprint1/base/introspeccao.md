@@ -47,7 +47,10 @@ Legenda
 | IN07 | O usuário deve ser capaz de criar uma aba compartilhada com outros usuários para gerenciar seus anúncios favoritos | RF |
 
 ## Conclusão
-  Concluii-se por meio disso, que a técnica de Introspeç
+  Conclui-se assim, que a técnica de introspecção é eficiente e eficaz para elicitar requisitos funcionais e não funcionais. Assim, de acordo com a tabela acima, a nossa elicitação com essa técnica está finalizada.
 
 
 ## Referências bibliográficas
+
+>SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07;
+
