@@ -1,4 +1,4 @@
-# Abertura da Sprint 00
+# Abertura da Sprint ##
 
 ## Histórico de versão
 
