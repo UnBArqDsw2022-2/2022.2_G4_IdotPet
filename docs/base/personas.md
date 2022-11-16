@@ -3,9 +3,9 @@
 ## Histórico de versões
 | Data       | Versão | Descrição            | Autor(es)     |
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
-| 11/11/2022 | 1.0    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
-| 13/11/2022 | 1.1    | Criação de personas e Antipersonas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
-
+| 11/11/2022 | 0.1   | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+| 13/11/2022 | 0.2    | Criação de personas e Antipersonas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+| 15/11/2022 | 0.3  | Revisão | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr)|  |
 ## Introdução
 
 Uma persona é um personagem fictício que pertence a um grupo de usuários e descreve as
@@ -32,7 +32,7 @@ Fonte: thispersondoesnotexist
 
 _"Gostaria que todos os animais de rua encontrassem um lar e uma familia"._
 
-Desde que Maria se aposentou como funcionária pública, decidiu dedicar sua vida a causa dos animais de rua. Fundou seu abrigo de animais, em que resgata, cuida e busca encontrar um novo lar para esses animais. Seu abrigo funciona por meio de doacões e trabalho de voluntários.
+Desde que Maria se aposentou como funcionária pública, decidiu dedicar sua vida a causa dos animais de rua. Fundou seu abrigo de animais, em que resgata, cuida e busca encontrar um novo lar para esses animais. Seu abrigo funciona por meio de doações e trabalho de voluntários.
 
 ### Luiza Fernandes
 
@@ -49,7 +49,7 @@ Fonte: thispersondoesnotexist
 
 _"Adoraria ter um animal de estimação para me fazer companhia"._
 
-Luiza está no quarto semestre de sua graduação, teve que se mudar e morar sozinha para ficar mais perto da universidade. Luiza ama animais e tem buscado um animal de estimação para viver com ela, seja um cão ou gato. Luiza prefere adotar um animal que comprar, pois se sente muito triste ao ver animais vivendo na rua.
+Luiza está no quarto semestre de sua graduação, teve que se mudar e morar sozinha para ficar mais perto da universidade. Luiza ama animais e tem buscado um animal de estimação para viver com ela, seja um cão ou gato. Luiza prefere adotar um animal do que comprar, pois se sente muito triste ao ver animais vivendo na rua.
 
 ### Lucas Moscardini
 
