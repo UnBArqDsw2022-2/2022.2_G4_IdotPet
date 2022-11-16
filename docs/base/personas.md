@@ -4,7 +4,7 @@
 | Data       | Versão | Descrição            | Autor(es)     |
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
 | 11/11/2022 | 0.1   | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
-| 13/11/2022 | 0.2    | Criação de personas e Antipersonas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+| 13/11/2022 | 0.2    | Criação de personas e antipersonas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
 | 15/11/2022 | 0.3  | Revisão | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr)|  |
 ## Introdução
 
