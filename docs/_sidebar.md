@@ -13,6 +13,7 @@
     - [Brainstorm](#)
     - [Diagrama de Causa e Efeito](base/diagrama-causa-efeito.md)
     - [Rich Picture](base/rich_picture.md)
+    - [Rich Picture](base/mapa_mental.md)
     - [5W2H](base/5w2h.md)
     - [Léxicos](base/l%C3%A9xico.md)
     - [Introspecção](base/introspeccao.md)
