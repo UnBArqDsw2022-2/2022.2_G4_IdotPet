@@ -19,7 +19,7 @@ A elaboração do artefato de personas foi embasada por um processo criativo, pe
 
 ### Maria Claudia
 
-<p align = "center"> <img src="../assets/personas/MariaClaudia.jpg" height="200px" width="200px" /> </p>
+<p align = "center"> <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/personas/MariaClaudia.jpg?raw=true" height="200px" width="200px" /> </p>
 <p align = "center"> 
 Imagem 1: Maria Claudia <br>
 Fonte: thispersondoesnotexist
@@ -36,7 +36,7 @@ Desde que Maria se aposentou como funcionária pública, decidiu dedicar sua vid
 
 ### Luiza Fernandes
 
-<p align = "center"> <img src="../assets/personas/LuizaFernandes.jpg" height="200px" width="200px" /> </p>
+<p align = "center"> <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/personas/LuizaFernandes.jpg?raw=true" height="200px" width="200px" /> </p>
 <p align = "center"> 
 Imagem 2: Luiza Fernandes <br>
 Fonte: thispersondoesnotexist
@@ -53,7 +53,7 @@ Luiza está no quarto semestre de sua graduação, teve que se mudar e morar soz
 
 ### Lucas Moscardini
 
-<p align = "center"> <img src="../assets/personas/LucasMoscardini.jpg" height="200px" width="200px" /> </p>
+<p align = "center"> <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/personas/LucasMoscardini.jpg?raw=true" height="200px" width="200px" /> </p>
 <p align = "center"> 
 Imagem 3: Lucas Moscardini <br>
 Fonte: thispersondoesnotexist
@@ -72,7 +72,7 @@ Lucas se casou recentemente, ele e sua esposa decidiram não ter filhos por enqu
 
 ### Sérgio Macedo
 
-<p align = "center"> <img src="../assets/personas/SérgioMacedo.jpg" height="200px" width="200px" /> </p>
+<p align = "center"> <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/personas/S%C3%A9rgioMacedo.jpg?raw=true" height="200px" width="200px" /> </p>
 <p align = "center"> 
 Imagem 4: antipersona Sérgio Macedo <br>
 Fonte: thispersondoesnotexist

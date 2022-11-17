@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-<p align = "center"> <img src="/assets/logo/logo-redonda.png" height="200px" width="200px" /> </p>
+<p align = "center"> <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/logo/logo-redonda.png?raw=true" height="200px" width="200px" /> </p>
 
 - Diretrizes
     - [Políticas de Organização dos Artefatos](./politicas/politicas_artefatos.md)
