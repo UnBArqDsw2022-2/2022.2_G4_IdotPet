@@ -6,7 +6,8 @@
 | :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 10/11/2022 | 0.1    | Criação da primeira versão do documento  | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
 | 10/11/2022 | 0.2    | Mudança no endereço da imagem do heatmap | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 14/11/2022 | 0.3    | Revisão realizada | [@jvsdurso](https://github.com/jvsdurso) |
+| 14/11/2022 | 0.3    | Revisão realizada                        | [@jvsdurso](https://github.com/jvsdurso)                                                                                                                             |
+| 16/11/2022 | 0.4    | Imagem do Heatmap corrigida              | [@PedroLucasCM](https://github.com/@PedroLucasCM)                                                                                                                    |
 
 ## Introdução
 
@@ -120,4 +121,5 @@ O Kanban é uma metodologia de organização das issues para melhor perfomance e
 
 ### Heatmap
 
-[heatmap](docs/assets/heatmap_team.jpg)
+
+<p align = "center"> <img src="../assets/heatmap_team.jpg"/> </p>
