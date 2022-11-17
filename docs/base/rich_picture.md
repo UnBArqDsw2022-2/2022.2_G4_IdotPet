@@ -1,5 +1,12 @@
 # <center> Rich Picture
 
+## Histórico de Versão
+
+| Data | Versão | Modificação | Autor |
+| :- | :- | :- | :- |
+|10/11/2022 | 0.1 | Criação  e elaboração do documento | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) e [Thalisson Alves](https://github.com/Thalisson-Alves)|
+| 15/11/2022 | 0.2 | Revisão do documento | [Herick Lima](https://github.com/hericklima22), [Klyssmann Henrique](https://github.com/klyssmannoliveira), [Victor Cabral](https://github.com/victordscabral) |
+
 # Introdução 
 
   Uma das atividades mais importantes do desenvolvimento de um bom software está em uma boa elicitação de requisitos, afinal, é nessa etapa que listamos o que o cliente quer. Uma das maneiras mais livres e espontâneas de se elicitar esses requisitos é usando a técnica do Rich Picture. 

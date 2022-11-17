@@ -4,8 +4,8 @@
 
 |    Data    | Versão |     Modificação      |                                                  Autor                                                  |
 | :--------: | :----: | :------------------: | :-----------------------------------------------------------------------------------------------------: |
-| 14/11/2022 |  0.1   | Criação do documento | [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [hericklima22](https://github.com/hericklima22) |
-
+| 14/11/2022 |  0.1   | Criação do documento | [Nicolas Roberto](https://github.com/Nicolas-Roberto) e [Herick Lima](https://github.com/hericklima22) |
+| 15/11/2022 | 0.2 | Revisão do documento | [Pedro Lucas](https://github.com/PedroLucasCM) , [Klyssmann Henrique](https://github.com/klyssmannoliveira), [Victor Cabral](https://github.com/victordscabral) |
 ## 1. Introdução
 
 Léxico é uma técnica que visa descrever os símbolos de uma linguagem. No escopo de engenharia de requisitos, o léxico é um artefato importante em um produto de softare, para que todos as palavras chave sejam catalogadas e definidas.

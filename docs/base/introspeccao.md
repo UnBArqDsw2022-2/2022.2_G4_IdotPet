@@ -4,9 +4,10 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 10/11/2022 | 0.1 | Criação do documento | Luan Vasco Cavalcante |
-| 15/11/2022 | 0.2 | Elaboração da metodologia e introspeções | Thalisson Alves |
-| 15/11/2022 | 0.3 | Elaboração dos resultados | Thalisson Alves |
+| 10/11/2022 | 0.1 | Criação do documento | [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
+| 15/11/2022 | 0.2 | Elaboração da metodologia e introspeções | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 15/11/2022 | 0.3 | Elaboração dos resultados | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 15/11/2022 | 0.3 | Revisão do documento | [Herick Lima](https://github.com/hericklima22), [Klyssmann Henrique](https://github.com/klyssmannoliveira), [Victor Cabral](https://github.com/victordscabral) |
 
 ## Introdução 
   A técnica de Introspecção consiste em uma técnica de elicitar requisitos. Essa técnica é considerada reflexiva, pois você irá se imaginar, ou refletir, como seria você ou uma persona utilizando o sistema. Sendo assim, para um bom resultado da técnica, basta refletir sobre o que o sistema deveria ter para que ele fosse considerado ótimo.
