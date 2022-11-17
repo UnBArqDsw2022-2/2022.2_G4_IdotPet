@@ -22,7 +22,7 @@
     - [Wireframe](base/wireframe.md)
     - [Plano de Gerenciamento de Riscos](base/tap.md)
   - Módulo Processos/Metodologias/Abordagens
-    - [BPMN](base/BPMN.md)
+    - [BPMN](base/bpmn.md)
     - [Metodologias](base/metodologia.md)
   - Iniciativas Extras
     - [Políticas de Organização dos Artefatos](politicas/politicas_artefatos.md)
