@@ -5,6 +5,7 @@
 | Data       | Versão | Modificação                             | Autor                                                                                                                                                                |
 | :--------- | :----- | :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 16/11/2022 | 0.1    | Criação da primeira versão do documento | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+| 17/11/2022 | 0.1 | Revisão de artefato | [@eduardomr](https://github.com/@eduardomr) |
 
 ## Introdução
 
