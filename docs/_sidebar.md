@@ -29,4 +29,4 @@
     - [Política de Padronização do Repositório](politicas/politicas_padronizacao.md)
     - [Políticas do Repositório](politicas/politicas_repositorio.md)
     - [Heatmap](#)
-  - [Participações - Base](base/ParticipacoesBase.md)
+  - [Participações - Base](base/participacoes_base.md)
