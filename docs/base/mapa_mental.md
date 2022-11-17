@@ -4,10 +4,11 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-|10/11/2022 | 0.1 | Criação do documento | Luan Vasco Cavalcante |
-|13/11/2022 | 0.2 | Adição da Introdução e Metodologia | Thalisson Alves |
-|13/11/2022 | 0.3 | Adição da Resultados e Conclusão | Thalisson Alves |
-|13/11/2022 | 0.4 | Numeração das legendas | Luan Vasco |
+|10/11/2022 | 0.1 | Criação do documento | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) |
+|13/11/2022 | 0.2 | Adição da Introdução e Metodologia | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+|13/11/2022 | 0.3 | Adição da Resultados e Conclusão | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+|13/11/2022 | 0.4 | Numeração das legendas | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) |
+| 15/11/2022 | 0.4 | Revisão do documento | [Herick Lima](https://github.com/hericklima22), [Klyssmann Henrique](https://github.com/klyssmannoliveira), [Victor Cabral](https://github.com/victordscabral) |
 
 ## Introdução
 
