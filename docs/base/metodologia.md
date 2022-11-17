@@ -121,4 +121,5 @@ O Kanban é uma metodologia de organização das issues para melhor perfomance e
 
 ### Heatmap
 
+
 <p align = "center"> <img src="../assets/heatmap_team.jpg"/> </p>
