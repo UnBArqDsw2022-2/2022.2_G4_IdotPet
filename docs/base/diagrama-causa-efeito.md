@@ -5,6 +5,7 @@
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
 | 14/11/2022 | 1.0    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Victor Kühl](https://github.com/vitorekr)|  |
 |  14/11/2022 | 1.1 | Formulação do diagrama  |   [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [hericklima22](https://github.com/hericklima22)|
+|  15/11/2022 | 1.1 |Revisão do documento |   [Luan Cavalcante](https://github.com/Luan-Cavalcante) e [Thalisson Alves](https://github.com/Thalisson-Alves)|
 
 ## Introdução
 
