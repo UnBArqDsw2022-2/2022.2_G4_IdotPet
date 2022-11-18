@@ -38,3 +38,7 @@ FastAPI é um framework moderno criado para desenvolver APIs Web. Esse framework
 - Curta: Minimiza os códigos duplicados, possuindo múltiplas funcionalidades para cada declaração de parâmetros.
 - Robusta: Possui um código pronto para produção com documentação interativa automática.
 - Baseada em padrões: Completamente compatíveis com os padrões mais usados para APIs Web, como OpenAPI (antigamente chamada de Swagger) e JSON Schema.
+
+## Uvicorn
+
+O Uvicorn é uma implementação para Python do ASGI (Asynchronous Server Gateway Interface). Por muito tempo o Python não tinha uma interface de baixo nível para servidores e aplicações assíncronas. Para preencher essa lacuna o ASGI foi criado.
