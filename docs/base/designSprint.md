@@ -45,7 +45,7 @@ Nossa equipe realizou então a seleção do melhor modelo de Rich Picture feito 
 
 Na quarta etapa é criado um protótipo da ideia escolhida, sendo feito de maneira simples no tempo planejado.
 
-Elaborou-se então, com base no storyboarding e rich picture escolhido, um protótipo de média fidelidade para assim ter uma visualização mais semelhante com o produto final.
+Foram elaborados então, com base no storyboarding e rich picture escolhido, um protótipo de baixa e outro de média fidelidade (wireframe para ter uma visualização mais semelhante com o produto final. O grupo escolheu criar o da alta fidelidade posteriormente afim de poder trabalhar melhor no próprio.
 
 **5. Test:**
 
@@ -80,8 +80,8 @@ Segue o acompanhamento do Design Sprint feito pela equipe:
 
 ### 1.4. Referências: 
 
-Knapp, Jake & Zeratsky, John. The Design Sprint, 2022. Disponível em: https://www.thesprintbook.com/the-design-sprint. Acessado em: 14 nov. 2022.
+KNAPP, Jake & ZERATSKY, John. The Design Sprint, 2022. Disponível em: https://www.thesprintbook.com/the-design-sprint. Acessado em: 14 nov. 2022.
 
 Editorial Aela. Design Sprint: Como Acelerar o Desenvolvimento de um Produto?, 2020. Explicação sobre Design Sprint. Disponível em: https://aelaschool.com/estrategia/design-sprint-como-acelerar-o-desenvolvimento-de-um-produto/. Acessado em: 14 nov. 2022.
 
-Serrano, Milene. Arquitetura e Desenho de Software AULA - PROJETO E DESENHO DE SOFTWARE, 2022. Disponível em: https://aprender3.unb.br/pluginfile.php/2277111/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf. Acessado em 14 nov. 2022.
+SERRANO, Milene. Arquitetura e Desenho de Software AULA - PROJETO E DESENHO DE SOFTWARE, 2022. Disponível em: https://aprender3.unb.br/pluginfile.php/2277111/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf. Acessado em 14 nov. 2022.
