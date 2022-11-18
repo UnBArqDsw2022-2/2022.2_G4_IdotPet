@@ -15,25 +15,36 @@ A elaboração deste artefato foi embasada por um processo criativo, no qual os 
 
 ## Storyboard
 
-As contribuições dessa versão foram:
-- Adição da segunda linha de quadrinhos, com foco nos usuários que abrigam pets (instituições, organizações, voluntários, etc.) e também querem divulgar adoções.
-
 ![Storyboard v1.1](~caminhodoasset)
 
-## Versões Anteriores
+## Versionamento do artefato
 
 <details>
 <summary>Clique para apresentar a versão 1.0 do Storyboard</summary>
  
 ### Storyboard v1.0
  
-O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e não teve como restaurar todo o histórico de cada modificação. No entanto, as contribuições dessa versão foram:
+O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e não teve como restaurar todo o histórico de cada modificação. No entanto, a contribuição dessa versão foi:
 - Adição da primeira linha de quadrinhos, com foco nos usuários que pretendem adotar pets e/ou divulgar pets abandonados no aplicativo IdotPet.
  
 ![Storyboard v1.0](../assets/storyboard/storyboard_v1_0.jpeg)
  
 **Autor(es):** <br>
 [Luan Vasco](https://github.com/Luan-Cavalcante) <br><br>
+</details>
+
+<details>
+<summary>Clique para apresentar a versão 1.0 do Storyboard</summary>
+ 
+### Storyboard v1.1
+ 
+O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e não teve como restaurar todo o histórico de cada modificação. No entanto, a contribuição dessa versão foi:
+- Adição da segunda linha de quadrinhos, com foco nos usuários que abrigam pets (instituições, organizações, voluntários, etc.) e também querem divulgar adoções.
+ 
+![Storyboard v1.1](../assets/storyboard/storyboard_v1_1.jpeg)
+ 
+**Autor(es):** <br>
+[João Durso](https://github.com/jvsdurso) <br><br>
 </details>
 
 ## Referências
