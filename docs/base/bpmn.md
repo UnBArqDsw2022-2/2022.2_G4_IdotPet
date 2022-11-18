@@ -16,19 +16,19 @@ Para o presente projeto, foi elaborado a representação BPMN para os processos 
 
 ### 1.1 Definição do Tema
 
-<p align = "center"> <img src="../assets/bpmn/bpmn_diagrama.png"/> </p>
+<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama.png"/> </p>
 
 ### 1.2 Ritual SCRUM
 
-<p align = "center"> <img src="../assets/bpmn/bpmn_diagrama_scrum.png"/> </p>
+<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_scrum.png"/> </p>
 
 ### 1.3 Processo de Elaboração
 
-<p align = "center"> <img src="../assets/bpmn/bpmn_diagrama_geral.png"/> </p>
+<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_geral.png"/> </p>
 
 ### 1.4 Processo de Atividade do Produto
 
-<p align = "center"> <img src="../assets/bpmn/bpmn_diagrama_produto.png"/> </p>
+<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_produto.png"/> </p>
 
 ## Referências
 
