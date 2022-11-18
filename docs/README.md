@@ -11,7 +11,7 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 | ---------- | ---------------------------------------- | ----------------------------------------------------- |
 | 18/0119231 | Eduardo Maia Rezende          |  [eduardomr](https://github.com/eduardomr)   |
 | 180121995 | Herick de Carvalho Lima |   [hericklima22](https://github.com/hericklima22) |
-| 120123459 | João Vitor de Souza Durso | [jvsdurso](https://github.com/jvsdurso) |
+| 180123459 | João Vitor de Souza Durso | [jvsdurso](https://github.com/jvsdurso) |
 | 170107426 | Kayro César Silva Machado | [kayrocesar](https://github.com/kayrocesar) |
 | 202028202 | Klyssmann Henrique Ferreira de Oliveira | [klyssmannoliveira](https://github.com/klyssmannoliveira) | 
 | 190111836 | Luan Vasco Cavalcante | [Luan-Cavalcante](https://github.com/Luan-Cavalcante) |
