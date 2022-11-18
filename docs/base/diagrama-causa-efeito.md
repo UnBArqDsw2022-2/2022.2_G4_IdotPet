@@ -27,7 +27,7 @@ Para entender melhor esse documento, têm-se as seguintes definições:
 
 ## Diagrama de Ishikawa (Causa e Efeito)
 
-<figure>
+<figure style="text-align:center">
   <img src="https://user-images.githubusercontent.com/66215835/202049178-31544724-cd76-4096-9df9-d66af99f2d4d.png" alt="Diagrama Causa e Uso"/>
   <figcaption style="text-align:center">Diagrama de causa e efeito
   .</figcaption>
