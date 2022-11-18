@@ -46,3 +46,7 @@ O Uvicorn é uma implementação para Python do ASGI (Asynchronous Server Gatewa
 ## SQLAlchemy
 
 SQLAlchemy é uma ferramenta SQL e ORM (Object Relational Mapper) para Python. Ela segue padrões conhecidos e estabelecidos no mercado, e foi desenhada para ser eficiente e disponibilizar uma forma bem performática de acesso ao banco de dados.
+
+## PostgreSQL
+
+## Docker
