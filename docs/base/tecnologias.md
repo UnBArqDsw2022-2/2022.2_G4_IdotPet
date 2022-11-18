@@ -53,6 +53,8 @@ PostgreSQL é um banco de dados relacional _open source_, possui mais de 35 anos
 
 ## Docker
 
+Docker é uma ferramenta de plataforma como serviço (PaaS) usada para virtualização de nível de sistema operacional para entregar software em contêineres. Essa ferramenta auxilia na eliminação de tarefas repetitivas como configuração do ambiente para desenvolvimento e produção. Além disso ela garante que sempre estaremos usando o mesmo ambiente, assim não teremos problemas de dependências ou configurações específicas em alguma máquina, eliminando desculpas para o uso daquela famosa frase "Mas na minha máquina funciona".
+
 ## Conclusão
 
 Após reuniões e discussões internas, chegamos na conclusão de que as tecnologias acima serão utilizadas no processo de desenvolvimento do projeto. Porém, não é descartado possíveis mudanças que venham a serem propostas antes do começo do desenvolvimento.
