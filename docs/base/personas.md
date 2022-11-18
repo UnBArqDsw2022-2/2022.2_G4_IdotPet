@@ -1,6 +1,6 @@
 # Personas
 
-## Histórico de versões
+## Histórico de Versões
 | Data       | Versão | Descrição            | Autor(es)     |
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
 | 11/11/2022 | 0.1   | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |

@@ -1,6 +1,6 @@
 # Políticas de Organização dos Artefatos
 
-### Histórico de versão
+### Histórico de Versões
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |

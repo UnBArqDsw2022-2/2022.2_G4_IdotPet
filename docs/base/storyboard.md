@@ -1,6 +1,6 @@
 # Storyboard
 
-## Histórico de versões
+## Histórico de Versões
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 17/11/2022 | 0.1    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)| 

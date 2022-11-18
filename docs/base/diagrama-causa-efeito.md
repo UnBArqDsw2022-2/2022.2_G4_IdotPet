@@ -1,6 +1,6 @@
 # Diagrama de Ishikawa (Causa e Efeito)
 
-## Histórico de versões
+## Histórico de Versões
 | Data       | Versão | Descrição            | Autor(es)     |
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
 | 14/11/2022 | 1.0    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Victor Kühl](https://github.com/vitorekr)|  |

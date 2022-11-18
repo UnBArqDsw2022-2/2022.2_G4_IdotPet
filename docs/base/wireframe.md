@@ -1,6 +1,6 @@
 # <center> Wireframe
   
-# Histórico de versões
+# Histórico de Versões
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 15/11/2022 | 0.1    | Criação e estruturação do documento | [Vitor Eduardo](https://github.com/vitorekr) & [João Vitor de Souza Durso](https://github.com/jvsdurso)| 

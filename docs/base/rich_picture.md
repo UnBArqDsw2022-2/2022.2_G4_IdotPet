@@ -1,6 +1,6 @@
 # <center> Rich Picture
 
-## Histórico de Versão
+## Histórico de Versões
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |

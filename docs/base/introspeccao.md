@@ -1,6 +1,6 @@
 # <center> Instrospecção
 
-## Histórico de Versão
+## Histórico de Versões
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
