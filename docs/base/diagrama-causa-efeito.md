@@ -42,4 +42,4 @@ Para entender melhor esse documento, têm-se as seguintes definições:
 
 > SILVEIRA, Cristiano Bertulucci.Diagrama de Ishikawa, Causa e Efeito ou Espinha de Peixe. Citisystems, 2012. Disponível em: https://www.citisystems.com.br/diagrama-de-ishikawa/. Acesso em: 13 nov. 2022.
 
-> DIAGRAMA DE ISHIKAWA - 6M - CAUSA E EFEITO - ESPINHA DE PEIXE (EXEMPLO PRÁTICO). Disponível em: https://www.youtube.com/watch?v=9gXaHTm2y5M&t=62. Acessado em: Acesso em: 13 nov. 2022.
+> DIAGRAMA DE ISHIKAWA - 6M - CAUSA E EFEITO - ESPINHA DE PEIXE (EXEMPLO PRÁTICO). Disponível em: https://www.youtube.com/watch?v=9gXaHTm2y5M&t=62. Acesso em: Acesso em: 13 nov. 2022.
