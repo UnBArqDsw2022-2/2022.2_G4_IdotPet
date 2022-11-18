@@ -50,3 +50,7 @@ SQLAlchemy é uma ferramenta SQL e ORM (Object Relational Mapper) para Python. E
 ## PostgreSQL
 
 ## Docker
+
+## Conclusão
+
+Após reuniões e discussões internas, chegamos na conclusão de que as tecnologias acima serão utilizadas no processo de desenvolvimento do projeto. Porém, não é descartado possíveis mudanças que venham a serem propostas antes do começo do desenvolvimento.
