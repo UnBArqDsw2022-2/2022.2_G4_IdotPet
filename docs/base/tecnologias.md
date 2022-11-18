@@ -42,3 +42,7 @@ FastAPI é um framework moderno criado para desenvolver APIs Web. Esse framework
 ## Uvicorn
 
 O Uvicorn é uma implementação para Python do ASGI (Asynchronous Server Gateway Interface). Por muito tempo o Python não tinha uma interface de baixo nível para servidores e aplicações assíncronas. Para preencher essa lacuna o ASGI foi criado.
+
+## SQLAlchemy
+
+SQLAlchemy é uma ferramenta SQL e ORM (Object Relational Mapper) para Python. Ela segue padrões conhecidos e estabelecidos no mercado, e foi desenhada para ser eficiente e disponibilizar uma forma bem performática de acesso ao banco de dados.
