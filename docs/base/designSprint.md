@@ -73,8 +73,8 @@ Segue o acompanhamento do Design Sprint feito pela equipe:
 2. Sketch: 09/11/2022 e 10/11/2022 
    - [x] [Rich Picture](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/rich_picture)
 3. Decision: 14/11/2022 
-   - [x] Escolha do melhor Rich Picture
-   - [x] Storyboarding
+   - [x] [Escolha do melhor Rich Picture](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/rich_picture)
+   - [x] [Storyboard](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/storyboard)
 4. Prototype: 15/11/2022 
    - [x] [Protótipo de Baixa Fidelidade](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/prototipoBaixaFidelidade)
 
