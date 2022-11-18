@@ -5,6 +5,7 @@
 |    Data    | Versão |     Modificação      |                                                  Autor                                                  |
 | :--------: | :----: | :------------------: | :-----------------------------------------------------------------------------------------------------: |
 | 14/11/2022 |  0.1   | Criação do documento | [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [hericklima22](https://github.com/hericklima22) |
+| 18/11/2022 |  0.2   | Melhorias no documento | [hericklima22](https://github.com/hericklima22) |
 
 ## 1. Introdução
 
