@@ -3,7 +3,7 @@
 ## Histórico de versões
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 17/11/2022 | 0.1    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Vitor Eduardo](https://github.com/vitorekr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)| 
+| 17/11/2022 | 0.1    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)| 
 
 ## Introdução
 
@@ -14,6 +14,9 @@ Os storyboards são uma série de ilustrações ou imagens arranjadas, com uma s
 A elaboração deste artefato foi embasada por um processo criativo, no qual os autores pesquisaram o modo de elaboração de storyboard, utilizando vídeos e sites como exemplo. Este artefato exige um conhecimento razoável em técnicas de desenho e _storytelling_, uma ferramenta de narração. A narrativa visual se constrói nessas técnicas, permitindo que as ilustrações e elementos presentes no storyboard ganhem sentido.
 
 ## Storyboard
+
+As contribuições dessa versão foram:
+- Adição da segunda linha de quadrinhos, com foco nos usuários que abrigam pets (instituições, organizações, voluntários, etc.) e também querem divulgar adoções.
 
 ![Storyboard v1.1](~caminhodoasset)
 
