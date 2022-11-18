@@ -42,7 +42,7 @@ O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e 
 O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e não teve como restaurar todo o histórico de cada modificação. No entanto, a contribuição dessa versão foi:
 - Adição da segunda linha de quadrinhos, com foco nos usuários que abrigam pets (instituições, organizações, voluntários, etc.) e também querem divulgar adoções.
  
-![Storyboard v1.1](../assets/storyboard/storyboard_v1_1.jpeg)
+![Storyboard v1.1](../assets/storyboard/storyboard_v1_1.png)
  
 **Autor(es):** <br>
 [João Durso](https://github.com/jvsdurso) <br><br>
