@@ -26,3 +26,15 @@ O Dart é uma linguagem de programação fortemente tipada, inicialmente criada 
 Python é uma linguagem de programação interpretada, de alto nível, com tipagem dinâmica e forte. Inicialmente foi desenvolvida por Guido Van Rossum em 1991, e atualmente possui um desenvolvimento aberto e gerenciado pela ONG Python Software Foundation. Essa linguagem prioriza a legibilidade do código, possuindo uma sintaxe concisa e clara.
 
 Essa linguagem exige pouco esforço de aprendizado e pode expressar algoritmos complexos com poucas linhas de código. Além disso ela conta com várias bibliotecas poderosas desenvolvidas pela própria comunidade.
+
+## FastAPI
+
+FastAPI é um framework moderno criado para desenvolver APIs Web. Esse framework possui alguns pontos chave, são eles:
+
+- Rapidez: É um dos frameworks mais rápidos disponíveis para Python, possuindo um nível de performance parecido com NodeJS e Go.
+- Rapidez para desenvolvimento: Possui uma interface de uso bem simples e concisa, podendo aumentar a velocidade de desenvolvimento em 200% a 300% de acordo com testes internos realizados pela própria equipe que a desenvolveu.
+- Intuitiva: Possui um ótimo suporte às anotações de tipo, que facilita aos editores de texto de proverem sugestões de código no momento do desenvolvimento e diminui o tempo necessário para debugar um código visto que já se sabe os tipos esperados para cada função.
+- Fácil: Foi desenhada de modo que seja fácil de ser usada e aprendida. Diminuindo o tempo gasto lendo a documentação.
+- Curta: Minimiza os códigos duplicados, possuindo múltiplas funcionalidades para cada declaração de parâmetros.
+- Robusta: Possui um código pronto para produção com documentação interativa automática.
+- Baseada em padrões: Completamente compatíveis com os padrões mais usados para APIs Web, como OpenAPI (antigamente chamada de Swagger) e JSON Schema.
