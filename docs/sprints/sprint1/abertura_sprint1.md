@@ -4,8 +4,8 @@
 
 | **Data**   | **Versão** | **Modificação**       | **Autor**                                            |
 | :--------- | :--------- | :-------------------  | :--------------------------------------------------- |
-| 15/11/2022 | 0.1        | Criação do documento  | [@victordscabral](https://github.com/victordscabral) |
-| 17/11/2022 | 0.2        | Melhoria do documento | [@victordscabral](https://github.com/victordscabral) |
+| 15/11/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
+| 17/11/2022 | 0.2        | Adicionando Sprint Backlog | [Victor Cabral](https://github.com/victordscabral)   |
 
 ## Objetivos
 
