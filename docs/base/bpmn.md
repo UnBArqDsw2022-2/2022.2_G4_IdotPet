@@ -5,7 +5,9 @@
 | Data       | Versão | Modificação                             | Autor                                                                                                                                                                |
 | :--------- | :----- | :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 16/11/2022 | 0.1    | Criação da primeira versão do documento | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 17/11/2022 | 0.1 | Revisão de artefato | [@eduardomr](https://github.com/@eduardomr) |
+| 17/11/2022 | 0.2 | Revisão de artefato | [@eduardomr](https://github.com/@eduardomr) |
+| 17/11/2022 | 0.3 | Correção do link das imagens | [@PedroLucasCM](https://github.com/PedroLucasCM) |
+
 
 ## Introdução
 
@@ -16,19 +18,19 @@ Para o presente projeto, foi elaborado a representação BPMN para os processos 
 
 ### 1.1 Definição do Tema
 
-<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama.png"/> </p>
+<p align = "center"> <img src="[raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama.png](https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama.png)"/> </p>
 
 ### 1.2 Ritual SCRUM
 
-<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_scrum.png"/> </p>
+<p align = "center"> <img src="[raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_scrum.png](https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_scrum.png)"/> </p>
 
 ### 1.3 Processo de Elaboração
 
-<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_geral.png"/> </p>
+<p align = "center"> <img src="[raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_geral.png](https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_geral.png)"/> </p>
 
 ### 1.4 Processo de Atividade do Produto
 
-<p align = "center"> <img src="raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_produto.png"/> </p>
+<p align = "center"> <img src="[raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_produto.png](https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/bpmn/bpmn_diagrama_produto.png)"/> </p>
 
 ## Referências
 
