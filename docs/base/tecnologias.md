@@ -49,6 +49,8 @@ SQLAlchemy é uma ferramenta SQL e ORM (Object Relational Mapper) para Python. E
 
 ## PostgreSQL
 
+PostgreSQL é um banco de dados relacional _open source_, possui mais de 35 anos de desenvolvimento ativo e ganhou uma forte reputação por ser performático, robusto e confiável. Atualmente, ele é um dos SGBDs (Sistema Gerenciador de Bancos de Dados) de código aberto mais avançados.
+
 ## Docker
 
 ## Conclusão
