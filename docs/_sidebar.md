@@ -28,6 +28,6 @@
     - [Políticas de Organização dos Artefatos](politicas/politicas_artefatos.md)
     - [Política de Padronização do Repositório](politicas/politicas_padronizacao.md)
     - [Políticas do Repositório](politicas/politicas_repositorio.md)
-    - [Heatmap](assets/heatmap_team.jpg)
+    - [Heatmap](base/heatmap.md)
   - Participações
     - [Base](base/participacoes_base.md)
