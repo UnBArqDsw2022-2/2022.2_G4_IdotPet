@@ -40,7 +40,7 @@ Repositório: [https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet](https://git
 |Org. Policy|Pedro, Victor, Klyssmann|-|
 |Personas|Eduardo e Kayro|Vitor e Durso|
 |Brainstorm|Todos|-|
-|Storytelling|Vitor e Durso|Pedro, Victor, Klyssmann|
-|Observação/Instropecção|Luan e Thalisson|Pedro, Victor, Klyssmann|
+|Storyboard |Vitor e Durso|Pedro, Victor, Klyssmann|
+|Observação/Introspecção|Luan e Thalisson|Pedro, Victor, Klyssmann|
 |Design Sprint|Pedro, Victor, Klyssmann|-|
 |Kanban|Pedro, Victor, Klyssmann|Todos|
