@@ -12,7 +12,7 @@ Repositório: [https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet](https://git
 | -- | -- | -- |
 | 180119231  | [Eduardo Maia Rezende](https://github.com/eduardomr) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/47648859?v=4" width="100px;" alt=""/> |
 | 180121995  | [Herick de Carvalho Lima](https://github.com/hericklima22) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/48794282?v=4" width="100px;" alt=""/> |
-| 120123459  | [João Vitor de Souza Durso](https://github.com/jvsdurso) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/69814362?v=4" width="100px;" alt=""/> |
+| 180123459  | [João Vitor de Souza Durso](https://github.com/jvsdurso) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/69814362?v=4" width="100px;" alt=""/> |
 | 170107426 | [Kayro César Silva Machado](https://github.com/kayrocesar) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39713656?v=4" width="100px;" alt=""/> |
 | 202028202  | [Klyssmann Henrique Ferreira de Oliveira](https://github.com/klyssmannoliveira) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/56873266?v=4" width="100px;" alt=""/> |
 | 190111836  | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67024690?v=4" width="100px;" alt=""/> |
