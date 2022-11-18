@@ -14,7 +14,12 @@ Design Sprint é uma metodologia com objetivo de criar, validar e testar a propo
 
 O processo permite a produção de artefatos e protótipo em um prazo curto, utilizando de maneira eficiente o tempo da equipe. Esses artefatos são elaborados através de atividades individuais e em grupo, que ocorrem em fases ao decorrer de 5 dias. 
 
-### 1.3. Desenvolvimento/Aplicação: 
+### 1.3. Desenvolvimento/Aplicação:
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/design_sprint/design_sprint_sprintbook.png?raw=true" alt="Design Sprint"/>
+  <figcaption align="center" >Figura 1 - Fases do Design Sprint. Fonte: The Sprint Book</figcaption>
+</figure>
 
 Abaixo é apresentado um resumo de cada fase do design sprint, juntamente com técnicas que foram utilizadas pela equipe em cada uma:
 
@@ -54,7 +59,7 @@ Para a realização e execução do Design Sprint no contexto da equipe foram re
 
 - **Alteração:** retirada da etapa de testes. 
 - **Motivo:** Recomendação da professora e tempo curto do semestre. 
-
+<br>
 - **Alteração:** as etapas foram realizadas na ordem correta, mas houve o prolongamento da fase de Sketch em um dia e a realização da Decision ocorreu em uma data posterior a planejada. 
 - **Motivo:** maior prazo para elaboração dos documentos solicitados e falta de disponibilidade de tempo dos integrantes.
 
