@@ -4,7 +4,7 @@
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 15/11/2022 | 0.1    | Criação e estruturação do documento | [Vitor Eduardo](https://github.com/vitorekr) & [João Vitor de Souza Durso](https://github.com/jvsdurso)| 
-  
+| 17/11/2022 | 0.2    | Melhoria na organização dos textos do documento | [Victor Cabral](https://github.com/victordscabral) |
 
 ## Introdução
 
