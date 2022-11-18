@@ -9,7 +9,7 @@
 - **Base**
 
   - **Módulo Projeto Não Orientado a Abordagens Específicas**
-    - [Design Sprint](designSprint/designSprint.md)
+    - [Design Sprint](base/designSprint.md)
     - [Brainstorm](#)
     - [Diagrama de Causa e Efeito](base/diagrama-causa-efeito.md)
     - [Rich Picture](base/rich_picture.md)
