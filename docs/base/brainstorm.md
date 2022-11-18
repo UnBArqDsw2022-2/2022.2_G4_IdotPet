@@ -1,4 +1,4 @@
-# Brainstorming
+# Brainstorm
 
 ## Histórico de Versão
 
@@ -43,4 +43,8 @@ Foi uma técnica interessante, dinâmica e efetiva de se utilizar.
   
 # Referências bibliográficas
 
-> Introducing Rich Pictures - Rich Picture Drawing Guidelines
+> BALDISSERA, Olívia. O passo a passo do Design Sprint, a metodologia da Google para inovar em projetos. 2021. Disponível em: https://posdigital.pucpr.br/blog/design-sprint. Acesso em: 17 nov. 2022.
+
+> PIOVESANA, Luiz. Como fazer um brainstorming eficiente?. 2022. Disponível em: https://www.nuvemshop.com.br/blog/brainstorm/. Acesso em: 17 nov. 2022.
+
+> FARINAZZO, Raphael. Brainstorming: o que é e como preparar uma reunião com resultados reais. 2022. Disponível em: https://resultadosdigitais.com.br/agencias/o-que-e-brainstorming/. Acesso em: 17 nov. 2022.
