@@ -3,7 +3,7 @@
 Código da Disciplina: FGA0208 <br>
 Semestre: 2022-2 <br>
 Número do Grupo: 4 <br>
-GitPage (Wiki): [https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/) <br>
+GitPage (Wiki): [https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/) <br>
 Repositório: [https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet) <br>
 
 ## Membros
