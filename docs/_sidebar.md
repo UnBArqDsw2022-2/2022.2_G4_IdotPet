@@ -11,16 +11,18 @@
   - **Módulo Projeto Não Orientado a Abordagens Específicas**
     - [Design Sprint](base/designSprint.md)
     - [Brainstorm](base/brainstorm.md)
-    - [Diagrama de Causa e Efeito](base/diagrama-causa-efeito.md)
-    - [Rich Picture](base/rich_picture.md)
     - [Mapa Mental](base/mapa_mental.md)
+    - [Rich Picture](base/rich_picture.md)
+    - [Storyboard](base/storyboard.md)
+    - [Protótipo de Baixa Fidelidade](base/prototipoBaixaFidelidade.md)
+    - [Wireframe](base/wireframe.md)
+    - [Diagrama de Causa e Efeito](base/diagrama-causa-efeito.md)
     - [5W2H](base/5w2h.md)
     - [Léxicos](base/l%C3%A9xico.md)
     - [Introspecção](base/introspeccao.md)
     - [Personas](base/personas.md)
-    - [Protótipo de Baixa Fidelidade](base/prototipoBaixaFidelidade.md)
-    - [Wireframe](base/wireframe.md)
     - [Plano de Gerenciamento de Riscos](base/tap.md)
+  - Módulo Processos/Metodologias/Abordagens
   - Módulo Processos/Metodologias/Abordagens
     - [BPMN](base/bpmn.md)
     - [Metodologias](base/metodologia.md)
