@@ -15,7 +15,7 @@ A elaboração deste artefato foi embasada por um processo criativo, no qual os 
 
 ## Storyboard
 
-![Storyboard v1.1](~caminhodoasset)
+![Storyboard v1.1](../assets/storyboard/storyboard_v1_1.png)
 
 ## Versionamento do artefato
 
