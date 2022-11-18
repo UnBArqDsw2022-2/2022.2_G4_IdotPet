@@ -42,15 +42,15 @@ Para a realização e execução do Design Sprint no contexto da equipe foram re
 Segue o acompanhamento do Design Sprint feito pela equipe:
 
 1. Unpack: 08/11/2022 
-   - [x] Brainstorming
-   - [x] Mapas mentais
+   - [x] [Brainstorm](#)
+   - [x] [Mapa Mental](../base/mapa_mental.md)
 2. Sketch: 09/11/2022 e 10/11/2022 
-   - [x] Rich Pictures
+   - [x] [Rich Picture](../base/rich_picture.md)
 3. Decision: 14/11/2022 
    - [ ] Escolha do melhor Rich Picture
-   - [ ] Storyboarding
+   - [x] Storyboarding
 4. Prototype: 15/11/2022 
-   - [ ] Protótipo
+   - [x] [Protótipo de Baixa Fidelidade](../base/prototipoBaixaFidelidade.md)
 
 ### 1.4. Referências: 
 
