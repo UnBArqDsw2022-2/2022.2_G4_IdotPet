@@ -10,7 +10,7 @@
 
   - **Módulo Projeto Não Orientado a Abordagens Específicas**
     - [Design Sprint](base/designSprint.md)
-    - [Brainstorm](#)
+    - [Brainstorm](base/brainstorm.md)
     - [Diagrama de Causa e Efeito](base/diagrama-causa-efeito.md)
     - [Rich Picture](base/rich_picture.md)
     - [Mapa Mental](base/mapa_mental.md)
