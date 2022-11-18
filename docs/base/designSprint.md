@@ -77,6 +77,7 @@ Segue o acompanhamento do Design Sprint feito pela equipe:
    - [x] [Storyboard](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/storyboard)
 4. Prototype: 15/11/2022 
    - [x] [Protótipo de Baixa Fidelidade](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/prototipoBaixaFidelidade)
+   - [x] [Wireframe](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/wireframe)
 
 ### 1.4. Referências: 
 
