@@ -59,6 +59,33 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |    Impacto    |             Permite a doação de um pet             |
 | Classificação |                       Verbo                        |
 
+### Listar pets
+
+|     Nome:     |                        Listar pets                 |
+| :-----------: | :------------------------------------------------: |
+|     Noção     |  Será exibido ao usuário uma tela com todos os animais disponíveis para doação   |
+|    Impacto    |             Permite que um usuário indeciso encontreum pet de seu desejo            |
+| Classificação |                 Verbo                              |
+
+
+### Filtrar pets
+
+|     Nome:     |                        Filtrar pets                |
+| :-----------: | :------------------------------------------------: |
+|     Noção     |  O usuário irá abrir o aplicativo e poderá filtrar raças, portes e gêneros de pets   |
+|    Impacto    |             Permite que o usuário escolha qual pet irá adotar             |
+| Classificação |                 Verbo                              |
+
+
+### Entrega
+
+|     Nome:     |                        Entrega                |
+| :-----------: | :------------------------------------------------: |
+|     Noção     |  Os usuários poderão combinar a busca e entrega de um pet adotado   |
+|    Impacto    |     Dá a possibilidade de entrega de um pet adotado             |
+| Classificação |                 Verbo                              |
+
+
 ## 4. Referências
 
 [ARQUITETURA e Desenho de Software. Brasília: Profa. Milene Serrano, 2022.](https://aprender3.unb.br/pluginfile.php/2277111/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf)
