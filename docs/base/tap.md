@@ -1,6 +1,6 @@
 # Termo de Abertura de Projeto
 
-## Histórico de versões
+## Histórico de Versões
 
 |    Data    | Versão |                           Modificação                            |                      Autor                      |
 | :--------: | :----: | :--------------------------------------------------------------: | :---------------------------------------------: |

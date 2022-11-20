@@ -1,10 +1,9 @@
-![logo](https://user-images.githubusercontent.com/67024690/201452509-6b0c809c-94f9-40ac-8c08-e31bb7545651.jpeg)
+<p align = "center"> <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/logo/logo-redonda.png" height="400px" width="400px" /> </p>
 
 
 Projeto realizado pelos alunos do Grupo 04 da disciplina de Arquitetura e Desenho de Software da Universidade de Brasília em 2022-2.
 
 ## Introdução
-
 
 
 ## Tecnologias
