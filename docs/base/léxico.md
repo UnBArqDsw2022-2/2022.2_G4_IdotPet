@@ -1,11 +1,13 @@
 # Léxico
 
-## Histórico de Versões
+## Histórico de versões
 
 |    Data    | Versão |     Modificação      |                                                  Autor                                                  |
 | :--------: | :----: | :------------------: | :-----------------------------------------------------------------------------------------------------: |
-| 14/11/2022 |  0.1   | Criação do documento | [Nicolas Roberto](https://github.com/Nicolas-Roberto) e [Herick Lima](https://github.com/hericklima22) |
-| 15/11/2022 | 0.2 | Revisão do documento | [Pedro Lucas](https://github.com/PedroLucasCM) , [Klyssmann Henrique](https://github.com/klyssmannoliveira), [Victor Cabral](https://github.com/victordscabral) |
+| 14/11/2022 |  0.1   | Criação do documento | [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [Hérick Lima](https://github.com/hericklima22) |
+| 18/11/2022 |  0.2   | Melhorias no documento | [Hérick Lima](https://github.com/hericklima22) |
+| 20/11/2022 | 0.3   | Revisão do artefato | [João Durso](https://github.com/jvsdurso)| 
+
 ## 1. Introdução
 
 Léxico é uma técnica que visa descrever os símbolos de uma linguagem. No escopo de engenharia de requisitos, o léxico é um artefato importante em um produto de softare, para que todos as palavras chave sejam catalogadas e definidas.
@@ -23,14 +25,22 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 
 ## 3. Léxico
 
-### Usuário
+### Anunciante
 
-|     Nome:     |                                     Usuário                                     |
+|     Nome:     |                                     Anunciante                                  |
 | :-----------: | :-----------------------------------------------------------------------------: |
-|   Sinônimos   |                         Utilizador, cliente, usufruidor                         |
-|     Noção     | Aquele que, por direito de uso, serve-se de algo ou desfruta de suas utilidades |
-|    Impacto    |           Usuário deseja adotar ou doar um pet através do smartphone            |
+|   Sinônimos   |                              Informar, exibir                                   |
+|     Noção     |               Usuário que está doando um                                        |
+|    Impacto    |           Usuário deseja doar um pet através do smartphone                      |
 | Classificação |                                     Objeto                                      |
+
+### Adotante
+
+|     Nome:     |                                     Adotante                                   |
+| :-----------: | :----------------------------------------------------------------------------: |
+|     Noção     | Usuário que está adotando um animal                                            |
+|    Impacto    |           Usuário deseja adotar um pet através do smartphone                   |
+| Classificação |                                     Objeto                                     |
 
 ### Pet
 
@@ -43,21 +53,65 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 
 ### Adotar
 
-|     Nome:     |                         Adotar                          |
-| :-----------: | :-----------------------------------------------------: |
-|   Sinônimos   |               Assumir, filiar, legitimar                |
-|     Noção     | O usuário poderá escolher um pet e solicitar sua adoção |
-|    Impacto    |               Permite a adoção de um pet                |
-| Classificação |                          Verbo                          |
+|     Nome:     |                         Adotar                                            |
+| :-----------: | :-----------------------------------------------------------------------: |
+|   Sinônimos   |               Assumir, filiar, legitimar                                  |
+|     Noção     | Aquele que aceita legalemente (alguém),como filho ou animal de estimação  |
+|    Impacto    |               Permite a adoção de um pet                                  |
+| Classificação |                          Verbo                                            |
 
 ### Doar
 
 |     Nome:     |                        Doar                        |
 | :-----------: | :------------------------------------------------: |
 |   Sinônimos   | dar, oferecer, presentear, ceder de forma gratuita |
-|     Noção     |  O usuário poderá dar um pet para um outra pessoa  |
+|     Noção     |  Ceder algo seu para alguém gratuitamente          |
 |    Impacto    |             Permite a doação de um pet             |
 | Classificação |                       Verbo                        |
+
+### Listar
+
+|     Nome:     |                        Listar                                                    |
+| :-----------: | :------------------------------------------------------------------------------: |
+|     Noção     |  Será exibido ao usuário uma tela com todos os animais disponíveis para doação   |
+|    Impacto    |             Permite que um usuário indeciso encontreum pet de seu desejo         |
+| Classificação |                 Verbo                                                            |
+
+
+### Filtrar
+
+|     Nome:     |                        Filtrar                                                       |
+| :-----------: | :----------------------------------------------------------------------------------: |
+|     Noção     |  O usuário irá abrir o aplicativo e poderá filtrar raças, portes e gêneros de pets   |
+|    Impacto    |             Permite que o usuário escolha qual pet irá adotar                        |
+| Classificação |                 Verbo                                                                |
+
+
+### Pesquisar
+
+|     Nome:     |                        Entrega                            |
+| :-----------: | :-------------------------------------------------------: |
+|   Sinônimos   |                             buscar                        |
+|     Noção     |  Usuário que pesquisa pelo pet                            |
+|    Impacto    |     Dá a possibilidade de pesquisar por um pet específico |
+| Classificação |                 Verbo                                     |
+
+### Entrega
+
+|     Nome:     |                        Entrega                                    |
+| :-----------: | :---------------------------------------------------------------: |
+|     Noção     |  Os usuários poderão combinar a busca e entrega de um pet adotado |
+|    Impacto    |     Dá a possibilidade de entrega de um pet adotado               |
+| Classificação |                 Verbo                                             |
+
+
+## Status pet
+
+|     Nome:     |                        Status pet                                 |
+| :-----------: | :---------------------------------------------------------------: |
+|     Noção     |  Status de adoção de um pet                                       |
+|    Impacto    |     Adotante poderá saber se um pet está sendo adotado no momento |
+| Classificação |                 Estado                                            |
 
 ## 4. Referências
 
