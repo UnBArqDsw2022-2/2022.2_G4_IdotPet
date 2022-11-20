@@ -7,19 +7,17 @@
 |17/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
 |20/11/2022 | 0.2 | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso) |
 
-
-
-# Introdução 
+## Introdução 
 
 Na execução do processo de Design Sprint tem-se como primeira fase a realização do UNPACK. Nela todos os integrantes do time externalizam suas ideias e percepções quanto à solução do produto, a fim de condensar os pontos a serem trabalhados. Uma das técnicas mais famosas e utilizadas para a realização dessa atividade é a prática do Brainstorm.
   
-# Metodologia
+## Metodologia
 
 Brainstorm, do inglês "tempestade de ideias", é uma prática em que o grupo se reúne com objetivo de responder questões do problema. Nessa reunião, há uma explicação do problema, exposição das ideais dos participantes, discussão sobre elas e um agrupamento das mesmas.
 
 É importante que, para a realização dessa dinâmica, todos estejam à vontade e comprometidos em realizar um bom trabalho. O problema deve ser bem detalhado e as ideias apresentadas sem medo e sem críticas, para que a discussão ocorra de maneira saudável e sem julgamentos. 
 
-# Resultados
+## Resultados
   
 Foi realizado um brainstorm para a escolha do tema do projeto e outro para apanhar e agregar ideias sobre o tema selecionado, tendo como base quais seriam os requisitos funcionais e não-funcionais.
 
@@ -44,7 +42,7 @@ A prática do Brainstorm funcionou para a equipe e houve um bom engajamento e pa
 Foi uma técnica interessante, dinâmica e efetiva de se utilizar.
 --->
   
-# Referências bibliográficas
+## Referências bibliográficas
 
 > BALDISSERA, Olívia. O passo a passo do Design Sprint, a metodologia da Google para inovar em projetos. 2021. Disponível em: https://posdigital.pucpr.br/blog/design-sprint. Acesso em: 17 nov. 2022.
 
