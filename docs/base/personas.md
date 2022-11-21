@@ -6,14 +6,15 @@
 | 11/11/2022 | 0.1   | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
 | 13/11/2022 | 0.2    | Criação de personas e antipersonas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
 | 15/11/2022 | 0.3  | Revisão | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr)|  |
+| 20/11/2022 | 0.4   | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
+
 ## Introdução
 
-Uma persona é um personagem fictício que pertence a um grupo de usuários e descreve as
-características de um usuário típico ou atípico (antipersonas). Uma persona é definida a partir dos objetivos do usuário na aplicação, com base em sua personalidade, idade, ocupação, etc.
+Uma persona é um personagem fictício que pertence a um grupo de usuários e descreve as características de um usuário típico ou atípico (antipersonas). Uma persona é definida a partir dos objetivos do usuário na aplicação, com base em sua personalidade, idade, ocupação, etc.
 
-## Metologia
+## Metodologia
 
-A elaboração do artefato de personas foi embasada por um processo criativo, pensando em como o usuário médio da aplicação a usaria, desenvolvendo um contexto para a utilização desse usuário. Inicialmente foi aberto o site [thispersondoesnotexist](https://thispersondoesnotexist.com/) para gerar rostos aleatórios de pessoas que não existem. Com base em um rosto, foi pensada uma personalidade e possível uso ou não uso da aplicação, inserido no contexto de vida da persona.
+A elaboração do artefato de personas foi embasada por um processo criativo, pensando em como o usuário médio da aplicação a usaria, desenvolvendo um contexto para a utilização desse usuário. Inicialmente, foi aberto o site [thispersondoesnotexist](https://thispersondoesnotexist.com/) para gerar rostos aleatórios de pessoas que não existem. Com base em um rosto, foi pensada uma personalidade e possível uso ou não uso da aplicação, inserido no contexto de vida da persona.
 
 ## Personas
 
@@ -91,4 +92,4 @@ Sérgio vive sozinho em um pequeno apartamento e é alérgico a pelo de animais.
 
 <!-- Feito aqui ó: https://referenciabibliografica.net/a/pt-br/ref/abnt -->
 
-BARBOSA, Simone et al. Organização do espaço do problema: Personas. In: INTERAÇÃO Humano-Computador. 1. ed. [S. l.]: Elsevier, 2010. cap. 6, p. 176-183. ISBN 978-85-352-3418-3.
+> BARBOSA, Simone et al. Organização do espaço do problema: Personas. In: INTERAÇÃO Humano-Computador. 1. ed. [S. l.]: Elsevier, 2010. cap. 6, p. 176-183. ISBN 978-85-352-3418-3.
