@@ -1,6 +1,6 @@
-O presente repositório tem como objetivo o auxílio e registro do processo de desenvolvimento e resultados obtidos no projeto do grupo 4 da disciplina de Arquitetura e Desenho de Software da Universidade de Brasília ministrada pela professora Milene Serrano no semestre de 2022.2.
+O presente repositório tem como objetivo o auxílio e registro do processo de desenvolvimento e resultados obtidos no projeto do grupo 4 da disciplina de Arquitetura e Desenho de Software da Universidade de Brasília ministrada pela professora Milene Serrano no semestre de 2022/2.
 
-# IDotPet
+# IdotPet
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 04<br>
@@ -24,4 +24,4 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 
 ## Sobre
 
-O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que querem doar com as pessoas que querem adotar um animal de estimação. Nesse sentido, a pessoa que quer adotar um pet encontrará nesta aplicação um catálogo com vários animais disponíveis para doação, com fotos e informações adicionais como vacinação, localização e etc.
+O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que querem doar das pessoas que querem adotar um animal de estimação. Nesse sentido, a pessoa que quer adotar um pet encontrará nesta aplicação um catálogo com vários animais disponíveis para doação, com fotos e informações adicionais como vacinação, localização e etc.

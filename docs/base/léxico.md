@@ -1,18 +1,18 @@
 # Léxico
 
-## Histórico de versões
+## Histórico de Versões
 
 |    Data    | Versão |     Modificação      |                                                  Autor                                                  |
 | :--------: | :----: | :------------------: | :-----------------------------------------------------------------------------------------------------: |
-| 14/11/2022 |  0.1   | Criação do documento | [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [Hérick Lima](https://github.com/hericklima22) |
-| 18/11/2022 |  0.2   | Melhorias no documento | [Hérick Lima](https://github.com/hericklima22) |
-| 20/11/2022 | 0.3   | Revisão do artefato | [João Durso](https://github.com/jvsdurso)| 
+| 14/11/2022 |  0.1   | Criação do documento | [Nicolas-Roberto](https://github.com/Nicolas-Roberto) & [Herick Lima](https://github.com/hericklima22) |
+| 18/11/2022 |  0.2   | Melhorias no documento | [Herick Lima](https://github.com/hericklima22) |
+| 20/11/2022 | 0.3   | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
 
-## 1. Introdução
+## Introdução
 
-Léxico é uma técnica que visa descrever os símbolos de uma linguagem. No escopo de engenharia de requisitos, o léxico é um artefato importante em um produto de softare, para que todos as palavras chave sejam catalogadas e definidas.
+Léxico é uma técnica com a finalidade de descrever os símbolos de uma linguagem. No escopo de engenharia de requisitos, o léxico é um artefato importante em um produto de software, para que todos as palavras chave sejam catalogadas e definidas.
 
-## 2. Metodologia
+## Metodologia
 
 No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tabela a seguir:
 
@@ -23,7 +23,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |    Impacto    |    O impacto do léxico    |
 | Classificação | A classificação do léxico |
 
-## 3. Léxico
+## Léxico
 
 ### Anunciante
 
@@ -31,7 +31,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 | :-----------: | :-----------------------------------------------------------------------------: |
 |   Sinônimos   |                              Informar, exibir                                   |
 |     Noção     |               Usuário que está doando um                                        |
-|    Impacto    |           Usuário deseja doar um pet através do smartphone                      |
+|    Impacto    |           Usuário deseja doar um pet através do _smartphone_                    |
 | Classificação |                                     Objeto                                      |
 
 ### Adotante
@@ -39,7 +39,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |     Nome:     |                                     Adotante                                   |
 | :-----------: | :----------------------------------------------------------------------------: |
 |     Noção     | Usuário que está adotando um animal                                            |
-|    Impacto    |           Usuário deseja adotar um pet através do smartphone                   |
+|    Impacto    |           Usuário deseja adotar um pet através do _smartphone_                 |
 | Classificação |                                     Objeto                                     |
 
 ### Pet
@@ -56,7 +56,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |     Nome:     |                         Adotar                                            |
 | :-----------: | :-----------------------------------------------------------------------: |
 |   Sinônimos   |               Assumir, filiar, legitimar                                  |
-|     Noção     | Aquele que aceita legalemente (alguém),como filho ou animal de estimação  |
+|     Noção     | Aquele que aceita legalmente alguém como filho ou animal de estimação  |
 |    Impacto    |               Permite a adoção de um pet                                  |
 | Classificação |                          Verbo                                            |
 
@@ -64,7 +64,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 
 |     Nome:     |                        Doar                        |
 | :-----------: | :------------------------------------------------: |
-|   Sinônimos   | dar, oferecer, presentear, ceder de forma gratuita |
+|   Sinônimos   | Dar, oferecer, presentear, ceder de forma gratuita |
 |     Noção     |  Ceder algo seu para alguém gratuitamente          |
 |    Impacto    |             Permite a doação de um pet             |
 | Classificação |                       Verbo                        |
@@ -74,7 +74,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |     Nome:     |                        Listar                                                    |
 | :-----------: | :------------------------------------------------------------------------------: |
 |     Noção     |  Será exibido ao usuário uma tela com todos os animais disponíveis para doação   |
-|    Impacto    |             Permite que um usuário indeciso encontreum pet de seu desejo         |
+|    Impacto    |             Permite que um usuário indeciso encontre um pet de seu desejo         |
 | Classificação |                 Verbo                                                            |
 
 
@@ -89,9 +89,9 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 
 ### Pesquisar
 
-|     Nome:     |                        Entrega                            |
+|     Nome:     |                        Pesquisar                            |
 | :-----------: | :-------------------------------------------------------: |
-|   Sinônimos   |                             buscar                        |
+|   Sinônimos   |                            Buscar                        |
 |     Noção     |  Usuário que pesquisa pelo pet                            |
 |    Impacto    |     Dá a possibilidade de pesquisar por um pet específico |
 | Classificação |                 Verbo                                     |
@@ -113,8 +113,8 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |    Impacto    |     Adotante poderá saber se um pet está sendo adotado no momento |
 | Classificação |                 Estado                                            |
 
-## 4. Referências
+## Referências
 
-[ARQUITETURA e Desenho de Software. Brasília: Profa. Milene Serrano, 2022.](https://aprender3.unb.br/pluginfile.php/2277111/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf)
+> SERRANO, Milene. Arquitetura e Desenho de Software. Apresentação do Power Point. Disponível em: https://aprender3.unb.br/pluginfile.php/2277111/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf. Acesso em: 18 nov. 2022.
 
-[DSW-BASE - Glossario Lexico. Direção: Milene Serrano. [S. l.: s. n.], 2022.](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano_unb_br%2FDocuments%2FArqDSW%20-%20V%C3%ADdeosOriginais%2F02g%20-%20VideoAula%20-%20DSW-Base%20-%20Glossario%20Lexico%2Emp4&ga=1)
+> SERRANO, Milene. DSW-BASE - Glossário Léxico. Apresentação do Power Point. Disponível em: https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano_unb_br%2FDocuments%2FArqDSW%20-%20V%C3%ADdeosOriginais%2F02g%20-%20VideoAula%20-%20DSW-Base%20-%20Glossario%20Lexico%2Emp4&ga=1. Acesso em: 18 nov. 2022. 

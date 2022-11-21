@@ -4,11 +4,12 @@
 
 | Data       | Versão | Modificação                                             | Autor                                                                                                   |
 | :--------- | :----- | :------------------------------------------------------ | :------------------------------------------------------------------------------------------------------ |
-| 15/11/2022 | 0.1    | Criação da primeira versão do documento                 | [@victordscabral](https://github.com/victordscabral)                                                    |
-| 15/11/2022 | 0.2    | Correção conforme revisão                               | [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 15/11/2022 | 0.3    | Correção no segundo item da organização de repositórios | [@PedroLucasCM](https://github.com/PedroLucasCM)                                                        |
+| 15/11/2022 | 0.1    | Criação da primeira versão do documento                 | [Victor Cabral](https://github.com/victordscabral)                                                    |
+| 15/11/2022 | 0.2    | Correção conforme revisão                               | [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 15/11/2022 | 0.3    | Correção no segundo item da organização de repositórios | [Pedro Cassiano](https://github.com/PedroLucasCM)                                                        |
+| 20/11/2022 | 0.4    | Revisão gramatical do documento | [João Durso](https://github.com/jvsdurso)| 
 
-## 1. Políticas de padronização dos arquivos
+## Políticas de padronização dos arquivos
 
 Todos os arquivos devem seguir o seguinte modelo e regras:
 
@@ -20,7 +21,7 @@ Modelo: texto1_politicas_organizacao.md
 
 Obs.: Há exceções quanto a arquivos especiais que necessitarem de uma nomeclatura diferente. Ex.: "README.md".
 
-## 2. Políticas de padronização das pastas
+## Políticas de padronização das pastas
 
 Todos as pastas devem seguir o seguinte modelo e regras:
 
@@ -32,7 +33,7 @@ Modelo: pasta1_politicas
 - A separação entre palavras deve ser feita através do underline. Ex.: "politicas_artefatos"
 - Não há separação entre palavras e números. Ex.: "sprint1".
 
-## 3. Organização do repositório
+## Organização do repositório
 
 - Imagens na pasta assets, organizadas em subpastas com o nome do artefato em que está presente.
 - Os artefatos devem estar cada um em sua subpasta na pasta de sua entrega, a subpasta do artefato deve ser o mesmo do artefato principal. Ex: O artefato tap deve ficar na subpasta tap na pasta base

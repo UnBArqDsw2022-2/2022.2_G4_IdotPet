@@ -1,4 +1,4 @@
-# Grupo 5 - IdotPet
+# Grupo 4 - IdotPet
 
 Código da Disciplina: FGA0208 <br>
 Semestre: 2022-2 <br>
@@ -24,7 +24,7 @@ Repositório: [https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet](https://git
 
 ## Participações
 
-|Entregaveis|Equipe|Revisores|
+|Entregáveis|Equipe|Revisores|
 | :- | :- | :- |
 |5W2H|Eduardo e Kayro|Pedro, Victor, Klyssmann|
 |Mapa Mental|Luan e Thalisson|Nicolas e Herick|

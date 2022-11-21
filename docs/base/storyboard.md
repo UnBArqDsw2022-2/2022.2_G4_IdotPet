@@ -5,6 +5,7 @@
 | :- | :- | :- | :- |
 | 17/11/2022 | 0.1    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)| 
 | 18/11/2022 | 0.2    | Adicionando nova versão do storyboard | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr) | 
+| 20/11/2022 | 0.3    | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
 
 ## Introdução
 
@@ -35,7 +36,7 @@ O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e 
 </details>
 
 <details>
-<summary>Clique para apresentar a versão 1.0 do Storyboard</summary>
+<summary>Clique para apresentar a versão 1.1 do Storyboard</summary>
  
 ### Storyboard v1.1
  
@@ -52,4 +53,4 @@ O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e 
 
 > EIKO, Júlia. O que é um Storyboard?. [S. l.]: Revospace, 26 maio 2020. Disponível em: https://revospace.com.br/artigo/o-que-e-um-storyboard/. Acesso em: 17 nov. 2022.
 
-> GUIA DO STORYBOARD PARA VÍDEOS: como, onde e por que fazer?. Disponível em: https://www.youtube.com/watch?v=Uhf4Kv-aVyM. Acesso em: Acesso em: 17 nov. 2022.
+> GUIA DO STORYBOARD PARA VÍDEOS: como, onde e por que fazer?. Disponível em: https://www.youtube.com/watch?v=Uhf4Kv-aVyM. Acesso em: 17 nov. 2022.

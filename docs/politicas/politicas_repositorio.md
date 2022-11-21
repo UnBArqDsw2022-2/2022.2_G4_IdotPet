@@ -6,6 +6,7 @@
 | :- | :- | :- | :- |
 | 07/11/2022 | 0.1 | Criação da primeira versão do documento | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
 | 08/11/2022 | 0.2 | Revisão e aprimoramento do documento| [@kayrocesar](https://github.com/kayrocesar) |
+| 20/11/2022 | 0.3    | Revisão gramatical do documento | [João Durso](https://github.com/jvsdurso)| 
 
 ## Objetivo:
 
@@ -27,7 +28,7 @@ Critérios a serem seguidos por todos que queiram contribuir para o projeto, pri
 
 A partir das branches que serão resolvidas as issues e criados artefatos para serem adicionados ao projeto principal, após revisões.
 
-Temos 3 tipos de branches, que, para projetos de menor escopo, como o nosso, tem uma menor burocracia e maior eficácia no gerenciamento do projeto.
+Existem 3 tipos de branches, que, para projetos de menor escopo, como este, possui uma menor burocracia e maior eficácia no gerenciamento do projeto.
 
 - São elas:
   - [Master](#Master)
@@ -39,7 +40,7 @@ Temos 3 tipos de branches, que, para projetos de menor escopo, como o nosso, tem
 
 **Existe somente uma branch Master!** Essa branch contém o projeto em seu estado mais estável. É nessa branch que deve-se ter todos os arquivos antes de alguma release. Quando alguma funcionalidade é implementada, deve ser feito um pull request para essa branch, que será analisada pelo colaborador responsável.
 
-Deverão ser utilizadas tags, o que eliminará a necessidade de criação de branches develop. Com as tags temos referência de versão, correções e afins. Devemos associar tags aos commits, quando necessário.
+Deverão ser utilizadas tags, o que eliminará a necessidade de criação de branches develop. Com as tags têm-se referência de versão, correções e afins. Deve-se associar tags aos commits, quando necessário.
 
 - **Para criar tags:**
 

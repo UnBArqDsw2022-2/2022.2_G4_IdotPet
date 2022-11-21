@@ -1,20 +1,22 @@
-# <center> Instrospecção
+# Introspecção
 
 ## Histórico de Versões
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 10/11/2022 | 0.1 | Criação do documento | [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
-| 15/11/2022 | 0.2 | Elaboração da metodologia e introspeções | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 15/11/2022 | 0.2 | Elaboração da metodologia e introspeçcões | [Thalisson Alves](https://github.com/Thalisson-Alves) |
 | 15/11/2022 | 0.3 | Elaboração dos resultados | [Thalisson Alves](https://github.com/Thalisson-Alves) |
-| 15/11/2022 | 0.3 | Revisão do documento | [Herick Lima](https://github.com/hericklima22), [Klyssmann Henrique](https://github.com/klyssmannoliveira), [Victor Cabral](https://github.com/victordscabral) |
+| 15/11/2022 | 0.4 | Revisão do documento | [Herick Lima](https://github.com/hericklima22) & [Klyssmann Henrique](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
+| 20/11/2022 | 0.5 |Revisão gramatical do artefato |   [João Durso](https://github.com/jvsdurso) |
+
 
 ## Introdução 
-  A técnica de Introspecção consiste em uma técnica de elicitar requisitos. Essa técnica é considerada reflexiva, pois você irá se imaginar, ou refletir, como seria você ou uma persona utilizando o sistema. Sendo assim, para um bom resultado da técnica, basta refletir sobre o que o sistema deveria ter para que ele fosse considerado ótimo.
+  A técnica de Introspecção consiste em uma técnica de elicitar requisitos. Essa técnica é considerada reflexiva, pois a pessoa irá se imaginar, ou refletir, como seria ela ou uma outra persona utilizando o sistema. Sendo assim, para um bom resultado da técnica, basta refletir sobre o que o sistema deveria ter para que ele fosse considerado ótimo.
 
 ## Metodologia
 
-Para realizar essa técnica, os integrantes responsáveis discutiram sobre ela e em seguida realizaram uma introspecção levando em consideração o contexto de cada (persona desenvolvida)[link_para_personas].
+Para realizar essa técnica, os integrantes responsáveis discutiram e em seguida a realizaram, levando em consideração o contexto de cada (persona desenvolvida)[https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/base/personas.md].
 
 ## Introspecções
 
@@ -26,7 +28,7 @@ Algo que me ajudaria muito dentro do app, seria a possibilidade de encontrar pes
 
 ### Persona - Lucas Moscardini
 
-Quero poder ver os anúncios que existem de animais para adoção, com possibilidade de filtro de espécies, raças, idade e localização do animal. Pois, eu e minha esposa, já decidimos que queremos adotar um cãozinho, então não nos interessamos em anúncios de outros perfis de animais neste momento.
+Quero poder ver os anúncios que existem de animais para adoção, com possibilidade de filtro de espécies, raças, idade e localização do animal. Isso, porque eu e minha esposa, já decidimos que queremos adotar um cãozinho, então não nos interessamos em anúncios de outros perfis de animais neste momento.
 
 Gostaria também de poder compartilhar um determinado anúncio com a minha esposa para que ela possa dar uma olhada, ou até mesmo criar uma aba compartilhada para que possamos ir colocando os nossos anúncios favoritos nela, assim facilitaria a nossa escolha final do cãozinho perfeito.
 
@@ -47,11 +49,10 @@ Legenda
 | IN06 | O usuário deve ser capaz de compartilhar anúncios com outros usuários | RF |
 | IN07 | O usuário deve ser capaz de criar uma aba compartilhada com outros usuários para gerenciar seus anúncios favoritos | RF |
 
-## Conclusão
+<!---## Conclusão
   Conclui-se assim, que a técnica de introspecção é eficiente e eficaz para elicitar requisitos funcionais e não funcionais. Assim, de acordo com a tabela acima, a nossa elicitação com essa técnica está finalizada.
+--->
 
+## Referências
 
-## Referências bibliográficas
-
->SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07;
-
+> VAZQUES, Carlos Eduardo; SIMÕES, Guilherme. Engenharia de requisitos: Software orientado ao negócio. 1. ed. Espírito Santo: Brasport, 2016. 328 p. ISBN ‎ 978-8574527901.
