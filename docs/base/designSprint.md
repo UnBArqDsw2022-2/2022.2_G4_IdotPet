@@ -4,8 +4,8 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 15/11/2022 | 0.1    | Criação da primeira versão do documento | [Victor Cabral](https://github.com/victordscabral), [Pedro Cassiano](https://github.com/PedroLucasCM) e [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
-| 17/11/2022 | 0.2    | Alteração e inserção dos links no arquivo | [Luan Cavalcante](https://github.com/Luan-Cavalcante), [Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 15/11/2022 | 0.1    | Criação da primeira versão do documento | [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
+| 17/11/2022 | 0.2    | Alteração e inserção dos links no arquivo | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [Thalisson Alves](https://github.com/Thalisson-Alves) |
 | 17/11/2022 | 0.3    | Melhoria nos textos do documento | [Victor Cabral](https://github.com/victordscabral) |
 | 17/11/2022 | 0.4    | Adição de imagem sobre o processo de Design Sprint | [Victor Cabral](https://github.com/victordscabral) |
 | 20/11/2022 | 0.5    | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso) |

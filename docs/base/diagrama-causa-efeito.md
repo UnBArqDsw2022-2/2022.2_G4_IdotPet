@@ -3,9 +3,10 @@
 ## Histórico de Versões
 | Data       | Versão | Descrição            | Autor(es)     |
 | ---------- | ------ | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | 
-| 14/11/2022 | 1.0    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Victor Kühl](https://github.com/vitorekr)|  |
-|  14/11/2022 | 1.1 | Formulação do diagrama  |   [Nicolas-Roberto](https://github.com/Nicolas-Roberto) e [hericklima22](https://github.com/hericklima22)|
-|  15/11/2022 | 1.1 |Revisão do documento |   [Luan Cavalcante](https://github.com/Luan-Cavalcante) e [Thalisson Alves](https://github.com/Thalisson-Alves)|
+| 14/11/2022 | 0.1    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Victor Kühl](https://github.com/vitorekr)|  |
+|  14/11/2022 | 0.2 | Formulação do diagrama  |   [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Herick Lima](https://github.com/hericklima22)|
+|  15/11/2022 | 0.3 |Revisão do documento |   [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [Thalisson Alves](https://github.com/Thalisson-Alves)|
+|  20/11/2022 | 0.4 |Revisão gramatical do artefato |   [João Durso](https://github.com/jvsdurso) |
 
 ## Introdução
 
@@ -13,7 +14,7 @@ O diagrama de causa e efeito, também conhecido como diagrama de Ishikawa foi cr
 
 ## Metodologia
 
-A elaboração deste artefato foi embasada por um processo criativo, no qual os autores pesquisaram o modo de elaboração de um diagrama de causa e efeito, utilizando vídeos e sites como exemplo. Este artefato envolve Mão-de-obra, Máquinas, Materiais, Método, Meio-ambiente e Medição. Além disso, como problema, utilizar-se-á o fato de que existem pessoas que querem adotar animais de estimação, mas possuem uma rotina apertada e não conseguem ir aos centros de adoção. Dessa forma, o objetivo é solucionar essa dor por meio do aplicativo IDotPet.
+A elaboração deste artefato foi embasada por um processo criativo, no qual os autores pesquisaram o modo de elaboração de um diagrama de causa e efeito, utilizando vídeos e sites como exemplo. Este artefato envolve Mão-de-obra, Máquinas, Materiais, Método, Meio-ambiente e Medição. Além disso, como problema, utilizar-se-á o fato de que existem pessoas que querem adotar animais de estimação, mas possuem uma rotina apertada e não conseguem ir aos centros de adoção. Dessa forma, o objetivo é solucionar essa dor por meio do aplicativo IdotPet.
 
 Para entender melhor esse documento, têm-se as seguintes definições:
 
@@ -28,8 +29,8 @@ Para entender melhor esse documento, têm-se as seguintes definições:
 ## Diagrama de Ishikawa (Causa e Efeito)
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/66215835/202049178-31544724-cd76-4096-9df9-d66af99f2d4d.png" alt="Diagrama Causa e Uso"/>
-  <figcaption style="text-align:center">Diagrama de causa e efeito
+  <img src="https://user-images.githubusercontent.com/66215835/202049178-31544724-cd76-4096-9df9-d66af99f2d4d.png" alt="Diagrama Causa e Efeito"/>
+  <figcaption style="text-align:center">Diagrama de Ishikawa
   .</figcaption>
   <figcaption style="text-align:center">Fonte: Nicolas e Herick Lima.</figcaption>
 </figure>
