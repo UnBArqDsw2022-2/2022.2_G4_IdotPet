@@ -78,7 +78,7 @@ Muitas artefatos e atividades já tinham sido feitos, mas as issues não eram at
 ## Velocity
 
 <figure>
-  <img src="[https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/sprint/sprint1/velocity1.png?raw=true](https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint1/velocity1.png)" alt="Velocity Sprint 1"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint1/velocity1.png" alt="Velocity Sprint 1"/>
   <figcaption align="center" >Figura 1 - Velocity: Sprint 1. Fonte: Autor </figcaption>
 </figure>
 
