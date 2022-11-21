@@ -32,3 +32,7 @@
     - [Tecnologias](base/tecnologias.md)
   - **Participações**
     - [Base](base/participacoes_base.md)
+
+- **Sprints**
+    - [Sprint 1 - Abertura](sprints/abertura_sprint1.md)
+    - [Sprint 1 - Fechamento](sprints/fechamento_sprint1.md)
