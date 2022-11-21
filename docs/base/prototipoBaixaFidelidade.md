@@ -3,7 +3,7 @@
 ## Histórico de Versões
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 15/11/2022 | 0.1    | Criação e estruturação do documento | [Vitor Eduardo](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| 
+| 15/11/2022 | 0.1    | Criação e estruturação do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| 
 | 20/11/2022 | 0.2    | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
   
 ## Introdução
