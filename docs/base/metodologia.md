@@ -126,4 +126,6 @@ O Kanban é uma metodologia de organização das issues para melhor perfomance e
 
 ## Referências
 
->
+> SCHWABER, K., SUTHERLAND, J. (1991) The Scrum Guide The Definitive Guide to Scrum: The Rules of the Game. Disponível em: https://www.scrum.org/. Acesso em: 14 nov. 2022.
+
+> MESH, Janet. Método Kanban: Guia detalhado e 5 modelos prontos para usar. Boston: Blog do Trello, 24 mar. 2020. Disponível em: https://blog.trello.com/br/metodo-kanban. Acesso em: 14 nov. 2022.

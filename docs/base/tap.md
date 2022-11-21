@@ -4,11 +4,11 @@
 
 |    Data    | Versão |                           Modificação                            |                      Autor                      |
 | :--------: | :----: | :--------------------------------------------------------------: | :---------------------------------------------: |
-| 12/11/2022 |  0.1   |                Criação do documento                | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 12/11/2022 |  0.2   |                Descrição, proposta e justificativa              | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
-| 12/11/2022 |  0.3   |                Requisitos de alto nível e objetivos             | [@klyssmannoliveira](https://github.com/klyssmannoliveira) |
-| 12/11/2022 |  0.4   |               Riscos e estimativa de custo                | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 13/11/2022 |  0.5   |                Partes interessadas            |  e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
+| 12/11/2022 |  0.1   |                Criação do documento                | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 12/11/2022 |  0.2   |                Descrição, proposta e justificativa              | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
+| 12/11/2022 |  0.3   |                Requisitos de alto nível e objetivos             | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
+| 12/11/2022 |  0.4   |               Riscos e estimativa de custo                | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 13/11/2022 |  0.5   |                Partes interessadas            |  [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
 | 20/11/2022 | 0.6    | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
 
 
