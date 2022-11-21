@@ -8,11 +8,11 @@
 | 18/11/2022 |  0.2   | Melhorias no documento | [Herick Lima](https://github.com/hericklima22) |
 | 20/11/2022 | 0.3   | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
 
-## 1. Introdução
+## Introdução
 
 Léxico é uma técnica com a finalidade de descrever os símbolos de uma linguagem. No escopo de engenharia de requisitos, o léxico é um artefato importante em um produto de software, para que todos as palavras chave sejam catalogadas e definidas.
 
-## 2. Metodologia
+## Metodologia
 
 No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tabela a seguir:
 
@@ -23,7 +23,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |    Impacto    |    O impacto do léxico    |
 | Classificação | A classificação do léxico |
 
-## 3. Léxico
+## Léxico
 
 ### Anunciante
 
@@ -113,7 +113,7 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |    Impacto    |     Adotante poderá saber se um pet está sendo adotado no momento |
 | Classificação |                 Estado                                            |
 
-## 4. Referências
+## Referências
 
 > SERRANO, Milene. Arquitetura e Desenho de Software. Apresentação do Power Point. Disponível em: https://aprender3.unb.br/pluginfile.php/2277111/mod_label/intro/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf. Acesso em: 18 nov. 2022.
 

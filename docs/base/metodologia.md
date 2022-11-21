@@ -4,10 +4,11 @@
 
 | Data       | Versão | Modificação                              | Autor                                                                                                                                                                |
 | :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 10/11/2022 | 0.1    | Criação da primeira versão do documento  | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 10/11/2022 | 0.2    | Mudança no endereço da imagem do heatmap | [@klyssmannoliveira](https://github.com/klyssmannoliveira) e [@victordscabral](https://github.com/victordscabral) e [@PedroLucasCM](https://github.com/PedroLucasCM) |
-| 14/11/2022 | 0.3    | Revisão realizada                        | [@jvsdurso](https://github.com/jvsdurso)                                                                                                                             |
-| 16/11/2022 | 0.4    | Imagem do Heatmap corrigida              | [@PedroLucasCM](https://github.com/@PedroLucasCM)                                                                                                                    |
+| 10/11/2022 | 0.1    | Criação da primeira versão do documento  | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 10/11/2022 | 0.2    | Mudança no endereço da imagem do heatmap | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM)  |
+| 14/11/2022 | 0.3    | Revisão realizada                        | [João Durso](https://github.com/jvsdurso)                                                                                                                             |
+| 16/11/2022 | 0.4    | Imagem do Heatmap corrigida              | [Pedro CAssiano](https://github.com/@PedroLucasCM)                                                                                                                    |
+| 20/11/2022 | 0.5   | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
 
 ## Introdução
 
@@ -121,5 +122,13 @@ O Kanban é uma metodologia de organização das issues para melhor perfomance e
 
 ### Heatmap
 
+<figure>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/heatmap_team.jpg" alt="Diagrama Causa e Efeito"/>
+  <figcaption style="text-align:center">Heatmap
+  .</figcaption>
+  <figcaption style="text-align:center">Fonte: Klyssmann Oliveira, Pedro Cassiano e Victor Cabral.</figcaption>
+</figure>
 
 <p align = "center"> <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/heatmap_team.jpg"/> </p>
+
+## Referências
