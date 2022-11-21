@@ -22,13 +22,12 @@
     - [Introspecção](base/introspeccao.md)
     - [Personas](base/personas.md)
     - [Plano de Gerenciamento de Riscos](base/tap.md)
-  - Módulo Processos/Metodologias/Abordagens
-  - Módulo Processos/Metodologias/Abordagens
+  - **Módulo Processos/Metodologias/Abordagens**
     - [BPMN](base/bpmn.md)
     - [Metodologias](base/metodologia.md)
-  - Iniciativas Extras
+  - **Iniciativas Extras**
     - [Políticas de Organização dos Artefatos](politicas/politicas_artefatos.md)
     - [Política de Padronização do Repositório](politicas/politicas_padronizacao.md)
     - [Políticas do Repositório](politicas/politicas_repositorio.md)
-  - Participações
+  - **Participações**
     - [Base](base/participacoes_base.md)
