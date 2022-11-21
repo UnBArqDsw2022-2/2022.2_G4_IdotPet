@@ -36,7 +36,7 @@ O Storyboard foi feito no [Storyboardthat](https://www.storyboardthat.com/pt) e 
 </details>
 
 <details>
-<summary>Clique para apresentar a versão 1.0 do Storyboard</summary>
+<summary>Clique para apresentar a versão 1.1 do Storyboard</summary>
  
 ### Storyboard v1.1
  
