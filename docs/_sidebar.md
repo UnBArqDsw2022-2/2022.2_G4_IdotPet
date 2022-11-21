@@ -34,5 +34,5 @@
     - [Base](base/participacoes_base.md)
 
 - **Sprints**
-    - [Sprint 1 - Abertura](sprints/abertura_sprint1.md)
-    - [Sprint 1 - Fechamento](sprints/fechamento_sprint1.md)
+    - [Sprint 1 - Abertura](sprints/sprint1/abertura_sprint1.md)
+    - [Sprint 1 - Fechamento](sprints/sprint1/fechamento_sprint1.md)
