@@ -64,4 +64,14 @@ Após reuniões e discussões internas, chegamos na conclusão de que as tecnolo
 
 ## Referências
 
-> 
+> Introdução ao Flutter: como funciona o framework e sua linguagem Dart. [S. l.]: Digital House, 13 jun. 2020. Disponível em: https://www.digitalhouse.com/br/blog/o-que-e-flutter-e-como-funciona/. Acesso em: 18 nov. 2022.
+
+> GUEDES, Marylene. O que é Dart?. [S. l.]: TreinaWeb, 21 out. 2019. Disponível em: https://www.treinaweb.com.br/blog/o-que-e-dart. Acesso em: 18 nov. 2022.
+
+> Introdução ao Python. [S. l.]: Wikiversidade, 31 jan. 2020. Disponível em: https://pt.wikiversity.org/wiki/Introdu%C3%A7%C3%A3o_ao_Python/Introdu%C3%A7%C3%A3o. Acesso em: 18 nov. 2022.
+
+> Você sabe como usar a FastAPI?. [S. l.]: Digital House, 4 jul. 2022. Disponível em: https://www.digitalhouse.com/br/blog/voce-sabe-como-usar-a-fastapi/. Acesso em: 18 nov. 2022.
+
+> ANDRADE, Ana. O que é o SQLAlchemy?. [S. l.]: TreinaWeb, 1 nov. 2019. Disponível em: https://www.treinaweb.com.br/blog/o-que-e-o-sqlalchemy. Acesso em: 18 nov. 2022.
+
+> Docker (software). In: WIKIPÉDIA: a enciclopédia livre. Disponível em: https://pt.wikipedia.org/wiki/Docker_(software)#Refer%C3%AAncias. Acesso em: 18 nov. 2022.
