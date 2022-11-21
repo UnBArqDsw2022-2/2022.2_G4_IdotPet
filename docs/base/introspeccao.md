@@ -53,7 +53,6 @@ Legenda
   Conclui-se assim, que a técnica de introspecção é eficiente e eficaz para elicitar requisitos funcionais e não funcionais. Assim, de acordo com a tabela acima, a nossa elicitação com essa técnica está finalizada.
 --->
 
-## Referências bibliográficas
+## Referências
 
-> SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07
-
+> VAZQUES, Carlos Eduardo; SIMÕES, Guilherme. Engenharia de requisitos: Software orientado ao negócio. 1. ed. Espírito Santo: Brasport, 2016. 328 p. ISBN ‎ 978-8574527901.

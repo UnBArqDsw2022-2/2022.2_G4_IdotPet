@@ -10,12 +10,12 @@
 | 17/11/2022 | 0.4    | Adição de imagem sobre o processo de Design Sprint | [Victor Cabral](https://github.com/victordscabral) |
 | 20/11/2022 | 0.5    | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso) |
 
-## Introdução: 
+## Introdução
 Design Sprint é uma metodologia com objetivo de criar, validar e testar a proposta de um produto em 5 dias. Criada por Jake Knapp e usada pela Google Ventures, ela se utiliza de práticas conhecidas de outras metodologias para, de maneira efetiva, ter ao final das etapas um protótipo do produto. 
 
 O processo permite a produção de artefatos e protótipo em um prazo curto, utilizando o tempo da equipe de maneira eficiente. Esses artefatos são elaborados através de atividades individuais e em grupo, que ocorrem em fases ao decorrer dos 5 dias. 
 
-## Desenvolvimento/Aplicação:
+## Desenvolvimento/Aplicação
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/design_sprint/design_sprint_sprintbook.png?raw=true" alt="Design Sprint"/>
@@ -54,7 +54,7 @@ Nessa última etapa, é realizada uma validação através de testes no protóti
 
 Essa fase não foi feita pela equipe.
 
-## Alterações: 
+## Alterações
 
 Para a realização e execução do Design Sprint no contexto da equipe foram realizadas modificações e adaptações no fluxo da metodologia.
 
@@ -65,7 +65,7 @@ Para a realização e execução do Design Sprint no contexto da equipe foram re
 - **Alteração:** as etapas foram realizadas na ordem correta, mas houve o prolongamento da fase de Sketch em um dia e a realização da _Decision_ ocorreu em uma data posterior à planejada. 
 - **Motivo:** maior prazo para elaboração dos documentos solicitados e falta de disponibilidade de tempo dos integrantes.
 
-## Cronograma e resultados: 
+## Cronograma e resultados
 
 Segue o acompanhamento do Design Sprint feito pela equipe:
 
@@ -81,7 +81,7 @@ Segue o acompanhamento do Design Sprint feito pela equipe:
    - [x] [Protótipo de Baixa Fidelidade](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/prototipoBaixaFidelidade)
    - [x] [Wireframe](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/wireframe)
 
-## Referências: 
+## Referências
 
 > KNAPP, Jake & ZERATSKY, John. The Design Sprint, 2022. Disponível em: https://www.thesprintbook.com/the-design-sprint. Acesso em: 14 nov. 2022.
 

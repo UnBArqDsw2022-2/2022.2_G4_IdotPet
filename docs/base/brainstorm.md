@@ -42,7 +42,7 @@ A prática do Brainstorm funcionou para a equipe e houve um bom engajamento e pa
 Foi uma técnica interessante, dinâmica e efetiva de se utilizar.
 --->
   
-## Referências bibliográficas
+## Referências 
 
 > BALDISSERA, Olívia. O passo a passo do Design Sprint, a metodologia da Google para inovar em projetos. 2021. Disponível em: https://posdigital.pucpr.br/blog/design-sprint. Acesso em: 17 nov. 2022.
 

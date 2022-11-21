@@ -50,7 +50,7 @@ Para a elaboração desse artefatos, a equipe fez uma análise das funcionalidad
 Com isso, podemos notar que o **Mapa Mental** é de extrema importância para organizar as ideias a respeito da solução que está sendo desenvolvida. Permitindo um maior entendimento da equipe a respeito do contexto que a solução está inserida, além de auxiliar na elicitação de seus requisitos.
 --->
 
-## Referências bibliográficas
+## Referências
 
 > FERNANDES, Wagner. Aprenda a criar um mapa mental efetivo. [S. l.], 4 nov. 2021. Disponível em: https://www.proximosconcursos.com/como-criar-um-mapa-mental-efetivo/. Acesso em: 13 nov. 2022.
 
