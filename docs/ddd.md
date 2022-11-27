@@ -35,6 +35,25 @@ No fim, para a ordem da frase</br>
 Nao se está nem aí.</br>
  - Lewis Carroll, "Poeta Fit, Non Nascitur"_</br>
 
+# Pilares do DDD
+
+## Linguagem Ubíqua
+A ideia principal é você fazer a ligação da Linguagem Ubíqua entre os Experts no Negócio e os desenvolvedores. Quando eles conseguem definir quais são os termos que eles mais irão utilizar, essa extração fará toda a diferença no processo de desenvolvimento e comunicação na aplicação. Quando utilizamos a Linguagem Ubíqua é muito importante que esteja tudo organizado e extraído.
+
+![linguagemUbiqua](https://user-images.githubusercontent.com/56610229/204137169-950b8947-0c28-4248-b6dd-3af9f2f8591f.png)
+
+## Bounded Context
+
+Os Bounded Contexts ou contextos delimitados, delimita os contextos da aplicação. Cada contexto possui suas responsabilidades claramente definidas que por sua vez pode ter sua própria linguagem Ubíqua. A utilização de histórias e levantamento do escopo do projeto com o Domain Expert auxilia no processo de delimitação de contexto.
+
+## Context Map
+
+O terceiro pilar do DDD é o Context Map, que nada mais é que o mapeamento dos Bounded Contexts.
+a relação entre os domínios principais e genéricos são upstream/downstream, respectivamente. Isso porque o domínio principal é prioridade em relação ao genérico. Se alguma coisa mudar, terá que ser do lado do domínio genérico. É uma relação cliente/fornecedor.
+
+![context_map](https://user-images.githubusercontent.com/56610229/204137183-00840c33-7a46-4866-9385-ae39c51a915d.png)
+
+
 
 
 
