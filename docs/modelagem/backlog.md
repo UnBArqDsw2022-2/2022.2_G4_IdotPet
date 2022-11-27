@@ -47,15 +47,24 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 
 ### Funcionalidades
 
-| Épico | ID | Descrição |
+| ID | Épico | Descrição |
 | :-: | :-: | :-- |
-| a | a | as |
+| F01 | E01 | Cadastrar no sistema |
+| F02 | E01 | Entrar no sistema (Login) |
+| F03 | E01 | Sair do sistema (Logout) |
+| F04 | E02 | Visualizar perfil |
+| F05 | E02 | Editar informações do perfil |
+| F06 | E04 | Visualizar informações dos pets disponíveis |
+| F07 | E03 | Enviar mensagem para anunciante |
+| F08 | E03 | Enviar mensagem para adotante |
+| F09 | E05 | Navegar pelo aplicativo com interação |
+| F10 | E06 | Gerenciar conteúdo do aplicativo |
 
 ### História de usuário
 
-| Épico | Funcionalidade | ID | Descrição |
+| Funcionalidade| Épico | ID | Descrição |
 | :-: | :-: | :-: | :- |
-| a | A | A | A |
+|  A | A | A | A |
 
 ### Tarefas
 
