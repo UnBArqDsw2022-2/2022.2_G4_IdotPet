@@ -59,12 +59,24 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 | F08 | E03 | Enviar mensagem para adotante |
 | F09 | E05 | Navegar pelo aplicativo com interação |
 | F10 | E06 | Gerenciar conteúdo do aplicativo |
+| F11 | E06 | Gerenciar usuários do aplicativo |
+| F12 | E05 | Filtrar tipos de pets em um campo de busca |
+| F13 | E05 | Compartilhar o card de um pet |
+
+
 
 ### História de usuário
 
-| Funcionalidade| Épico | ID | Descrição |
+| ID | Funcionalidade| Épico | Descrição |
 | :-: | :-: | :-: | :- |
-|  A | A | A | A |
+|  US01 | F01 | E01 | Eu, como usuário adodante, desejo me cadastar no sistema com meu e-mail|
+|  US02 | F01 | E01 | Eu, como usuário anunciante, desejo me cadastar no sistema com meu e-mail ou instituição |
+| US03 | F01 | E01 | Eu, como usuário adoante, desejo me cadastrar no sistema com contas de redes sociais |
+| US04 | F02 | E01 | Eu, como usuário adotante, desejo entrar no sistema com meu e-mail e senha |
+| US05 | F02 | E01 | Eu, como usuário anunciante, desejo entrar no sistema com meu e-mail e senha |
+| US06 | F02 | E01 | Eu, como usuário adotante, desejo entrar no sistema com contas de redes sociais |
+| US07 | F03 | E01 | Eu, como usuário adotante, desejo sair do sistema com um botão |
+| US08 | F03 | E01 | Eu, como usuário anunciante, desejo sair do sistema com um botão |
 
 ### Tarefas
 
