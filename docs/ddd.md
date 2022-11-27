@@ -1,3 +1,11 @@
+# Domain-Driven Design
+
+## Histórico de Versões
+
+| Data | Versão | Modificação | Autor |
+| :- | :- | :- | :- |
+| 27/11/2022 | 0.1    | Criação da primeira versão do documento | [Vitor Eduardo](https://github.com/vitorekr) & [João Vitor](https://github.com/jvsdurso) |
+
 # Introdução
 
 Domain-Driven Design é um conjunto de princípios com foco em domínio, exploração de modelos de formas criativas e definir e falar a linguagem Ubíqua, baseado no contexto delimitado.
