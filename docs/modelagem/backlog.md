@@ -32,3 +32,34 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 
 **Tarefas** (*Tasks*) - São as especificações dos itens técnicos necessários para que uma História de Usuário se transforme em um incremento do produto.
 
+
+### Épicos
+
+|ID | Descrição resumida | Descrição
+| :-: | :- | :- |
+| E01 | Cadastro | Eu, enquanto usuário, desejo realizar um cadastro no aplicativo |
+| E02 | Perfil | Eu, enquanto usuário, desejo configurar o meu perfil no aplicativo |
+| E03 | Contato | Eu, enquanto usuário, desejo um meio de contato com outros usuários |
+| E04 | Visualização | Eu, enquanto usuário, desejo visualizar informações sobre os animais disponíveis para adoção |
+| E05 | Interação | Eu, enquanto usuário, desejo interagir com o aplicativo |
+| E06 | Gerenciamento | Eu, enquanto gerenciador do aplicativo, desejo ter controle do conteúdo do aplicativo |
+
+
+### Funcionalidades
+
+| Épico | ID | Descrição |
+| :-: | :-: | :-- |
+| a | a | as |
+
+### História de usuário
+
+| Épico | Funcionalidade | ID | Descrição |
+| :-: | :-: | :-: | :- |
+| a | A | A | A |
+
+### Tarefas
+
+| Épico | Funcionalidade | História de Usuário | Tarefas |
+| :-: | :-: | :-: | :- |
+| a | a | a | a |
+
