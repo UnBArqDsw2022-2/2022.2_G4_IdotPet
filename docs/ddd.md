@@ -61,6 +61,11 @@ a relação entre os domínios principais e genéricos são upstream/downstream,
 
 ![context_map](https://user-images.githubusercontent.com/56610229/204137183-00840c33-7a46-4866-9385-ae39c51a915d.png)
 
+## Referências
+
+> Evans, Eric. Domain-Driven Desing, Atacando a complexidade no coração do Software. 3º Edição revisada.
+> Full Cycle, O que é DDD - Domain Driven Design. Conteúdo disponível em: https://fullcycle.com.br/domain-driven-design/
+
 
 
 
