@@ -33,6 +33,15 @@
   - **Participações**
     - [Base](base/participacoes_base.md)
 
+- **Modelagem**
+
+  - Módulo Projeto Orientado a Abordagens Tradicionais
+    - Diagramas Estáticos
+      - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
+     
+      
+
+
 - **Sprints**
     - [Sprint 1 - Abertura](sprints/sprint1/abertura_sprint1.md)
     - [Sprint 1 - Fechamento](sprints/sprint1/fechamento_sprint1.md)
