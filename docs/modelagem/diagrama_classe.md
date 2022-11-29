@@ -2,9 +2,10 @@
 
 ## Histórico de Versões
 
-| Data       | Versão | Modificação                       | Autor                                                                                              |
-| :--------- | :----- | :-------------------------------- | :------------------------------------------------------------------------------------------------- |
-| 28/11/2022 | 0.1    | Criação e elaboração do documento | [Herick Lima](https://github.com/hericklima22) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| Data       | Versão | Modificação                                                                                                                           | Autor                                                                                              |
+| :--------- | :----- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------- |
+| 28/11/2022 | 0.1    | Criação e elaboração do documento                                                                                                     | [Herick Lima](https://github.com/hericklima22) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 28/11/2022 | 0.2    | Mudança no diagrama de classe com a adição de Anuncio, Mensagem, Denuncia e herança de Usuario para UsuarioAnunciante e UsuarioDoador | [Herick Lima](https://github.com/hericklima22) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
 
 ## Introdução
 
@@ -12,7 +13,7 @@ A Linguagem de Modelagem Unificada (UML) é uma linguagem visual criada para pad
 
 [comment]: <> (Mudar próximo parágrafo se houver alteração no diagrama de classes)
 
-Nosso diagrama inicial mostra suas classes como Pet, Usuario e Endereco.
+Nosso diagrama inicial mostra suas classes como Pet, Usuario, UsuarioAnunciante, UsuarioAdotante, Endereco, Mensagem, [Anuncio](master\docs\base\léxico.md) e Denuncia.
 
 ## Diagrama de Classe
 
