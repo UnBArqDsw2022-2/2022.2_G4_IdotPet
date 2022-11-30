@@ -31,8 +31,8 @@ Geralmente, cada elemento é colocado dentro do pacote e é representado como um
 
 | Simbolo |  Nome  |                                  Descrição                                     |
 | :-----: | :----: | :------------------------------------------------------------------------------: |
-|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/uml-package-symbol.svg" alt="Package Symbol"/>     | Pacote | Agrupa elementos comuns com base de dados, comportamento ou interação do usuário |
-|    <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/dependency-symbol.svg" alt="Dependency Symbol"/>     | Dependência |Representa a relação entre um elemento e outro |
+|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/uml-package-symbol.svg" alt="Package Symbol" width="150px"/>     | Pacote | Agrupa elementos comuns com base de dados, comportamento ou interação do usuário |
+|    <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/dependency-symbol.svg" alt="Dependency Symbol" width="150px"/>     | Dependência |Representa a relação entre um elemento e outro |
 
 
 
