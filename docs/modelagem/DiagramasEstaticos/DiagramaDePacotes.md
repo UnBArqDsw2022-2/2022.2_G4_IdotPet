@@ -31,8 +31,12 @@ Geralmente, cada elemento é colocado dentro do pacote e é representado como um
 
 | Simbolo |  Nome  |                                  Descrição                                     |
 | :-----: | :----: | :------------------------------------------------------------------------------: |
-|    ![simbolo](uml-package-symbol.svg)     | Pacote | Agrupa elementos comuns com base de dados, comportamento ou interação do usuário |
-|    ![simbolo](uml-package-symbol.svg)     | Dependência |Representa a relação entre um elemento e outro |
+|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/uml-package-symbol.svg" alt="Package Symbol"/>     | Pacote | Agrupa elementos comuns com base de dados, comportamento ou interação do usuário |
+|    <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/dependency-symbol.svg" alt="Dependency Symbol"/>     | Dependência |Representa a relação entre um elemento e outro |
+
+
+
+
 
 Os diagramas de pacotes são utilizados também para mostrar as dependências de importação e acesso entre os pacotes, classes e componentes do sistema. Existem dois principais tipos de dependências: 
  
@@ -55,7 +59,10 @@ Os diagramas de pacotes são utilizados também para mostrar as dependências de
 
 ## Diagrama de Pacotes
 
-![Diagrama de Pacotes](../assets/diagrama_pacotes/diagrama_pacotes.png)
+<figure>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/diagrama_pacotes.png" alt="Diagrama de Pacotes"/>
+  <figcaption align="center" >Figura 1 - Diagrama de Pacotes. Fonte: Autores </figcaption>
+</figure>
 
 ## Referências
 
