@@ -49,6 +49,9 @@ Os diagramas de pacotes são utilizados também para mostrar as dependências de
 
  - Disponibilização: representa a implementação de um artefato em um alvo de implementação
 
+## Metodologia 
+
+  Os participantes realizaram um estudo acerca do diagrama de pacotes e fizeram uma reunião remota no aplicativo Discord visando discutir possibilidades na construção do diagrama. De inicio, os integrantes responsáveis pela escolha das tecnologias do aplicativo também participaram da reunião auxiliando na construção do diagrama de pacotes. Para a construção do diagrama de pacotes presente neste documento foi utilizada a ferramenta LucidChart.
 
 ## Diagrama de Pacotes
 
