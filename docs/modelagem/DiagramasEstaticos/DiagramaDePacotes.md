@@ -5,6 +5,7 @@
 | Data      | Versão | Modificação                         | Autor                       |
 | :-------- | :----- | :---------------------------------- | :-------------------------- |
 | 28/11/2022 | 0.1    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+| 29/11/2022 | 0.2    | Inclusão de diagramas | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
 
 ## Introdução
 
@@ -45,9 +46,10 @@ Os diagramas de pacotes são utilizados também para mostrar as dependências de
 
  - Disponibilização
 
-## Metodologia
 
 ## Diagrama de Pacotes
+
+![Diagrama de Pacotes](../assets/diagrama_pacotes/diagrama_pacotes.png)
 
 ## Referências
 
