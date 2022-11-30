@@ -27,7 +27,11 @@ A metodologia para elaborar um bom diagrama de atividades é primeiramente enten
 - Nó final : Representa o final da atividade no software. É representado por um círculo preto delineado.
 
 ## Resultados
-![Diagrama de atividades_IdotPet drawio(1)](https://user-images.githubusercontent.com/67024690/204846313-a69788a6-009e-4914-9c89-172d1ade7449.png)
+
+<figure>
+  <img src="https://user-images.githubusercontent.com/67024690/204846313-a69788a6-009e-4914-9c89-172d1ade7449.png" alt="Diagrama de Atividades"/>
+  <figcaption align="center" >Figura 1 - Diagrama de atividades. Fonte : Autor</figcaption>
+</figure>
 
 ## Conclusão
 Como conclusão temos que que o fluxo de atividades da nossa aplicação IdotPet foi mapeada corretamente por meio do diagrama de atividades.
