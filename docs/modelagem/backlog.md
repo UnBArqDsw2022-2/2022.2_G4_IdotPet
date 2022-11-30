@@ -5,10 +5,11 @@
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 |27/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
+|27/11/2022 | 0.2 | Atualização do documento | [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
 
 ## Introdução 
 
-Introdução -> texto teórico
+Este backlog foi produzido de acordo com a abordagem ágil, na qual uma função geral é classificada como “Épico”. Desse épico derivam as “Funcionalidades”, que são como divisões de funcionalidades menores ainda, as "Histórias de usuário" que são partes mais detalhadas de uma funcionalidade, e por último teremos as "Tarefas" que terão uma descrição mais técnica.
   
 ## Metodologia
 
@@ -16,10 +17,15 @@ Esse documento foi elaborado a partir dos vários artefatos de elicitação de r
 
 No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig. 1, onde será composto por uma coleção de histórias de usuário, possuindo de 1 até N histórias. Em muitos times não se utiliza épicos, desta maneira a hierarquia permite que o backlog possua 0 a N épicos. Cada épico pode ser relacionado com 0 ou N funcionalidade, que por sua vez, cada funcionalidade se relaciona com 0 ou mais Histórias de Usuário. Finalizando, cada história produz 0 a N tarefas técnicas.
 
-COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/doc/%2362-Backlog-produto/docs/assets/backlog/backlog_hierarquia.png" alt="Hierarquia do Backlog"/>
+  <figcaption align="center" >Figura 1 - Hierarquia do Backlog. Fonte: Autores </figcaption>
+</figure>
+
+
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/brainstorm/tema_parte1.png?raw=true" alt="Hierarquia do Backlog"/>
-  <figcaption align="center" >Figura 1 - Hierarquia do Backlog. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 2 - Enquete para escolha de aplicação. Fonte: Autores </figcaption>
 </figure>
 
 
