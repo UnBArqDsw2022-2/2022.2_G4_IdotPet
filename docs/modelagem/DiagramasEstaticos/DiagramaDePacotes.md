@@ -34,17 +34,20 @@ Geralmente, cada elemento é colocado dentro do pacote e é representado como um
 |    ![simbolo](uml-package-symbol.svg)     | Pacote | Agrupa elementos comuns com base de dados, comportamento ou interação do usuário |
 |    ![simbolo](uml-package-symbol.svg)     | Dependência |Representa a relação entre um elemento e outro |
 
-Os diagramas de pacotes são utilizados também para mostrar as dependências de importação e acesso entre os pacotes, classes e componentes do sistema. Existem alguns tipos de dependências: 
+Os diagramas de pacotes são utilizados também para mostrar as dependências de importação e acesso entre os pacotes, classes e componentes do sistema. Existem dois principais tipos de dependências: 
  
- - Acesso
+ - Acesso: um pacote requer assistência das funções de outro pacote
 
- - Importação
+ - Importação: indica que a funcionalidade foi importada de um pacote para outro
 
- - Uso
 
- - Abstração
+ As dependencias também podem estar divididas nas categorias:
 
- - Disponibilização
+ - Uso: elemento requer outro para sua implementação correta
+
+ - Abstração: relaciona dois elementos que representam o mesmo conceito em niveis de abstração distintos
+
+ - Disponibilização: representa a implementação de um artefato em um alvo de implementação
 
 
 ## Diagrama de Pacotes
