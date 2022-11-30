@@ -23,13 +23,6 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 </figure>
 
 
-<figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/brainstorm/tema_parte1.png?raw=true" alt="Hierarquia do Backlog"/>
-  <figcaption align="center" >Figura 2 - Enquete para escolha de aplicação. Fonte: Autores </figcaption>
-</figure>
-
-
-
 **Épico** (*Epic*) = É uma história de usuário que ainda não foi detalhada, é muito grande ou ainda possui muita incerteza. É a categoria com maior granularidade no backlog.
 
 **Funcionalidade** (Feature) - Verbos no infinitivo que descrevem melhor as responsabilidades da aplicação.
