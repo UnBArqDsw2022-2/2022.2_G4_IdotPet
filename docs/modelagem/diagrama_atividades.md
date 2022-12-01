@@ -1,7 +1,15 @@
+## Histórico de Versão
+| Versão | Data | Modificação | Autor(es) | Revisores |
+|:-:|:-:|:-:|:-:|:-:|
+| 0.1 | 30/11/2022 | Criação do documento | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | Herick Lima(https://github.com/hericklima22) e Pedro Lucas(https://github.com/PedroLucasCM) |
+| 0.2 | 30/11/2022 | Adição do diagrama de atividades | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
+| 0.3 | 30/11/2022 | Mudanças propostas na revisão | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
+| 0.4 | 01/12/2022 | Correções ortográficas e adição de links no histórico de versionamento | [Pedro Lucas](https://github.com/PedroLucasCM) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
+
 # Diagrama de Atividades
 
 ## Introdução
-Os diagramas de atividades são considerados diagramas de comportamento porque descrevem o que é necessário acontecer no sistema que está sendo modelado. O diagrama de atividades mostra o fluxo entre objetos, ou seja, a parte comportamental. O foco está nas ações,processos de negócios e fluxo de trabalho. 
+Os diagramas de atividades são considerados diagramas de comportamento porque descrevem o que é necessário acontecer no sistema que está sendo modelado. O diagrama de atividades mostra o fluxo entre objetos, ou seja, a parte comportamental. O foco está nas ações, processos de negócios e fluxo de trabalho. 
 
 As suas vantagens são :
 
@@ -37,13 +45,5 @@ A metodologia para elaborar um bom diagrama de atividades é primeiramente enten
 Como conclusão temos que que o fluxo de atividades da nossa aplicação IdotPet foi mapeada corretamente por meio do diagrama de atividades.
 
 ## Referências
-> Activity Diagrams .UML Diagrams,2009 .Disponível em: https://www.uml-diagrams.org/activity-diagrams.html. Acesso em: 30 de Novembro de 2022.
-> O que é diagrama de atividades UML?.Lucidchart .Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml. Acesso em: 30 de Novembro de 2022.
-
-
-## Histórico de Versão
-| Versão | Data | Modificação | Autor(es) | Revisores |
-|:-:|:-:|:-:|:-:|:-:|
-| 0.1 | 30/11/2022 | Criação do documento | Luan Vasco Cavalcante | Herick de Carvalho e Pedro Lucas |
-| 0.2 | 30/11/2022 | Adição do diagrama de atividades | Luan Vasco Cavalcante | Herick de Carvalho e Pedro Lucas |
-| 0.2 | 30/11/2022 | Mudanças propostas na revisão | Luan Vasco Cavalcante | Herick de Carvalho e Pedro Lucas |
+> Activity Diagrams. UML Diagrams, 2009 .Disponível em: https://www.uml-diagrams.org/activity-diagrams.html. Acesso em: 30 de Novembro de 2022.
+> O que é diagrama de atividades UML?. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml. Acesso em: 30 de Novembro de 2022.
