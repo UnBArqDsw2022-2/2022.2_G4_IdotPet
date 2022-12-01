@@ -5,6 +5,7 @@
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 30/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
+| 30/11/2022 | 0.2 | Introdução e Metodologia | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
 
 ## Introdução
 
@@ -30,9 +31,13 @@ Estes diagramas apresentam as seguintes vantagens:
 
 ## Metodologia 
 
+Foi realizado uma reunião via discord com a participação dos autores do documento. Assim, foi realizado um estudo dos artefatos de tecnologia e uma discussão com os membros mais experientes nas tecnologias escolhidas e nos requisitos do projeto. Para a construção do diagrama de implantação foi utilizada a ferramenta LucidChart.
 
 
 ## Diagrama de Implantação
 
 ## Referências
 
+> LUCIDCHART. Deployment Diagram Tutorial.LucidChart. Disponível em: https://www.lucidchart.com/pages/uml-deployment-diagram. Acesso em: 30 de nov. de 2022.
+
+> PLUTORA. Deployment Diagrams Explained in Detail, With Examples. Disponível em: https://www.plutora.com/blog/deployment-diagrams-explained-in-detail-with-examples. Acesso em: 30 de nov. de 2022.
