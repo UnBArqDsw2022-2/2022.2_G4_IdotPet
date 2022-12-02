@@ -1,10 +1,11 @@
 ## Histórico de Versão
 | Versão | Data | Modificação | Autor(es) | Revisores |
 |:-:|:-:|:-:|:-:|:-:|
-| 0.1 | 30/11/2022 | Criação do documento | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | Herick Lima(https://github.com/hericklima22) e Pedro Lucas(https://github.com/PedroLucasCM) |
+| 0.1 | 30/11/2022 | Criação do documento | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
 | 0.2 | 30/11/2022 | Adição do diagrama de atividades | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
 | 0.3 | 30/11/2022 | Mudanças propostas na revisão | [Luan Vasco Cavalcante](https://github.com/Luan-Cavalcante) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
 | 0.4 | 01/12/2022 | Correções ortográficas e adição de links no histórico de versionamento | [Pedro Lucas](https://github.com/PedroLucasCM) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
+| 0.5 | 01/12/2022 | Correções no versionamento | [Pedro Lucas](https://github.com/PedroLucasCM) | [Herick Lima](https://github.com/hericklima22) e [Pedro Lucas](https://github.com/PedroLucasCM) |
 
 # Diagrama de Atividades
 
