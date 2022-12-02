@@ -37,6 +37,11 @@ Para a elaboração dos diagramas, foi utilizado a ferramente *LucidChart* pois 
 
 ## Resultados
 
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_comunicacao/diagrama_comunicacao1.png?raw=true" alt="Diagrama de Comunicação"/>
+  <figcaption align="center" >Figura 1 - Diagrama de Comunicação. Fonte: Autores </figcaption>
+</figure>
+
 ## Conclusão 
 
 ## Referências
