@@ -4,8 +4,11 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-|27/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
+|27/11/2022 | 0.1 | Criação e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
 |27/11/2022 | 0.2 | Atualização do documento | [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
+|30/11/2022 | 0.3 | Organização na ordem das Funcionalidades e Histórias | [Victor Cabral](https://github.com/victordscabral)|
+|31/11/2022 | 0.4 | Correções gramaticais | [Victor Cabral](https://github.com/victordscabral)|
+|01/12/2022 | 0.5 | Atualização nas Tarefas e História de Usuário | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 
 ## Introdução 
 
@@ -41,8 +44,9 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | E02 | Perfil | Eu, enquanto usuário, desejo configurar o meu perfil no aplicativo |
 | E03 | Contato | Eu, enquanto usuário, desejo um meio de contato com outros usuários |
 | E04 | Visualização | Eu, enquanto usuário, desejo visualizar informações sobre os animais disponíveis para adoção |
-| E05 | Interação | Eu, enquanto usuário, desejo interagir com o aplicativo |
-| E06 | Gerenciamento | Eu, enquanto gerenciador do aplicativo, desejo ter controle do conteúdo do aplicativo |
+| E05 | Edição | Eu, enquanto usuário, desejo editar informações dos animais que disponibilizei para adoção |
+| E06 | Interação | Eu, enquanto usuário, desejo interagir com o aplicativo |
+| E07 | Gerenciamento | Eu, enquanto gerenciador do aplicativo, desejo ter controle do conteúdo do aplicativo |
 
 
 ### Funcionalidades
@@ -54,17 +58,16 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | F03 | E01 | Sair do sistema (Logout) |
 | F04 | E02 | Visualizar perfil |
 | F05 | E02 | Editar informações do perfil |
-| F06 | E04 | Visualizar ou editar informações dos pets disponíveis |
-| F07 | E03 | Enviar mensagem para anunciante |
-| F08 | E03 | Enviar mensagem para adotante |
-| F09 | E05 | Navegar pelo aplicativo com interação |
-| F10 | E06 | Gerenciar conteúdo do aplicativo |
-| F11 | E06 | Gerenciar usuários do aplicativo |
-| F12 | E05 | Filtrar tipos de pets em um campo de busca |
-| F13 | E05 | Compartilhar o card de um pet |
-| F14 | E05 | Adotar ou anunciar um pet |
-
-
+| F06 | E03 | Enviar mensagem para anunciante |
+| F07 | E03 | Enviar mensagem para adotante |
+| F08 | E04 | Visualizar anúncio e informações dos pets disponíveis |
+| F09 | E05 | Adicionar e editar anúncio e informações dos pets anunciados |
+| F10 | E06 | Navegar pelo aplicativo com interação |
+| F11 | E06 | Filtrar tipos de pets em um campo de busca |
+| F12 | E06 | Compartilhar o card de um pet |
+| F13 | E06 | Adotar ou anunciar um pet |
+| F14 | E07 | Gerenciar conteúdo do aplicativo |
+| F15 | E07 | Gerenciar usuários do aplicativo |
 
 ### História de usuário
 
@@ -99,11 +102,4 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | US27 |  E06  |      F13       | Eu, como usuário adotante, desejo adotar um pet de um usuário anunciante, para realizar o propósito do aplicativo                                                         |
 | US28 |  E07  |      F14       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar publicações que não estão de acordo com as regras da comunidade, para garantir que não tenham publicações que fogem dos valores da comunidade       |
 | US29 |  E07  |      F15       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar usuários que não estão seguindo as regras da comunidade, para garantir que não tenham usuários maliciosos               |
-
-
-### Tarefas
-
-| Épico | Funcionalidade | História de Usuário | Tarefas |
-| :-: | :-: | :-: | :- |
-| a | a | a | a |
 
