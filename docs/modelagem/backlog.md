@@ -31,6 +31,7 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 
 **Tarefas** (*Tasks*) - São as especificações dos itens técnicos necessários para que uma História de Usuário se transforme em um incremento do produto.
 
+**Moscow** (*Priorização*) - É uma técnica onde você deverá atribuir um das quatro letras M,S,C ou W e cada uma delas tem um significado diferente. M de **MUST** (*TEM*),é um item que tem que ser feito, S de **SHOULD,** (*DEVE*) que é algo importante, C de **COULD** (*PODERIA*) que é algo desejável e W de **WONT** (*NÃO*) para itens que não agregam muito valor.
 
 ### Épicos
 
@@ -96,8 +97,8 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | US25 |  E06  |      F12       | Eu, como usuário adotante, desejo compartilhar o anúncio do pet, para aumentar a visibilidade do aplicativo                                                               |
 | US26 |  E06  |      F12       | Eu, como usuário anunciante, desejo compartilhar o anúncio do pet, para aumentar a visibilidade do aplicativo                                                             |
 | US27 |  E06  |      F13       | Eu, como usuário adotante, desejo adotar um pet de um usuário anunciante, para realizar o propósito do aplicativo                                                         |
-| US28 |  E07  |      F14       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar publicações que não estão de acordo com as regras da comunidade, para garantir a integridade do sistema       |
-| US29 |  E07  |      F15       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar usuários que não estão seguindo as regras da comunidade, para garantir a integridade do sistema               |
+| US28 |  E07  |      F14       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar publicações que não estão de acordo com as regras da comunidade, para garantir que não tenham publicações que fogem dos valores da comunidade       |
+| US29 |  E07  |      F15       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar usuários que não estão seguindo as regras da comunidade, para garantir que não tenham usuários maliciosos               |
 
 
 ### Tarefas
