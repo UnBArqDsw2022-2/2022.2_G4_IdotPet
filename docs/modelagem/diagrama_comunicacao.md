@@ -33,6 +33,8 @@ As mensagens são comunicações entre instâncias em uma interação. Elas poss
 
 ## Metodologia
 
+Para a elaboração dos diagramas, foi utilizado a ferramente *LucidChart* pois ela possui suporte aos diferentes componentes que compõem a notação UML. Os diagramas foram escolhidos de forma a representar os principais fluxos do usuário dentro do aplicativo.
+
 ## Resultados
 
 ## Conclusão 
