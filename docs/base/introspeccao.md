@@ -9,7 +9,7 @@
 | 15/11/2022 | 0.3 | Elaboração dos resultados | [Thalisson Alves](https://github.com/Thalisson-Alves) |
 | 15/11/2022 | 0.4 | Revisão do documento | [Herick Lima](https://github.com/hericklima22) & [Klyssmann Henrique](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
 | 20/11/2022 | 0.5 |Revisão gramatical do artefato |   [João Durso](https://github.com/jvsdurso) |
-
+|03/12/2022 | 0.6 | Alteração na organização da tabela e legenda | [Victor Cabral](https://github.com/victordscabral) |
 
 ## Introdução 
   A técnica de Introspecção consiste em uma técnica de elicitar requisitos. Essa técnica é considerada reflexiva, pois a pessoa irá se imaginar, ou refletir, como seria ela ou uma outra persona utilizando o sistema. Sendo assim, para um bom resultado da técnica, basta refletir sobre o que o sistema deveria ter para que ele fosse considerado ótimo.
@@ -28,26 +28,28 @@ Algo que me ajudaria muito dentro do app, seria a possibilidade de encontrar pes
 
 ### Persona - Lucas Moscardini
 
-Quero poder ver os anúncios que existem de animais para adoção, com possibilidade de filtro de espécies, raças, idade e localização do animal. Isso, porque eu e minha esposa, já decidimos que queremos adotar um cãozinho, então não nos interessamos em anúncios de outros perfis de animais neste momento.
+Quero poder ver os anúncios que existem de animais para adoção, com possibilidade de filtro de tipo, localização do animal e data do anúncio. Isso, porque eu e minha esposa, já decidimos que queremos adotar um cãozinho, então não nos interessamos em anúncios de outros perfis de animais neste momento.
 
 Gostaria também de poder compartilhar um determinado anúncio com a minha esposa para que ela possa dar uma olhada, ou até mesmo criar uma aba compartilhada para que possamos ir colocando os nossos anúncios favoritos nela, assim facilitaria a nossa escolha final do cãozinho perfeito.
 
 ## Resultados
 
-Legenda
-- IN: Introspecção
-- RF: Requisito Funcional
-- RNF: Requisito Não Funcional
-
 | ID | Descrição | Tipo de requisito |
-|:-: | :-: | :-: |
+|:-: | :- | :-: |
 | IN01 | O usuário deve ser capaz de cadastrar um anúncio de animal para adoção | RF |
 | IN02 | O usuário deve ser capaz de listar os anúncios de animais para adoção | RF |
 | IN03 | O usuário deve ser capaz de trocar mensagens através do app | RF |
 | IN04 | O usuário deve ser capaz de encontrar anúncios para doar recursos | RF |
-| IN05 | O usuário deve ser capaz de filtrar os anúncios por espécie, raça, idade, localização | RF |
+| IN05 | O usuário deve ser capaz de filtrar os anúncios por tipo, localização do animal e data do anúncio | RF |
 | IN06 | O usuário deve ser capaz de compartilhar anúncios com outros usuários | RF |
 | IN07 | O usuário deve ser capaz de criar uma aba compartilhada com outros usuários para gerenciar seus anúncios favoritos | RF |
+
+
+| Legenda | Significado | 
+|:-: | :- |
+|IN|Introspecção|
+|RF|Requisito Funcional|
+|IN|Requisito Não Funcional|
 
 <!---## Conclusão
   Conclui-se assim, que a técnica de introspecção é eficiente e eficaz para elicitar requisitos funcionais e não funcionais. Assim, de acordo com a tabela acima, a nossa elicitação com essa técnica está finalizada.
