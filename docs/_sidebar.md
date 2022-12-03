@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
-<p align = "center"> <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/logo/logo-redonda.png" height="200px" width="200px" /> </p>
 
-- Diretrizes
+- **Diretrizes**
     - [Políticas de Organização dos Artefatos](./politicas/politicas_artefatos.md)
     - [Política de Padronização do Repositório](./politicas/politicas_padronizacao.md)
     - [Políticas do Repositório](./politicas/politicas_repositorio.md)
@@ -35,7 +34,7 @@
 
 - **Modelagem**
 
-  - Módulo Projeto Orientado a Abordagens Tradicionais
+  - **Módulo Projeto Orientado a Abordagens Tradicionais**
     - Diagramas Estáticos
       - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
      
