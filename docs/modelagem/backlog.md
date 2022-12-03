@@ -4,11 +4,15 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-|27/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
+|27/11/2022 | 0.1 | Criação e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) |
+|27/11/2022 | 0.2 | Atualização do documento | [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
+|30/11/2022 | 0.3 | Organização na ordem das Funcionalidades e Histórias | [Victor Cabral](https://github.com/victordscabral)|
+|31/11/2022 | 0.4 | Correções gramaticais | [Victor Cabral](https://github.com/victordscabral)|
+|01/12/2022 | 0.5 | Atualização nas Tarefas e História de Usuário | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 
 ## Introdução 
 
-Introdução -> texto teórico
+Este backlog foi produzido de acordo com a abordagem ágil, na qual uma função geral é classificada como “Épico”. Desse épico derivam as “Funcionalidades”, que são como divisões de funcionalidades menores ainda, as "Histórias de usuário" que são partes mais detalhadas de uma funcionalidade, e por último teremos as "Tarefas" que terão uma descrição mais técnica.
   
 ## Metodologia
 
@@ -16,12 +20,10 @@ Esse documento foi elaborado a partir dos vários artefatos de elicitação de r
 
 No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig. 1, onde será composto por uma coleção de histórias de usuário, possuindo de 1 até N histórias. Em muitos times não se utiliza épicos, desta maneira a hierarquia permite que o backlog possua 0 a N épicos. Cada épico pode ser relacionado com 0 ou N funcionalidade, que por sua vez, cada funcionalidade se relaciona com 0 ou mais Histórias de Usuário. Finalizando, cada história produz 0 a N tarefas técnicas.
 
-COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/brainstorm/tema_parte1.png?raw=true" alt="Hierarquia do Backlog"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/doc/%2362-Backlog-produto/docs/assets/backlog/backlog_hierarquia.png" alt="Hierarquia do Backlog"/>
   <figcaption align="center" >Figura 1 - Hierarquia do Backlog. Fonte: Autores </figcaption>
 </figure>
-
 
 
 **Épico** (*Epic*) = É uma história de usuário que ainda não foi detalhada, é muito grande ou ainda possui muita incerteza. É a categoria com maior granularidade no backlog.
@@ -32,6 +34,7 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 
 **Tarefas** (*Tasks*) - São as especificações dos itens técnicos necessários para que uma História de Usuário se transforme em um incremento do produto.
 
+**Moscow** (*Priorização*) - É uma técnica onde você deverá atribuir um das quatro letras M,S,C ou W e cada uma delas tem um significado diferente. M de **MUST** (*TEM*),é um item que tem que ser feito, S de **SHOULD,** (*DEVE*) que é algo importante, C de **COULD** (*PODERIA*) que é algo desejável e W de **WONT** (*NÃO*) para itens que não agregam muito valor.
 
 ### Épicos
 
@@ -41,8 +44,9 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 | E02 | Perfil | Eu, enquanto usuário, desejo configurar o meu perfil no aplicativo |
 | E03 | Contato | Eu, enquanto usuário, desejo um meio de contato com outros usuários |
 | E04 | Visualização | Eu, enquanto usuário, desejo visualizar informações sobre os animais disponíveis para adoção |
-| E05 | Interação | Eu, enquanto usuário, desejo interagir com o aplicativo |
-| E06 | Gerenciamento | Eu, enquanto gerenciador do aplicativo, desejo ter controle do conteúdo do aplicativo |
+| E05 | Edição | Eu, enquanto usuário, desejo editar informações dos animais que disponibilizei para adoção |
+| E06 | Interação | Eu, enquanto usuário, desejo interagir com o aplicativo |
+| E07 | Gerenciamento | Eu, enquanto gerenciador do aplicativo, desejo ter controle do conteúdo do aplicativo |
 
 
 ### Funcionalidades
@@ -54,64 +58,69 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 | F03 | E01 | Sair do sistema (Logout) |
 | F04 | E02 | Visualizar perfil |
 | F05 | E02 | Editar informações do perfil |
-| F06 | E04 | Visualizar ou editar informações dos pets disponíveis |
-| F07 | E03 | Enviar mensagem para anunciante |
-| F08 | E03 | Enviar mensagem para adotante |
-| F09 | E05 | Navegar pelo aplicativo com interação |
-| F10 | E06 | Gerenciar conteúdo do aplicativo |
-| F11 | E06 | Gerenciar usuários do aplicativo |
-| F12 | E05 | Filtrar tipos de pets em um campo de busca |
-| F13 | E05 | Compartilhar o card de um pet |
-| F14 | E05 | Adotar ou anunciar um pet |
-
-
+| F06 | E03 | Enviar mensagem para anunciante |
+| F07 | E03 | Enviar mensagem para adotante |
+| F08 | E04 | Visualizar anúncio e informações dos pets disponíveis |
+| F09 | E05 | Adicionar e editar anúncio e informações dos pets anunciados |
+| F10 | E06 | Navegar pelo aplicativo com interação |
+| F11 | E06 | Filtrar tipos de pets em um campo de busca |
+| F12 | E06 | Compartilhar o card de um pet |
+| F13 | E06 | Adotar ou anunciar um pet |
+| F14 | E07 | Gerenciar conteúdo do aplicativo |
+| F15 | E07 | Gerenciar usuários do aplicativo |
 
 ### História de usuário
 
-| ID | Funcionalidade| Épico | Descrição |
-| :-: | :-: | :-: | :- |
-|  US01 | F01 | E01 | Eu, como usuário adodante, desejo me cadastar no sistema com meu e-mail|
-|  US02 | F01 | E01 | Eu, como usuário anunciante, desejo me cadastar no sistema com meu e-mail ou instituição |
-| US03 | F01 | E01 | Eu, como usuário adoante, desejo me cadastrar no sistema com contas de redes sociais |
-| US04 | F02 | E01 | Eu, como usuário adotante, desejo entrar no sistema com meu e-mail e senha |
-| US05 | F02 | E01 | Eu, como usuário anunciante, desejo entrar no sistema com meu e-mail e senha |
-| US06 | F02 | E01 | Eu, como usuário adotante, desejo entrar no sistema com contas de redes sociais |
-| US07 | F03 | E01 | Eu, como usuário adotante, desejo sair do sistema com um botão |
-| US08 | F03 | E01 | Eu, como usuário anunciante, desejo sair do sistema com um botão |
-| US09 | F04 | E02 | Eu, como usuário adotante, desejo visualizar meu perfil |
-| US10 | F04 | E02 | Eu, como usuário anunciante, desejo visualizar meu perfil |
-| US11 | F05 | E02 | Eu, como usuário adotante, desejo alterar a foto do meu perfil |
-| US12 | F05 | E02 | Eu, como usuário adotante, desejo alterar o nome do meu perfil |
-| US13 | F05 | E02 | Eu, como usuário adotante, desejo alterar o endereço do meu perfil |
-| US14 | F05 | E02 | Eu, como usuário adotante, desejo alterar o telefone do meu perfil |
-| US15 | F05 | E02 | Eu, como usuário adotante, desejo alterar o e-mail do meu perfil |
-| US16 | F05 | E02 | Eu, como usuário anunciante, desejo alterar a foto do meu perfil |
-| US17 | F05 | E02 | Eu, como usuário anunciante, desejo alterar o nome do meu perfil |
-| US18 | F05 | E02 | Eu, como usuário anunciante, desejo alterar o endereço do meu perfil |
-| US19 | F05 | E02 | Eu, como usuário anunciante, desejo alterar o telefone do meu perfil |
-| US20 | F05 | E02 | Eu, como usuário anunciante, desejo alterar o e-mail do meu perfil |
-| US21 | F06 | E04 | Eu, como usuário adotante, desejo visualizar as fotos do pet |
-| US21 | F06 | E04 | Eu, como usuário adotante, desejo visualizar as informações de vacina/saúde do pet |
-| US22 | F06 | E04 | Eu, como usuário anunciante, desejo adicionar ou editar as fotos do pet |
-| US23 | F06 | E04 | Eu, como usuário anunciante, desejo adicionar ou editar as informações de vacina/saúde do pet |
-| US24 | F07 | E03 | Eu, como usuário adotante, desejo enviar uma mensagem para o usuário anunciante |
-| US25 | F08 | E03 | Eu, como usuário anunciante, desejo enviar uma mensagem para o usuário adotante |
-| US26 | F09 | E05 | Eu, como usuário adotante, desejo navegar pelas páginas do aplicativo sem a necessidade de uma instrução |
-| US27 | F09 | E05 | Eu, como usuário anunciante, desejo navegar pelas páginas do aplicativo sem a necessidade de uma instrução |
-| US28 | F10 | E06 | Eu, como mantenedor do sistema, devo ser capaz de gerenciar publicações que não estão de acordo com as regras da comunidade |
-| US29 | F11 | E06 | Eu, como mantenedor do sistema, devo ser capaz de gerenciar usuários que não estão seguindo as regras da comunidade |
-| US30 | F12 | E05 | Eu, como usuário adotante, desejo filtrar os anúncios de pets pelo tipo (cachorro, gato e etc) |
-| US31 | F12 | E05 | Eu, como usuário adotante, desejo filtrar os anúncios de pets por nome |
-| US32 | F12 | E05 | Eu, como usuário adotante, desejo filtrar os anúncios de pets por idade do pet |
-| US33 | F13 | E05 | Eu, como usuário adotante, desejo compartilhar o anúncio do pet |
-| US34 | F13 | E05 | Eu, como usuário anunciante, desejo compartilhar o anúncio do pet |
-| US35 | F14 | E05 | Eu, como usuário adotante, desejo adotar um pet de um usuário anunciante |
+|  ID  | Épico | Funcionalidade | Descrição                                                                                                                                                                 |
+| :--: | :---: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| US01 |  E01  |      F01       | Eu, como usuário adodante, desejo me cadastrar no sistema com meu e-mail, para usurfruir do sistema                                                                       |
+| US02 |  E01  |      F01       | Eu, como usuário anunciante, desejo me cadastrar no sistema com meu e-mail ou instituição, para me associar a conta                                                       |
+| US03 |  E01  |      F01       | Eu, como usuário adotante, desejo me cadastrar no sistema com contas de redes sociais, para facilitar o cadastro                                                          |
+| US04 |  E01  |      F02       | Eu, como usuário adotante, desejo entrar no sistema com meu e-mail e senha, para manter minha conta privada                                                               |
+| US05 |  E01  |      F02       | Eu, como usuário anunciante, desejo entrar no sistema com meu e-mail e senha, para manter minha conta privada                                                             |
+| US06 |  E01  |      F02       | Eu, como usuário adotante, desejo entrar no sistema com contas de redes sociais, para facilitar o login                                                                   |
+| US07 |  E01  |      F02       | Eu, como usuário anunciante, desejo entrar no sistema com contas de redes sociais, para facilitar o login                                                                 |
+| US08 |  E01  |      F03       | Eu, como usuário adotante, desejo deslogar minha conta com um botão, facilitando minha saida do sistema                                                                   |
+| US09 |  E01  |      F03       | Eu, como usuário anunciante, desejo deslogar minha conta com um botão, facilitando minha saida do sistema                                                                 |
+| US10 |  E02  |      F04       | Eu, como usuário adotante, desejo visualizar meu perfil, para verificar meus dados                                                                                        |
+| US11 |  E02  |      F04       | Eu, como usuário anunciante, desejo visualizar meu perfil, verificar meus dados                                                                                           |
+| US12 |  E02  |      F05       | Eu, como usuário adotante, desejo alterar informações do meu perfil, para corrigir meus dados                                                                             |
+| US13 |  E02  |      F05       | Eu, como usuário anunciante, desejo alterar informações do meu perfil, para corrigir meus dados                                                                           |
+| US14 |  E03  |      F06       | Eu, como usuário adotante, desejo enviar uma mensagem para o usuário anunciante, para me comunicar com o anunciante                                                       |
+| US15 |  E03  |      F07       | Eu, como usuário anunciante, desejo enviar uma mensagem para o usuário adotante, para me comunicar com o adotante                                                         |
+| US16 |  E04  |      F08       | Eu, como usuário adotante, desejo visualizar o anúncio do pet, para escolher um pet                                                                                       |
+| US17 |  E04  |      F08       | Eu, como usuário adotante, desejo visualizar as perfil/informações do pet, para conhecer o pet                                                                            |
+| US18 |  E05  |      F09       | Eu, como usuário anunciante, desejo adicionar ou editar o anúncio do pet, para corrigir os dados do anúncio                                                               |
+| US19 |  E05  |      F09       | Eu, como usuário anunciante, desejo adicionar ou editar o perfil/informações do pet, para corrigir os dados do pet                                                        |
+| US20 |  E06  |      F10       | Eu, como usuário adotante, desejo saber como realizar uma adoção, sobre como o aplicativo funciona e da importância de uma adoção, para entender como usar o aplicativo   |
+| US21 |  E06  |      F10       | Eu, como usuário anunciante, desejo saber como anunciar uma adoção, sobre como o aplicativo funciona e da importância de uma adoção, para entender como usar o aplicativo |
+| US22 |  E06  |      F11       | Eu, como usuário adotante, desejo filtrar os anúncios de pets por nome, para para facilitar a escolha de um pet                                                           |
+| US23 |  E06  |      F11       | Eu, como usuário adotante, desejo filtrar os anúncios de pets pelo tipo (cachorro, gato e etc), para facilitar a escolha de um pet                                        |
+| US24 |  E06  |      F11       | Eu, como usuário adotante, desejo filtrar os anúncios de pets por data do anúncio,para facilitar a escolha de um pet                                                      |
+| US25 |  E06  |      F12       | Eu, como usuário adotante, desejo compartilhar o anúncio do pet, para aumentar a visibilidade do aplicativo                                                               |
+| US26 |  E06  |      F12       | Eu, como usuário anunciante, desejo compartilhar o anúncio do pet, para aumentar a visibilidade do aplicativo                                                             |
+| US27 |  E06  |      F13       | Eu, como usuário adotante, desejo adotar um pet de um usuário anunciante, para realizar o propósito do aplicativo                                                         |
+| US28 |  E07  |      F14       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar publicações que não estão de acordo com as regras da comunidade, para garantir que não tenham publicações que fogem dos valores da comunidade       |
+| US29 |  E07  |      F15       | Eu, como mantenedor do sistema, devo ser capaz de gerenciar usuários que não estão seguindo as regras da comunidade, para garantir que não tenham usuários maliciosos               |
 
 ### Tarefas
 
 | Épico | Funcionalidade | História de Usuário | Tarefas |
 | :-: | :-: | :-: | :- |
-| a | a | a | a |
+| E01 | F01 | US01, US02 e US03 | - Criar seção de cadastro <br> - Disponibilizar botão de cadastro na seção inicial <br> - Disponibilizar opção de cadastrar por contas de redes sociais <br> - Disponibilizar campos para informe do email e senha <br> - Disponibilizar campo para repetir a senha <br> - Disponibilizar campos para informe de nome, endereço e telefone <br> - Disponibilizar função para upload de foto do perfil <br> - Disponibilizar botão de confirmação do cadastro|
+| E01 | F02 | US04, US05, US06 e US07 | - Criar seção de login <br> - Disponibilizar opção de logar por contas de redes sociais <br> - Disponibilizar campos para informe do email e senha <br> - Disponibilizar botão de confirmação do login|
+| E01 | F03 | US08 e US09 | - Criar seção de configurações <br> - Disponibilizar botão para deslogar da conta na seção de configurações <br> - Perguntar se o usuário deseja realmente deslogar fornecendo botões para confirmar e cancelar a operação|
+| E02 | F04 | US10 e US11 | - Criar seção de perfil <br> - Disponibilizar informações de foto, nome, endereço, telefone e e-mail do usuário na seção de perfil <br> - Disponibilizar o(s) pet(s) com suas informações na qual o usuário anunciou para adoção|
+| E02 | F05 | US12 e US13 | - Criar seção de perfil <br> - Disponibilizar botão para editar informações de foto, nome, endereço, telefone e e-mail do usuário na seção de perfil <br> - Disponibilizar botão para editar informaçõe do(s) pet(s) que o usuário anunciou para adoção |
+| E03 | F06 | US14 e US15 | - Criar seção com todos os chats iniciados <br> - Criar seção para o chat entre usuário adotante e anunciante <br> - Criar botão no anúncio do pet para iniciar conversa com o usuário anunciante <br> - Informar quando houver e a quantidade de novas mensagens recebidas pelo usuário na seção de chats iniciados<br> - Disponibilizar nome e foto do contato <br> - Disponibilizar função para expandir informações do contato quando na seção de chat <br> - Disponibilizar campo para enviar mensagens <br> - Disponibilizar histórico da conversa |
+| E04 | F08 | US16, US17 | - Criar seção de anúncio dos pets <br> - Disponibilizar os anúncios com o perfil resumido (foto, nome e características) do pet para o usuário <br> - Disponibilizar função para entrar no perfil do pet <br> - Disponibilizar informações mais detalhadas do pet como fotos, nome, características, saúde, vacinas, situação, resumo e perfil do anunciante|
+| E05 | F09 | US18 e US19 | - Criar seção para cadastrar o anúncio dos pets <br> - Disponibilizar campos para informar nome, características, saúde, vacinas, situação e resumo do pet <br> - Disponibilizar função para upload de fotos do pet <br> - Disponibilizar função para upload de fotos do cartão de vacina <br> - Disponibilizar opções de edição, personalização e remoção do perfil do pet|
+| E06 | F10 | US20 e US21 | - Criar seção de explicação do aplicativo <br> - Informar sobre o processo de adotar <br> - Informar sobre o processo de anunciar uma adoção <br> - Informar sobre o aplicativo e seu funcionamento <br> - Informar sobre a importância de uma adoção|
+| E06 | F11 | US22, US23 e US24 | - Disponibilizar campo para filtrar os pets na seção de anúncios <br> - Disponibilizar opção de filtragem por nome, tipo e/ou data de início|
+| E06 | F12 | US25 e US26 | - Disponibilizar um botão para compartilhar um pet da seção de anúncio e perfil do pet <br> - Disponibilizar um botão para compartilhar o pet do anunciante que foi cadastrado para adoção|
+| E06 | F13 | US27 | - Disponibilizar botão para informar interesse na adoção no perfil do pet <br> - Informar o interesse da adoção para o anunciante via mensagem autómatica no chat ao clicar no botão <br> - Criar seção de termo de responsibilidade ao adotar <br> - Redirecionar o adotante para a seção do termo de responsabilidade antes de confirmar a adoção|
+| E07 | F14 | US28 e US29 | - Criar seção de gerenciar publicações para o mantenedor do sistema <br> - Disponibilizar função de o mantenedor entrar em contato com o anunciante <br> - Disponibilizar a função para o mantenedor de excluir publicações <br> - Disponibilizar a função para o mantenedor de excluir usuários|
+
 
 ### Referências
 
