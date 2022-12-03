@@ -6,6 +6,7 @@
 | :- | :- | :- | :- |
 | 30/11/2022 | 0.1 | Elaboração do Diagrama | [Thalisson Alves](https://github.com/Thalisson-Alves) |
 | 02/12/2022 | 0.2 | Elaboração da Introdução e Metodologia | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 02/12/2022 | 0.2 | Elaboração da Conclusão e Referências | [Thalisson Alves](https://github.com/Thalisson-Alves) |
 
 ## Introdução
 
@@ -43,5 +44,7 @@ Para a elaboração dos diagramas, foi utilizado a ferramente *LucidChart* pois 
 </figure>
 
 ## Conclusão 
+
+Com os diagramas apresentados acima conseguimos sintetizar os fluxos principais do aplicativo e das comunicações entre os diferentes objetos, o que facilitará o desenvolvimento do software em questão.
 
 ## Referências
