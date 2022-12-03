@@ -48,3 +48,7 @@ Para a elaboração dos diagramas, foi utilizado a ferramente *LucidChart* pois 
 Com os diagramas apresentados acima conseguimos sintetizar os fluxos principais do aplicativo e das comunicações entre os diferentes objetos, o que facilitará o desenvolvimento do software em questão.
 
 ## Referências
+
+> DIRETRIZ: Diagrama de Comunicação. [S. l.], 2006?. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/communication_diagram_FFFEA1B5.html. Acesso em: 2 dez. 2022.
+
+> JUNIOR, Geraldo Braz. Diagrama de Comunicação. [S. l.], [20--]. Disponível em: http://www.deinf.ufma.br/~geraldo/dob/10.Comunicacao.pdf. Acesso em: 2 dez. 2022.
