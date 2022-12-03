@@ -38,6 +38,10 @@
   - Módulo Projeto Orientado a Abordagens Tradicionais
     - Diagramas Estáticos
       - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
+
+    - Diagramas Dinâmicos
+
+      - [Diagrama de Sequência](modelagem/DiagramasDinamicos/DiagramaDeSequencia.md)
      
       
 
