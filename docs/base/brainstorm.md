@@ -6,6 +6,8 @@
 | :- | :- | :- | :- |
 |17/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Pedro Cassiano](https://github.com/PedroLucasCM) |
 |20/11/2022 | 0.2 | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso) |
+| 03/12/2022 | 0.3 |Adição do segundo brainstorm de requisitos | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
+| 03/12/2022 | 0.4 |Adição da primeira tabela de requisitos | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 
 ## Introdução 
 
@@ -19,7 +21,11 @@ Brainstorm, do inglês "tempestade de ideias", é uma prática em que o grupo se
 
 ## Resultados
   
-Foi realizado um brainstorm para a escolha do tema do projeto e outro para apanhar e agregar ideias sobre o tema selecionado, tendo como base quais seriam os requisitos funcionais e não-funcionais.
+Foi realizado um brainstorm para a escolha do tema do projeto e outro para apanhar e agregar ideias sobre o tema selecionado, sendo levantados os requisitos funcionais e não-funcionais nesse processo. 
+
+Posteriormente realizamos outro brainstorm para levantar mais requisitos e refinar os já documentados.
+
+#### Escolha do tema
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/brainstorm/tema_parte1.png?raw=true" alt="Tema Parte 1"/>
@@ -31,10 +37,30 @@ Foi realizado um brainstorm para a escolha do tema do projeto e outro para apanh
   <figcaption align="center" >Figura 2 - Brainstorm: Escolha do tema (desempate). Fonte: Autores </figcaption>
 </figure>
 
+#### Primeiro levantamento de Requisitos Funcionais e Não Funcionais
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/brainstorm/tema_requisitos.png?raw=true" alt="Tema Requisitos" alt="Rich Picture"/>
   <figcaption align="center" >Figura 3 - Brainstorm: Requisitos do tema. Fonte: Autores </figcaption>
 </figure>
+
+| ID | Descrição | Tipo de requisito |
+|:-: | :- | :-: |
+| BS01 | O usuário deve ser capaz de cadastrar um pet para adoção| RF |
+| BS02 | O usuário deve ser capaz de entrar em contato com o doador | RF |
+| BS03 | O usuário deve ser capaz de favoritar o anúncio de um pet | RF |
+| BS04 | O usuário deve ser capaz de fazer um upload de uma foto do pet | RF |
+| BS05 | O usuário deve ser capaz de doar alimentos para ONG de pets abandonados | RF |
+| BS06 | O usuário deve ser capaz de se cadastrar | RF |
+| BS07 | O usuário deve ser capaz de se comunicar com outro usuário através de um chat | RF |
+| BS08 | O usuário deve ser capaz de buscar por anúncios de pets| RF |
+| BS09 | O usuário deve ser capaz de se autenticar | RF |
+| BS10 | O usuário deve ser capaz de adicionar uma descrição em um anuncio de adoção | RF |
+| BS11 | O usuário deve ser capaz de favoritar anúncios | RF |
+| BS12 | O usuário (adotante e criador do anuncio)  deve ser capaz de confirmar que uma adoção foi concluída | RF |
+| BS13 | O usuário deve ser capaz de fazer doações para quem vai adotar para ajudar com custos de vacina e médico veterinário | RF |
+| BS14 | O app deve ser mobile | RNF |
+| BS15 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF |
+| BS16 | O sistema deverá rodar em IOS e Android | RNF |
 
 <!---# Conclusão
 
