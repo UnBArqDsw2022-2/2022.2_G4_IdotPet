@@ -113,3 +113,8 @@ COLOCAR A FIG: backlog_hierarquia <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 | :-: | :-: | :-: | :- |
 | a | a | a | a |
 
+### Referências
+
+> ATLASSIAN. O backlog do produto: sua lista de tarefas definitiva. Disponível em: https://www.atlassian.com/br/agile/scrum/backlogs#:~:text=O%20backlog%20do%20produto%20é,saiba%20o%20que%20fazer%20primeiro.  Acesso em: 28 nov. 2022.
+
+> FERREIRA, Avelino. K21. Product Backlog: Épico, História de Usuário e Tarefas. Disponível em: https://k21.global/br/blog/product-backlog-epico-historia-tarefas.  Acesso em: 28 nov. 2022.
