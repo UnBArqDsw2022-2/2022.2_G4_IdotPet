@@ -10,7 +10,12 @@
 
 A Linguagem de Modelagem Unificada (UML) é uma linguagem visual criada para padronizar modelagens para programações orientadas a objeto como o diagrama de estados. Um diagrama de estados é um diagrama dinâmico que busca mostrar todos os estados que um objeto passa que pode variar ao longo do tempo devido a eventos internos e externos.
 
-## Modelagem
+## Diagrama de Estado
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_estados/diagrama_estados.png?raw=true" alt="Diagrama de Estado"/>
+  <figcaption align="center" >Figura 1 - Diagrama de Estado. Fonte: Autores </figcaption>
+</figure>
 
 ## Referências
 
