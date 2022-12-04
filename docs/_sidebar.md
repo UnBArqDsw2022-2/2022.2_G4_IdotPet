@@ -38,12 +38,12 @@
     - Diagramas Estáticos
       - [Diagrama de Classes](modelagem/diagrama_classe.md)
       - [Diagrama de Pacotes](modelagem/diagrama_pacotes.md)
-      - [Diagrama de Componentes](modelagem/DiagramaDeComponentes.md)
+      - [Diagrama de Componentes](modelagem/diagrama_componentes.md)
       - [Diagrama de Implantação](modelagem/diagrama_implantacao.md)
     - Diagramas Dinâmicos
-        - [Diagrama de Sequência](modelagem/DiagramaDeSequencia.md)
+        - [Diagrama de Sequência](modelagem/diagrama_sequencia.md)
         - [Diagrama de Comunicação](modelagem/diagrama_comunicacao.md)
-        - [Diagrama de Estados](modelagem/DiagramaDeEstados.md)
+        - [Diagrama de Estados](modelagem/diagrama_estados.md)
         - [Diagrama de Atividades](modelagem/diagrama_atividades.md)
     - Modelagem Ágil
         - [Backlog do Produto e MOSCOW](modelagem/backlog.md)
