@@ -49,6 +49,8 @@
         - [Backlog do Produto e MOSCOW](modelagem/backlog.md)
     - Atividades Extras
         - [Domain-Driven Design](modelagem/ddd.md)
+        - [Brainstrom](base/brainstorm.md)
+        - [Léxico](base/l%C3%A9xico.md)
  
    - **Participações**
         - [Modelagem](modelagem/participacoes_modelagem.md)
