@@ -31,7 +31,7 @@
 | Simbolo |  Nome  |                                  Descrição                                     |
 | :-----: | :----: | :------------------------------------------------------------------------------: |
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/object-symbol.PNG" alt="Objeto" width="150px"/>     | Objeto | Representa uma classe ou objetos em UML |
-|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/box-symbol.PNG" alt="Caixa de ativação" width="150px"/>     | Caixa de ativação | Representa o tempo necessário para que um objeto conclua uma ação|
+|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/box-symbol.PNG" alt="Caixa de ativação" width="150px" height="200px"/>     | Caixa de ativação | Representa o tempo necessário para que um objeto conclua uma ação|
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/actor-symbol.PNG" alt="Ator" width="150px"/>     | Ator | Entidade que interage com o sistema |
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/package-symbol.PNG" alt="Pacote" width="150px"/>     | Pacote |Usada para conter elementos interativos do diagrama |
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/life-symbol.PNG" alt="Linha de vida" width="150px"/>     | Linha de vida |Representa a passagem do tempo, conforme segue para baixo  |
