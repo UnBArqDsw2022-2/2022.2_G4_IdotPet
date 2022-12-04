@@ -28,9 +28,9 @@
 
 ## Pontuação Final
 
-**Pontuação Total:** 75 Pontos Planejados <br>
+**Pontuação Total:** 56 Pontos Planejados <br>
 **Débitos Técnicos Adicionados:** 0 Pontos <br>
-**Pontos Concluídos:** 51 Pontos Concluídos <br>
+**Pontos Concluídos:** 56 Pontos Concluídos <br>
 
 ## Débitos Técnicos Gerados
 
@@ -38,25 +38,28 @@ Nenhum débito técnico gerado.
 
 ## Retrospectiva
 
-### Pontos Positivos
+### Pontos Positivos 
 
-- Na retrospectiva da Sprint a equipe elogiou a iniciativa e organização dos principais responsáveis pela gestão.
-- A organização do projeto já está pegando uma boa forma.
-- A equipe parece bem engajada com o projeto.
+- Sprint com muitas finalizações de atividades antes do prazo.
+- Aos poucos a equipe foi se acostumando com as metodologias scrum.
+- Grande número de artefatos extras entregues.
+- Equipe responsável e dedicada.
+- Equipe saudável (sem sobrecargas).
 
 ### Pontos Negativos
 
-- No geral houve uma demora na revisão dos artefatos.
-- Feriados e pontos facultativos acabaram atrapalhando o fluxo da realização de tarefas.
-- A sincronia da equipe no começo da sprint estava baixa.
-- Por ser a primeira sprint a equipe ainda não está tão familiarizada com o ritmo de trabalho e organização desejada.
+- Com a data de apresentação perto da sprint, ficamos preocupados com a apresentação e isso atrapalhou um pouco adiantar a próxima sprint.
+- Com a pressa de terminar os artefatos houveram muitos erros na ortografia e confecção dos mesmos.
+- Com a falta de comunicação entre as duplas e por parte da organização os documentos não ficaram tão padronizados.
+- Indisponibilidade de horário da equipe completa em reunião de abertura e fechamento de sprint.
+- Falta de remuneração da equipe (só final do semestre)🥲.
 
 ### Melhorias
 
-- Responsáveis pela elaboração devem deixar mais claro para os revisores quando os artefatos foram finalizados.
-- Organização e intensivo da equipe para a realização das tarefas antes do feriados.
-- Sempre que possível organizar pareamento com duplas diferentes para que toda equipe se conheça melhor.
-- Vai ser melhorado com o tempo.
+- Equipe focada na gerência deve se atentar quando as atividades programadas já tiverem sido feitas para realopoder realocar adiantadasnovas atividades.
+- Conversa de comprometimento da equipe e verificar os horários.
+- Melhorar a atenção na revisão dos documentos para evitar erros de padronização e ortografia (isso basta, uma vez que já existe uma política de padronização de documentos).
+- Organizar melhor os prazos para revisão.
  
 ## Burndown
 
@@ -65,7 +68,7 @@ Nenhum débito técnico gerado.
   <figcaption align="center" >Figura 1 - Burndown: Sprint 2. Fonte: Autor </figcaption>
 </figure>
 
-Muitas artefatos e atividades já tinham sido feitos, mas as issues não eram atualizadas e fechadas. Demonstra a falta de costume com a prática nesse início.
+Burndown com a realização dos atividades de maneira mais estável e constante. Demonstra um bom ritmo e fechamento de issues ao decorrer da sprint.
 
 ## Velocity
 
@@ -74,7 +77,7 @@ Muitas artefatos e atividades já tinham sido feitos, mas as issues não eram at
   <figcaption align="center" >Figura 1 - Velocity: Sprint 2. Fonte: Autor </figcaption>
 </figure>
 
-Demonstra o ritmo de trabalho mais lento nessa primeira Sprint.
+Houve um aumento no total de pontos da sprint por conta da entrega base. A equipe também acabou realizando algumas atividades não planejadas inicialmente.
 
 ## Cumulative Flow
 
@@ -83,7 +86,7 @@ Demonstra o ritmo de trabalho mais lento nessa primeira Sprint.
   <figcaption align="center" >Figura 1 - Cumulative Flow: Sprint 2. Fonte: Autor </figcaption>
 </figure>
 
-Muitas New Issues, In Progress medianos e poucos em Review/QA. Demonstra a falta de costume com a utilização do ZenHub.
+Continua demonstrando a falta de costume com a utilização do ZenHub.
 
 ## Práticas ágeis
 
@@ -96,7 +99,7 @@ Muitas New Issues, In Progress medianos e poucos em Review/QA. Demonstra a falta
 |  5  |      Comprometimento do time e do PO com o backlog do produto      | &#10060;  |
 |  6  |         Os membros da equipe são voluntários para tarefas          | &#10004;  |
 |  7  |                      Restrospectiva da Sprint                      | &#10004;  |
-|  8  |                     Acompanhamento do Velocity                     | &#10060;  |
+|  8  |                     Acompanhamento do Velocity                     | &#10004;  |
 |  9  |                            User Stories                            | &#10060;  |
 | 10  |                Refatorar quando e onde for possível                | &#10060;  |
 | 11  |               Todo código deve ter códigos unitários               | &#10060;  |
@@ -132,32 +135,39 @@ Muitas New Issues, In Progress medianos e poucos em Review/QA. Demonstra a falta
 
 |        Nome        | Sprint 1  | Sprint 2  |  
 | :----------------: | :-------: | :-------: |
-| Eduardo Maia       | &#128516; | |
-| Herick Lima        | &#128516; | |
-| João Durso         | &#128516; | |
-| Kayro César        | &#128516; | |
-| Klyssmann Oliveira | &#128526; | |
-| Luan Vasco         | &#128529; | |
-| Nicolas Roberto    | &#129393; | |
-| Pedro Cassiano     | &#128578; | |
-| Thalisson Alves    | &#128516; | |
-| Victor Cabral      | &#128526; | |
-| Vitor Kühl         | &#129488; | |
+| Eduardo Maia       | &#128516; | 🇧🇷        |
+| Herick Lima        | &#128516; | 🫣        |
+| João Durso         | &#128516; | 😵‍💫        |
+| Kayro César        | &#128516; | 🥳        |
+| Klyssmann Oliveira | &#128526; | 😩        |
+| Luan Vasco         | &#128529; | 🍺        |
+| Nicolas Roberto    | &#129393; | 😵        |
+| Pedro Cassiano     | &#128578; | 😧        |
+| Thalisson Alves    | &#128516; | 😵‍💫        |
+| Victor Cabral      | &#128526; | 🙏        |
+| Vitor Kühl         | &#129488; | 😋        |
 
 |   Emote   | Legenda                           |
 | :-------: | :-----------------------------:   |
-| &#128516; | Tudo tranquilo                    |
-| &#128526; | Saudade das férias                |
-| &#129393; | Tudo tranquilo                    |
-| &#128578; | Bem                               |
-| &#129488; | Tentando entender algumas tarefas |
+| 🇧🇷 | Esperando o hexa                         |
+| 🫣 | Seguindo a direção da entropia           |
+| 😵‍💫 | Semestre apertando                       |
+| 🥳 | Empolgado com a Copa                     |
+| 😩 | Não consegui lanchar na aula             |
+| 🍺 | Tomando cerva na copa                    |
+| 😵 | Tô morto                                 |
+| 😧 | Preocupado com o contrato do estágio     |
+| 😵‍💫 | Semestre apertando                       |
+| 🙏 | Feliz com a derrota da Argentina         |
+| 😋 | Esperando próxima aula de ADS para comer |
 
 ## Análise pelo Scrum Master
 
-Essa primeira sprint foi bem produtiva. Conseguimos organizar o repositório, Gitpages, políticas e finalizar a tempo os artefatos, planejados na sprint planning, para a entrega base. Entretanto o ritmo de trabalho não foi constante, ocorrendo picos de serviço principalmente no início e fim da sprint. Os feriados e pontos facultativos atrasaram a entrega e revisão de alguns artefatos. 
+Conseguimos entregar todas as atividades planejadas e terminar a sprint sem débitos técnicos. Com a primeira entrega (base) equipe teve bastante trabalho nessa sprint, exigindo um esforço e dedicação de todos. 
 
-Ainda assim foi um fenômeno esperado pela equipe e os membros trabalharam bem para entregar o planejado, podendo ter aproveitado bem o descanso possibilitado por esses dias. Esperamos o feedback da apresentação para ajustar os documentos que precisarem ser evoluídos.
+Entretanto a equipe, no geral, relatou que não se sentiu sobrecarregada.
 
-- Gráficos foram afetados pelo ritmo de trabalho inconsistente.
-- Muitas vezes os membros esqueciam de utilizar o ZenHub, fechar issues e adicionar co-author nos commits.
-- Acredito que nas próximas sprints muitas das dificuldades e problemas que tivemos já serão resolvidos.
+Observamos uma dificuldade na maioria dos pares na parte de revisão dos documentos que foram designados, sendo necessário melhorar a comunicação entre os autores e revisores.
+
+- A copa e futuros feriados podem acabar podem acabar interferindo na realização das atividades.
+- Equipe bem contente com o lanche que tivemos no dia da apresentação base.
