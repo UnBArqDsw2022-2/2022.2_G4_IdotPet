@@ -4,12 +4,13 @@
 
 | Data      | Versão | Modificação                         | Autor                       |
 | :-------- | :----- | :---------------------------------- | :-------------------------- |
-| 02/12/2022 | 0.1    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
-| 04/12/2022 | 0.2    | Inclusão de diagrama do projeto | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+| 02/12/2022 | 0.1    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|
+| 04/12/2022 | 0.2    | Inclusão de diagrama do projeto | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|
+| 04/12/2022 | 0.3    | Correção gramatical | [Thalisson Alves](https://github.com/Thalisson-Alves)|
 
 
 ## Introdução
- Um diagrama de sequência é um tipo de diagrama de interação que  descreve a ordem e como um grupo de objetos trabalha em conjunto. Geralmente, é utilizado por desenvolvedores de software e profissionais de negócios para o entendimento de necessidades de um determinado sistema ou para documentação de um processo existente.
+ Um diagrama de sequência é um tipo de diagrama de interação que descreve a ordem e como um grupo de objetos trabalha em conjunto. Geralmente, é utilizado por desenvolvedores de software e profissionais de negócios para o entendimento de necessidades de um determinado sistema ou para documentação de um processo existente.
 
 
 ## Benefícios
@@ -18,13 +19,13 @@
 
 - Modelagem da lógica de um processo ou operação mais complexa
 
-- Observação da interação de objetos e componentes uns com os outros 
+- Observação da interação de objetos e componentes uns com os outros
 
-- Útil para o planejamento e compreensão  de uma funcionalidade em um cenário existente ou futuro
+- Útil para o planejamento e compreensão de uma funcionalidade em um cenário existente ou futuro
 
 
 
-## Componentes e Símbolos Básicos 
+## Componentes e Símbolos Básicos
  
 
 | Simbolo |  Nome  |                                  Descrição                                     |
