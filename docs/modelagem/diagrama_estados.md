@@ -4,7 +4,8 @@
 
 |   Versão   | Data |               Modificação               |                                             Autor(es)                                              |                                                     Revisores                                                     |
 | :--------: | :--: | :-------------------------------------: | :------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
-| 16/11/2022 | 0.1  | Criação da primeira versão do documento | [Herick Lima](https://github.com/hericklima22) & [Pedro Cassiano](https://github.com/PedroLucasCM) | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar) |
+| 30/11/2022 | 0.1  | Criação da primeira versão do documento | [Herick Lima](https://github.com/hericklima22) & [Pedro Cassiano](https://github.com/PedroLucasCM) | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar) |
+| 03/12/2022 | 0.2  |      Adição do diagrama de estado       | [Herick Lima](https://github.com/hericklima22) & [Pedro Cassiano](https://github.com/PedroLucasCM) | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar) |
 
 ## Introdução
 
