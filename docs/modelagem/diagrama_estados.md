@@ -14,7 +14,7 @@ A Linguagem de Modelagem Unificada (UML) é uma linguagem visual criada para pad
 ## Diagrama de Estados
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_estados/diagrama_estados.png?raw=true" alt="Diagrama de Estado"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/diagrama_estados/diagrama_estados.jpg" alt="Diagrama de Estado"/>
   <figcaption align="center" >Figura 1 - Diagrama de Estado. Fonte: Autores </figcaption>
 </figure>
 
