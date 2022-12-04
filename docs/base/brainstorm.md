@@ -75,7 +75,11 @@ Posteriormente realizamos outro brainstorm para levantar mais requisitos e refin
 | BS22 | O usuário deve ser capaz de entender a importância da doação| RF |
 | BS23 | O usuário deve ser capaz de compartilhar o anúncio de um pet| RF |
 | BS24 | O administrador deve ser capaz de gerir o sistema | RF |
-
+| BS25 | O aplicativo deve proteger os dados dos usuários. | RNF |
+| BS26 | O aplicativo deverá possuir uma cobertura de testes maior do que 70%.  | RNF |
+| BS27 | O aplicativo deverá possuir documentação legivel e compreensivel sobre a instalação e as boas praticas de desenvolvimento.  | RNF |
+| BS28 | O aplicativo deve ter uma interface coerente com padrão de cores e ícones. | RNF |
+| BS29 | O aplicativo deve ser intuitivo e de fácil utilização. Com layouts semelhantes à aplicações de mídias sociais já estabelecidas.  | RNF |
 #### Legenda
 
 | Legenda | Significado | 

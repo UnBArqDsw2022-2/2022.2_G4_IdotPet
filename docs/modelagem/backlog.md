@@ -137,6 +137,11 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | BS14 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF | C | [BS14](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
 | BS15 | O sistema deverá rodar em Android | RNF | M | [BS15](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
 | BS16 | O sistema deverá rodar em IOS | RNF | S | [BS15](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
+| BS25 | O aplicativo deve proteger os dados dos usuários. | RNF | S |[BS25](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) | [BS15](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
+| BS26 | O aplicativo deverá possuir uma cobertura de testes maior do que 70%.  | RNF | C |[BS26](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
+| BS27 | O aplicativo deverá possuir documentação legivel e compreensivel sobre a instalação e as boas praticas de desenvolvimento.  | RNF | M |[BS27](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
+| BS28 | O aplicativo deve ter uma interface coerente com padrão de cores e ícones. | RNF | C |[BS28](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
+| BS29 | O aplicativo deve ser intuitivo e de fácil utilização. Com layouts semelhantes à aplicações de mídias sociais já estabelecidas.  | RNF | C |[BS29](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
 
 ### Referências
 
