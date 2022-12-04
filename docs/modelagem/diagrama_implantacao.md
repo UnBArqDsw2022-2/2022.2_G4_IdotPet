@@ -37,7 +37,7 @@ Foi realizado uma reunião via discord com a participação dos autores do docum
 
 ## Diagrama de Implantação
 
-<img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/doc/%2357-Implantacao/docs/assets/deployment_diagram.jpg" alt="Deployment Diagram" /> 
+<img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/deployment_diagram.jpg" alt="Deployment Diagram" /> 
  <figcaption align="center" >Figura 1 - Diagrama de implementação. Fonte: Autores </figcaption>
 
 ## Referências
