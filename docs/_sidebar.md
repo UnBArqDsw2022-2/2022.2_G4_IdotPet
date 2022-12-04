@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
-<p align = "center"> <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/logo/logo-redonda.png" height="200px" width="200px" /> </p>
 
-- Diretrizes
+- **Diretrizes**
     - [Políticas de Organização dos Artefatos](./politicas/politicas_artefatos.md)
     - [Política de Padronização do Repositório](./politicas/politicas_padronizacao.md)
     - [Políticas do Repositório](./politicas/politicas_repositorio.md)
@@ -35,13 +34,26 @@
 
 - **Modelagem**
 
-  - Módulo Projeto Orientado a Abordagens Tradicionais
+  - **Módulo Projeto Orientado a Abordagens Tradicionais**
     - Diagramas Estáticos
-      - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
-
+      - [Diagrama de Classes](modelagem/diagrama_classe.md)
+      - [Diagrama de Pacotes](modelagem/diagrama_pacotes.md)
+      - [Diagrama de Componentes](modelagem/DiagramaDeComponentes.md)
+      - [Diagrama de Implantação](modelagem/diagrama_implantacao.md)
     - Diagramas Dinâmicos
-
-      - [Diagrama de Sequência](modelagem/DiagramasDinamicos/DiagramaDeSequencia.md)
+        - [Diagrama de Sequência](modelagem/DiagramaDeSequencia.md)
+        - [Diagrama de Comunicação](modelagem/diagrama_comunicacao.md)
+        - [Diagrama de Estados](modelagem/DiagramaDeEstados.md)
+        - [Diagrama de Atividades](modelagem/diagrama_atividades.md)
+    - Modelagem Ágil
+        - [Backlog do Produto e MOSCOW](modelagem/backlog.md)
+   - **Iniciativas Extras**
+        - [Domain-Driven Design](modelagem/ddd.md)
+        - [Brainstrom](base/brainstorm.md)
+        - [Léxico](base/l%C3%A9xico.md)
+ 
+   - **Participações**
+        - [Modelagem](modelagem/participacoes_modelagem.md)
      
       
 

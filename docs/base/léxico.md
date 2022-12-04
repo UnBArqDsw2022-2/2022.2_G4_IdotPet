@@ -37,13 +37,29 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |    Impacto    | Anunciante deseja doar um pet através do _smartphone_ |
 | Classificação |                        Objeto                         |
 
-#### Adotante
+### Adotante
 
-|     Nome:     |                       Adotante                        |
-| :-----------: | :---------------------------------------------------: |
-|     Noção     |         Adotante que está adotando um animal          |
-|    Impacto    | Adotante deseja adotar um pet através do _smartphone_ |
-| Classificação |                        Objeto                         |
+|     Nome:     |                                     Adotante                                   |
+| :-----------: | :----------------------------------------------------------------------------: |
+|     Noção     | Usuário que está adotando um animal                                            |
+|    Impacto    |           Usuário deseja adotar um pet através do _smartphone_                 |
+| Classificação |                                     Objeto                                     |
+
+### Voluntário
+
+|     Nome:     |                                     Voluntário                                   |
+| :-----------: | :----------------------------------------------------------------------------: |
+|     Noção     | Usuário que está se dispondo a ser voluntário na comunidade     =              |
+|    Impacto    |           Usuário deseja ajudar e auxiliar a comunidade voluntariamente        |
+| Classificação |                                     Objeto                                     |
+
+### Administrador do sistema
+
+|     Nome:     |                                     Administrador                              |
+| :-----------: | :----------------------------------------------------------------------------: |
+|     Noção     | Usuário que fará o gerenciamente e manutenção do aplicativo                    |
+|    Impacto    |           Gerenciar publicações e perfis para que estejam dentro das regras da comunidade |
+| Classificação |                                     Objeto                                     |
 
 #### Pet
 
@@ -116,6 +132,14 @@ No processo de desenvolvimento do artefato léxico utilizaremos o modelos de tab
 |     Noção     |                  Status de adoção de um pet                   |
 |    Impacto    | Adotante poderá saber se um pet está sendo adotado no momento |
 | Classificação |                            Estado                             |
+
+## Comunidade pet
+
+|     Nome:     |                        Status pet                                 |
+| :-----------: | :---------------------------------------------------------------: |
+|     Noção     |  Conjunto de anunciantes, ONGs, adotantes, voluntários e patrocinadores|
+|    Impacto    |     Ajudar a manter o aplicativo e auxiliar usuários e entidades necessitadas |
+| Classificação |                 Objeto                                            |
 
 ## Referências
 
