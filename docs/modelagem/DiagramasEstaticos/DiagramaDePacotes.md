@@ -27,7 +27,7 @@ Geralmente, cada elemento é colocado dentro do pacote e é representado como um
 - Elementos podem ser atualizados conforme evolução do projeto
 
 ## Componentes Básicos
-  Um diagrama de pacotes é representado por dois simbolos, que são apresentados e descritos  abaixo: 
+  Um diagrama de pacotes é representado por dois simbolos, que são apresentados e descritos abaixo: 
 
 | Simbolo |  Nome  |                                  Descrição                                     |
 | :-----: | :----: | :------------------------------------------------------------------------------: |
