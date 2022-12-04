@@ -59,7 +59,8 @@ Posteriormente realizamos outro brainstorm para levantar mais requisitos e refin
 | BS12 | O usuário deve ser capaz de fazer doações para quem vai adotar e entidades para ajudar com custos de vacina e médico veterinário | RF | 
 | BS13 | O app deve ser mobile | RNF |
 | BS14 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF |
-| BS15 | O sistema deverá rodar em IOS e Android | RNF |
+| BS15 | O sistema deverá rodar em Android | RNF |
+| BS16 | O sistema deverá rodar em IOS | RNF |
 
 #### Segundo levantamento de Requisitos Funcionais e Não Funcionais
 
