@@ -4,7 +4,9 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 27/11/2022 | 0.1    | Criação da primeira versão do documento | [Vitor Eduardo](https://github.com/vitorekr) & [João Vitor](https://github.com/jvsdurso) |
+| 27/11/2022 | 0.1    | Criação da primeira versão do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
+| 27/11/2022 | 0.2    | Adição do artefato | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
+| 03/11/2022 | 0.3    | Pequenas correções no documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
 
 ## Introdução
 
@@ -31,7 +33,7 @@ Fazendo um relacionamento com o mundo dos serviços, o novo perfil dos desenvolv
 ## Linguagem Ubíqua (Ou Linguagem Onipresente)
 Um dos pontos mais importantes do DDD, em que a maioria das pessoas acabam ignorando, que é falar e extrair a linguagem Ubíqua.
 
-Linguagem Ubíqua é a linguagem falada no dia dia, no contexto da empresa. É a linguagem que utiliza as terminologias da realidade do negócio.
+Linguagem Ubíqua é a linguagem falada no dia a dia, no contexto da empresa. É a linguagem que utiliza as terminologias da realidade do negócio.
 
 Eric Evans utiliza um trecho de Lewis Carrol, na obra "Poeta Fit, Non Nascitur" para exemplificar o significado desta linguagem:
 
@@ -40,35 +42,36 @@ Depois, corta daqui e corta dali;</br>
 Mistura e separa os pedacinhos</br>
 Sem saber onde vão cair:</br>
 No fim, para a ordem da frase</br>
-Nao se está nem aí._</br>
+Não se está nem aí._</br>
 <pre>   Lewis Carroll, "Poeta Fit, Non Nascitur"</br></pre>
 
 ## Pilares do DDD
 
 ### Linguagem Ubíqua
-A ideia principal é você fazer a ligação da Linguagem Ubíqua entre os Experts no Negócio e os desenvolvedores. Quando eles conseguem definir quais são os termos que eles mais irão utilizar, essa extração fará toda a diferença no processo de desenvolvimento e comunicação na aplicação. Quando utilizamos a Linguagem Ubíqua é muito importante que esteja tudo organizado e extraído.
+A ideia principal é fazer a ligação da Linguagem Ubíqua entre os Experts no Negócio e os desenvolvedores. Ao conseguir definir quais são os termos que serão mais utilizados, essa extração fará toda a diferença no processo de desenvolvimento e comunicação na aplicação. Quando se utiliza a Linguagem Ubíqua é muito importante que esteja tudo organizado e extraído.
 
 ![linguagemUbiqua](https://user-images.githubusercontent.com/56610229/204137169-950b8947-0c28-4248-b6dd-3af9f2f8591f.png)
 
 ### Bounded Context
 
-Os Bounded Contexts ou contextos delimitados, delimita os contextos da aplicação. Cada contexto possui suas responsabilidades claramente definidas que por sua vez pode ter sua própria linguagem Ubíqua. A utilização de histórias e levantamento do escopo do projeto com o Domain Expert auxilia no processo de delimitação de contexto.
+Os Bounded Contexts, ou contextos delimitados, delimita os contextos da aplicação. Cada contexto possui suas responsabilidades claramente definidas que por sua vez pode ter sua própria linguagem Ubíqua. A utilização de histórias e levantamento do escopo do projeto com o Domain Expert auxilia no processo de delimitação de contexto.
 
 ### Context Map
 
-O terceiro pilar do DDD é o Context Map, que nada mais é que o mapeamento dos Bounded Contexts.
-a relação entre os domínios principais e genéricos são upstream/downstream, respectivamente. Isso porque o domínio principal é prioridade em relação ao genérico. Se alguma coisa mudar, terá que ser do lado do domínio genérico. É uma relação cliente/fornecedor.
+O terceiro pilar do DDD é o Context Map, que nada mais é que o mapeamento dos Bounded Contexts. A relação entre os domínios principais e genéricos são upstream/downstream, respectivamente. Isso, porque o domínio principal é prioridade em relação ao genérico. Se alguma coisa mudar, terá que ser do lado do domínio genérico. É uma relação cliente/fornecedor.
 
 ![context_map](https://user-images.githubusercontent.com/56610229/204137183-00840c33-7a46-4866-9385-ae39c51a915d.png)
 
+<!---
 ## Conclusão
 
 Através do estudo desta técnica de modelagem de domínio, foi constatado que o conhecimento adquirido terá grande influência na forma com que trataremos o domínio do nosso produto, de forma que facilitará, posteriormente, o andamento do projeto, e fará com que todos no grupo, tenham conhecimento de todo o processo do desenvolvimento do software.
+--->
 
 ## Referências
 
-> Evans, Eric. Domain-Driven Desing, Atacando a complexidade no coração do Software. 3º Edição revisada.
-> Full Cycle, O que é DDD - Domain Driven Design. Conteúdo disponível em: https://fullcycle.com.br/domain-driven-design/
+> EVANS, Eric. Domain-Driven Design: Atacando as complexidades no coração do software. 3. ed. [S. l.]: Alta Books, 2016. 528 p. ISBN ‎8550800651.
+> WILLIANS, Wesley. O que é DDD – Domain Driven Design. [S. l.]: Full Cycle, 15 set. 2019. Disponível em: https://fullcycle.com.br/domain-driven-design/. Acesso em: 27 nov. 2022.
 
 
 
