@@ -36,7 +36,20 @@
 
   - **Módulo Projeto Orientado a Abordagens Tradicionais**
     - Diagramas Estáticos
-      - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
+      - [Diagrama de Classes](modelagem/DiagramaDeClasses.md)
+      - [Diagrama de Pacotes](modelagem/DiagramaDePacotes.md)
+      - [Diagrama de Componentes](modelagem/DiagramaDeComponentes.md)
+      - [Diagrama de Implantação](modelagem/DiagramaDeImplantacao.md)
+    - Diagramas Dinâmicos
+        - [Diagrama de Sequência](modelagem/DiagramaDeSequencia.md)
+        - [Diagrama de Comunicação](modelagem/DiagramaDeComunicacao.md)
+        - [Diagrama de Estados](modelagem/DiagramaDeEstados.md)
+        - [Diagrama de Atividades](modelagem/DiagramaDeAtividades.md)
+    - Modelagem Ágil
+        - [Backlog do Produto e MOSCOW](modelagem/DiagramaDeBacklogProduto.md)
+ 
+   - **Participações**
+        - [Modelagem](modelagem/participacoes_modelagem.md)
      
       
 
