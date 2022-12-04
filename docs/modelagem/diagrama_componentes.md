@@ -1,8 +1,8 @@
 ## Histórico de Versão
 | Versão | Data | Modificação | Autor(es) | Revisores |
 |:-:|:-:|:-:|:-:|:-:|
-| 0.1 | 03/11/2022 | Criação e elaboração do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
-| 0.2 | 03/11/2022 | Adição da introdução e da metodologia | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
+| 0.1 | 03/12/2022 | Criação e elaboração do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
+| 0.2 | 03/12/2022 | Adição da introdução e da metodologia | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
 
 # Diagrama de Componentes
 
@@ -37,4 +37,5 @@ Após a etapa supracitada, utilizou-se o [EdrawMax](https://www.edrawmax.com/) p
 
 ## Referências
 > RBOOCH, Grady; JACOBSON, Ivar; RUMBAUGH, James. The Unified Modeling Language Reference Manual. 2. ed. Massachusetts: Pearson Education, 2004. 752 p. ISBN 032171895X.
-> https://www.uml-diagrams.org/component-diagrams.html
+> Diagrama de componentes UML: o que é, como fazer e exemplos. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml. Acesso em: 3 dez. 2022.
+> UML Tutorial: How to Draw UML Component Diagram. Disponível em: https://www.youtube.com/watch?v=_iiOOxIDrGA. Acesso em: 03 dez. 2022.

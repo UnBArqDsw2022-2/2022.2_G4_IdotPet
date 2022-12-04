@@ -6,7 +6,7 @@
 | :- | :- | :- | :- |
 | 27/11/2022 | 0.1    | Criação da primeira versão do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
 | 27/11/2022 | 0.2    | Adição do artefato | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
-| 03/11/2022 | 0.3    | Pequenas correções no documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
+| 03/12/2022 | 0.3    | Pequenas correções no documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso) |
 
 ## Introdução
 
