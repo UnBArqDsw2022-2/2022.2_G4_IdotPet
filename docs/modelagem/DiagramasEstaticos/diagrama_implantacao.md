@@ -6,6 +6,7 @@
 | :- | :- | :- | :- |
 | 30/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
 | 30/11/2022 | 0.2 | Introdução e Metodologia | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
+| 30/11/2022 | 0.3 | Adição do diagrama de implementação | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
 
 ## Introdução
 
@@ -25,9 +26,13 @@ Estes diagramas apresentam as seguintes vantagens:
 **Dependência**: Uma linha tracejada que termina em uma seta, o que indica que um nó ou componente é dependente de outro.
 **Interface**: Um círculo que indica uma relação contratual. Esses objetos que realizam a interface devem cumprir algum tipo de obrigação.
 **Nó**: Um objeto de hardware ou software, mostrado por uma caixa tridimensional.
-**Nó como contêiner**: um nó que contém outro nó dentro dele, como no exemplo abaixo, onde os nós contêm componentes.
+**Nó como contêiner**: um nó que contém outro nó dentro dele onde os nós contêm componentes.
 **Estereótipo**: Um dispositivo contido no nó, apresentado na parte superior do nó, com o nome entre colchetes por setas duplas.
 
+## Diagrama de implementação
+
+<img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/doc/%2357-Implantacao/docs/assets/deployment_diagram.jpg" alt="Deployment Diagram" /> 
+ <figcaption align="center" >Figura 1 - Diagrama de implementação. Fonte: Autores </figcaption>
 
 ## Metodologia 
 
