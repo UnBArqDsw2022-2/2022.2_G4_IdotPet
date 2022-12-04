@@ -5,6 +5,8 @@
 | Data      | Versão | Modificação                         | Autor                       |
 | :-------- | :----- | :---------------------------------- | :-------------------------- |
 | 02/12/2022 | 0.1    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+| 04/12/2022 | 0.2    | Inclusão de diagrama do projeto | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|  |
+
 
 ## Introdução
  Um diagrama de sequência é um tipo de diagrama de interação que  descreve a ordem e como um grupo de objetos trabalha em conjunto. Geralmente, é utilizado por desenvolvedores de software e profissionais de negócios para o entendimento de necessidades de um determinado sistema ou para documentação de um processo existente.
@@ -42,23 +44,26 @@
 
 
 
-
-
-
-
 ## Metodologia 
-
+A partir de reuniões realizadas entre a equipe do projeto foram identificadas as interações entre os objetos do sistema. Após isto, o diagrama de sequência foi elaborado, com o intuito de mapear a jornada do usuário ao utilizar o produto que será desenvolvido, assim pudemos obter uma visão geral de alto nível das funcionalidades específicas do produto.
  
 
-## Diagrama de Pacotes
+## Diagrama de Sequência
 
-<figure>
-  <img src="" alt="Diagrama de Sequência"/>
+
+  ![Diagrama de Sequência](../assets/diagrama_sequencia/diag_sequencia_v1.png)
   <figcaption align="center" >Figura 1 - Diagrama de Sequência. Fonte: Autores </figcaption>
-</figure>
+
 
 ## Referências
 
 
 
 > LUCIDCHART. O que é um diagrama de sequência UML? Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml. Acesso em: 02 de dez. de 2022.
+
+> Modelo de Diagrama de Sequência UML Online | Exemplo editável. Disponível em: <https://miro.com/pt/modelos/diagrama-sequencia-uml/>. Acesso em: 4 dez. 2022.
+
+> Tutorial do Diagrama de Sequência: Guia completo com exemplos. Disponível em: <https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/>.
+
+‌
+‌
