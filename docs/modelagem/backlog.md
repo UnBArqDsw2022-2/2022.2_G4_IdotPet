@@ -24,7 +24,7 @@ Esse documento foi elaborado a partir dos vários artefatos de elicitação de r
 No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig. 1, onde será composto por uma coleção de histórias de usuário, possuindo de 1 até N histórias. Em muitos times não se utiliza épicos, desta maneira a hierarquia permite que o backlog possua 0 a N épicos. Cada épico pode ser relacionado com 0 ou N funcionalidade, que por sua vez, cada funcionalidade se relaciona com 0 ou mais Histórias de Usuário. Finalizando, cada história produz 0 a N tarefas técnicas.
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/doc/%2362-Backlog-produto/docs/assets/backlog/backlog_hierarquia.jpeg" alt="Hierarquia do Backlog"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/backlog/backlog_hierarquia.jpeg?raw=true" alt="Hierarquia do Backlog"/>
   <figcaption align="center" >Figura 1 - Hierarquia do Backlog. Fonte: Autores </figcaption>
 </figure>
 
@@ -140,6 +140,6 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 
 ### Referências
 
-> ATLASSIAN. O backlog do produto: sua lista de tarefas definitiva. Disponível em: https://www.atlassian.com/br/agile/scrum/backlogs#:~:text=O%20backlog%20do%20produto%20é,saiba%20o%20que%20fazer%20primeiro.  Acesso em: 28 nov. 2022.
+> ATLASSIAN. O backlog do produto: sua lista de tarefas definitiva. Disponível em:https://www.atlassian.com/br/agile/scrum/backlogs.  Acesso em: 28 nov. 2022.
 
 > FERREIRA, Avelino. K21. Product Backlog: Épico, História de Usuário e Tarefas. Disponível em: https://k21.global/br/blog/product-backlog-epico-historia-tarefas.  Acesso em: 28 nov. 2022.
