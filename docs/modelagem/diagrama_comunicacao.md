@@ -4,9 +4,10 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 30/11/2022 | 0.1 | Elaboração do Diagrama | [Thalisson Alves](https://github.com/Thalisson-Alves) |
-| 02/12/2022 | 0.2 | Elaboração da Introdução e Metodologia | [Thalisson Alves](https://github.com/Thalisson-Alves) |
-| 02/12/2022 | 0.2 | Elaboração da Conclusão e Referências | [Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 30/11/2022 | 0.1 | Elaboração do Diagrama | [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)|
+| 02/12/2022 | 0.2 | Elaboração da Introdução e Metodologia | [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)|
+| 02/12/2022 | 0.2 | Elaboração da Conclusão e Referências | [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)|
+| 03/12/2022 | 0.3 | Revisão do documento | [João Durso](https://github.com/jvsdurso) & [Vitor Kühl](https://github.com/vitorekr) |
 
 ## Introdução
 
@@ -34,7 +35,7 @@ As mensagens são comunicações entre instâncias em uma interação. Elas poss
 
 ## Metodologia
 
-Para a elaboração dos diagramas, foi utilizado a ferramente *LucidChart* pois ela possui suporte aos diferentes componentes que compõem a notação UML. Os diagramas foram escolhidos de forma a representar os principais fluxos do usuário dentro do aplicativo.
+Para a elaboração dos diagramas, foi utilizado a ferramenta *LucidChart*, pois ela possui suporte aos diferentes componentes que compõem a notação UML. Os diagramas foram escolhidos de forma a representar os principais fluxos do usuário dentro do aplicativo.
 
 ## Resultados
 
@@ -43,9 +44,10 @@ Para a elaboração dos diagramas, foi utilizado a ferramente *LucidChart* pois 
   <figcaption align="center" >Figura 1 - Diagrama de Comunicação. Fonte: Autores </figcaption>
 </figure>
 
-## Conclusão 
+<!--- ## Conclusão 
 
 Com os diagramas apresentados acima conseguimos sintetizar os fluxos principais do aplicativo e das comunicações entre os diferentes objetos, o que facilitará o desenvolvimento do software em questão.
+--->
 
 ## Referências
 
