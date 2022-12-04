@@ -136,3 +136,9 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | BS13 | O app deve ser mobile | RNF |  | [BS13](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/base/brainstorm.md) |
 | BS14 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF |  | [BS14](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/base/brainstorm.md) |
 | BS15 | O sistema deverá rodar em IOS e Android | RNF |  | [BS15](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/base/brainstorm.md) |
+
+### Referências
+
+> ATLASSIAN. O backlog do produto: sua lista de tarefas definitiva. Disponível em: https://www.atlassian.com/br/agile/scrum/backlogs#:~:text=O%20backlog%20do%20produto%20é,saiba%20o%20que%20fazer%20primeiro.  Acesso em: 28 nov. 2022.
+
+> FERREIRA, Avelino. K21. Product Backlog: Épico, História de Usuário e Tarefas. Disponível em: https://k21.global/br/blog/product-backlog-epico-historia-tarefas.  Acesso em: 28 nov. 2022.
