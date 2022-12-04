@@ -45,6 +45,8 @@
       - [Diagrama de Comunicação](modelagem/diagramas_dinamicos/diagrama_componentes.md)
     - Modelagem Ágil 
       - [Product Backlog](modelagem/agil/backlog.md)
+  - **Iniciativas Extras**
+      - [Domain-Driven Design](modelagem/ddd.md)
 
 - **Sprints**
     - [Sprint 1 - Abertura](sprints/sprint1/abertura_sprint1.md)
