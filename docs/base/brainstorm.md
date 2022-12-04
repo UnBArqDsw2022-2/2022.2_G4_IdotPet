@@ -45,22 +45,43 @@ Posteriormente realizamos outro brainstorm para levantar mais requisitos e refin
 
 | ID | Descrição | Tipo de requisito |
 |:-: | :- | :-: |
-| BS01 | O usuário deve ser capaz de cadastrar um pet para adoção| RF |
-| BS02 | O usuário deve ser capaz de entrar em contato com o doador | RF |
-| BS03 | O usuário deve ser capaz de favoritar o anúncio de um pet | RF |
-| BS04 | O usuário deve ser capaz de fazer um upload de uma foto do pet | RF |
-| BS05 | O usuário deve ser capaz de doar alimentos para ONG de pets abandonados | RF |
-| BS06 | O usuário deve ser capaz de se cadastrar | RF |
-| BS07 | O usuário deve ser capaz de se comunicar com outro usuário através de um chat | RF |
-| BS08 | O usuário deve ser capaz de buscar por anúncios de pets| RF |
-| BS09 | O usuário deve ser capaz de se autenticar | RF |
-| BS10 | O usuário deve ser capaz de adicionar uma descrição em um anuncio de adoção | RF |
-| BS11 | O usuário deve ser capaz de favoritar anúncios | RF |
-| BS12 | O usuário (adotante e criador do anuncio)  deve ser capaz de confirmar que uma adoção foi concluída | RF |
-| BS13 | O usuário deve ser capaz de fazer doações para quem vai adotar para ajudar com custos de vacina e médico veterinário | RF |
-| BS14 | O app deve ser mobile | RNF |
-| BS15 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF |
-| BS16 | O sistema deverá rodar em IOS e Android | RNF |
+| BS01 | O usuário deve ser capaz de cadastrar um pet para adoção| RF | 
+| BS02 | O usuário deve ser capaz de entrar em contato com o doador | RF | 
+| BS03 | O usuário deve ser capaz de favoritar o anúncio de um pet | RF | 
+| BS04 | O usuário deve ser capaz de fazer um upload de uma foto do pet | RF | 
+| BS05 | O usuário deve ser capaz de doar alimentos para ONG de pets abandonados | RF | 
+| BS06 | O usuário deve ser capaz de se cadastrar | RF | 
+| BS07 | O usuário deve ser capaz de se comunicar com outro usuário através de um chat | RF | 
+| BS08 | O usuário deve ser capaz de buscar por anúncios de pets| RF | 
+| BS09 | O usuário deve ser capaz de entrar e sair do sistema | RF | 
+| BS10 | O usuário deve ser capaz de adicionar uma descrição em um anuncio de adoção | RF | 
+| BS11 | O usuário (adotante e criador do anuncio) deve ser capaz de confirmar que uma adoção foi concluída | RF | 
+| BS12 | O usuário deve ser capaz de fazer doações para quem vai adotar e entidades para ajudar com custos de vacina e médico veterinário | RF | 
+| BS13 | O app deve ser mobile | RNF |
+| BS14 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF |
+| BS15 | O sistema deverá rodar em IOS e Android | RNF |
+
+#### Segundo levantamento de Requisitos Funcionais e Não Funcionais
+
+| ID | Descrição | Tipo de requisito |
+|:-: | :- | :-: |
+| BS16 | O usuário deve ser capaz de visualizar seu perfil| RF |
+| BS17 | O usuário deve ser capaz de verificar seus dados| RF |
+| BS18 | O usuário deve ser capaz de alterar seus dados| RF |
+| BS19 | O usuário deve ser capaz de visualizar o anúncio do pet com todas suas informações| RF |
+| BS20 | O usuário deve ser capaz de saber como fazer uma doação| RF |
+| BS21 | O usuário deve ser capaz de saber como o aplicativo funciona| RF |
+| BS22 | O usuário deve ser capaz de entender a importância da doação| RF |
+| BS23 | O usuário deve ser capaz de compartilhar o anúncio de um pet| RF |
+| BS24 | O administrador deve ser capaz de gerir o sistema | RF |
+
+#### Legenda
+
+| Legenda | Significado | 
+|:-: | :- |
+|BS|Brainstorm|
+|RF|Requisito Funcional|
+|RNF|Requisito Não Funcional|
 
 <!---# Conclusão
 

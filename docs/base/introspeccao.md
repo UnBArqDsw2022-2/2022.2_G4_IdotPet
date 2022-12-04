@@ -38,11 +38,11 @@ Gostaria também de poder compartilhar um determinado anúncio com a minha espos
 |:-: | :- | :-: |
 | IN01 | O usuário deve ser capaz de cadastrar um anúncio de animal para adoção | RF |
 | IN02 | O usuário deve ser capaz de listar os anúncios de animais para adoção | RF |
-| IN03 | O usuário deve ser capaz de trocar mensagens através do app | RF |
+| IN03 | O usuário deve ser capaz de trocar mensagens através do app | RF | 
 | IN04 | O usuário deve ser capaz de encontrar anúncios para doar recursos | RF |
-| IN05 | O usuário deve ser capaz de filtrar os anúncios por tipo, localização do animal e data do anúncio | RF |
-| IN06 | O usuário deve ser capaz de compartilhar anúncios com outros usuários | RF |
-| IN07 | O usuário deve ser capaz de criar uma aba compartilhada com outros usuários para gerenciar seus anúncios favoritos | RF |
+| IN05 | O usuário deve ser capaz de filtrar os anúncios por tipo, localização do animal e data do anúncio | RF | 
+| IN06 | O usuário deve ser capaz de compartilhar anúncios com outros usuários | RF | 
+| IN07 | O usuário deve ser capaz de criar uma aba compartilhada com outros usuários para gerenciar seus anúncios favoritos | RF | 
 
 
 | Legenda | Significado | 
