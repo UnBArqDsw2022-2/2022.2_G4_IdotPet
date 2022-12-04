@@ -39,9 +39,9 @@
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/synchronous-message-symbol.svg" alt=" Mensagem síncrona" width="150px"/>     | Mensagem síncrona |   Utilizado quando um remetente deve esperar por uma resposta a uma mensagem antes de poder continuar|
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/asynchronous-message-symbol.svg" alt=" Mensagem assíncrona" width="150px"/>     | Mensagem assíncrona |  Representa que o remetente pode continuar sem necessitar de uma resposta  |
 |   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/uml-return-message-symbol.svg" alt=" Mensagem de retorno assíncrona" width="150px"/>     |  Mensagem de retorno assíncrona | Representa o retorno de mensagem  assíncrona|
-|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/" alt="Assíncrono de criar mensagem" width="150px"/>     | Assíncrono de criar mensagem | Representa a criação de um novo objeto |
-|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/" alt=" responder à mensagem" width="150px"/>     | Responder à mensagem | Representa respostas às chamadas  |
-|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_sequencia/ " alt=" excluir mensagem" width="150px"/>     | Excluir mensagem | Representa a destruição de um objeto |
+|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/3458f394cfb51b22bfd7a6baab545a62b27ff0eb/docs/assets/diagrama_sequencia/uml-create-message-symbol.svg" alt="Assíncrono de criar mensagem" width="150px"/>     | Assíncrono de criar mensagem | Representa a criação de um novo objeto |
+|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/3458f394cfb51b22bfd7a6baab545a62b27ff0eb/docs/assets/diagrama_sequencia/uml-return-message-symbol.svg" alt=" responder à mensagem" width="150px"/>     | Responder à mensagem | Representa respostas às chamadas  |
+|   <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/3458f394cfb51b22bfd7a6baab545a62b27ff0eb/docs/assets/diagrama_sequencia/uml-deleted-message-symbol.svg" alt=" excluir mensagem" width="150px"/>     | Excluir mensagem | Representa a destruição de um objeto |
 
 
 
