@@ -7,10 +7,11 @@
 | 30/11/2022 | 0.1 | Criação  e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
 | 30/11/2022 | 0.2 | Introdução e Metodologia | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
 | 30/11/2022 | 0.3 | Adição do diagrama de implementação | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto)|
+| 04/12/2022 | 0.4 | Correção ortográfica | [Pedro Cassiano](https://github.com/PedroLucasCMa)|
 
-## introdução
+## Introdução
 
-o diagrama de implantação descreve a implantação física das informações geradas pelo programa de software nos componentes de hardware. A informação que o software gera é chamada de artefato. Os diagramas de implantação são compostos de várias formas UML. As caixas tridimensionais, conhecidas como nós, representam os elementos básicos de software ou hardware, ou nós, no sistema. Linhas de nó a nó indicam relacionamentos e as formas menores contidas nas caixas representam os artefatos de software implantados.
+O diagrama de implantação descreve a implantação física das informações geradas pelo programa de software nos componentes de hardware. A informação que o software gera é chamada de artefato. Os diagramas de implantação são compostos de várias formas UML. As caixas tridimensionais, conhecidas como nós, representam os elementos básicos de software ou hardware, ou nós, no sistema. Linhas de nó a nó indicam relacionamentos e as formas menores contidas nas caixas representam os artefatos de software implantados.
 
 Estes diagramas apresentam as seguintes vantagens:
 
@@ -29,7 +30,7 @@ Estes diagramas apresentam as seguintes vantagens:
 **Nó como contêiner**: um nó que contém outro nó dentro dele onde os nós contêm componentes.
 **Estereótipo**: Um dispositivo contido no nó, apresentado na parte superior do nó, com o nome entre colchetes por setas duplas.
 
-## metodologia 
+## Metodologia 
 
 Foi realizado uma reunião via discord com a participação dos autores do documento. Assim, foi realizado um estudo dos artefatos de tecnologia e uma discussão com os membros mais experientes nas tecnologias escolhidas e nos requisitos do projeto. Para a construção do diagrama de implantação foi utilizada a ferramenta LucidChart.
 
