@@ -3,6 +3,8 @@
 |:-:|:-:|:-:|:-:|:-:|
 | 0.1 | 03/12/2022 | Criação e elaboração do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
 | 0.2 | 03/12/2022 | Adição da introdução e da metodologia | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
+| 0.3 | 03/12/2022 | Adição de referências | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
+| 0.4 | 04/12/2022 | Adição do artefato | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
 
 # Diagrama de Componentes
 
@@ -25,12 +27,12 @@ Inicialmente, para a confecção do diagrama, entendeu-se o significado de cada 
 |    <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/dependency-symbol.svg" alt="Dependency" width="150px"/>     | Dependência | Dependência entre componentes |
 |    <img src="https://user-images.githubusercontent.com/69814362/205513796-8bd8f5d3-1242-4f31-b197-4c40402d63eb.svg" alt="Port" width="150px"/>     | Porta | Indica que o próprio componente não fornece a interface requerida. Em vez disso, o componente delega a(s) interface(s) para uma classe interna |
 
-Após a etapa supracitada, utilizou-se o [EdrawMax](https://www.edrawmax.com/) para concluir o artefato.
+Após a etapa supracitada, utilizou-se o [Diagrams](https://app.diagrams.net/) para concluir o artefato.
 
 ## Diagrama de Componentes
 
 <figure>
-  <img src="-" alt="Diagrama de Componentes"/>
+  <img src="https://user-images.githubusercontent.com/69814362/205569857-624814d5-9c24-491e-bb88-b1caa510383a.png" alt="Diagrama de Componentes"/>
   <figcaption align="center" >Figura 1 - Diagrama de Componentes. Fonte: Autor</figcaption>
 </figure>
 
