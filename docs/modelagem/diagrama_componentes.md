@@ -41,5 +41,6 @@ Após a etapa supracitada, utilizou-se o [Diagrams](https://app.diagrams.net/) p
 </figure>
 
 ## Referências
-> 
-> 
+> RBOOCH, Grady; JACOBSON, Ivar; RUMBAUGH, James. The Unified Modeling Language Reference Manual. 2. ed. Massachusetts: Pearson Education, 2004. 752 p. ISBN 032171895X.
+> Diagrama de componentes UML: o que é, como fazer e exemplos. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml. Acesso em: 3 dez. 2022.
+> UML Tutorial: How to Draw UML Component Diagram. Disponível em: https://www.youtube.com/watch?v=_iiOOxIDrGA. Acesso em: 03 dez. 2022.
