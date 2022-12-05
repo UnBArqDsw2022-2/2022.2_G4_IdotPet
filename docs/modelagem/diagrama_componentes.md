@@ -23,7 +23,7 @@ Inicialmente, para a confecção do diagrama, entendeu-se o significado de cada 
 | :-----: | :----: | :------------------------------------------------------------------------------: |
 |   <img src="https://user-images.githubusercontent.com/69814362/205512779-5d39ba1d-b4ff-47f6-ad16-f29e7bec7587.png" alt="Component" width="150px"/>     | Componente | Bloco de unidade lógica do sistema, uma abstração ligeiramente maior que as classes |
 |    <img src="https://user-images.githubusercontent.com/69814362/205514283-32677f8e-1d30-4b12-aa2d-aab27118ce02.png" alt="Required Interface" width="150px"/>     | Interface requerida | Conjunto de atributos públicos e operações que são requeridas pelas classes que dependem de uma determinada interface |
-|    <img src="https://user-images.githubusercontent.com/69814362/205514282-0fb80413-1571-4d86-b891-a788e07c814c.png" alt="Provided Interface" width="150px"/>     | Interface fornecida | Conjunto de atributos públicos e operações que devem ser fornecidas pelas classes que implementam uma determinada interface |
+|    <img src="https://user-images.githubusercontent.com/69814362/205576974-81d7bce7-5c37-4331-887a-edbb2fbb2fba.png" alt="Provided Interface" width="150px"/>     | Interface fornecida | Conjunto de atributos públicos e operações que devem ser fornecidas pelas classes que implementam uma determinada interface |
 |    <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/diagrama_pacotes/dependency-symbol.svg" alt="Dependency" width="150px"/>     | Dependência | Dependência entre componentes |
 |    <img src="https://user-images.githubusercontent.com/69814362/205513796-8bd8f5d3-1242-4f31-b197-4c40402d63eb.svg" alt="Port" width="150px"/>     | Porta | Indica que o próprio componente não fornece a interface requerida. Em vez disso, o componente delega a(s) interface(s) para uma classe interna |
 
@@ -33,11 +33,13 @@ Após a etapa supracitada, utilizou-se o [Diagrams](https://app.diagrams.net/) p
 
 <figure>
   <img src="https://user-images.githubusercontent.com/69814362/205569857-624814d5-9c24-491e-bb88-b1caa510383a.png" alt="Diagrama de Componentes"/>
-  <figcaption align="center" >Figura 1 - Diagrama de Componentes. Fonte: Autor</figcaption>
+  <figcaption align="center" >Figura 1 - Diagrama de Componentes. <br> Fonte: Autor</figcaption>
 </figure>
 
 
 ## Referências
 > RBOOCH, Grady; JACOBSON, Ivar; RUMBAUGH, James. The Unified Modeling Language Reference Manual. 2. ed. Massachusetts: Pearson Education, 2004. 752 p. ISBN 032171895X.
+
 > Diagrama de componentes UML: o que é, como fazer e exemplos. Lucidchart. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml. Acesso em: 3 dez. 2022.
+
 > UML Tutorial: How to Draw UML Component Diagram. Disponível em: https://www.youtube.com/watch?v=_iiOOxIDrGA. Acesso em: 03 dez. 2022.
