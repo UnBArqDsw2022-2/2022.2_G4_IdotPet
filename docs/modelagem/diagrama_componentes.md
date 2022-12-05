@@ -1,10 +1,11 @@
 ## Histórico de Versão
 | Versão | Data | Modificação | Autor(es) | Revisores |
 |:-:|:-:|:-:|:-:|:-:|
-| 0.1 | 03/12/2022 | Criação e elaboração do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
-| 0.2 | 03/12/2022 | Adição da introdução e da metodologia | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
-| 0.3 | 03/12/2022 | Adição de referências | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
-| 0.4 | 04/12/2022 | Adição do artefato | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| --- |
+| 0.1 | 03/12/2022 | Criação e elaboração do documento | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
+| 0.2 | 03/12/2022 | Adição da introdução e da metodologia | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
+| 0.3 | 03/12/2022 | Adição de referências | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
+| 0.4 | 04/12/2022 | Adição do artefato | [Vitor Kühl](https://github.com/vitorekr) & [João Durso](https://github.com/jvsdurso)| [Thalisson Alves](https://github.com/Thalisson-Alves) & [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
+
 
 # Diagrama de Componentes
 
