@@ -4,29 +4,21 @@
 
 | **Data**   | **Versão** | **Modificação**       | **Autor**                                            |
 | :--------- | :--------- | :-------------------  | :--------------------------------------------------- |
-| 22/11/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
+| 23/11/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
 
 ## Objetivos
 
 Essa Sprint tem como principais objetivos:
 
-- Organizar o repositório GitHub.
-- Definir políticas para artefatos, repositório e padronização.
-- Criar e organizar o GitPages do projeto.
-- Elaborar documentos de Abertura e Fechamento da Sprint 1.
-- Elaborar Metodologia.
-- Elaborar 5W2H.
-- Elaborar Mapas mentais.
-- Elaborar Rich Pictures.
-- Elaborar Modelagem BPMN.
-- Elaborar Diagrama Causa Efeito.
-- Elaborar Léxico.
-- Elaborar Protótipos.
-- Elaborar Termo de Abertura do Projeto.
-- Elaborar Personas.
-- Elaborar documento de Observação/Introspecção.
-- Realizar a Design Sprint.
-- Elaborar o Storyboarding.
+- Elaborar documentos de Abertura e Fechamento da Sprint 2.
+- Elaborar Diagrama de Classes.
+- Elaborar Diagrama de Pacotes.
+- Elaborar Diagrama de Comunicação.
+- Elaborar Diagrama de Atividades.
+- Elaborar Backlog do Produto
+- Elaborar DDD (Domain Drive Design).
+- Elaborar Correção do BPMN.
+- Elaborar Correção do Léxico.
 
 **Duração:** 7 dias
 **Início:** 22/11/2022
@@ -34,32 +26,20 @@ Essa Sprint tem como principais objetivos:
 
 ## Sprint BackLog
 
-[#7 - Modelagem BPMN](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/7)
+[#53 - Abertura e Fechamento da Sprint 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/53)
 <br>
-[#9 - Léxico](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/9)
+[#54 - Diagrama de Classes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/54)
 <br>
-[#14 - Organização do Git Pages](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/14)
+[#55 - Diagrama de Pacotes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/55)
 <br>
-[#23 - Acompanhamento do Design Sprint](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/23)
+[#59 - Diagrama de Comunicação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/23)
 <br>
-[#24 - Storyboard](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/24) 
+[#61 - Diagrama de Atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/24) 
 <br>
-[#28 - Abertura e Fechamento da Sprint 1](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/28)
+[#62 - Backlog do Produto](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/28)
 <br>
-[#34 - Organização do Repositório GitHub - Parte 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/34)
+[#64 - DDD (Domain Drive Design)](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/34)
 <br>
-[#35 - Corrigir documentos sem versionamento de revisores](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/35)
+[#65 - Correção do BPMN](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/35)
 <br>
-[#36 - Arquivo de entrega](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/36)
-<br>
-[#38 - Melhoria: 5W2H](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/38)
-<br>
-[#39 - Melhoria: Léxico](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/39)
-<br>
-[#40 - Documento de Brainstorm](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/40)
-<br>
-[#44 - Tecnologias](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/44)
-<br>
-[#47 - Melhoria do doc de Design Sprint](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/47)
-<br>
-[#51 - Revisão nos documentos](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/51)
+[#66 - Correção do Léxico](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/36)
