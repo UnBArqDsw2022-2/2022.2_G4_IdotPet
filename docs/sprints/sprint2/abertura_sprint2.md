@@ -4,7 +4,7 @@
 
 | **Data**   | **Versão** | **Modificação**       | **Autor**                                            |
 | :--------- | :--------- | :-------------------  | :--------------------------------------------------- |
-| 22/11/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
+| 16/11/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
 
 ## Objetivos
 
