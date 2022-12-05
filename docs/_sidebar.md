@@ -51,6 +51,7 @@
         - [Domain-Driven Design](modelagem/ddd.md)
         - [Brainstrom](base/brainstorm.md)
         - [Léxico](base/l%C3%A9xico.md)
+        - [BPMN](base/bpmn.md)
  
    - **Participações**
         - [Modelagem](modelagem/participacoes_modelagem.md)
