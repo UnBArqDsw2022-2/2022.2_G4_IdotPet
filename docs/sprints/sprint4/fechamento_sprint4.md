@@ -1,25 +1,27 @@
-# Fechamento da Sprint 03
+# Fechamento da Sprint 04
 
 ## Histórico de versão
 
 | **Data**   | **Versão** | **Modificação**       | **Autor**                                            |
 | :--------- | :--------- | :-------------------- | :--------------------------------------------------- |
-| 03/11/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral) |
+| 06/12/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral) |
 
 
 ## Backlog da Sprint
 
 | **ID** | **Descrição**                                                                                                                           | **Status** | **Pontos** |
 | :----- | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------- | :--------: |
-| 53 | [Abertura e Fechamento da Sprint 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/53) | Fechada | 4 |
-| 54 | [Diagrama de Classes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/54) | Fechada | 5 |
-| 55 | [Diagrama de Pacotes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/55) | Fechada | 7 |
-| 59 | [Diagrama de Comunicação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/59) | Aberta | 4 |
-| 61 | [Diagrama de Atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/61) | Aberta | 6 |
-| 62 | [Backlog do Produto](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/62) | Fechada | 7 |
-| 64 | [DDD (Domain Drive Design)](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/64) | Fechada  | 4 |
-| 65 | [Correção do BPMN](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/65) | Fechada | 2 |
-| 66 | [Correção do Léxico](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/66) | Fechada | 2 |
+| 56 | [Diagrama de Componentes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/56) | Fechada | 7 |
+| 57 | [Diagrama de Implantação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/57) | Fechada | 5 |
+| 58 | [Diagrama de Sequência](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/58)   | Fechada | 8 |
+| 59 | [Diagrama de Comunicação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/59) | Fechada | 5 |
+| 60 | [Diagrama de Estados](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/60)     | Fechada | 6 |
+| 61 | [Diagrama de Atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/61)  | Fechada | 4 |
+| 63 | [MOSCOW](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/63)                  | Fechada  | 4 |
+| 74 | [Abertura e Fechamento da Sprint 3](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/74)                | Fechada | 2 |
+| 76 | [Melhoria do Backlog do produto](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/76)                   |  Fechada | 2 |
+| 79 | [Revisão e controle geral de artefatos/atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/79) | Fechada | 2 |
+| 84 | [Arquivo de Apresentação - Modelagem](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/84)              | Fechada | 2 |
 
 ## Pontuação Final
 
@@ -29,31 +31,29 @@
 
 ## Débitos Técnicos Gerados
 
-[#59 - Diagrama de Comunicação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/59)
-<br>
-[#61 - Diagrama de Atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/61)
+Nenhum débito técnico gerado.
 
 ## Retrospectiva
 
 ### Pontos Positivos 
 
-- Dividir as issues entre as sprints até a entrega foi uma ótima ideia para não sobrecarregar a sprint 3.
-- Mesmo com muitos problemas na sprint, conseguimos entregar alguns artefatos.
+- Organização.
+- Alguns membros não acharam os diagramas muito difíceis.
+- Entrosamento da equipe.
+- Diagramas ajudaram a compreender melhor o fluxo de atividades no aplicativo.
+- Equipe realizou uma boa entrega.
+- Todas as atividades propostas foram entregues a tempo.
+- Equipe está se esforçando como um todo.
 
 ### Pontos Negativos
 
-- A pessoa que inventou semestre no final do ano com natal, copa do mundo, black friday e ano novo… merece um prêmio! A produtividade foi quase zero nos dias de jogos do Brasil. Fora que todas as matérias, para compensar a falta de aula, houveram muitas atividades para casa.
-- Semana praticamente sem aula deu preguiça de fazer muitas atividades.
-- Gerência teve baixa produtividade e realizou pouco controle da equipe nessa sprint. 
-- Final de ano é um pouco complicado.
-- Semestre começando a apertar.
-- Falta de organização para cumprir os prazos e entregas por parte da equipe. 
+- Incerteza e dificuldade na elaboração de alguns diagramas.
+- Falta de tempo.
 
 ### Melhorias
 
-- Aula EAD ou híbrido... 
-- Incentivar os membros para a importância das atividades.
-- Gerência realizar maior controle quanto a realização das atividades dos membros.
+- Aulas de dúvidas remotas #VoltaEAD
+
 
 ## Burndown
 
@@ -84,16 +84,16 @@ Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints
 
 ## Práticas ágeis
 
-| ID  |                        Nome de prática ágil                        | Sprint 03 |
+| ID  |                        Nome de prática ágil                        | Sprint 04 |
 | :-: | :----------------------------------------------------------------: | :-------: |
-|  1  |                   Priorização do Backlog pelos POs                 | &#10060;  |
-|  2  |    Desenvolvimento de processos e práticas facilitadas pelo SM     | &#10004;  |
+|  1  |                   Priorização do Backlog pelos POs                 | &#10004;  |
+|  2  |    Desenvolvimento de processos e práticas facilitadas pelo SM     | &#10060;  |
 |  3  |                 Reunião de planejamento de Sprint                  | &#10004;  |
 |  4  |                           Planning Poker                           | &#10004;  |
 |  5  |      Comprometimento do time e do PO com o backlog do produto      | &#10004;  |
 |  6  |         Os membros da equipe são voluntários para tarefas          | &#10004;  |
 |  7  |                      Restrospectiva da Sprint                      | &#10004;  |
-|  8  |                     Acompanhamento do Velocity                     | &#10060;  |
+|  8  |                     Acompanhamento do Velocity                     | &#10004;  |
 |  9  |                            User Stories                            | &#10004;  |
 | 10  |                Refatorar quando e onde for possível                | &#10060;  |
 | 11  |               Todo código deve ter códigos unitários               | &#10060;  |
@@ -127,29 +127,35 @@ Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints
 
 ## Squad Health Check
 
-|        Nome        | Sprint 1  | Sprint 2  | Sprint 3  | 
-| :----------------: | :-------: | :-------: | :-------: |
-| Eduardo Maia       | &#128516; | 🇧🇷        | 🥱        |
-| Herick Lima        | &#128516; | 🫣        | 😎        |
-| João Durso         | &#128516; | 😵‍💫        | 🥺        |
-| Kayro César        | &#128516; | 🥳        | 😰        |
-| Klyssmann Oliveira | &#128526; | 😩        | 🇧🇷        |
-| Luan Vasco         | &#128529; | 🍺        | 🥱        |
-| Nicolas Roberto    | &#129393; | 😵        | 🥱        |
-| Pedro Cassiano     | &#128578; | 😧        | 😴        |
-| Thalisson Alves    | &#128516; | 😵‍💫        | 🥱        |
-| Victor Cabral      | &#128526; | 🙏        | 😴        |
-| Vitor Kühl         | &#129488; | 😋        | 😵‍💫        |
+|        Nome        | Sprint 1  | Sprint 2  | Sprint 3  | Sprint 4  |
+| :----------------: | :-------: | :-------: | :-------: | :-------: |
+| Eduardo Maia       | &#128516; | 🇧🇷        | 🥱        | 😩        |
+| Herick Lima        | &#128516; | 🫣        | 😎        | 🇧🇷        |
+| João Durso         | &#128516; | 😵‍💫        | 🥺        | 😶‍🌫️         |
+| Kayro César        | &#128516; | 🥳        | 😰        |         |
+| | |  | | ❌ Distância segura ❌|
+| Klyssmann Oliveira | &#128526; | 😩        | 🇧🇷        | 😷        |
+| | |  | | ❌ Distância segura ❌|
+| Luan Vasco         | &#128529; | 🍺        | 🥱        |         |
+| Nicolas Roberto    | &#129393; | 😵        | 🥱        | 🐢        |
+| Pedro Cassiano     | &#128578; | 😧        | 😴        | 🥵        |
+| Thalisson Alves    | &#128516; | 😵‍💫        | 🥱        |         |
+| Victor Cabral      | &#128526; | 🙏        | 😴        | 😫        |
+| Vitor Kühl         | &#129488; | 😋        | 😵‍💫        | 🥲        |
 
 |   Emote   | Legenda                           |
 | :-------: | :-----------------------------:   |
-| 🥱 | Cansado e seguindo a vida                |
-| 😎 | Redbull, paciencia, copa e solidao       |
-| 🥺 | Cheio de coisa pra fazer                 |
-| 😰 | Preocupado                               |
-| 🇧🇷 | O Hexa vem, clima de copa                |
-| 😴 | Preguiça                                 |
-| 😵‍💫 | Semestre apertando                       |
+| 😩 | Cansado                                  |
+| 🇧🇷 | Que venha o hexa       |
+| 😶‍🌫️ | Querendo sumir                           |
+|  |                  |
+| 😷 | Covid                                    |
+|  |                  |
+| 🐢 | Tô devagar                               |
+| 🥵 | Preocupado com o tanto de coisa pra fazer|
+|  |                  |
+| 😫 | Preocupado com outras matérias           |
+| 🥲 | Muita informação                         |
 
 ## Análise pelo Scrum Master
 
