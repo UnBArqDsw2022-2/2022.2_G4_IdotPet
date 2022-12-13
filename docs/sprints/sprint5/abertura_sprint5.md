@@ -4,46 +4,48 @@
 
 | **Data**   | **Versão** | **Modificação**       | **Autor**                                            |
 | :--------- | :--------- | :-------------------  | :--------------------------------------------------- |
-| 06/12/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
+| 13/12/2022 | 0.1        | Criação do documento  | [Victor Cabral](https://github.com/victordscabral)   |
 
 ## Objetivos
 
 Essa Sprint tem como principais objetivos:
 
-- Elaborar documentos de Abertura e Fechamento da Sprint 2.
-- Elaborar Diagrama de Classes.
-- Elaborar Diagrama de Pacotes.
-- Elaborar Diagrama de Comunicação.
-- Elaborar Diagrama de Atividades.
-- Elaborar Backlog do Produto
-- Elaborar DDD (Domain Drive Design).
-- Elaborar Correção do BPMN.
-- Elaborar Correção do Léxico.
+- Elaborar documentos de Abertura e Fechamento da Sprint 4.
+- Realizar estudos sobre GRASPs - Padrão 1.
+- Realizar estudos sobre GRASPs - Padrão 2.
+- Realizar estudos sobre GRASPs - Padrão 3.
+- Realizar estudos sobre GoFs - Estruturais.
+- Realizar estudos sobre GoFs - Comportamentais.
+- Realizar estudos sobre Padrão Emergente.
+- Elaborar Configuração do Ambiente - Backend.
+- Elaborar Configuração Ambiente - Banco de dados.
+- Elaborar Configuração Ambiente - Frontend.
+- Realizar estudos sobre GoFs - Criacionais.
 
 **Duração:** 7 dias
-**Início:** 06/11/2022
+**Início:** 06/12/2022
 **Fim:** 13/12/2022
 
 ## Sprint BackLog
 
-[#56 - Diagrama de Componentes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/56)
+[#88 - Abertura e Fechamento da Sprint 4](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/88)  4
 <br>
-[#57 - Diagrama de Implantação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/57)
+[#89 - Estudos: GRASPs - Padrão 1](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/89)  5
 <br>
-[#58 - Diagrama de Sequência](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/58)
+[#90 - Estudos: GRASPs - Padrão 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/90) 5
 <br>
-[#59 - Diagrama de Comunicação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/59)
+[#91 - Estudos: GRASPs - Padrão 3](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/91) 5
 <br>
-[#60 - Diagrama de Estados](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/60)
+[#92 - Estudos: GoFs - Estruturais](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/92) 5
 <br>
-[#61 - Diagrama de Atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/61)
+[#93 - Estudos: GoFs - Comportamentais](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/93) 5
 <br>
-[#63 - MOSCOW](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/63)
+[#94 - Estudos: Padrão Emergente](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/94) 5
 <br>
-[#74 - Abertura e Fechamento da Sprint 3](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/74)
+[#95 - Configuração do Ambiente - Backend](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/95) 11
 <br>
-[#76 - Melhoria do Backlog do produto](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/76)
+[#96 - Configuração Ambiente - Banco de dados](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/96) 5
 <br>
-[#79 - Revisão e controle geral de artefatos/atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/79)
+[#97 - Configuração Ambiente - Frontend](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/97) 11
 <br>
-[#84 - Arquivo de Apresentação - Modelagem](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/84)
+[#98 - Estudos: GoFs - Criacionais](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/98) 5

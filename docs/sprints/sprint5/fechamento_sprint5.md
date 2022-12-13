@@ -1,4 +1,4 @@
-# Fechamento da Sprint 04
+# Fechamento da Sprint 05
 
 ## Histórico de versão
 
@@ -11,23 +11,23 @@
 
 | **ID** | **Descrição**                                                                                                                           | **Status** | **Pontos** |
 | :----- | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------- | :--------: |
-| 56 | [Diagrama de Componentes](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/56) | Fechada | 7 |
-| 57 | [Diagrama de Implantação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/57) | Fechada | 5 |
-| 58 | [Diagrama de Sequência](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/58)   | Fechada | 8 |
-| 59 | [Diagrama de Comunicação](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/59) | Fechada | 5 |
-| 60 | [Diagrama de Estados](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/60)     | Fechada | 6 |
-| 61 | [Diagrama de Atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/61)  | Fechada | 4 |
-| 63 | [MOSCOW](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/63)                  | Fechada  | 4 |
-| 74 | [Abertura e Fechamento da Sprint 3](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/74)                | Fechada | 2 |
-| 76 | [Melhoria do Backlog do produto](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/76)                   |  Fechada | 2 |
-| 79 | [Revisão e controle geral de artefatos/atividades](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/79) | Fechada | 2 |
-| 84 | [Arquivo de Apresentação - Modelagem](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/84)              | Fechada | 2 |
+| 88 | [Abertura e Fechamento da Sprint 4](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/88) | Fechada | 4 |
+| 89 | [Estudos: GRASPs - Padrão 1](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/89) | Fechada | 5 |
+| 90 | [Estudos: GRASPs - Padrão 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/90)   | Fechada | 8 |
+| 91 | [Estudos: GRASPs - Padrão 3](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/91) | Fechada | 5 |
+| 92 | [Estudos: GoFs - Estruturais](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/92)     | Fechada | 6 |
+| 93 | [Estudos: GoFs - Comportamentais](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/93)  | Fechada | 4 |
+| 94 | [Estudos: Padrão Emergente](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/94)                  | Fechada  | 4 |
+| 95 | [Configuração do Ambiente - Backend](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/95)                | Fechada | 2 |
+| 96 | [Configuração Ambiente - Banco de dados](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/96)                   |  Fechada | 2 |
+| 97 | [Configuração Ambiente - Frontend](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/97) | Fechada | 2 |
+| 98 | [Estudos: GoFs - Criacionais](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/98)              | Fechada | 2 |
 
 ## Pontuação Final
 
-**Pontuação Total:** 47 Pontos Planejados <br>
-**Débitos Técnicos Adicionados:** 0 Pontos <br>
-**Pontos Concluídos:** 47 Pontos Concluídos <br>
+**Pontuação Total:** 41 Pontos Planejados <br>
+**Débitos Técnicos Adicionados:** 10 Pontos <br>
+**Pontos Concluídos:** 31 Pontos Concluídos <br>
 
 ## Débitos Técnicos Gerados
 
@@ -52,13 +52,14 @@ Nenhum débito técnico gerado.
 
 ### Melhorias
 
-- Aulas de dúvidas poderiam ser remotas (se possível).
+- Aulas de dúvidas remotas #VoltaEAD
+
 
 ## Burndown
 
 <figure>
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint4/burndown4.jpeg" alt="Burndown Sprint 4"/>
-  <figcaption align="center" >Figura 1 - Burndown: Sprint 4. Fonte: Autor </figcaption>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint3/burndown3.jpeg" alt="Burndown Sprint 3"/>
+  <figcaption align="center" >Figura 1 - Burndown: Sprint 3. Fonte: Autor </figcaption>
 </figure>
 
 Burndown tem que melhorar bastante. Serão elaboradas táticas para resolver esse problema.
@@ -66,8 +67,8 @@ Burndown tem que melhorar bastante. Serão elaboradas táticas para resolver ess
 ## Velocity
 
 <figure>
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint4/velocity4.jpeg" alt="Velocity Sprint 4"/>
-  <figcaption align="center" >Figura 1 - Velocity: Sprint 4. Fonte: Autor </figcaption>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint3/velocity3.jpeg" alt="Velocity Sprint 3"/>
+  <figcaption align="center" >Figura 1 - Velocity: Sprint 3. Fonte: Autor </figcaption>
 </figure>
 
 Velocity decente e condizente com a divisão de tarefas entre sprints.
@@ -75,8 +76,8 @@ Velocity decente e condizente com a divisão de tarefas entre sprints.
 ## Cumulative Flow
 
 <figure>
-  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint4/cumulative_flow4.jpeg" alt="Cumulative Flow Sprint 4"/>
-  <figcaption align="center" >Figura 1 - Cumulative Flow: Sprint 4. Fonte: Autor </figcaption>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/sprints/sprint3/cumulative_flow3.jpeg" alt="Cumulative Flow Sprint 3"/>
+  <figcaption align="center" >Figura 1 - Cumulative Flow: Sprint 3. Fonte: Autor </figcaption>
 </figure>
 
 Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints se busca elaborar táticas para usar mais o ZenHub.
@@ -130,36 +131,37 @@ Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints
 | :----------------: | :-------: | :-------: | :-------: | :-------: |
 | Eduardo Maia       | &#128516; | 🇧🇷        | 🥱        | 😩        |
 | Herick Lima        | &#128516; | 🫣        | 😎        | 🇧🇷        |
-| João Durso         | &#128516; | 😵‍💫        | 🥺        | 😶‍🌫️        |
-| Kayro César        | &#128516; | 🥳        | 😰        | 🤨        |
+| João Durso         | &#128516; | 😵‍💫        | 🥺        | 😶‍🌫️         |
+| Kayro César        | &#128516; | 🥳        | 😰        |         |
 | | |  | | ❌ Distância segura ❌|
 | Klyssmann Oliveira | &#128526; | 😩        | 🇧🇷        | 😷        |
 | | |  | | ❌ Distância segura ❌|
-| Luan Vasco         | &#128529; | 🍺        | 🥱        | 📚        |
+| Luan Vasco         | &#128529; | 🍺        | 🥱        |         |
 | Nicolas Roberto    | &#129393; | 😵        | 🥱        | 🐢        |
 | Pedro Cassiano     | &#128578; | 😧        | 😴        | 🥵        |
-| Thalisson Alves    | &#128516; | 😵‍💫        | 🥱        | 🏃        |
+| Thalisson Alves    | &#128516; | 😵‍💫        | 🥱        |         |
 | Victor Cabral      | &#128526; | 🙏        | 😴        | 😫        |
 | Vitor Kühl         | &#129488; | 😋        | 😵‍💫        | 🥲        |
 
 |   Emote   | Legenda                           |
 | :-------: | :-----------------------------:   |
 | 😩 | Cansado                                  |
-| 🇧🇷 | Que venha o hexa                         |
+| 🇧🇷 | Que venha o hexa       |
 | 😶‍🌫️ | Querendo sumir                           |
-| 🤨 | Seguindo                                 |
+|  |                  |
 | 😷 | Covid                                    |
-| 📚 | Muita matéria                            |
+|  |                  |
 | 🐢 | Tô devagar                               |
 | 🥵 | Preocupado com o tanto de coisa pra fazer|
-| 🏃 | Corrido                                  |
+|  |                  |
 | 😫 | Preocupado com outras matérias           |
 | 🥲 | Muita informação                         |
 
 ## Análise pelo Scrum Master
 
-Segunda entrega (Modelagem) e apresentação do projeto pela equipe. E como esperado, foi uma sprint corrida e cheia de atividades. Além disso as consequências de alguns pontos negativos da sprint anterior também colaboraram no tanto de atividades.
+Uma sprint contubarda.
 
-A equipe está satisfeita com os artefatos entregues e atividades realizadas. Ainda há como ter maior maturidade e entendimento dos documentos, mas é algo que ocorrerá naturalmente e/ou por necessidade.
+Diversos eventos e feriados coincidiram com atividades e projetos de outras matérias, influenciando a equipe como um todo. Como forma de mitigar os danos e aloviar a demanda para o time decidiu-se dividir os artefatos entre as sprints 3 e 4. 
 
-A próxima Sprint terá foco em configurar o ambiente de desenvolvimento e estudar o que será necessário para a entrega seguinte.
+Esse tipo de divisão se provou benéfica para a equipe, sendo provavelmente continuada para as próximas entregas. Ainda assim houveram alguns débitos técnicos que farão a próxima sprint ter mais atividades a serem realizadas.
+
