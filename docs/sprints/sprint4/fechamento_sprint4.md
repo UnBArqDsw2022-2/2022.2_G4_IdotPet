@@ -37,7 +37,7 @@ Nenhum débito técnico gerado.
 
 ### Pontos Positivos 
 
-- Organização.
+- Boa organização mesmo com várias atividades.
 - Alguns membros não acharam os diagramas muito difíceis.
 - Entrosamento da equipe.
 - Diagramas ajudaram a compreender melhor o fluxo de atividades no aplicativo.
@@ -61,7 +61,7 @@ Nenhum débito técnico gerado.
   <figcaption align="center" >Figura 1 - Burndown: Sprint 4. Fonte: Autor </figcaption>
 </figure>
 
-Burndown tem que melhorar bastante. Serão elaboradas táticas para resolver esse problema.
+Burndown esperado para essa sprint. Todas as atividades foram entregues e issues fechadas em um ritmo mais constante. 
 
 ## Velocity
 
@@ -70,7 +70,7 @@ Burndown tem que melhorar bastante. Serão elaboradas táticas para resolver ess
   <figcaption align="center" >Figura 1 - Velocity: Sprint 4. Fonte: Autor </figcaption>
 </figure>
 
-Velocity decente e condizente com a divisão de tarefas entre sprints.
+Velocity condizente com a sprint e quantidade de tarefas realizadas.
 
 ## Cumulative Flow
 
@@ -79,7 +79,7 @@ Velocity decente e condizente com a divisão de tarefas entre sprints.
   <figcaption align="center" >Figura 1 - Cumulative Flow: Sprint 4. Fonte: Autor </figcaption>
 </figure>
 
-Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints se busca elaborar táticas para usar mais o ZenHub.
+Melhora boa no Cumulative Flow. Mais issues In Progress e menos em estado de New Issues. Falta melhorar o estado de Review.
 
 ## Práticas ágeis
 
