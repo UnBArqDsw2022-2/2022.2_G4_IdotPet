@@ -37,17 +37,17 @@
 
 ### Pontos Positivos 
 
-- Dividir as issues entre as sprints até a entrega foi uma ótima ideia para não sobrecarregar a sprint 3;
+- Dividir as issues entre as sprints até a entrega foi uma ótima ideia para não sobrecarregar a sprint 3.
 - Mesmo com muitos problemas na sprint, conseguimos entregar alguns artefatos.
 
 ### Pontos Negativos
 
-- A pessoa que inventou semestre no final do ano com natal, copa do mundo, black friday e ano novo… merece um prêmio! A produtividade foi quase zero nos dias de jogos do Brasil. Fora que todas as matérias, para compensar a falta de aula, houberam muitas atividades para casa.
+- A pessoa que inventou semestre no final do ano com natal, copa do mundo, black friday e ano novo… merece um prêmio! A produtividade foi quase zero nos dias de jogos do Brasil. Fora que todas as matérias, para compensar a falta de aula, houveram muitas atividades para casa.
 - Semana praticamente sem aula deu preguiça de fazer muitas atividades.
 - Gerência teve baixa produtividade e realizou pouco controle da equipe nessa sprint. 
 - Final de ano é um pouco complicado.
 - Semestre começando a apertar.
-- Falta de organização para cumprir os prazos e entregas por parte da equipe 
+- Falta de organização para cumprir os prazos e entregas por parte da equipe. 
 
 ### Melhorias
 
@@ -84,7 +84,7 @@ Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints
 
 ## Práticas ágeis
 
-| ID  |                        Nome de prática ágil                        | Sprint 01 |
+| ID  |                        Nome de prática ágil                        | Sprint 03 |
 | :-: | :----------------------------------------------------------------: | :-------: |
 |  1  |                   Priorização do Backlog pelos POs                 | &#10060;  |
 |  2  |    Desenvolvimento de processos e práticas facilitadas pelo SM     | &#10004;  |

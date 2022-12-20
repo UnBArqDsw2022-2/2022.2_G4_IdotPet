@@ -90,7 +90,7 @@ Continua demonstrando a falta de costume com a utilização do ZenHub.
 
 ## Práticas ágeis
 
-| ID  |                        Nome de prática ágil                        | Sprint 01 |
+| ID  |                        Nome de prática ágil                        | Sprint 02 |
 | :-: | :----------------------------------------------------------------: | :-------: |
 |  1  |                   Priorização do Backlog pelos POs                 | &#10060;  |
 |  2  |    Desenvolvimento de processos e práticas facilitadas pelo SM     | &#10004;  |
