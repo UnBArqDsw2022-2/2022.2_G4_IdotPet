@@ -62,7 +62,7 @@ Nenhum débito técnico gerado.
   <figcaption align="center" >Figura 1 - Burndown: Sprint 5. Fonte: Autor </figcaption>
 </figure>
 
-Burndown tem que melhorar bastante. Serão elaboradas táticas para resolver esse problema.
+Burndown esperado. Por ser estudo e configuração do ambiente de desenvolvimento decidimos fechar as issues no dia de restrospectiva, onde as atividades realizadas foram apresentadas.
 
 ## Velocity
 
@@ -71,7 +71,7 @@ Burndown tem que melhorar bastante. Serão elaboradas táticas para resolver ess
   <figcaption align="center" >Figura 1 - Velocity: Sprint 5. Fonte: Autor </figcaption>
 </figure>
 
-Velocity decente e condizente com a divisão de tarefas entre sprints.
+Haviam muitas issues de estudos e todas com pontuação 5, logo o Velocity teve uma quantidade de pontos maior do que esperado. As issues de configuração também tiverem um valor alto.
 
 ## Cumulative Flow
 
@@ -80,7 +80,7 @@ Velocity decente e condizente com a divisão de tarefas entre sprints.
   <figcaption align="center" >Figura 1 - Cumulative Flow: Sprint 5. Fonte: Autor </figcaption>
 </figure>
 
-Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints se busca elaborar táticas para usar mais o ZenHub.
+As atividades começaram a ser realizadas mais tardiamente do que o ideal.
 
 ## Práticas ágeis
 
@@ -159,9 +159,8 @@ Demonstra a falta de costume com a utilização do ZenHub. Nas próximas sprints
 
 ## Análise pelo Scrum Master
 
-Uma sprint contubarda.
+Uma sprint mais tranquila pós entrega.
 
-Diversos eventos e feriados coincidiram com atividades e projetos de outras matérias, influenciando a equipe como um todo. Como forma de mitigar os danos e aloviar a demanda para o time decidiu-se dividir os artefatos entre as sprints 3 e 4. 
+Teve um foco em configurar os ambientes de desenvolvimento e em realizar estudos sobre os padrões de modelagem e documentos a serem entregues. 
 
-Esse tipo de divisão se provou benéfica para a equipe, sendo provavelmente continuada para as próximas entregas. Ainda assim houveram alguns débitos técnicos que farão a próxima sprint ter mais atividades a serem realizadas.
-
+Foi uma sprint mais leve, mas muito por conta da dificuldade de conciliar as atividades com outras matérias, covid e fim de ano. O conteúdo ainda está bem abstrato mesmo com o estudos da equipe sobre os padrões. A configurações do ambiente de desenvolvimento ocorreram sem problemas.
