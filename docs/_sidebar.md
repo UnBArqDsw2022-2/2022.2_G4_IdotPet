@@ -8,7 +8,7 @@
 - **Base**
 
   - **Módulo Projeto Não Orientado a Abordagens Específicas**
-    - [Design Sprint](base/designSprint.md)
+    - [Design Sprint](base/design_sprint.md)
     - [Brainstorm](base/brainstorm.md)
     - [Mapa Mental](base/mapa_mental.md)
     - [Rich Picture](base/rich_picture.md)
