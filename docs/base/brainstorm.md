@@ -9,7 +9,7 @@
 | 03/12/2022 | 0.3 |Adição do segundo brainstorm de requisitos | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 | 03/12/2022 | 0.4 |Adição da primeira tabela de requisitos | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 
-## Introdução 
+## Introdução
 
 Na execução do processo de Design Sprint tem-se como primeira fase a realização do UNPACK. Nela todos os integrantes do time externalizam suas ideias e percepções quanto à solução do produto, a fim de condensar os pontos a serem trabalhados. Uma das técnicas mais famosas e utilizadas para a realização dessa atividade é a prática do Brainstorm.
   
@@ -17,11 +17,11 @@ Na execução do processo de Design Sprint tem-se como primeira fase a realizaç
 
 Brainstorm, do inglês "tempestade de ideias", é uma prática em que o grupo se reúne com objetivo de responder questões do problema. Nessa reunião, há uma explicação do problema, exposição das ideais dos participantes, discussão sobre elas e um agrupamento das mesmas.
 
-É importante que, para a realização dessa dinâmica, todos estejam à vontade e comprometidos em realizar um bom trabalho. O problema deve ser bem detalhado e as ideias apresentadas sem medo e sem críticas, para que a discussão ocorra de maneira saudável e sem julgamentos. 
+É importante que, para a realização dessa dinâmica, todos estejam à vontade e comprometidos em realizar um bom trabalho. O problema deve ser bem detalhado e as ideias apresentadas sem medo e sem críticas, para que a discussão ocorra de maneira saudável e sem julgamentos.
 
 ## Resultados
   
-Foi realizado um brainstorm para a escolha do tema do projeto e outro para apanhar e agregar ideias sobre o tema selecionado, sendo levantados os requisitos funcionais e não-funcionais nesse processo. 
+Foi realizado um brainstorm para a escolha do tema do projeto e outro para apanhar e agregar ideias sobre o tema selecionado, sendo levantados os requisitos funcionais e não-funcionais nesse processo.
 
 Posteriormente realizamos outro brainstorm para levantar mais requisitos e refinar os já documentados.
 
@@ -38,6 +38,7 @@ Posteriormente realizamos outro brainstorm para levantar mais requisitos e refin
 </figure>
 
 #### Primeiro levantamento de Requisitos Funcionais e Não Funcionais
+
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/brainstorm/tema_requisitos.png?raw=true" alt="Tema Requisitos" alt="Rich Picture"/>
   <figcaption align="center" >Figura 3 - Brainstorm: Requisitos do tema. Fonte: Autores </figcaption>
@@ -45,18 +46,18 @@ Posteriormente realizamos outro brainstorm para levantar mais requisitos e refin
 
 | ID | Descrição | Tipo de requisito |
 |:-: | :- | :-: |
-| BS01 | O usuário deve ser capaz de cadastrar um pet para adoção| RF | 
-| BS02 | O usuário deve ser capaz de entrar em contato com o doador | RF | 
-| BS03 | O usuário deve ser capaz de favoritar o anúncio de um pet | RF | 
-| BS04 | O usuário deve ser capaz de fazer um upload de uma foto do pet | RF | 
-| BS05 | O usuário deve ser capaz de doar alimentos para ONG de pets abandonados | RF | 
-| BS06 | O usuário deve ser capaz de se cadastrar | RF | 
-| BS07 | O usuário deve ser capaz de se comunicar com outro usuário através de um chat | RF | 
-| BS08 | O usuário deve ser capaz de buscar por anúncios de pets| RF | 
-| BS09 | O usuário deve ser capaz de entrar e sair do sistema | RF | 
-| BS10 | O usuário deve ser capaz de adicionar uma descrição em um anuncio de adoção | RF | 
-| BS11 | O usuário (adotante e criador do anuncio) deve ser capaz de confirmar que uma adoção foi concluída | RF | 
-| BS12 | O usuário deve ser capaz de fazer doações para quem vai adotar e entidades para ajudar com custos de vacina e médico veterinário | RF | 
+| BS01 | O usuário deve ser capaz de cadastrar um pet para adoção| RF |
+| BS02 | O usuário deve ser capaz de entrar em contato com o doador | RF |
+| BS03 | O usuário deve ser capaz de favoritar o anúncio de um pet | RF |
+| BS04 | O usuário deve ser capaz de fazer um upload de uma foto do pet | RF |
+| BS05 | O usuário deve ser capaz de doar alimentos para ONG de pets abandonados | RF |
+| BS06 | O usuário deve ser capaz de se cadastrar | RF |
+| BS07 | O usuário deve ser capaz de se comunicar com outro usuário através de um chat | RF |
+| BS08 | O usuário deve ser capaz de buscar por anúncios de pets| RF |
+| BS09 | O usuário deve ser capaz de entrar e sair do sistema | RF |
+| BS10 | O usuário deve ser capaz de adicionar uma descrição em um anuncio de adoção | RF |
+| BS11 | O usuário (adotante e criador do anuncio) deve ser capaz de confirmar que uma adoção foi concluída | RF |
+| BS12 | O usuário deve ser capaz de fazer doações para quem vai adotar e entidades para ajudar com custos de vacina e médico veterinário | RF |
 | BS13 | O app deve ser mobile | RNF |
 | BS14 | O usuário deve conseguir utilizar o app sem treinamento específico | RNF |
 | BS15 | O sistema deverá rodar em Android | RNF |
@@ -80,9 +81,10 @@ Posteriormente realizamos outro brainstorm para levantar mais requisitos e refin
 | BS27 | O aplicativo deverá possuir documentação legivel e compreensivel sobre a instalação e as boas praticas de desenvolvimento.  | RNF |
 | BS28 | O aplicativo deve ter uma interface coerente com padrão de cores e ícones. | RNF |
 | BS29 | O aplicativo deve ser intuitivo e de fácil utilização. Com layouts semelhantes à aplicações de mídias sociais já estabelecidas.  | RNF |
+
 #### Legenda
 
-| Legenda | Significado | 
+| Legenda | Significado |
 |:-: | :- |
 |BS|Brainstorm|
 |RF|Requisito Funcional|
@@ -94,10 +96,10 @@ A prática do Brainstorm funcionou para a equipe e houve um bom engajamento e pa
 Foi uma técnica interessante, dinâmica e efetiva de se utilizar.
 --->
   
-## Referências 
+## Referências
 
-> BALDISSERA, Olívia. O passo a passo do Design Sprint, a metodologia da Google para inovar em projetos. 2021. Disponível em: https://posdigital.pucpr.br/blog/design-sprint. Acesso em: 17 nov. 2022.
+> BALDISSERA, Olívia. O passo a passo do Design Sprint, a metodologia da Google para inovar em projetos. 2021. Disponível em: <https://posdigital.pucpr.br/blog/design-sprint>. Acesso em: 17 nov. 2022.
 
-> PIOVESANA, Luiz. Como fazer um brainstorming eficiente?. 2022. Disponível em: https://www.nuvemshop.com.br/blog/brainstorm/. Acesso em: 17 nov. 2022.
+> PIOVESANA, Luiz. Como fazer um brainstorming eficiente?. 2022. Disponível em: <https://www.nuvemshop.com.br/blog/brainstorm/>. Acesso em: 17 nov. 2022.
 
-> FARINAZZO, Raphael. Brainstorming: o que é e como preparar uma reunião com resultados reais. 2022. Disponível em: https://resultadosdigitais.com.br/agencias/o-que-e-brainstorming/. Acesso em: 17 nov. 2022.
+> FARINAZZO, Raphael. Brainstorming: o que é e como preparar uma reunião com resultados reais. 2022. Disponível em: <https://resultadosdigitais.com.br/agencias/o-que-e-brainstorming/>. Acesso em: 17 nov. 2022.

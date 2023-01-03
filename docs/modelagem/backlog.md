@@ -13,13 +13,13 @@
 |03/12/2022 | 0.7 | Adição da rastreabilidade | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 |03/12/2022 | 0.8 | Adição dos requisitos não funcionais | [Victor Cabral](https://github.com/victordscabral) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 
-## Introdução 
+## Introdução
 
 Este backlog foi produzido de acordo com a abordagem ágil, na qual uma função geral é classificada como “Épico”. Desse épico derivam as “Funcionalidades”, que são como divisões de funcionalidades menores ainda, as "Histórias de usuário" que são partes mais detalhadas de uma funcionalidade, e por último teremos as "Tarefas" que terão uma descrição mais técnica.
   
 ## Metodologia
 
-Esse documento foi elaborado a partir dos vários artefatos de elicitação de requisitos nas sprints anteriores. Como dito anteriormente, o Backlog do produto pode ser alterado durante a evolução do projeto. 
+Esse documento foi elaborado a partir dos vários artefatos de elicitação de requisitos nas sprints anteriores. Como dito anteriormente, o Backlog do produto pode ser alterado durante a evolução do projeto.
 
 No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig. 1, onde será composto por uma coleção de histórias de usuário, possuindo de 1 até N histórias. Em muitos times não se utiliza épicos, desta maneira a hierarquia permite que o backlog possua 0 a N épicos. Cada épico pode ser relacionado com 0 ou N funcionalidade, que por sua vez, cada funcionalidade se relaciona com 0 ou mais Histórias de Usuário. Finalizando, cada história produz 0 a N tarefas técnicas.
 
@@ -27,7 +27,6 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/backlog/backlog_hierarquia.jpeg?raw=true" alt="Hierarquia do Backlog"/>
   <figcaption align="center" >Figura 1 - Hierarquia do Backlog. Fonte: Autores </figcaption>
 </figure>
-
 
 **Épico** (*Epic*) = É uma história de usuário que ainda não foi detalhada, é muito grande ou ainda possui muita incerteza. É a categoria com maior granularidade no backlog.
 
@@ -98,7 +97,7 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | US18 |  E05  | F09 | Eu, como usuário anunciante, desejo adicionar ou editar o anúncio do pet, para adicionar um novo anúncio ou corrigir os dados  | M | [BS01](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [BS04](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [BS10](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [IN01](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)|
 | US19 |  E05  | F09 | Eu, como usuário anunciante, desejo adicionar ou editar o perfil/informações do pet, para corrigir os dados do pet   | S | [BS04](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [BS10](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) |
 | US20 |  E06  | F10 | Eu, como usuário adotante, desejo saber como realizar uma adoção, sobre como o aplicativo funciona e da importância de uma adoção, para entender como usar o aplicativo | C | [BS20](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [BS21](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [BS22](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm)|
-| US21 |  E06  | F10 | Eu, como usuário anunciante, desejo saber como anunciar uma adoção, sobre como o aplicativo funciona e da importância de uma adoção, para entender como usar o aplicativo | C | [BS20](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [BS21](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [BS22](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm)| 
+| US21 |  E06  | F10 | Eu, como usuário anunciante, desejo saber como anunciar uma adoção, sobre como o aplicativo funciona e da importância de uma adoção, para entender como usar o aplicativo | C | [BS20](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [BS21](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [BS22](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm)|
 | US22 |  E06  | F11 | Eu, como usuário adotante, desejo filtrar os anúncios de pets por tipo (cachorro, gato e etc), para para facilitar a escolha de um pet  | S | [BS08](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [IN02](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao) e [IN05](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)|
 | US23 |  E06  | F11 | Eu, como usuário adotante, desejo filtrar os anúncios de pets pelo localização do animal, para facilitar a escolha de um pet   | S | [BS08](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [IN02](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao) e [IN05](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)|
 | US24 |  E06  | F11 | Eu, como usuário adotante, desejo filtrar os anúncios de pets por data do anúncio, para facilitar a escolha de um pet   | S | [BS08](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm), [IN02](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao) e [IN05](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)|
@@ -110,6 +109,7 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 | US30 |  E06  | F16 | Eu, como usuário adotante, desejo favoritar o anúncio de um pet, para ter acesso aos meus interesses rapidamente | C | [BS03](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [IN07](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)|
 | US31 |  E08  | F17 | Eu, como usuário voluntário, desejo doar recursos para um usuário adotante, para fornecer condições necessárias para a adoção e apoio dos pets | C | [BS12](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [IN04](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)
 | US32 |  E08  | F17 | Eu, como usuário voluntário, desejo doar recursos para um usuário anunciante, para fornecer condições necessárias para o pet até sua adoção | C | [BS12](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/brainstorm) e [IN04](https://unbarqdsw2022-2.github.io/2022.2_G4_IDotPet/#/base/introspeccao)|
+
 ### Tarefas
 
 | Épico | Funcionalidade | História de Usuário | Tarefas |
@@ -145,6 +145,6 @@ No presente documento, o backlog do produto seguirá a hierarquia exposto na Fig
 
 ### Referências
 
-> ATLASSIAN. O backlog do produto: sua lista de tarefas definitiva. Disponível em:https://www.atlassian.com/br/agile/scrum/backlogs.  Acesso em: 28 nov. 2022.
+> ATLASSIAN. O backlog do produto: sua lista de tarefas definitiva. Disponível em:<https://www.atlassian.com/br/agile/scrum/backlogs>.  Acesso em: 28 nov. 2022.
 
-> FERREIRA, Avelino. K21. Product Backlog: Épico, História de Usuário e Tarefas. Disponível em: https://k21.global/br/blog/product-backlog-epico-historia-tarefas.  Acesso em: 28 nov. 2022.
+> FERREIRA, Avelino. K21. Product Backlog: Épico, História de Usuário e Tarefas. Disponível em: <https://k21.global/br/blog/product-backlog-epico-historia-tarefas>.  Acesso em: 28 nov. 2022.
