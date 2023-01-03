@@ -35,7 +35,7 @@ O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e n
 </details>
 
 <details>
-<summary>Clique para apresentar a versão 1.0 do Protótipo de Alta Fidelidade</summary>
+<summary>Clique para apresentar a versão 1.1 do Protótipo de Alta Fidelidade</summary>
  
 ### Protótipo de Alta Fidelidade v1.1
  
@@ -47,6 +47,9 @@ O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e n
 **Autor(es):** <br>
 [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) <br><br>
 </details>
+
+<details>
+<summary>Clique para apresentar a versão 1.2 do Protótipo de Alta Fidelidade</summary>
 
 ### Protótipo de Alta Fidelidade v1.2
  
