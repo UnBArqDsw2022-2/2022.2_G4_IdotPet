@@ -6,6 +6,7 @@
 | 02/01/2023 | 0.1    | Criação e estruturação do documento | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
 | 02/01/2023 | 0.2    | Adicionado introdução | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
 | 02/01/2023 | 0.3    | Adicionado metodologia | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
+| 02/01/2023 | 0.4    | Adicionado primeira versão completa do artefato  | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
 
 
 ## Introdução
@@ -16,7 +17,7 @@ A elaboração deste artefato foi embasada por um processo criativo, no qual os 
 
 ## Protótipo de Alta Fidelidade
 
-![Protótipo de Alta Fidelidade v1.2]()
+![Protótipo de Alta Fidelidade v1.2](../assets/prototipo_alta_fidelidade/prototipo_alta_v1.2.1.png)
 
 ## Versionamento do artefato
 
