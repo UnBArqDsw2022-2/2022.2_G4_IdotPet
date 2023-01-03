@@ -48,6 +48,21 @@ O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e n
 [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) <br><br>
 </details>
 
+### Protótipo de Alta Fidelidade v1.2
+ 
+O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e não teve como restaurar todo o histórico de cada modificação. No entanto, a contribuição dessa versão foi:
+- Criação da tela _Home_.
+ 
+![Protótipo de Alta Fidelidade v1.2](../assets/prototipo_alta_fidelidade/prototipo_alta_v1.2.png)
+ 
+**Autor(es):** <br>
+[João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) <br><br>
+</details>
+
 ## Referências
 
+> https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b
 
+> 
+
+> 
