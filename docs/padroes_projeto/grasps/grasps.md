@@ -5,7 +5,8 @@
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
 | 02/01/2023   | 0.1   | Criação da base do documento   | [Victor Cabral](https://github.com/victordscabral) |
-| 03/01/2023   | 0.2   | Preenchimento inicial do documento   | [Victor Cabral](https://github.com/victordscabral) e Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
+| 03/01/2023   | 0.2   | Preenchimento inicial do documento   | [Victor Cabral](https://github.com/victordscabral) e [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
+| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
 
 ## Introdução
 
@@ -31,6 +32,7 @@ Foram utilizados os padrões XX, XX, XX e XX no projeto. Suas aplicações no pr
 
 ## Metodologia
 
+Os códigos foram elaborados tendo os padrões GRASPs em mente, mas a equipe decidiu focar na elaboração do código já que ao utilizar orientação a objetos muitos dos padrões já seriam atendidos. Os restantes escolhidos foram atendidos fazendo adaptações no código conforme necessidade do padrão. 
 
 ## Aplicação no Projeto
 
