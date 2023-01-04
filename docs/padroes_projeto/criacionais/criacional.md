@@ -7,7 +7,8 @@
 | 04/01/2023 | 0.1 | Criação da estrutura | [Klyssmann Oliveira](https://github.com/klyssmannoliveira)|
 | 04/01/2023 | 0.2 | Introdução | [João Durso](https://github.com/jvsdurso) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 | 04/01/2023 | 0.3 | Metodologia | [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral)|
-| 04/01/2023 | 0.4 | Melhoria na introdução | [João Durso](https://github.com/jvsdurso), [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral)
+| 04/01/2023 | 0.4 | Melhoria na introdução | [João Durso](https://github.com/jvsdurso), [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
+| 04/01/2023 | 0.5 | Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
 
 
 ## Introdução
@@ -35,12 +36,23 @@ Há dois temas recorrentes nesses padrões. Primeiro, todos eles encapsulam o co
 
 Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões mais adequados para o projeto. Em primeiro momento foi realizado um estudo do padrão e a implementação em código do projeto atual (se possível) ou de projetos similares.
 
-## Criacional 1
+## Criacional 1 - Builder
+
+O livro da Gang of Four define o objetivo do builder como:
+
+> "Separar a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar diferentes representações."
+
+O builder move o código de construção do objeto para fora de sua própria classe para objetos separados chamados construtores. Cada um desses construtores segue a mesma interface e implementa etapas separadas de construção de objetos. Ou seja, se o objetivo é ter uma representação diferente do objeto, basta criar uma classe construtora diferente e implementar essas etapas de construção correspondentemente. 
+
+Além disso, há uma camada adicional no padrão de projeto Builder — Diretor. O Diretor é uma classe simples que conhece a interface do Construtor e define a ordem na qual executar as etapas de construção. Essa classe não é obrigatória, mas oculta os detalhes da construção do produto do código do cliente.
 
 ### Aplicação no Projeto
 
+Desenhar diagrama explicando a aplicação
 
 ### Possível implementação em código
+
+Código
 
 ## Criacional 2
 
