@@ -4,9 +4,10 @@
 
 | Data | Versão | Modificação | Autor |
 | :- | :- | :- | :- |
-| 04/01/2023 | 0.1 | Criação e elaboração do documento | [Klyssmann Oliveira](https://github.com/klyssmannoliveira)|
+| 04/01/2023 | 0.1 | Criação da estrutura | [Klyssmann Oliveira](https://github.com/klyssmannoliveira)|
 | 04/01/2023 | 0.2 | Introdução | [João Durso](https://github.com/jvsdurso) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 | 04/01/2023 | 0.3 | Metodologia | [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabrala) |
+| 04/01/2023 | 0.4 | Melhoria na introdução | [João Durso](https://github.com/jvsdurso), [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabrala)
 
 
 ## Introdução
@@ -23,6 +24,12 @@ Existem 23 padrões de projeto e estão dividividas em três categorias:
 - Criacional (Tema deste documento): dizem respeito ao processo de criação de objetos;
 - Estrutural: lidam com a composição de classes ou objetos; e
 - Comportamental: caracterizam as maneiras pelas quais classes ou objetos interagem e distribuem responsabilidades.
+
+Padrões de projeto criacional abstraem o processo de instanciação. Eles ajudam a tornar um sistema independente de como seus objetos são criados, compostos e representados. Um padrão de criação de classe usa herança para variar a classe que é instanciada, enquanto um padrão de criação de objeto delega a instanciação a outro objeto.
+
+Os padrões de criação tornam-se importantes à medida que os sistemas evoluem para depender mais da composição de objetos do que da herança de classes. Quando isso acontece, a ênfase da codificação muda de um conjunto fixo de comportamentos para a definição de um conjunto menor de comportamentos fundamentais que podem ser compostos em qualquer número de comportamentos mais complexos. Desta maneira, criar objetos com comportamentos específicos requer mais do que simplesmente instanciar uma classe. 
+
+Há dois temas recorrentes nesses padrões. Primeiro, todos eles encapsulam o conhecimento sobre quais classes concretas o sistema usa. Em segundo lugar, eles escondem como as instâncias dessas classes são criadas e reunidas. Tudo o que o sistema em geral sabe sobre os objetos são suas interfaces definidas por classes abstratas. Conseqüentemente, os padrões de criação oferecem muita flexibilidade no que é criado, quem o cria, como e quando. 
 
 ## Metodologia
 
