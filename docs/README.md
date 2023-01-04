@@ -28,54 +28,68 @@ O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que 
 
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/design_sprint">Design Sprint</a></h3>
 
-### Design Sprint
 ![Print Design Sprint](./assets/readme/designsprint.png)
-### Léxicos
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/l%C3%A9xico">Léxicos</a></h3>
+
 ![Print Léxicos](./assets/readme/lexico.png)
-### 5W2H
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/5w2h">5W2H</a></h3>
+
 ![Print 5W2H](./assets/readme/5w2h.png)
-### Diagrama de Causa e Efeito
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/diagrama_causa_efeito">Diagrama Causa-Efeito</a></h3>
+
 ![Print Diagrama Causa-Efeito](./assets/readme/causa_efeito.png)
 
-### Plano de Gerenciamento de Riscos
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/tap">Plano de Riscos</a></h3>
+
 ![Print Plano de Riscos](./assets/readme/gerenciamento_risco.png)
-### Rich Picture
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/rich_picture">Rich Picture</a></h3>
+
 ![Print Rich Picture](./assets/readme/rich_picture.png)
-### Mapa Mental
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/mapa_mental">Mapa Mental</a></h3>
+
 
 ![Print Mapa Mental](./assets/readme/mapa_mental.png)
-### Brainstorm
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/brainstorm">Brainstorm</a></h3>
+
 
 ![Brainstorm](./assets/readme/brainstorm.png)
-### Personas
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/personas">Personas</a></h3>
+
 
 ![Print Personas](./assets/readme/personas.png)
-### Intropecção
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/introspeccao">Intorspecção</a></h3>
+
 
 ![Introspecção](./assets/readme/introspec%C3%A7%C3%A3o.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/prototipo_baixa_fidelidade">Protótipo de Baixa Fidelidade</a></h3>
 
-### Protótipo de Baixa Fidelidade
 
 ![Protótipo de Baixa Fidelidade](./assets/readme/prot_baixa.png)
 
-### Storyboard
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/storyboard">Storyboard</a></h3>
+
 
 ![Storyboard](./assets/readme/storyboard.png)
 
-### Wireframe
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/wireframe">Wireframe</a></h3>
+
 
 ![Wireframe](./assets/readme/wireframe.png)
 
-### BPMN
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/bpmn">BPMN</a></h3>
+
 
 ![BPMN](./assets/readme/BMN.png)
 
-### Metodologias
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/metodologia">Metodologias</a></h3>
+
 
 ![Metodologias](./assets/readme/metodologias.png)
 
-### Iniciativas Extras
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/">Iniciativas Extras</a></h3>
+
 
 ![Iniciativas Extras](./assets/readme/iniciativas1.png)
 
@@ -83,27 +97,37 @@ O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que 
 
 
 ## Screenshots Segunda Entrega <<FOCO: DSW&#40;Modelagem&#41;>>
-### Diagrama de Classes
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_classe">Diagrama de Classes</a></h3>
+
 ![Print Diagrama de Classes](./assets/readme/diagrama_classe.png)
-### Diagrama de Pacotes
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_pacotes">Diagrama de Pacotes</a></h3>
+
 ![Print Diagrama de Pacotes](./assets/readme/diagrama_pacote.png)
 
-### Diagrama de Componentes
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_componentes">Diagrama de Componentes</a></h3>
+
 ![Print Diagrama de Componentes](./assets/readme/diagrama_componente.png)
-### Diagrama de Implantação
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_implantacao">Diagrama de Implantação</a></h3>
+
 ![Print Diagrama de Implantação](./assets/readme/diagrama_implanta%C3%A7%C3%A3o.png)
-### Diagrama de Sequência
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_sequencia">Diagrama de Sequência</a></h3>
+
 ![Print Diagrama de Sequência](./assets/readme/diagrama_sequencia.png)
-### Diagrama de Comunicação
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_comunicacao">Diagrama de Comunicação</a></h3>
+
 ![Print Diagrama de Comunicação](./assets/readme/diagrama_comunicacao.png)
-### Diagrama de Estados
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_estados">Diagrama de Estados</a></h3>
+
 ![Print Diagrama de Estados](./assets/readme/diagrama_estados.png)
-### Diagrama de Atividades
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_atividades">Diagrama de Atividades</a></h3>
+
 ![Print Diagrama de Atividades](./assets/readme/diagrama_atividades.png)
-### Product Backlog e Priorização
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/backlog">Product Backlog e Priorização</a></h3>
+
 ![Print Product Backlog e Priorização](./assets/readme/backlog_prioriza%C3%A7%C3%A3o.png)
 
-### Iniciativas Extras
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/">Iniciativas Extras</a></h3>
+
 
 ![Iniciativas Extras](./assets/readme/iniciativas2.png)
 
