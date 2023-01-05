@@ -39,9 +39,9 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 O Facade é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
 
-#### Diagrama Estrutural
+#### Estrutura Geral
 
-![Diagrama estrutural Facade](docs/assets/gofs-estruturais/diagrama/facade.png)
+![Estrutura Geral Facade](docs/assets/gofs-estruturais/diagrama/facade.png)
 
 #### Aplicabilidade
 
@@ -57,9 +57,9 @@ Nenhuma implementação até o momento
 
 Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
 
-#### Diagrama Estrutural
+#### Estrutura Geral
 
-![Diagrama estrutural Proxy](docs/assets/gofs-estruturais/diagrama/proxy.png)
+![Estrutura Geral Proxy](docs/assets/gofs-estruturais/diagrama/proxy.png)
 
 #### Aplicabilidade
 
@@ -69,9 +69,9 @@ O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma inter
 
 ### Estrutural 3 - Bridge
 O Bridge é um padrão de projeto estrutural que permite que seja dividida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras.
-#### Diagrama Estrutural
+#### Estrutura Geral
 
-![Diagrama estrutural Bridge](docs/assets/gofs-estruturais/diagrama/bridge.png)
+![Estrutura Geral Bridge](docs/assets/gofs-estruturais/diagrama/bridge.png)
 
 
 #### Aplicabilidade
@@ -89,8 +89,8 @@ Nenhuma implementação até o momento
 ### Estrutural 4 - FlyWeight
 Flyweight é um padrão de design estrutural que permite ajustar mais objetos na quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
 
-#### Diagrama Estrutural
-![Diagrama Estrutural FlyWeight](path/)
+#### Estrutura Geral
+![Estrutura Geral FlyWeight](path/)
 #### Aplicabilidade
 Use o padrão Flyweight quando seu programa tiver que suportar um grande número de objetos que mal cabem na RAM disponível.
 #### Implementação no IdotPet
@@ -98,8 +98,8 @@ Nenhuma implementação até o momento
 
 ### Estrutural 5 - Decorator
 Decorator é um padrão de design estrutural que permite anexar novos comportamentos a objetos colocando esses objetos dentro de objetos wrapper especiais que contêm os comportamentos.
-#### Diagrama Estrutural
-![Diagrama Estrutural Decorator](path/)
+#### Estrutura Geral
+![Estrutura Geral Decorator](path/)
 
 #### Aplicabilidade
 Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos ou quando for difícil ou impossível estender o comportamento de um objeto usando herança.
@@ -108,8 +108,8 @@ Nenhuma implementação até o momento
 
 ### Estrutural 6 - Composite
 Composite é um padrão de design estrutural que permite compor objetos em estruturas de árvore e depois trabalhar com essas estruturas como se fossem objetos individuais.
-#### Diagrama Estrutural
-![Diagrama Estrutural Composite](docs/assets/gofs-estruturais/diagrama/composite.png)
+#### Estrutura Geral
+![Estrutura Geral Composite](docs/assets/gofs-estruturais/diagrama/composite.png)
 #### Aplicabilidade
 Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore, ou quando desejar que o código do cliente trate elementos simples e complexos de maneira uniforme.
 #### Implementação no IdotPet
@@ -120,8 +120,8 @@ Nenhuma implementação até o momento
 O Adapter é um padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
 Um adaptador encobre um dos objetos para esconder a complexidade da conversão acontecendo nos bastidores. O objeto encobrido nem fica ciente do adaptador. Por exemplo, você pode encobrir um objeto que opera em metros e quilômetros com um adaptador que converte todos os dados para unidades imperiais tais como pés e milhas.
 
-#### Diagrama Estrutural
-![Diagrama estrutural Adapter](docs/assets/gofs-estruturais/diagrama/adapter.png)
+#### Estrutura Geral
+![Estrutura Geral Adapter](docs/assets/gofs-estruturais/diagrama/adapter.png)
 
 #### Aplicabilidade
 Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
