@@ -26,26 +26,115 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 ### Comportamental 1 - Strategy
 
-
-
 #### Estrutura Geral
 
 ![Estrutura Geral Strategy](docs/assets/gofs-comportamentais/diagrama/.png)
 
 #### Aplicabilidade
+
+Os padrões de comportamento se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos. Os padrões comportamentais de classes utilizam a herança para distribuir o comportamento entre classes, e os padrões de comportamento de objeto utilizam a composição de objetos em contrapartida a herança. Alguns descrevem como grupos de objetos que cooperam para a execução de uma tarefa que não poderia ser executada por um objeto sozinho. Ele Permite, de maneira simples, a variação dos algoritmos utilizados na resolução de um determinado problema.
+
 #### Implementação no IdotPet
  Nenhuma implementação até o momento
 
 
 ### Comportamental 2 - Template Method
 
+#### Estrutura Geral
 
+![Estrutura Geral Template Method](../../assets/gofs-comportamentais/diagrama/templatemethod.png)
+
+#### Aplicabilidade
+
+Um Template Method auxilia na definição de um algoritmo com partes do mesmo definidos por métodos abstratos. As subclasses devem se responsabilizar por estas partes abstratas, deste algoritmo, que serão implementadas, possivelmente de várias formas, ou seja, cada subclasse irá implementar à sua necessidade e oferecer um comportamento concreto construindo todo o algoritmo.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+
+### Comportamental 3 - Observer
 
 #### Estrutura Geral
 
-![Estrutura Geral  Template Method](docs/assets/gofs-comportamentais/diagrama/.png)
-
+![Estrutura Geral Observer](../../assets/gofs-comportamentais/diagrama/observer.png)
 #### Aplicabilidade
+
+O Observer é um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Permite que objetos interessados sejam avisados da mudança de estado ou outros eventos ocorrendo num outro objeto.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+### Comportamental 4 - State
+
+#### Estrutura Geral
+
+![Estrutura Geral State](../../assets/gofs-comportamentais/diagrama/state.jpg)
+#### Aplicabilidade
+
+State é um padrão de projeto de software usado quando o comportamento de um objeto muda, dependendo do seu estado. Em certas ocasiões, quando o contexto em que está a desenvolver requer um objeto que possua comportamentos diferentes dependendo de qual estado se encontra, é difícil manejar a mudança de comportamento e os estados desse objeto, tudo dentro do mesmo bloco de código. O padrão State propõe uma solução para esta complicação, criando basicamente, um objeto para cada estado possível do objeto que o chama.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+### Comportamental 5 - Memento
+
+#### Estrutura Geral
+
+![Estrutura Geral Memento](../../assets/gofs-comportamentais/diagrama/.jpg)
+#### Aplicabilidade
+
+Memento é um padrão de projeto de software documentado no Catálogo Gang of Four, sendo considerado como um padrão comportamental. Ele permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento. Ele funciona de maneira que uma classe é responsável por salvar o estado do objeto desejado enquanto que uma outra classe fica responsável por armazenar todas essas copias (mementos). O padrão Memento é implementado se utilizando de três elementos: Originador, Armazenador e o Memento.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+
+### Comportamental 6 - Chain Of Responsability
+
+#### Estrutura Geral
+
+![Estrutura Geral Chain Of Responsability](../../assets/gofs-comportamentais/diagrama/.jpg)
+#### Aplicabilidade
+
+Em Orientação a Objetos, Chain of Responsibility é um padrão GOF cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia. Devido a isso, é um padrão que utiliza a ideia de baixo acoplamento por permitir que outros objetos da cadeia tenham a oportunidade de tratar uma solicitação.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+
+### Comportamental 7 - Command
+
+#### Estrutura Geral
+
+![Estrutura Geral Command](../../assets/gofs-comportamentais/diagrama/command.png)
+#### Aplicabilidade
+
+Command é um dos 11 padrões comportamentais dentre os 23 padrões de projeto de software do GOF. Na programação orientada a objeto, o command é um padrão no qual um objeto é usado para encapsular toda informação necessária para executar uma ação ou acionar um evento em um momento posterior. O Padrão Command tem como definição encapsular uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações, enfileirar ou registrar solicitações e implementar recursos de cancelamento de operações. Isso inclui informações como o nome do método, o objeto que o método pertence e os valores dos parâmetros do método.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+### Comportamental 8 - Iterator
+
+#### Estrutura Geral
+
+![Estrutura Geral Iterator](../../assets/gofs-comportamentais/diagrama/.png)
+#### Aplicabilidade
+
+Em programação de computadores, um iterador se refere tanto ao objeto que permite ao programador percorrer um container, (uma coleção de elementos) particularmente listas,quanto ao padrão de projetos Iterator, no qual um iterador é usado para percorrer um container e acessar seus elementos. O padrão Iterator desacopla os algoritmos dos recipientes, porém em alguns casos, os algoritmos são necessariamente específicos dos containers e, portanto, não podem ser desacoplados.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+### Comportamental 9 - Mediator
+
+#### Estrutura Geral
+
+![Estrutura Geral Mediator](../../assets/gofs-comportamentais/diagrama/mediator.png)
+#### Aplicabilidade
+
+É um padrão de projeto usado frequentemente quando deseja-se encapsular como os objetos interagem, ou seja, a comunicação entre os objetos é estabelecida através do Mediator. Este padrão é considerado um padrão comportamental, pois o padrão pode alterar o comportamento da aplicação (programa).O Mediator promove o fraco acoplamento ao evitar que objetos se referiram uns aos outros explicitamente.
+
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
