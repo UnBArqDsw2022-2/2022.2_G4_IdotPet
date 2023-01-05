@@ -17,7 +17,7 @@ A elaboração deste artefato foi embasada por um processo criativo, no qual os 
 
 ## Protótipo de Alta Fidelidade
 
-![Protótipo de Alta Fidelidade v1.2](../assets/prototipo_alta_fidelidade/prototipo_alta_v1.2.1.png)
+![Protótipo de Alta Fidelidade v1.4](../assets/prototipo_alta_fidelidade/prototipo_alta_v1.4.1.png)
 
 ## Versionamento do artefato
 
@@ -83,7 +83,17 @@ O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e n
 <details>
 <summary>Clique para apresentar a versão 1.4 do Protótipo de Alta Fidelidade</summary>
 
-
+### Protótipo de Alta Fidelidade v1.4
+ 
+O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e não teve como restaurar todo o histórico de cada modificação. No entanto, a contribuição dessa versão foi:
+- Criação da tela de Adoção.
+- Criação da tela de Login.
+ 
+![Protótipo de Alta Fidelidade v1.4](../assets/prototipo_alta_fidelidade/prototipo_alta_v1.4.png)
+ 
+**Autor(es):** <br>
+[João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) <br><br>
+</details>
 
 ## Referências
 
