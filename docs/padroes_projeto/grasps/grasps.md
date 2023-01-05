@@ -72,6 +72,26 @@ Tende ser mais fácil entender, manter, estender e reutilizar no projeto quando 
 ### Implementação no iDotPet
 Como explicado no GRASP Criador, não se é aplicado o GRASP Criado no Endereco na Figura 1 pois ele é PARTE do TODO(Usuario), logo ele é uma especialidade do Usuario, temos aí então um GRASP Especialista.
 
+## GRASP 3 - Polimorfismo
+
+No polimorfismo temos que subclasses que se originam de uma superclasse podem invocar métodos da segunda e sobrescrevê-los, já que cada subclasse tem um comportamento diferente.
+
+O padrão polimorfismo trabalha na organização das classes utilizando operações polimórficas, fazendo com que as responsabilidades sejam atribuídas a abstrações condizentes ao invés de objetos concretos. 
+    
+### Vantagens
+	
+- Apoia o princípio de baixo acoplamento;
+- Útil em projetos com variações semelhantes;
+- Facilidade em estender o projeto com novas funcionalidades;
+
+### Implementação no iDotPet
+O GRASP polimorfismo foi utilizado na herança do Usuario em UsuarioAnunciante e UsuarioAdotante, as duas especializações possuindo funcionalidades diferentes no projeto. A Figura 2 mostra as classes de nosso [Diagrama de Classe](docs/modelagem/diagrama_classe.md).
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v3).png?raw=true" alt="Diagrama de Classe"/>
+  <figcaption align="center" >Figura 2 - Diagrama de Classe. Fonte: Autores </figcaption>
+</figure>
+
 ### Referências
 
 > Serrano, Milene. 2020. Aula GRASPs Parte I Conteúdo Complementar.  https://aprender3.unb.br/pluginfile.php/2277128/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP_A%20-%20Profa.%20Milene%20-%20Complementar.pdf. Acesso em 04/01/2023.
