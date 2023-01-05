@@ -67,7 +67,7 @@ O padrão de projeto Builder deve ser usado quando o projeto contém vários con
 
 O padrão de projeto Builder é útil quando o algoritmo para criar um objeto complexo deve ser independente das partes que compõem os objetos e como eles são montados. Em palavras simples, é apenas uma simples extração da lógica de criação do objeto de sua própria classe. Portanto, o algoritmo de construção pode evoluir separadamente do produto real que ele fornece, a modificação desse processo requer a alteração do código do objeto.
 
-### Aplicação no idotpet
+### Aplicação no iDotPet
 
 Ainda não foi aplicado no projeto.
 
@@ -99,7 +99,7 @@ O objetivo principal do padrão de projeto Factory Method é separar o código d
 
 Este método não precisa criar uma nova instância do objeto todas as vezes. Portanto, se há uma necessidade de economizar alguns recursos do sistema e reutilizar o objeto já existente em vez de reconstruí-lo, implementar o Factory Method pode ser um caminho a percorrer, por exemplo, introduzindo uma camada de cache ou armazenamento que mantém o controle de objetos já criados e retorna o objeto solicitado ao chamar o método de fábrica em uma subclasse específica do criador.
 
-### Aplicação no idotpet
+### Aplicação no iDotPet
 
 Ainda não foi aplicado no projeto.
 
@@ -129,7 +129,7 @@ O principal objetivo do padrão de projeto Abstract Factory é encapsular a cria
 
 O Abstract Factory deve ser considerado quando o código de um sistema precisa trabalhar com várias famílias de objetos (produtos) relacionados, mas não deve depender das classes concretas desses produtos, ou de como eles são criados, compostos e representado. O referido padrão de projeto fornece uma interface para a criação de objetos de cada classe da família de produtos. Ao utilizar esta interface ao invés de implementações concretas de objetos, a camada de representação ou o código do sistema, em geral, não deve se preocupar em criar a variante errada de um produto que não corresponda a outros objetos da família. Essa restrição é útil quando você deseja introduzir widgets/componentes de interface do usuário específicos da plataforma na camada de representação e manter a consistência em todo o sistema.
 
-### Aplicação no idotpet
+### Aplicação no iDotPet
 
 Ainda não foi aplicado no projeto.
 
@@ -156,7 +156,7 @@ A ideia principal desse padrão é tornar a própria classe responsável por ras
 
 Singleton pode ser usado nos casos em que a criação da instância de uma classe é cara, por exemplo instanciar uma classe requer carregar muitos dados de fontes externas. Além disso, o padrão ajuda quando você precisa acessar o mesmo objeto repetidamente em seu código, por exemplo registrador. Singleton também pode ser usado quando algum tipo de camada de cache é necessário — a classe singleton pode verificar e gerenciar o cache na solicitação da instância.
 
-### Aplicação no idotpet
+### Aplicação no iDotPet
 
 Ainda não foi aplicado no projeto.
 
