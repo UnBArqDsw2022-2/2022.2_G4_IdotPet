@@ -89,7 +89,24 @@ O GRASP polimorfismo foi utilizado na herança do Usuario em UsuarioAnunciante e
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v3).png?raw=true" alt="Diagrama de Classe"/>
-  <figcaption align="center" >Figura 2 - Diagrama de Classe. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 2 - Diagrama de Classe (completo). Fonte: Autores </figcaption>
+</figure>
+
+## GRASP 4 - Controlador
+
+O padrão controlador atribui a responsabilidade de lidar com eventos do sistema a uma classe não relacionada à interface com o usuário (IU). Ele é o primeiro objeto depois da camada de IU, tratando mensagens de operações do sistema. Se deve atribuir essa responsabilidade de controlador para um classe que represente todo o sistema ou caso de uso.
+    
+### Vantagens
+- Aumenta as possibilidades de reutilização e de interfaces “plugáveis”;
+- Facilita reutilizar a lógica em futuras aplicações e definir diferentes interfaces para ela;
+- Facilita o raciocínio sobre o estado do caso de uso já que parte da regra de negócio encontra-se nas classes controladoras.
+
+### Implementação no iDotPet
+O GRASP Controlador é implementado com a ajuda do padrão MVC utilizado em nosso projeto. A Figura 2 mostra a classe controladora user_controller.py que possui algumas funções de controle como a criação de um usuário e login de usuários.
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/grasp_controlador/classe_controller.png?raw=true" alt="Diagrama de Classe"/>
+  <figcaption align="center" >Figura 3 - Controlador. Fonte: Autores </figcaption>
 </figure>
 
 ### Referências
