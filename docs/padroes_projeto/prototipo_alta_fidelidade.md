@@ -63,8 +63,31 @@ O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e n
 [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) <br><br>
 </details>
 
+
+<details>
+<summary>Clique para apresentar a versão 1.3 do Protótipo de Alta Fidelidade</summary>
+
+### Protótipo de Alta Fidelidade v1.3
+ 
+O Protótipo de Alta Fidelidade foi feito no [Figma](https://www.figma.com/) e não teve como restaurar todo o histórico de cada modificação. No entanto, a contribuição dessa versão foi:
+- Criação da tela de Conversas.
+- Criação da tela de Chat.
+ 
+![Protótipo de Alta Fidelidade v1.3](../assets/prototipo_alta_fidelidade/prototipo_alta_v1.3.png)
+ 
+**Autor(es):** <br>
+[João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira) <br><br>
+</details>
+
+
+<details>
+<summary>Clique para apresentar a versão 1.4 do Protótipo de Alta Fidelidade</summary>
+
+
+
 ## Referências
 
 > TERA. Prototipagem de alta fidelidade: o que é, quando, por que e como usar?. [S. l.]: Medium, 23 mar. 2020. Disponível em: https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b. Acesso em: 1 jan. 2023.
 
 > Food App Design | UX/UI ( Wireframe, Prototype, Export). Disponível em: https://www.youtube.com/watch?v=195RY7jCuZg. Acesso em: 1 jan. 2023.
+
