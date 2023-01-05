@@ -35,72 +35,99 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 ## GoFs Estruturais
 
-### 1. Estrutural - Facade
+### Estrutural 1 - Facade
 
 O Facade é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
 
-#### 1.1 Diagrama Estrutural
+#### Diagrama Estrutural
 
 ![Diagrama estrutural Facade](docs/assets/gofs-estruturais/diagrama/facade.png)
 
-#### 1.2 Aplicabilidade
+#### Aplicabilidade
 
 - Tornar o código mais manutenível na medida em que as classes de visualização e negócio forem aumentando em quantidade.
 - Esconder a complexidade de 03 objetos de negócio para inserir um único cliente.
 - Diminuir o acoplamento entre camadas.
 
-#### 1.3 Implementação no IdotPet
+#### Implementação no IdotPet
 
-Nenhuma implementação até o moment
+Nenhuma implementação até o momento
 
-### 2. Estrutural - Proxy
+### Estrutural 2 - Proxy
 
 Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
 
-#### 2.1 Diagrama Estrutural
+#### Diagrama Estrutural
 
 ![Diagrama estrutural Proxy](docs/assets/gofs-estruturais/diagrama/proxy.png)
 
-#### 2.2 Aplicabilidade
+#### Aplicabilidade
 
 O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
 
-#### 2.3 Implementação no IdotPet
+#### Implementação no IdotPet
 
-### 3. Estrutural - Bridge
-#### 3.1 Diagrama Estrutural
+### Estrutural 3 - Bridge
 O Bridge é um padrão de projeto estrutural que permite que seja dividida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras.
+#### Diagrama Estrutural
 
-#### 3.2 Aplicabilidade
+![Diagrama estrutural Bridge](docs/assets/gofs-estruturais/diagrama/bridge.png)
+
+
+#### Aplicabilidade
+
+A Abstração nesse modelo nada mais é do que a interface que o cliente usa para interagir com a abstração do mundo real e que é implementada pela Abstração Concreta. Nessa abstração concreta é mantido uma referência a uma interface de um Implementador e é exatamente o que torna possível desacoplar a abstração da implementação porque agora a abstração faz referências a um ou mais métodos da classe implementador.
 
 
 
-#### 3.3 Implementação no IdotPet
-##
 
-### 4. Estrutural - FlyWeight
-#### x.1. Diagrama Estrutural
-#### x.2. Aplicabilidade
-#### x.3. Implementação no IdotPet
-### 5. Estrutural - Decorator
-#### x.1. Diagrama Estrutural
-#### x.2. Aplicabilidade
-#### x.3. Implementação no IdotPet
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
 
-### 6. Estrutural - Composite
-#### x.1. Diagrama Estrutural
-#### x.2. Aplicabilidade
-#### x.3. Implementação no IdotPet
 
-### 7. Estrutural - Adapter
+
+### Estrutural 4 - FlyWeight
+Flyweight é um padrão de design estrutural que permite ajustar mais objetos na quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
+
+#### Diagrama Estrutural
+![Diagrama Estrutural FlyWeight](path/)
+#### Aplicabilidade
+Use o padrão Flyweight quando seu programa tiver que suportar um grande número de objetos que mal cabem na RAM disponível.
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+### Estrutural 5 - Decorator
+Decorator é um padrão de design estrutural que permite anexar novos comportamentos a objetos colocando esses objetos dentro de objetos wrapper especiais que contêm os comportamentos.
+#### Diagrama Estrutural
+![Diagrama Estrutural Decorator](path/)
+
+#### Aplicabilidade
+Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos ou quando for difícil ou impossível estender o comportamento de um objeto usando herança.
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+### Estrutural 6 - Composite
+Composite é um padrão de design estrutural que permite compor objetos em estruturas de árvore e depois trabalhar com essas estruturas como se fossem objetos individuais.
+#### Diagrama Estrutural
+![Diagrama Estrutural Composite](docs/assets/gofs-estruturais/diagrama/composite.png)
+#### Aplicabilidade
+Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore, ou quando desejar que o código do cliente trate elementos simples e complexos de maneira uniforme.
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+
+### Estrutural 7 - Adapter
 O Adapter é um padrão de projeto estrutural que permite objetos com interfaces incompatíveis colaborarem entre si.
 Um adaptador encobre um dos objetos para esconder a complexidade da conversão acontecendo nos bastidores. O objeto encobrido nem fica ciente do adaptador. Por exemplo, você pode encobrir um objeto que opera em metros e quilômetros com um adaptador que converte todos os dados para unidades imperiais tais como pés e milhas.
 
-#### 7.1. Diagrama Estrutural
-![Alt text](docs/assets/gofs-estruturais/diagrama/adapter.png)
+#### Diagrama Estrutural
+![Diagrama estrutural Adapter](docs/assets/gofs-estruturais/diagrama/adapter.png)
 
-#### 7.2. Aplicabilidade
-#### 7.3. Implementação no IdotPet
+#### Aplicabilidade
+Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
 
 ## Aplicação no Projeto
 
@@ -109,3 +136,9 @@ Um adaptador encobre um dos objetos para esconder a complexidade da conversão a
 
 
 ## Referências
+
+> DEV Community. Design Patterns - Flutter. Disponível em: <https://dev.to/blazebrain/design-patterns-flutter-9dh>.  Acesso em: 04 jan. 2023.
+
+> GAMMA, Erich et al. Design patterns: elements of reusable object-oriented software. Pearson Deutschland GmbH, 1995.
+
+> GURU, Refactoring. Refactoring.Guru. [S. l.], 2023. Disponível em: https://refactoring.guru/. Acesso em: 4 jan. 2023.
