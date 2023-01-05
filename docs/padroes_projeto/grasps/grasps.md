@@ -58,6 +58,20 @@ O grasp criador será extremamente útil e implementado no projeto do IdotPet se
   <figcaption align="center" >Figura 1 - Diagrama de Classe (parte). Fonte: Autores </figcaption>
 </figure>
 
+## GRASP 2 - Especialista
+
+O padrão especialista trabalha na organização da função de especialização de objetos, definindo quando se deve dar essa responsabilidade para um outro objeto que seja especialista naquele domínio.
+Tende ser mais fácil entender, manter, estender e reutilizar no projeto quando se conhece bem as responsabilidades de suas classes e objetos. Se deve utilizar bom senso para atribuir as responsabilidades a objetos condizentes.
+  
+### Vantagens
+	
+- Encapsulamento da informação é mantido para os objetos;
+- O acoplamento entre objetos tende a ser baixo;
+- A coesão dos objetos tende a ser alta.
+
+### Implementação no iDotPet
+Como explicado no GRASP Criador, não se é aplicado o GRASP Criado no Endereco na Figura 1 pois ele é PARTE do TODO(Usuario), logo ele é uma especialidade do Usuario, temos aí então um GRASP Especialista.
+
 ### Referências
 
 > Serrano, Milene. 2020. Aula GRASPs Parte I Conteúdo Complementar.  https://aprender3.unb.br/pluginfile.php/2277128/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GRASP_A%20-%20Profa.%20Milene%20-%20Complementar.pdf. Acesso em 04/01/2023.
