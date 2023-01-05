@@ -7,6 +7,7 @@
 | 02/01/2023 | 0.2    | Adicionado introdução | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
 | 02/01/2023 | 0.3    | Adicionado metodologia | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
 | 02/01/2023 | 0.4    | Adicionado primeira versão completa do artefato  | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
+| 04/01/2023 | 0.5    | Adicionado segunda versão completa do artefato  | [João Durso](https://github.com/jvsdurso) & [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| 
 
 
 ## Introdução
