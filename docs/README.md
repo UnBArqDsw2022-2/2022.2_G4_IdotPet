@@ -25,3 +25,137 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 ## Sobre
 
 O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que querem doar das pessoas que querem adotar um animal de estimação. Nesse sentido, a pessoa que quer adotar um pet encontrará nesta aplicação um catálogo com vários animais disponíveis para doação, com fotos e informações adicionais como vacinação, localização e etc.
+
+
+## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/design_sprint">Design Sprint</a></h3>
+
+![Print Design Sprint](./assets/readme/designsprint.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/l%C3%A9xico">Léxicos</a></h3>
+
+![Print Léxicos](./assets/readme/lexico.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/5w2h">5W2H</a></h3>
+
+![Print 5W2H](./assets/readme/5w2h.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/diagrama_causa_efeito">Diagrama Causa-Efeito</a></h3>
+
+![Print Diagrama Causa-Efeito](./assets/readme/causa_efeito.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/tap">Plano de Riscos</a></h3>
+
+![Print Plano de Riscos](./assets/readme/gerenciamento_risco.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/rich_picture">Rich Picture</a></h3>
+
+![Print Rich Picture](./assets/readme/rich_picture.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/mapa_mental">Mapa Mental</a></h3>
+
+
+![Print Mapa Mental](./assets/readme/mapa_mental.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/brainstorm">Brainstorm</a></h3>
+
+
+![Brainstorm](./assets/readme/brainstorm.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/personas">Personas</a></h3>
+
+
+![Print Personas](./assets/readme/personas.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/introspeccao">Intorspecção</a></h3>
+
+
+![Introspecção](./assets/readme/introspec%C3%A7%C3%A3o.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/prototipo_baixa_fidelidade">Protótipo de Baixa Fidelidade</a></h3>
+
+
+![Protótipo de Baixa Fidelidade](./assets/readme/prot_baixa.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/storyboard">Storyboard</a></h3>
+
+
+![Storyboard](./assets/readme/storyboard.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/wireframe">Wireframe</a></h3>
+
+
+![Wireframe](./assets/readme/wireframe.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/bpmn">BPMN</a></h3>
+
+
+![BPMN](./assets/readme/BMN.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/base/metodologia">Metodologias</a></h3>
+
+
+![Metodologias](./assets/readme/metodologias.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/">Iniciativas Extras</a></h3>
+
+
+![Iniciativas Extras](./assets/readme/iniciativas1.png)
+
+
+
+
+## Screenshots Segunda Entrega <<FOCO: DSW&#40;Modelagem&#41;>>
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_classe">Diagrama de Classes</a></h3>
+
+![Print Diagrama de Classes](./assets/readme/diagrama_classe.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_pacotes">Diagrama de Pacotes</a></h3>
+
+![Print Diagrama de Pacotes](./assets/readme/diagrama_pacote.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_componentes">Diagrama de Componentes</a></h3>
+
+![Print Diagrama de Componentes](./assets/readme/diagrama_componente.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_implantacao">Diagrama de Implantação</a></h3>
+
+![Print Diagrama de Implantação](./assets/readme/diagrama_implanta%C3%A7%C3%A3o.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_sequencia">Diagrama de Sequência</a></h3>
+
+![Print Diagrama de Sequência](./assets/readme/diagrama_sequencia.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_comunicacao">Diagrama de Comunicação</a></h3>
+
+![Print Diagrama de Comunicação](./assets/readme/diagrama_comunicacao.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_estados">Diagrama de Estados</a></h3>
+
+![Print Diagrama de Estados](./assets/readme/diagrama_estados.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_atividades">Diagrama de Atividades</a></h3>
+
+![Print Diagrama de Atividades](./assets/readme/diagrama_atividades.png)
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/backlog">Product Backlog e Priorização</a></h3>
+
+![Print Product Backlog e Priorização](./assets/readme/backlog_prioriza%C3%A7%C3%A3o.png)
+
+<h3><a href="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/">Iniciativas Extras</a></h3>
+
+
+![Iniciativas Extras](./assets/readme/iniciativas2.png)
+
+
+[//]: # ()
+[//]: # (## Screenshots Terceira Entrega <<FOCO: DSW&#40;Padrões de Projeto&#41;>>)
+
+[//]: # (Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.)
+
+[//]: # ()
+[//]: # (## Screenshots Quarta Entrega &#40;FINAL&#41; <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>)
+
+[//]: # (Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.)
+
+## Descritivo dos Principais Aspectos Técnicos 
+**Principal(is) Metodologia(s) Adotada(s)**: Scrum e Kanban<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: Python e Dart<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: FastAPI (Back-end) e Flutter (Front-end)<br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+
+[//]: # (## O Projeto está rodando?)
+
+[//]: # (&#40; &#41; SIM)
+
+[//]: # (&#40; &#41; NÃO)
+
+[//]: # (Se SIM, insira um manual &#40;ou um script&#41; para auxiliar ainda mais os interessados em consultar o projeto.)
+
+[//]: # (## Informações Complementares )
+
+[//]: # (Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.)
