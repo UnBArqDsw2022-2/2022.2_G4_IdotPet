@@ -15,6 +15,10 @@ A Linguagem de Modelagem Unificada (UML) é uma linguagem visual criada para pad
 
 Nosso diagrama inicial mostra suas classes como Pet, Usuario, UsuarioAnunciante, UsuarioAdotante, Endereco, Mensagem, [Anuncio](master\docs\base\léxico.md) e Denuncia.
 
+## Metodologia
+
+  O grupo se reuniu e com a ajuda dos desenvolvedores principais Vitor Kuhl e Thalisson Jesus ouve um brainstorming de quais classes teríamos de base no código já que não tínhamos os códigos do produto. Foi-se feito então um diagrama de classe básico com Usuario, Pet e Endereco. Logo depois foi-se desenvolvendo as classes e foram criadas as classes Mensagem, Anuncio, Denuncia e as classes hereditárias UsuarioAnunciante e UsuarioAdotante. Com o tempo fomos evoluindo o diagrama de acordo com a necessidade e coerência.
+
 ## Diagrama de Classe
 
 <figure>
