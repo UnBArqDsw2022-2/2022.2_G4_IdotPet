@@ -9,6 +9,7 @@
 | 04/01/2023 | 0.3 | Metodologia | [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral)|
 | 04/01/2023 | 0.4 | Melhoria na introdução | [João Durso](https://github.com/jvsdurso), [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
 | 04/01/2023 | 0.5 | Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
+| 04/01/2023 | 0.6 | Factory, Abstract Factory e Singleton | [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
 
 
 ## Introdução
@@ -46,20 +47,118 @@ O builder move o código de construção do objeto para fora de sua própria cla
 
 Além disso, há uma camada adicional no padrão de projeto Builder — Diretor. O Diretor é uma classe simples que conhece a interface do Construtor e define a ordem na qual executar as etapas de construção. Essa classe não é obrigatória, mas oculta os detalhes da construção do produto do código do cliente.
 
-### Aplicação no Projeto
+### Estrutura geral
 
-Desenhar diagrama explicando a aplicação
+<figure>
+  <img src="../../assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 1 - Estrutura geral builder. Fonte: DEV Community </figcaption>
+</figure>
 
-### Possível implementação em código
-
-Código
-
-## Criacional 2
-
-### Aplicação no Projeto
+- Builder: define uma interface abstrata que é comum a todos os tipos de construtores para criar partes de um Produto;
+- Concrete Builder: fornece uma implementação específica das etapas de construção. Além disso, define e controla o Produto que cria;
+- Director: constrói um objeto usando a interface Builder, define a ordem em que as etapas de construção são chamadas;
+- Produto: representa o objeto complexo em construção, expõe interface/métodos de montagem das partes no resultado final;
+- Cliente: associa o objeto Construtor específico ao Diretor. Posteriormente, um objeto Product é criado chamando a instância da classe Director.
 
 
-### Possível implementação em código
+### Aplicabilidade
+
+O padrão de projeto Builder deve ser usado quando o projeto contém vários construtores da mesma classe fazendo referência uns aos outros. Por exemplo, um construtor com vários parâmetros opcionais. Alguns desses parâmetros têm valores padrão, portanto, cria-se vários construtores mais curtos com menos parâmetros, mas ainda se refere ao principal. Ao usar o padrão de projeto Builder, constroi-se objetos passo a passo usando apenas as etapas realmente necessárias — você não precisa mais lidar com o problema de vários construtores com parâmetros opcionais.
+
+O padrão de projeto Builder é útil quando o algoritmo para criar um objeto complexo deve ser independente das partes que compõem os objetos e como eles são montados. Em palavras simples, é apenas uma simples extração da lógica de criação do objeto de sua própria classe. Portanto, o algoritmo de construção pode evoluir separadamente do produto real que ele fornece, a modificação desse processo requer a alteração do código do objeto.
+
+### Aplicação no idotpet
+
+Ainda não foi aplicado no projeto.
+
+## Criacional 2 - Factory
+
+O livro da Gang of Four define o objetivo do Factory como:
+
+> "Define uma interface para criar um objeto, mas deixa as subclasses decidirem qual classe instanciar. O Factory Method permite que uma classe adie a instanciação para subclasses."
+
+O Factory Method define uma interface para uma classe responsável pela criação de um objeto, portanto, adiando a instanciação para classes específicas que implementam essa interface. Isso resolve o problema de criar objetos diretamente na classe que os utiliza.
+
+Além disso, permite flexibilidade de tempo de compilação por meio de subclasses. Quando os objetos são criados dentro da classe, é muito inflexível, pois você não pode alterar a instanciação do objeto independentemente da classe — a classe está comprometida com um objeto específico. Ao implementar o padrão, as subclasses podem ser escritas para redefinir a maneira como um objeto é criado.
+
+### Estrutura geral
+
+<figure>
+  <img src="../../assets/gof_criacionais/factory.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 2 - Estrutura geral factory. Fonte: DEV Community </figcaption>
+</figure>
+
+- Creator: declara o factory method, que retorna novos objetos de produto. O factory method pode ser declarado como abstrato para forçar todas as subclasses a implementá-lo. Essa classe também pode fornecer uma implementação padrão para o factory method que retorna um objeto ConcreteProduct padrão.
+- ConcreteCreator: substitui o factory method para retornar uma instância de ConcreteProduct. Observe que o factory method não precisa criar uma nova instância de produto todas as vezes, por exemplo, uma instância do objeto pode ser armazenada no cache e retornada posteriormente ao chamar o factory method.
+- Produt: define uma interface comum para todos os objetos criados pelo factory method.
+- ConcreteProduct: implementa a interface do produto; a instância deste objeto é retornada pela classe específica ConcreteCreator.
+
+### Aplicabilidade
+
+O objetivo principal do padrão de projeto Factory Method é separar o código de construção do produto do código que realmente usa esse produto. Como resultado, quando há a necessidade de adicionar um novo ConcreteProduct, apenas uma nova subclasse criadora deve ser criada, substituindo o factory method. Portanto, esse padrão é uma ótima opção quando não se conhece os tipos exatos e as dependências dos objetos com os quais o código deve trabalhar.
+
+Este método não precisa criar uma nova instância do objeto todas as vezes. Portanto, se há uma necessidade de economizar alguns recursos do sistema e reutilizar o objeto já existente em vez de reconstruí-lo, implementar o Factory Method pode ser um caminho a percorrer, por exemplo, introduzindo uma camada de cache ou armazenamento que mantém o controle de objetos já criados e retorna o objeto solicitado ao chamar o método de fábrica em uma subclasse específica do criador.
+
+### Aplicação no idotpet
+
+Ainda não foi aplicado no projeto.
+
+## Criacional 3 - Abstract Factory
+
+
+O livro da Gang of Four define o objetivo do Abstract Factory como:
+
+> "Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas."
+
+O principal objetivo do padrão de projeto Abstract Factory é encapsular a criação de uma família de objetos em um objeto de fábrica separado, abstraindo assim o processo de criação do objeto. Para todas as famílias de objetos com suporte, uma interface comum para criar uma família de objetos é definida e, em seguida, uma classe de fábrica concreta é criada para implementar essa interface.
+
+### Estrutura geral
+
+<figure>
+  <img src="../../assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 3 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
+</figure>
+
+- Abstract Factory: declara uma interface de operações que cria objetos abstratos do Produto;
+- Concrete Factory: implementa as operações para criar objetos Concrete Product. Cada Concrete Factory corresponde apenas a uma única variante de produtos;
+- Product: declara uma interface para um tipo de objeto Produto;
+- Concrete Product: implementa a interface Product e define um objeto produto a ser criado pela Concrete Factory correspondente;
+- Client: usa apenas interfaces declaradas pelas classes Abstract Factory e Product.
+
+### Aplicabilidade
+
+O Abstract Factory deve ser considerado quando o código de um sistema precisa trabalhar com várias famílias de objetos (produtos) relacionados, mas não deve depender das classes concretas desses produtos, ou de como eles são criados, compostos e representado. O referido padrão de projeto fornece uma interface para a criação de objetos de cada classe da família de produtos. Ao utilizar esta interface ao invés de implementações concretas de objetos, a camada de representação ou o código do sistema, em geral, não deve se preocupar em criar a variante errada de um produto que não corresponda a outros objetos da família. Essa restrição é útil quando você deseja introduzir widgets/componentes de interface do usuário específicos da plataforma na camada de representação e manter a consistência em todo o sistema.
+
+### Aplicação no idotpet
+
+Ainda não foi aplicado no projeto.
+
+## Criacional 4 - Singleton
+
+O livro da Gang of Four define o objetivo do Singleton como:
+
+> "Certifica que uma classe tenha apenas uma instância e forneça um ponto de acesso global a ela."
+
+A ideia principal desse padrão é tornar a própria classe responsável por rastrear sua única instância.
+
+### Estrutura geral
+
+<figure>
+  <img src="../../assets/gof_criacionais/singleton.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 4 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
+</figure>
+
+- A classe Singleton contém a instância da propriedade estática que é uma referência à própria instância da classe;
+- Esta instância só é acessível através do método estático getInstance();
+- O construtor de classe é marcado como privado (pode ser protegido em outras implementações) para garantir que a classe não possa ser instanciada de fora da classe.
+
+### Aplicabilidade
+
+Singleton pode ser usado nos casos em que a criação da instância de uma classe é cara, por exemplo instanciar uma classe requer carregar muitos dados de fontes externas. Além disso, o padrão ajuda quando você precisa acessar o mesmo objeto repetidamente em seu código, por exemplo registrador. Singleton também pode ser usado quando algum tipo de camada de cache é necessário — a classe singleton pode verificar e gerenciar o cache na solicitação da instância.
+
+### Aplicação no idotpet
+
+Ainda não foi aplicado no projeto.
 
 
 ## Referências
