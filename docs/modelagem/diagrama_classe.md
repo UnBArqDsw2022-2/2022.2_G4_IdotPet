@@ -25,6 +25,7 @@ Nosso diagrama inicial mostra suas classes como Pet, Usuario, UsuarioAnunciante,
 ## Versões
 
 [Versão 1](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v1).png?raw=true)
+
 [Versão 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v2).png?raw=true)
 
 
