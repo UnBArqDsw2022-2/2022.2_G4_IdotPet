@@ -67,7 +67,7 @@ O objetivo principal do padrão de projeto Factory Method é separar o código d
 
 Este método não precisa criar uma nova instância do objeto todas as vezes. Portanto, se há uma necessidade de economizar alguns recursos do sistema e reutilizar o objeto já existente em vez de reconstruí-lo, implementar o Factory Method pode ser um caminho a percorrer, por exemplo, introduzindo uma camada de cache ou armazenamento que mantém o controle de objetos já criados e retorna o objeto solicitado ao chamar o método de fábrica em uma subclasse específica do criador.
 
-### Aplicação no idotpet
+### Aplicação no iDotPet
 
 Ainda não foi aplicado no projeto.
 
@@ -232,11 +232,6 @@ O exemplo de codificação é muito extenso e pode ser vista na referência DEV 
   <img src="../../assets/gof_criacionais/animacao_builder.gif" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 6 - Exemplo de Builder em flutter. Fonte: DEV Community </figcaption>
 </figure>
-
-<<<<<<< HEAD
-=======
-### Aplicação no iDotPet
->>>>>>> b98f7d7da8858617013f39825972540ab3d3472d
 
 
 ## Criacional 3 - Abstract Factory
