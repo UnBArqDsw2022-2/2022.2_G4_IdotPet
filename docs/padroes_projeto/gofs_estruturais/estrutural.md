@@ -11,6 +11,7 @@
 | 04/01/2023   | 0.5   | Metodologia        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 | 04/01/2023   | 0.6   | Terminados padrões Facade e Proxy        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 | 06/01/2023   | 0.7   | Adicionado exemplo Toy Facade        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
+| 06/01/2023   | 0.8   | Adicionado exemplo Toy FlyWeight        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 
 ## Introdução
 
@@ -94,7 +95,6 @@ A seguir é apresentado um exemplo toy utilizando o Facade com flutter acerca de
       smartHomeState.lightson = _smartHomeApi.turnLightsOff();
       smartHomeState.tvon = _tvApi.turnon();
       _gamingFacade.startGaming (smartHomeState);
-      }
       _netflixApi.play (movieTitle);
     }
 
@@ -115,6 +115,7 @@ A seguir é apresentado um exemplo toy utilizando o Facade com flutter acerca de
       smartHomeState.tvon = _tvApi.turnOff();
       smartHomeState.lightson = _smartHomeApi.turnLightson();
     }
+  }
 ~~~
 
 O resultado final da implementação do padrão de projeto Facade no exemplo apresentado fica assim:
