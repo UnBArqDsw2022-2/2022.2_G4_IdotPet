@@ -55,10 +55,13 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 Nenhuma implementação até o momento
 
-
 #### Aplicação com exemplo Toy
 
 A seguir é apresentado um exemplo toy utilizando o Facade com flutter acerca de uma API em Flutter para controle dos dispositivos de uma casa inteligente.
+
+![Alt text](../../assets/gofs-estruturais/diagrama/diagramatoyfacade.webp)
+
+
 
 ~~~dart
   class SmartHomeState {
