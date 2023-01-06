@@ -10,6 +10,7 @@
 | 04/01/2023   | 0.4   | Introdução completa        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 | 04/01/2023   | 0.5   | Metodologia        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 | 04/01/2023   | 0.6   | Terminados padrões Facade e Proxy        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
+| 06/01/2023   | 0.7   | Adicionado exemplo Toy Facade        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 
 ## Introdução
 
@@ -154,8 +155,6 @@ Nenhuma implementação até o momento
 ### Estrutural 4 - FlyWeight
 Flyweight é um padrão de design estrutural que permite ajustar mais objetos na quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
 
-#### Estrutura Geral
-![Estrutura Geral FlyWeight](path/)
 #### Aplicabilidade
 Use o padrão Flyweight quando seu programa tiver que suportar um grande número de objetos que mal cabem na RAM disponível.
 #### Implementação no IdotPet
@@ -164,7 +163,7 @@ Nenhuma implementação até o momento
 ### Estrutural 5 - Decorator
 Decorator é um padrão de design estrutural que permite anexar novos comportamentos a objetos colocando esses objetos dentro de objetos wrapper especiais que contêm os comportamentos.
 #### Estrutura Geral
-![Estrutura Geral Decorator](path/)
+![Estrutura Geral Decorator](../../assets/gofs-estruturais/diagrama/decorator.png)
 
 #### Aplicabilidade
 Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos ou quando for difícil ou impossível estender o comportamento de um objeto usando herança.
@@ -174,7 +173,8 @@ Nenhuma implementação até o momento
 ### Estrutural 6 - Composite
 Composite é um padrão de design estrutural que permite compor objetos em estruturas de árvore e depois trabalhar com essas estruturas como se fossem objetos individuais.
 #### Estrutura Geral
-![Estrutura Geral Composite](../../assets/gofs-estruturais/diagrama/composite.png)
+![Estrutura Geral Composite](../../assets/gofs-estruturais/diagrama/composite.jpg)
+
 #### Aplicabilidade
 Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore, ou quando desejar que o código do cliente trate elementos simples e complexos de maneira uniforme.
 #### Implementação no IdotPet
