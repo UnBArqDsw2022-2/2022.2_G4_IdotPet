@@ -10,6 +10,7 @@
 | 04/01/2023 | 0.4 | Melhoria na introdução | [João Durso](https://github.com/jvsdurso), [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Eduardo Maia Rezende](https://github.com/eduardomr), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
 | 04/01/2023 | 0.5 | Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
 | 04/01/2023 | 0.6 | Factory, Abstract Factory e Singleton | [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
+| 05/01/2023 | 0.7 | Exemplo toy Factory | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) &  [Eduardo Maia Rezende](https://github.com/eduardomr) |
 
 
 ## Introdução
@@ -103,6 +104,105 @@ Este método não precisa criar uma nova instância do objeto todas as vezes. Po
 
 Ainda não foi aplicado no projeto.
 
+### Aplicação com exemplo toy
+
+Como ainda não foi possível realizar a implementação deste padrão no projeto, apresentamos então um exemplo toy. Trouxemos um exemplo em flutter do Factory Method em uma aplicação de caixa de diálogo de um app mobile que pode ser adaptado para o projeto futuramente. A Fig. 3 mostra o diagrama da implementação.
+
+
+
+<figure>
+  <img src="../../assets/gof_criacionais/exemplo_factory.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 3 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
+</figure>
+
+CustomDialog é uma classe abstrata usada como classe base para todos os diálogos de alerta específicos: getTitle(), create() e show().
+
+AndroidAlertDialog e IosAlertDialog são classes concretas que herdam da classe CustomDialog e implementam seus métodos abstratos. AndroidAlertDialog cria uma caixa de diálogo de alerta de estilo de material do tipo AlertDialog, enquanto IosAlertDialog cria uma caixa de diálogo de alerta de estilo Cupertino do tipo CupertinoAlertDialog. O Widget, CupertinoAlertDialog e AlertDialog são as classes (widgets para flutter) já implementadas da biblioteca Flutter.
+
+FactoryMethodExample contém a classe CustomDialog para mostrar a caixa de diálogo de alerta específica desse tipo usando o método show().
+
+Implementação do CustomDialog
+
+~~~ dart
+abstract class CustomDialog {
+  String getTitle();
+  Widget create (BuildContext context);
+
+  Future<void> show(BuildContext context) async {
+    var dialog = create(context);
+
+    return showDialog<void> (
+      context: context,
+      barrierDimissible: false,
+      builder: (BuildContext _) {
+        return dialog;
+      },
+    );
+  }
+}
+~~~
+
+Implementação do Alert dialogs - AndroidAlertDialog
+
+~~~dart
+class AndroidAlertDialog extends CustomDialog {
+  @override
+  String getTitle() {
+    return 'Android Alert Dialog';
+  }
+
+  @override
+  Widget create(BuildContext context) {
+    return AlertDialog(
+      title: Text(getTitle()),
+      content: Text('This is the material-style alert dialog!')
+      actions: <Widget>[
+        FlatButton(
+          child: Text('Close'),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+        )
+      ],
+    );
+  }
+}
+~~~
+
+Implementação do Alert dialogs - IosAlertDialog 
+
+~~~ dart
+class IosAlertDialog extends CustomDialog {
+  @override
+  String getTitle() {
+    return 'iOS Alert Dialog';
+  }
+
+  @override
+  Widget create(BuildContext context) {
+    return CupertinoAlertDialog(
+      title: Text(getTitle()),
+      context: Text('This is the cupertino-style alert dialog!'),
+      actions: <Widget>[
+        CupertinoButton(
+          child: Text('Close'),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+        ),
+      ],
+    );
+  }
+}
+~~~
+
+Abaixo, uma animação do funcionamento do widget com flutter.
+
+<figure>
+  <img src="../../assets/gof_criacionais/animacao_factory.gif" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 4 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
+</figure>
+
 ## Criacional 3 - Abstract Factory
 
 
@@ -116,7 +216,7 @@ O principal objetivo do padrão de projeto Abstract Factory é encapsular a cria
 
 <figure>
   <img src="../../assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 3 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
+  <figcaption align="center" >Figura 5 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
 </figure>
 
 - Abstract Factory: declara uma interface de operações que cria objetos abstratos do Produto;
@@ -144,8 +244,8 @@ A ideia principal desse padrão é tornar a própria classe responsável por ras
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/singleton.png" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 4 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
+  <img src="../../assets/gof_criacionais/singleton.PNG" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 6 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
 </figure>
 
 - A classe Singleton contém a instância da propriedade estática que é uma referência à própria instância da classe;
