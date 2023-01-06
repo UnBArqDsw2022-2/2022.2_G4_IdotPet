@@ -38,18 +38,13 @@ Cada componente possui sua própria pasta com suas próprias classes distacadas 
   <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
 
-## Possível implementação em código
-
 ### Arquitetura Limpa
 
-O Padrão MVC é dividida em três componentes essenciais: Model, Controller e View.
-O Model é o que possui e recebe os dados do Controller, criando instâncias, armazenando elas, etc.
-O Controller é o que faz as operações, que recebe os inputs e dados, se utiliza das funções para preparar os dados e enviar para o Model ou disponibilizá-las para a View.
-A View é o que manda as informações para a visão do usuário, que disponibiliza a visualização dos dados.
+O padrão Arquitetura Limpa (Clean Architecture) foi proposto por Robert Martin a.k.a Uncle Bob com o objetivo de promover a implementação de sistemas que favorecem reusabilidade de código, coesão, independência de tecnologia e testabilidade. Muita representada pela imagem da Figura 1 pois explica bem a organização desse padrão que é dividida em Entidade, Casos de Uso, Adaptadores, Frameworks Externos e cada uma encapsula a anterior.
 
 <figure>
-  <img src="docs/assets/padrao_emergente/mvc.jpg?raw=true" alt="Modelo MVC"/>
-  <figcaption align="center"> Figura 1- Modelo MVC. Fonte: Higor (2013), Devmedia </figcaption>
+  <img src="docs/assets/padrao_emergente/arquitetura_limpa.png?raw=true" alt="Modelo MVC"/>
+  <figcaption align="center"> Figura 1- Modelo Exemplo Arquitetura Limpa. Fonte: Higor (2013), Devmedia </figcaption>
 </figure>
 
 #### Implementação no IdotPet
@@ -77,3 +72,4 @@ Cada componente possui sua própria pasta com suas próprias classes distacadas 
 > Alessandro. Conheça os padrões de projeto, Devmedia, 2005. Disponível em: <https://www.devmedia.com.br/conheca-os-padroes-de-projeto/957>
 > Higor. Conheça os padrões de projeto, Devmedia, 2013. Disponível em: <https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308>
 > ZUCHER, Vitor. O que é padrão MVC? Entenda arquitetura de softwares!, 2020. Disponível em: <https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc>
+> VALENTE, Marco Tulio. Engenharia de Software Moderna: Princípios e Práticas para Desenvolvimento de Software com Produtividade.1 de janeiro de 2022. Independente, 408 páginas.
