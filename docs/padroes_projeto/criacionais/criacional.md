@@ -11,6 +11,7 @@
 | 04/01/2023 | 0.5 | Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
 | 04/01/2023 | 0.6 | Factory, Abstract Factory e Singleton | [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
 | 05/01/2023 | 0.7 | Exemplo toy Factory | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) &  [Eduardo Maia Rezende](https://github.com/eduardomr) |
+| 05/01/2023 | 0.8 | Exemplo toy Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
 
 
 ## Introdução
@@ -38,41 +39,7 @@ Há dois temas recorrentes nesses padrões. Primeiro, todos eles encapsulam o co
 
 Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões mais adequados para o projeto. Em primeiro momento foi realizado um estudo do padrão e a implementação em código do projeto atual (se possível) ou de projetos similares.
 
-## Criacional 1 - Builder
-
-O livro da Gang of Four define o objetivo do builder como:
-
-> "Separar a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar diferentes representações."
-
-O builder move o código de construção do objeto para fora de sua própria classe para objetos separados chamados construtores. Cada um desses construtores segue a mesma interface e implementa etapas separadas de construção de objetos. Ou seja, se o objetivo é ter uma representação diferente do objeto, basta criar uma classe construtora diferente e implementar essas etapas de construção correspondentemente. 
-
-Além disso, há uma camada adicional no padrão de projeto Builder — Diretor. O Diretor é uma classe simples que conhece a interface do Construtor e define a ordem na qual executar as etapas de construção. Essa classe não é obrigatória, mas oculta os detalhes da construção do produto do código do cliente.
-
-### Estrutura geral
-
-<figure>
-  <img src="../../assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 1 - Estrutura geral builder. Fonte: DEV Community </figcaption>
-</figure>
-
-- Builder: define uma interface abstrata que é comum a todos os tipos de construtores para criar partes de um Produto;
-- Concrete Builder: fornece uma implementação específica das etapas de construção. Além disso, define e controla o Produto que cria;
-- Director: constrói um objeto usando a interface Builder, define a ordem em que as etapas de construção são chamadas;
-- Produto: representa o objeto complexo em construção, expõe interface/métodos de montagem das partes no resultado final;
-- Cliente: associa o objeto Construtor específico ao Diretor. Posteriormente, um objeto Product é criado chamando a instância da classe Director.
-
-
-### Aplicabilidade
-
-O padrão de projeto Builder deve ser usado quando o projeto contém vários construtores da mesma classe fazendo referência uns aos outros. Por exemplo, um construtor com vários parâmetros opcionais. Alguns desses parâmetros têm valores padrão, portanto, cria-se vários construtores mais curtos com menos parâmetros, mas ainda se refere ao principal. Ao usar o padrão de projeto Builder, constroi-se objetos passo a passo usando apenas as etapas realmente necessárias — você não precisa mais lidar com o problema de vários construtores com parâmetros opcionais.
-
-O padrão de projeto Builder é útil quando o algoritmo para criar um objeto complexo deve ser independente das partes que compõem os objetos e como eles são montados. Em palavras simples, é apenas uma simples extração da lógica de criação do objeto de sua própria classe. Portanto, o algoritmo de construção pode evoluir separadamente do produto real que ele fornece, a modificação desse processo requer a alteração do código do objeto.
-
-### Aplicação no idotpet
-
-Ainda não foi aplicado no projeto.
-
-## Criacional 2 - Factory
+## Criacional 1 - Factory
 
 O livro da Gang of Four define o objetivo do Factory como:
 
@@ -86,7 +53,7 @@ Além disso, permite flexibilidade de tempo de compilação por meio de subclass
 
 <figure>
   <img src="../../assets/gof_criacionais/factory.png" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 2 - Estrutura geral factory. Fonte: DEV Community </figcaption>
+  <figcaption align="center" >Figura 1 - Estrutura geral factory. Fonte: DEV Community </figcaption>
 </figure>
 
 - Creator: declara o factory method, que retorna novos objetos de produto. O factory method pode ser declarado como abstrato para forçar todas as subclasses a implementá-lo. Essa classe também pode fornecer uma implementação padrão para o factory method que retorna um objeto ConcreteProduct padrão.
@@ -106,13 +73,13 @@ Ainda não foi aplicado no projeto.
 
 ### Aplicação com exemplo toy
 
-Como ainda não foi possível realizar a implementação deste padrão no projeto, apresentamos então um exemplo toy. Trouxemos um exemplo em flutter do Factory Method em uma aplicação de caixa de diálogo de um app mobile que pode ser adaptado para o projeto futuramente. A Fig. 3 mostra o diagrama da implementação.
+Como ainda não foi possível realizar a implementação deste padrão no projeto, apresentamos então um exemplo toy. Trouxemos um exemplo em flutter do Factory Method em uma aplicação de caixa de diálogo de um app mobile que pode ser adaptado para o projeto futuramente. A Fig. 2 mostra o diagrama da implementação.
 
 
 
 <figure>
   <img src="../../assets/gof_criacionais/exemplo_factory.png" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 3 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
+  <figcaption align="center" >Figura 2 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
 CustomDialog é uma classe abstrata usada como classe base para todos os diálogos de alerta específicos: getTitle(), create() e show().
@@ -200,8 +167,73 @@ Abaixo, uma animação do funcionamento do widget com flutter.
 
 <figure>
   <img src="../../assets/gof_criacionais/animacao_factory.gif" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 4 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
+  <figcaption align="center" >Figura 3 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
 </figure>
+
+## Criacional 2 - Builder
+
+O livro da Gang of Four define o objetivo do builder como:
+
+> "Separar a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar diferentes representações."
+
+O builder move o código de construção do objeto para fora de sua própria classe para objetos separados chamados construtores. Cada um desses construtores segue a mesma interface e implementa etapas separadas de construção de objetos. Ou seja, se o objetivo é ter uma representação diferente do objeto, basta criar uma classe construtora diferente e implementar essas etapas de construção correspondentemente. 
+
+Além disso, há uma camada adicional no padrão de projeto Builder — Diretor. O Diretor é uma classe simples que conhece a interface do Construtor e define a ordem na qual executar as etapas de construção. Essa classe não é obrigatória, mas oculta os detalhes da construção do produto do código do cliente.
+
+### Estrutura geral
+
+<figure>
+  <img src="../../assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 4 - Estrutura geral builder. Fonte: DEV Community </figcaption>
+</figure>
+
+- Builder: define uma interface abstrata que é comum a todos os tipos de construtores para criar partes de um Produto;
+- Concrete Builder: fornece uma implementação específica das etapas de construção. Além disso, define e controla o Produto que cria;
+- Director: constrói um objeto usando a interface Builder, define a ordem em que as etapas de construção são chamadas;
+- Produto: representa o objeto complexo em construção, expõe interface/métodos de montagem das partes no resultado final;
+- Cliente: associa o objeto Construtor específico ao Diretor. Posteriormente, um objeto Product é criado chamando a instância da classe Director.
+
+
+### Aplicabilidade
+
+O padrão de projeto Builder deve ser usado quando o projeto contém vários construtores da mesma classe fazendo referência uns aos outros. Por exemplo, um construtor com vários parâmetros opcionais. Alguns desses parâmetros têm valores padrão, portanto, cria-se vários construtores mais curtos com menos parâmetros, mas ainda se refere ao principal. Ao usar o padrão de projeto Builder, constroi-se objetos passo a passo usando apenas as etapas realmente necessárias — você não precisa mais lidar com o problema de vários construtores com parâmetros opcionais.
+
+O padrão de projeto Builder é útil quando o algoritmo para criar um objeto complexo deve ser independente das partes que compõem os objetos e como eles são montados. Em palavras simples, é apenas uma simples extração da lógica de criação do objeto de sua própria classe. Portanto, o algoritmo de construção pode evoluir separadamente do produto real que ele fornece, a modificação desse processo requer a alteração do código do objeto.
+
+### Aplicação no idotpet
+
+Ainda não foi aplicado no projeto.
+
+### Aplicação com exemplo toy
+
+Como ainda não foi possível realizar a implementação deste padrão no projeto, apresentamos então um exemplo toy. Trouxemos um exemplo em flutter do Builder em uma aplicação de um app mobile para a montagem de um hamburguer. Este exemplo pode ser adaptado para o projeto futuramente. A Fig. 5 mostra o diagrama da implementação.
+
+
+
+<figure>
+  <img src="../../assets/gof_criacionais/exemplo_builder.png" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 5 - Exemplo de builder em flutter. Fonte: DEV Community </figcaption>
+</figure>
+
+O ingrediente é uma classe abstrata que é usada como classe base para todas as classes de ingredientes. A classe contém alérgenos e propriedades de nome, bem como os métodos getAllergens() e getName() para retornar os valores dessas propriedades. Existem varios ingredientes, como visto na Fig. 5.
+
+Burger é uma classe simples que representa o produto de um construtor. Ele contém a lista de ingredientes e a propriedade de preço para armazenar os valores correspondentes.
+
+BurgerBuilderBase é uma classe abstrata que é usada como classe base para todas as classes do construtor de hambúrgueres. Ele contém propriedades de hambúrguer e preço para armazenar o produto final e seu preço correspondente.
+
+BurgerBuilderBase também contém vários métodos abstratos que devem ser implementados nas classes de implementação específicas do construtor de hambúrguer. As classes construtoras concretas do BurgerBuilderBase pode ser vista na Fig. 5.
+
+O BurgerMaker é uma classe diretora que gerencia o processo de construção do hambúrguer. E o BuilderExample inicializa e contém a classe BurgerMaker. Além disso, ele faz referência a todos os construtores de hambúrgueres específicos que podem ser alterados em tempo de execução usando a seleção suspensa da interface do usuário.
+
+O exemplo de codificação é muito extenso e pode ser vista na referência DEV Community. Abaixo, há a demonstração para melhor compreensão do padrão.
+
+
+<figure>
+  <img src="../../assets/gof_criacionais/animacao_builder.gif" alt="Estrutura geral"/>
+  <figcaption align="center" >Figura 6 - Exemplo de Builder em flutter. Fonte: DEV Community </figcaption>
+</figure>
+
+
 
 ## Criacional 3 - Abstract Factory
 
@@ -216,7 +248,7 @@ O principal objetivo do padrão de projeto Abstract Factory é encapsular a cria
 
 <figure>
   <img src="../../assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 5 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
+  <figcaption align="center" >Figura 7 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
 </figure>
 
 - Abstract Factory: declara uma interface de operações que cria objetos abstratos do Produto;
@@ -245,7 +277,7 @@ A ideia principal desse padrão é tornar a própria classe responsável por ras
 
 <figure>
   <img src="../../assets/gof_criacionais/singleton.PNG" alt="Estrutura geral"/>
-  <figcaption align="center" >Figura 6 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
+  <figcaption align="center" >Figura 8 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
 </figure>
 
 - A classe Singleton contém a instância da propriedade estática que é uma referência à própria instância da classe;
