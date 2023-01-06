@@ -41,7 +41,7 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 #### Estrutura Geral
 
-![Estrutura Geral Facade](docs/assets/gofs-estruturais/diagrama/facade.png)
+![Estrutura Geral Facade](../../assets/gofs-estruturais/diagrama/facade.png)
 
 #### Aplicabilidade
 
@@ -53,13 +53,80 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 Nenhuma implementação até o momento
 
+
+#### Aplicação com exemplo Toy
+
+A seguir é apresentado um exemplo toy utilizando o Facade com flutter acerca de uma API em Flutter para controle dos dispositivos de uma casa inteligente.
+
+~~~dart
+  class SmartHomeState {
+    bool tvOn = false;
+    bool audioSystemOn = false;
+    bool netflixConnected= false;
+    bool streamingCameraOn = false;
+    bool gamingConsoleOn = false;
+    bool lightson = true;
+  }
+~~~
+
+~~~dart
+  class SmartHome Facade {
+    final AudioApi _audioApi = AudioApi();
+    final NetflixApi _netflixApi = NetflixApi();
+    final SmartHomeApi _smartHomeApi = SmartHomeApi();
+
+    void startMovie (SmartHomeState smartHomeState, String movieTitle) {
+      smartHomeState.lightson = _smartHomeApi.turnLightsOff();
+      smartHomeState.tvon = _tvApi.turnon();
+      smartHomeState.audioSystemOn = _audioApi.turnSpeakersOn();
+      smartHomeState.netflixConnected = _netflixApi.connect();
+    }
+
+    void stopMovie (SmartHomeState smartHomeState) {
+      smartHomeState.netflixConnected = _netflixApi.disconnect();
+      smartHomeState.tvon = _tvApi.turnOff();
+      smartHomeState.audioSystemOn = _audioApi.turnSpeakersOff();
+      smartHomeState.lightson = _smartHomeApi.turnLightsOn();
+    }
+
+    void startGaming (SmartHomeState smartHomeState) {
+      smartHomeState.lightson = _smartHomeApi.turnLightsOff();
+      smartHomeState.tvon = _tvApi.turnon();
+      _gamingFacade.startGaming (smartHomeState);
+      }
+      _netflixApi.play (movieTitle);
+    }
+
+    void stopGaming (SmartHomeState smartHomeState) {
+      _gamingFacade.stopGaming (smartHomeState);
+      smartHomeState.tvon = _tvApi.turnOff();
+      smartHomeState.lightson = _smartHomeApi.turnLightson();
+    }
+
+    void startStreaming (SmartHomeState smartHomeState) {
+      smartHomeState.lightson = _smartHomeApi.turnLightson();
+      smartHomeState.tvon = _tvApi.turnon();
+      _gamingFacade.startStreaming (smartHomeState);
+    }
+    
+    void stopStreaming (SmartHomeState smartHomeState) {
+      _gamingFacade.stopStreaming (smartHomeState);
+      smartHomeState.tvon = _tvApi.turnOff();
+      smartHomeState.lightson = _smartHomeApi.turnLightson();
+    }
+~~~
+
+O resultado final da implementação do padrão de projeto Facade no exemplo apresentado fica assim:
+
+![Gif App Facade](../../assets/gofs-estruturais/diagrama/facade-smarthome.gif)
+
 ### Estrutural 2 - Proxy
 
 Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
 
 #### Estrutura Geral
 
-![Estrutura Geral Proxy](docs/assets/gofs-estruturais/diagrama/proxy.png)
+![Estrutura Geral Proxy](../../assets/gofs-estruturais/diagrama/proxy.png)
 
 #### Aplicabilidade
 
@@ -71,14 +138,12 @@ O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma inter
 O Bridge é um padrão de projeto estrutural que permite que seja dividida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras.
 #### Estrutura Geral
 
-![Estrutura Geral Bridge](docs/assets/gofs-estruturais/diagrama/bridge.png)
+![Estrutura Geral Bridge](../../assets/gofs-estruturais/diagrama/bridge.png)
 
 
 #### Aplicabilidade
 
 A Abstração nesse modelo nada mais é do que a interface que o cliente usa para interagir com a abstração do mundo real e que é implementada pela Abstração Concreta. Nessa abstração concreta é mantido uma referência a uma interface de um Implementador e é exatamente o que torna possível desacoplar a abstração da implementação porque agora a abstração faz referências a um ou mais métodos da classe implementador.
-
-
 
 
 #### Implementação no IdotPet
@@ -109,7 +174,7 @@ Nenhuma implementação até o momento
 ### Estrutural 6 - Composite
 Composite é um padrão de design estrutural que permite compor objetos em estruturas de árvore e depois trabalhar com essas estruturas como se fossem objetos individuais.
 #### Estrutura Geral
-![Estrutura Geral Composite](docs/assets/gofs-estruturais/diagrama/composite.png)
+![Estrutura Geral Composite](../../assets/gofs-estruturais/diagrama/composite.png)
 #### Aplicabilidade
 Use o padrão Composite quando precisar implementar uma estrutura de objeto semelhante a uma árvore, ou quando desejar que o código do cliente trate elementos simples e complexos de maneira uniforme.
 #### Implementação no IdotPet
@@ -121,7 +186,7 @@ O Adapter é um padrão de projeto estrutural que permite objetos com interfaces
 Um adaptador encobre um dos objetos para esconder a complexidade da conversão acontecendo nos bastidores. O objeto encobrido nem fica ciente do adaptador. Por exemplo, você pode encobrir um objeto que opera em metros e quilômetros com um adaptador que converte todos os dados para unidades imperiais tais como pés e milhas.
 
 #### Estrutura Geral
-![Estrutura Geral Adapter](docs/assets/gofs-estruturais/diagrama/adapter.png)
+![Estrutura Geral Adapter](../../assets/gofs-estruturais/diagrama/adapter.png)
 
 #### Aplicabilidade
 Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
