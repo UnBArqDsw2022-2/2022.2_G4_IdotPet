@@ -364,7 +364,8 @@ A seguir é apresentado um exemplo toy utilizando o Chain Of Responsability com 
   }
 ~~~
 
-O resultado final da implementação do padrão de projeto Chain of Responsability no exemplo apresentado fica assim:
+O resultado final da implementação do padrão de projeto Chain of Responsability no exemplo apresentado:
+
 ![Exemplo Toy Chain Of Responsability](../../assets/gofs-comportamentais/diagrama/chain-resp-final.png)
 
 
@@ -406,9 +407,11 @@ State é um padrão de projeto de software usado quando o comportamento de um ob
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-### Comportamental 5 - Memento
+### Comportamental 6 - Memento
 
 #### Estrutura Geral
+
+![Estrutura Geral Memento](../../assets/gofs-comportamentais/diagrama/memento.png)
 
 #### Aplicabilidade
 
@@ -420,7 +423,7 @@ Nenhuma implementação até o momento
 
 
 
-### Comportamental 6 - Command
+### Comportamental 7 - Command
 
 #### Estrutura Geral
 
@@ -432,7 +435,11 @@ Command é um dos 11 padrões comportamentais dentre os 23 padrões de projeto d
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-### Comportamental 7 - Iterator
+### Comportamental 8 - Iterator
+
+#### Estrutura Geral
+
+![Estrutura Geral Iterator](../../assets/gofs-comportamentais/diagrama/iterator.png)
 
 #### Aplicabilidade
 
@@ -441,11 +448,12 @@ Em programação de computadores, um iterador se refere tanto ao objeto que perm
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-### Comportamental 8 - Mediator
+### Comportamental 9 - Mediator
 
 #### Estrutura Geral
 
 ![Estrutura Geral Mediator](../../assets/gofs-comportamentais/diagrama/mediator.png)
+
 #### Aplicabilidade
 
 É um padrão de projeto usado frequentemente quando deseja-se encapsular como os objetos interagem, ou seja, a comunicação entre os objetos é estabelecida através do Mediator. Este padrão é considerado um padrão comportamental, pois o padrão pode alterar o comportamento da aplicação (programa).O Mediator promove o fraco acoplamento ao evitar que objetos se referiram uns aos outros explicitamente.
@@ -453,4 +461,8 @@ Nenhuma implementação até o momento
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-> DEV Community. Design Patterns - Flutter. Disponível em: <https://dev.to/blazebrain/design-patterns-flutter-9dh>. Acesso em: 04 jan. 2023.
+> DEV Community. Design Patterns - Flutter. Disponível em: https://dev.to/blazebrain/design-patterns-flutter-9dh. Acesso em: 04 jan. 2023.
+
+> GAMMA, Erich et al. Design patterns: elements of reusable object-oriented software. Pearson Deutschland GmbH, 1995.
+
+> GURU, Refactoring. Refactoring.Guru. [S. l.], 2023. Disponível em: https://refactoring.guru/. Acesso em: 4 jan. 2023.
