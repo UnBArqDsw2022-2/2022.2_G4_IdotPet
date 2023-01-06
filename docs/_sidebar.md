@@ -55,8 +55,18 @@
  
    - **Participações**
         - [Modelagem](modelagem/participacoes_modelagem.md)
-     
-      
+
+- **Padões de Projeto**
+    - [GRASPS](padroes_projeto/grasps/grasps.md)
+    - [GoF Comportamental](padroes_projeto/gofs_comportamentais/comportamental.md)
+    - [GoF Criacional](padroes_projeto/criacionais/criacional.md)
+    - [GoF Estrutural](padroes_projeto/gofs_estruturais/estrutural.md)
+    - **Padrões Emergentes**
+      - [MVC](padroes_projeto/padroes_emergentes/padrao_mvc.md)
+  - **Iniciativas Extras**
+      - [Protótipo Alta Fidelidade](padroes_projeto/prototipo_alta_fidelidade.md)
+        
+
 
 
 - **Sprints**
