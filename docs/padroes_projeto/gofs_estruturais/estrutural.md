@@ -122,38 +122,8 @@ O resultado final da implementação do padrão de projeto Facade no exemplo apr
 
 ![Gif App Facade](../../assets/gofs-estruturais/diagrama/facade-smarthome.gif)
 
-### Estrutural 2 - Proxy
 
-Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
-
-#### Estrutura Geral
-
-![Estrutura Geral Proxy](../../assets/gofs-estruturais/diagrama/proxy.png)
-
-#### Aplicabilidade
-
-O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
-
-#### Implementação no IdotPet
-
-### Estrutural 3 - Bridge
-O Bridge é um padrão de projeto estrutural que permite que seja dividida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras.
-#### Estrutura Geral
-
-![Estrutura Geral Bridge](../../assets/gofs-estruturais/diagrama/bridge.png)
-
-
-#### Aplicabilidade
-
-A Abstração nesse modelo nada mais é do que a interface que o cliente usa para interagir com a abstração do mundo real e que é implementada pela Abstração Concreta. Nessa abstração concreta é mantido uma referência a uma interface de um Implementador e é exatamente o que torna possível desacoplar a abstração da implementação porque agora a abstração faz referências a um ou mais métodos da classe implementador.
-
-
-#### Implementação no IdotPet
-Nenhuma implementação até o momento
-
-
-
-### Estrutural 4 - FlyWeight
+### Estrutural 2 - FlyWeight
 Flyweight é um padrão de design estrutural que permite ajustar mais objetos na quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
 
 #### Aplicabilidade
@@ -298,6 +268,39 @@ O resultado final da implementação do padrão de projeto FlyWeight no exemplo 
 ![Resultado FlyWeight](../../assets/gofs-estruturais/diagrama/giftoyflyweight.gif)
 
 
+
+
+### Estrutural 3 - Bridge
+O Bridge é um padrão de projeto estrutural que permite que seja dividida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras.
+#### Estrutura Geral
+
+![Estrutura Geral Bridge](../../assets/gofs-estruturais/diagrama/bridge.png)
+
+
+#### Aplicabilidade
+
+A Abstração nesse modelo nada mais é do que a interface que o cliente usa para interagir com a abstração do mundo real e que é implementada pela Abstração Concreta. Nessa abstração concreta é mantido uma referência a uma interface de um Implementador e é exatamente o que torna possível desacoplar a abstração da implementação porque agora a abstração faz referências a um ou mais métodos da classe implementador.
+
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+
+### Estrutural 4 - Proxy
+
+Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
+
+#### Estrutura Geral
+
+![Estrutura Geral Proxy](../../assets/gofs-estruturais/diagrama/proxy.png)
+
+#### Aplicabilidade
+
+O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
+
+#### Implementação no IdotPet
+
+
 ### Estrutural 5 - Decorator
 
 Decorator é um padrão de design estrutural que permite anexar novos comportamentos a objetos colocando esses objetos dentro de objetos wrapper especiais que contêm os comportamentos.
@@ -308,7 +311,6 @@ Decorator é um padrão de design estrutural que permite anexar novos comportame
 Use o padrão Decorator quando precisar atribuir comportamentos extras a objetos em tempo de execução sem quebrar o código que usa esses objetos ou quando for difícil ou impossível estender o comportamento de um objeto usando herança.
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
-
 
 
 ### Estrutural 6 - Composite
@@ -333,13 +335,6 @@ Um adaptador encobre um dos objetos para esconder a complexidade da conversão a
 Utilize a classe Adaptador quando você quer usar uma classe existente, mas sua interface não for compatível com o resto do seu código.
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
-
-
-## Aplicação no Projeto
-
-
-## Possível implementação em código
-
 
 ## Referências
 
