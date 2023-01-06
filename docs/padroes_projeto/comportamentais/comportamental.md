@@ -42,7 +42,7 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 #### Aplicação com exemplo Toy
 
 
-A seguir é apresentado um exemplo toy utilizando o Strategy com flutter acerca de um aplicativo móvel de comércio eletrônico.
+A seguir é apresentado um exemplo toy utilizando o Strategy com flutter
 
 ![Exemplo Toy Strategy](../../assets/gofs-comportamentais/diagrama/strategy-exemplo-toy.png)
 
@@ -158,7 +158,217 @@ A seguir é apresentado um exemplo toy utilizando o Strategy com flutter acerca 
 O resultado final da implementação do padrão de projeto Strategy no exemplo apresentado fica assim:
 ![Exemplo Strategy](../../assets/gofs-comportamentais/diagrama/strategy-final.gif)
 
-### Comportamental 2 - Template Method
+### Comportamental 2 - Chain Of Responsability
+
+
+![Estrutura Geral Chain Of Responsability](../../assets/gofs-comportamentais/diagrama/chain-resp.png) 
+#### Aplicabilidade
+
+Chain of Responsibility é um padrão GOF cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia. Devido a isso, é um padrão que utiliza a ideia de baixo acoplamento por permitir que outros objetos da cadeia tenham a oportunidade de tratar uma solicitação.
+
+#### Implementação no IdotPet
+Nenhuma implementação até o momento
+
+#### Aplicação com exemplo Toy
+
+
+A seguir é apresentado um exemplo toy utilizando o Chain Of Responsability com flutter.
+
+![Exemplo Toy Chain Of Responsability](../../assets/gofs-comportamentais/diagrama/chain-resp-toy.png)
+
+
+
+~~~ dart
+   enum LogLevel{Debug, Info, Error}
+
+   extension LogLevelExtensions on LogLevel{
+     bool operator <=(LogLevel logLevel)=> this.index <=logLevel.index;
+   }
+~~~
+
+~~~ dart
+   class LogMessage {
+    final LogLevel logLevel;
+    final String message;
+
+    const LogMessage({
+      @required this.logLevel,
+      @required this.message,
+    }) : assert(logLevel != null),
+         assert(message != null);
+
+    String get _logLevelString =>
+       logLevel.toString().split('.').last.toUpperCase();
+    
+    Color _getLogEntryColor(){
+      switch(logLevel){
+        case LogLevel.Debug:
+          return Colors.grey;
+        case LogLevel.Info:
+          return LogLevel.blue;
+        case LogLevel.Error:
+          return Colors.red;
+        default:
+            throw Exception("Log level '$logLevel' is not supported. ");
+      }
+    }
+
+    Widget getFormattedMessage(){
+      return Text(
+       '$_logLevelString: $message',
+        style: TextStyle(
+          color: _getLogEntryColor(),
+        ),
+        textAlign: TextAlign.justify,
+        overflow: TextOverflow.ellipsis,
+        maxlines: 2,
+
+      );
+    }
+  }
+~~~
+
+
+~~~ dart
+   class LogBloc {
+
+      final List<LogMessage> _logs= List<LogMessage>();
+      final StreamController<List<LogMessage>>();
+
+      StreamSink<List<LogMessage>> get _inLogStream => _logStream.sink;
+      Stream<List<LogMessage>> get outLogStream => _logStream.stream;
+
+      void log(LogMessage logMessage){
+        _logs.add(logMessage);
+        _inLogStream.add(UnmodifiableListView(_logs));
+
+      }
+
+      void dispose(){
+        _logStream.close();
+      }
+  }
+~~~
+
+~~~ dart
+   class ExternalLoggingService {
+      final LogBloc logBloc;
+
+      ExternalLoggingService(this.logBloc);
+
+      void logMessage(LogLevel logLevel, String message){
+        var logMessage = LogMessage(logLevel: logLevel, message: message);
+
+        // Send log message to the external logging service
+
+        // Log message
+        logBloc.log(logMessage);
+      }
+  }
+~~~
+
+~~~ dart
+   class MailService {
+      final LogBloc logBloc;
+
+      MailService(this.logBloc);
+
+      void sendErrorMail(LogLevel logLevel, String message){
+        var logMessage = LogMessage(logLevel: logLevel, message: message);
+
+        // Send error mail
+
+        // Log message
+        logBloc.log(logMessage);
+      }
+  }
+~~~
+
+
+~~~ dart
+  abstract class LoggerBase {
+      @protected
+      final LogLevel logLevel;
+      final LoggerBase _nextLogger;
+
+      const LoggerBase(this.logLevel, [this._nextLogger]);
+
+      void LoggerMessage( LogLevel logLevel, String message){
+        if(logLevel <= level){
+          log(message);
+        }
+
+        if(_nextLogger != null ){
+          _nextLogger.logMessage(level, message);
+        }
+      }
+
+    void logDebug(String message) => logMessage(LogLevel.Debug, message);
+    void logInfo(String message) => logMessage(LogLevel.Info, message);
+    void logError(String message) => logMessage(LogLevel.Error, message);
+
+    void log(String message);
+
+  }
+~~~
+
+~~~ dart
+   class DebugLogger extends LoggerBase {
+      final LogBloc logBloc;
+
+      const DebugLogger(this.logBloc, [LoggerBase nextLogger])
+        : super(LogLevel.Debug,nextLogger);
+      
+      @override
+      void log(String message){
+        var logMessage = LogMessage(logLevel: logLevel, message: message);
+        logBloc.log(logMessage);
+      }
+  }
+~~~
+
+
+~~~ dart
+   class InfoLogger extends LoggerBase {
+      
+      ExternalLoggingService externalLoggingService;
+
+      InfoLogger(LogBloc logBloc, [LoggerBase nextLogger])
+          : super(LogLevel.Info,nextLogger) {
+            externalLoggingService = ExternalLoggingService(logBloc);
+        }
+      
+      @override
+      void log(String message){
+          externalLoggingService.logMessage(logLevel, message);
+      }
+
+  
+  }
+~~~
+
+~~~ dart
+   class ErrorLogger  extends LoggerBase {
+      
+      MailService mailService;
+
+      ErrorLogger(LogBloc logBloc, [LoggerBase nextLogger])
+          : super(LogLevel.Error,nextLogger) {
+            mailService = MailService(logBloc);
+        }
+        
+      @override
+      void log(String message){
+          mailService.sendErrorMail(logLevel, message);
+      }
+  }
+~~~
+
+O resultado final da implementação do padrão de projeto Chain of Responsability no exemplo apresentado fica assim:
+![Exemplo Toy Chain Of Responsability](../../assets/gofs-comportamentais/diagrama/chain-resp-final.png)
+
+
+### Comportamental 3 - Template Method
 
 #### Estrutura Geral
 
@@ -172,7 +382,7 @@ Um Template Method auxilia na definição de um algoritmo com partes do mesmo de
 Nenhuma implementação até o momento
 
 
-### Comportamental 3 - Observer
+### Comportamental 4 - Observer
 
 #### Estrutura Geral
 
@@ -184,7 +394,7 @@ O Observer é um padrão de projeto de software que define uma dependência um-p
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-### Comportamental 4 - State
+### Comportamental 5 - State
 
 #### Estrutura Geral
 
@@ -208,18 +418,9 @@ Memento é um padrão de projeto de software documentado no Catálogo Gang of Fo
 Nenhuma implementação até o momento
 
 
-### Comportamental 6 - Chain Of Responsability
 
 
-#### Aplicabilidade
-
-Em Orientação a Objetos, Chain of Responsibility é um padrão GOF cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia. Devido a isso, é um padrão que utiliza a ideia de baixo acoplamento por permitir que outros objetos da cadeia tenham a oportunidade de tratar uma solicitação.
-
-#### Implementação no IdotPet
-Nenhuma implementação até o momento
-
-
-### Comportamental 7 - Command
+### Comportamental 6 - Command
 
 #### Estrutura Geral
 
@@ -231,7 +432,7 @@ Command é um dos 11 padrões comportamentais dentre os 23 padrões de projeto d
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-### Comportamental 8 - Iterator
+### Comportamental 7 - Iterator
 
 #### Aplicabilidade
 
@@ -240,7 +441,7 @@ Em programação de computadores, um iterador se refere tanto ao objeto que perm
 #### Implementação no IdotPet
 Nenhuma implementação até o momento
 
-### Comportamental 9 - Mediator
+### Comportamental 8 - Mediator
 
 #### Estrutura Geral
 
