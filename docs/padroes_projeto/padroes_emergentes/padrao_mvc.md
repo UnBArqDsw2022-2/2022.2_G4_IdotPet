@@ -40,6 +40,33 @@ Cada componente possui sua própria pasta com suas próprias classes distacadas 
 
 ## Possível implementação em código
 
+### Arquitetura Limpa
+
+O Padrão MVC é dividida em três componentes essenciais: Model, Controller e View.
+O Model é o que possui e recebe os dados do Controller, criando instâncias, armazenando elas, etc.
+O Controller é o que faz as operações, que recebe os inputs e dados, se utiliza das funções para preparar os dados e enviar para o Model ou disponibilizá-las para a View.
+A View é o que manda as informações para a visão do usuário, que disponibiliza a visualização dos dados.
+
+<figure>
+  <img src="docs/assets/padrao_emergente/mvc.jpg?raw=true" alt="Modelo MVC"/>
+  <figcaption align="center"> Figura 1- Modelo MVC. Fonte: Higor (2013), Devmedia </figcaption>
+</figure>
+
+#### Implementação no IdotPet
+No iDotPet foi-se implementado o padrão MVC no backend com o Model possuindo classes de criação de instâncias, o Controller possuindo classes de controle e funções de inputs do aplicativo, etc, e o View para disponibilizar visualmente dados do usuário. 
+Cada componente possui sua própria pasta com suas próprias classes distacadas na Figura 2. A Figura 3 mostra as classes de View, Controller e Model do User.
+<figure>
+  <img src="docs/assets/padrao_emergente/mvc2_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
+  <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
+</figure>
+
+## Possível implementação em código
+
+<figure>
+  <img src="docs/assets/padrao_emergente/mvc_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
+  <figcaption align="center"> Figura 3 - Algumas classes do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
+</figure>
+
 <figure>
   <img src="docs/assets/padrao_emergente/mvc_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
   <figcaption align="center"> Figura 3 - Algumas classes do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
