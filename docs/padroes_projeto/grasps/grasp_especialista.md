@@ -6,8 +6,9 @@
 | :- | :- | :- | :- |
 | 02/01/2023   | 0.1   | Criação da base do documento   | [Victor Cabral](https://github.com/victordscabral) |
 | 03/01/2023   | 0.2   | Preenchimento inicial do documento   | [Victor Cabral](https://github.com/victordscabral) e [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
-| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
-| 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
+| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 05/01/2023   | 0.5   | Correção do GRASP   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) e [Thales Alves](https://github.com/Thalisson-Alves)|
 
 ## Introdução
 
@@ -47,11 +48,11 @@ Tende ser mais fácil entender, manter, estender e reutilizar no projeto quando 
 - A coesão dos objetos tende a ser alta.
 
 ### Implementação no iDotPet
-Como explicado no GRASP Criador, não se é aplicado o GRASP Criador no Endereco na Figura 1 pois ele é PARTE do TODO(Usuario), logo ele é uma especialidade do Usuario, temos aí então um GRASP Especialista.
+O projeto iDotPet conta com várias classes especialistas, uma delas é o userModel que tem foco em criar instâncias de objetos Users ou Usuarios, sendo assim além de criadora, especialista na criação de Users. A Figura 1 mostra o código de modelo da classe Usuario
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v1).png?raw=true" alt="Diagrama de Classe"/>
-  <figcaption align="center" >Figura 1 - Diagrama de Classe (parte). Fonte: Autores </figcaption>
+  <img src="docs/assets/grasp_especialista/userModel.png?raw=true" alt="Código de userModel"/>
+  <figcaption align="center" >Figura 1 - Código da classe userModel. Fonte: Autores </figcaption>
 </figure>
 
 ### Referências

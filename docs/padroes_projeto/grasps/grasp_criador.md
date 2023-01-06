@@ -6,8 +6,9 @@
 | :- | :- | :- | :- |
 | 02/01/2023   | 0.1   | Criação da base do documento   | [Victor Cabral](https://github.com/victordscabral) |
 | 03/01/2023   | 0.2   | Preenchimento inicial do documento   | [Victor Cabral](https://github.com/victordscabral) e [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
-| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
-| 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
+| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 06/01/2023   | 0.5   | Adição do código   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) e [Thales Alves](https://github.com/Thalisson-Alves)  |
 
 ## Introdução
 
@@ -52,10 +53,17 @@ Uma classe A deve criar instâncias de uma classe B quando uma ou mais afirmaç�
 
 ### Implementação no iDotPet
 O grasp criador será extremamente útil e implementado no projeto do IdotPet sempre que for possível, criando novas instâncias de vários objetos principalmente Usuario e Pet. A Figura 1 mostra algumas classes de nosso [Diagrama de Classe](docs/modelagem/diagrama_classe.md), nela observa-se que temos a classe Endereco, porém ela não é uma instância TODO e sim uma instância PARTE pois ela não existe sem o TODO(Usuario).
+A Figura 2 mostra o código criador do Usuário.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v1).png?raw=true" alt="Diagrama de Classe"/>
   <figcaption align="center" >Figura 1 - Diagrama de Classe (parte). Fonte: Autores </figcaption>
+</figure>
+
+### Implementação em Código
+<figure>
+  <img src="docs/assets/grasp_especialista/userModel.png?raw=true" alt="Código de userModel"/>
+  <figcaption align="center" >Figura 2 - Código da classe userModel. Fonte: Autores </figcaption>
 </figure>
 
 ### Referências

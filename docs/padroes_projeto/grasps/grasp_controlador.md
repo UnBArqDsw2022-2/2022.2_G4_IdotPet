@@ -6,8 +6,8 @@
 | :- | :- | :- | :- |
 | 02/01/2023   | 0.1   | Criação da base do documento   | [Victor Cabral](https://github.com/victordscabral) |
 | 03/01/2023   | 0.2   | Preenchimento inicial do documento   | [Victor Cabral](https://github.com/victordscabral) e [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
-| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
-| 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCMa) |
+| 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) e [Thales Alves](https://github.com/Thalisson-Alves)|
 
 ## Introdução
 
@@ -48,8 +48,8 @@ O padrão controlador atribui a responsabilidade de lidar com eventos do sistema
 O GRASP Controlador é implementado com a ajuda do padrão MVC utilizado em nosso projeto. A Figura 2 mostra a classe controladora user_controller.py que possui algumas funções de controle como a criação de um usuário e login de usuários.
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/grasp_controlador/classe_controller.png?raw=true" alt="Diagrama de Classe"/>
-  <figcaption align="center" >Figura 1 - Controlador. Fonte: Autores </figcaption>
+  <img src="docs/assets/grasp_controlador/user_controller.png?raw=true" alt="user_controller"/>
+  <figcaption align="center" >Figura 1 - Módulo do user_controller.py. Fonte: Autores </figcaption>
 </figure>
 
 ### Referências
