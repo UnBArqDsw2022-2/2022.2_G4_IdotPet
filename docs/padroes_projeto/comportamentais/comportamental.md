@@ -28,15 +28,136 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 #### Estrutura Geral
 
-![Estrutura Geral Strategy](docs/assets/gofs-comportamentais/diagrama/.png)
+![Estrutura Geral Strategy](docs/assets/gofs-comportamentais/diagrama/strategy.png)
 
 #### Aplicabilidade
 
-Os padrões de comportamento se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos. Os padrões comportamentais de classes utilizam a herança para distribuir o comportamento entre classes, e os padrões de comportamento de objeto utilizam a composição de objetos em contrapartida a herança. Alguns descrevem como grupos de objetos que cooperam para a execução de uma tarefa que não poderia ser executada por um objeto sozinho. Ele Permite, de maneira simples, a variação dos algoritmos utilizados na resolução de um determinado problema.
+ A ideia principal desse padrão é extrair algoritmos relacionados (ou qualquer parte do código) em classes separadas e definir uma interface comum para eles. Isso permite flexibilidade de tempo de compilação — novos algoritmos podem ser adicionados definindo novas classes e os existentes podem ser alterados independentemente.
 
 #### Implementação no IdotPet
+
  Nenhuma implementação até o momento
 
+ 
+#### Aplicação com exemplo Toy
+
+
+A seguir é apresentado um exemplo toy utilizando o Strategy com flutter acerca de um aplicativo móvel de comércio eletrônico.
+
+![Exemplo Toy Strategy](docs/assets/gofs-comportamentais/diagrama/strategy-exemplo-toy.png)
+
+
+
+
+~~~ dart
+  abstract class IShippingCostsStrategy{
+    String label;
+    double calculate(Order order);
+  }
+~~~
+
+~~~ dart
+   class InStorePickupStrategy  implements  IShippingCostsStrategy{
+    
+    @override
+    String label= 'In-store pickup';
+
+    @override
+    double calculate(Order order){
+      return 0.0;
+    }
+
+  }
+~~~
+
+~~~ dart
+   class ParcelTerminalShippingStrategy implements  IShippingCostsStrategy{
+    @override
+    String label= 'Parcel terminal shipping';
+
+    @override
+    double calculate(Order order){
+      return order.items.fold<double>(0.0, (sum,item) => sum + _getOrderItemShippingPrice(item),
+      );
+    }
+
+   double _getOrderItemShippingPrice(OrderItem orderItem){
+        switch(orderItem.packageSize){
+            case PackageSize.S:
+            return 1.99;
+            case PackageSize.M:
+            return 2.49;
+            case PackageSize.L:
+            return 2.99;
+            case PackageSize.XL:
+            return 3.49;
+            default:
+            throw new Exception("Unknown shipping price for the package of size '${orderItem.packageSize}'. " );
+        }
+   }
+
+  }
+~~~
+
+~~~ dart
+   class PriorityShippingStrategy   implements  IShippingCostsStrategy{
+    
+    @override
+    String label= 'Priority shipping';
+
+    @override
+    double calculate(Order order){
+      return 9.99;
+    }
+
+  }
+~~~
+
+~~~ dart
+   class Order {
+    final List<OrderItem> items = List<OrderItem>();
+
+
+    double get price =>
+      items.fold(0.0, (sum, orderItem) => sum + orderItem.price);
+    
+   void addOrderItem(OrderItem orderItem){
+    items.add(orderItem);
+   }
+
+  }
+~~~
+
+~~~ dart
+   class OrderItem {
+
+    String title;
+    double price;
+    PackageSize packageSize;
+
+    OrderItem.random(){
+        var packageSizeList= PackageSize.values;
+
+        title = faker.lorem.word();
+        price = random.integer(100, min : 5 ) - 0.01;
+        packageSize = packageSizeList[random.integer(packageSizeList.length)];
+    }
+  
+  }
+~~~
+~~~ dart
+   enum PackageSize {
+
+    S,
+    M,
+    L,
+    XL,
+    
+  }
+~~~
+
+O resultado final da implementação do padrão de projeto Strategy no exemplo apresentado fica assim:
+![Exemplo Strategy](../../assets/gofs-comportamentais/diagrama/strategy-final.gif)
 
 ### Comportamental 2 - Template Method
 
