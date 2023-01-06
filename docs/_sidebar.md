@@ -57,14 +57,19 @@
         - [Modelagem](modelagem/participacoes_modelagem.md)
 
 - **Padões de Projeto**
-    - [GRASPS](padroes_projeto/grasps/grasps.md)
+    - [GRASP Criador](padroes_projeto/grasps/grasp_criador.md)
+    - [GRASP Especialista](padroes_projeto/grasps/grasp_especialista.md)
+    - [GRASPS Controlador](padroes_projeto/grasps/grasp_controlador.md)
+    - [GRASPS Polimorfismo](padroes_projeto/grasps/grasp_polimorfismo.md)
     - [GoF Comportamental](padroes_projeto/gofs_comportamentais/comportamental.md)
     - [GoF Criacional](padroes_projeto/criacionais/criacional.md)
     - [GoF Estrutural](padroes_projeto/gofs_estruturais/estrutural.md)
     - **Padrões Emergentes**
-      - [MVC](padroes_projeto/padroes_emergentes/padrao_mvc.md)
+      - [Padrões Emergentes](padroes_projeto/padroes_emergentes/padrao_emergente.md)
   - **Iniciativas Extras**
       - [Protótipo Alta Fidelidade](padroes_projeto/prototipo_alta_fidelidade.md)
+      - [Diagrama de Estado](modelagem/diagrama_estados.md)
+      - [Diagrama de Classe](modelagem/diagrama_classe.md)
         
 
 
