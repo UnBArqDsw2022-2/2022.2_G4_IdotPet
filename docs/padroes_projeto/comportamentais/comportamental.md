@@ -28,7 +28,7 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 #### Estrutura Geral
 
-![Estrutura Geral Strategy](docs/assets/gofs-comportamentais/diagrama/strategy.png)
+![Estrutura Geral Strategy](../../assets/gofs-comportamentais/diagrama/strategy.png)
 
 #### Aplicabilidade
 
@@ -44,8 +44,7 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 A seguir é apresentado um exemplo toy utilizando o Strategy com flutter acerca de um aplicativo móvel de comércio eletrônico.
 
-![Exemplo Toy Strategy](docs/assets/gofs-comportamentais/diagrama/strategy-exemplo-toy.png)
-
+![Exemplo Toy Strategy](../../assets/gofs-comportamentais/diagrama/strategy-exemplo-toy.png)
 
 
 
@@ -201,7 +200,6 @@ Nenhuma implementação até o momento
 
 #### Estrutura Geral
 
-![Estrutura Geral Memento](../../assets/gofs-comportamentais/diagrama/.jpg)
 #### Aplicabilidade
 
 Memento é um padrão de projeto de software documentado no Catálogo Gang of Four, sendo considerado como um padrão comportamental. Ele permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento. Ele funciona de maneira que uma classe é responsável por salvar o estado do objeto desejado enquanto que uma outra classe fica responsável por armazenar todas essas copias (mementos). O padrão Memento é implementado se utilizando de três elementos: Originador, Armazenador e o Memento.
@@ -212,9 +210,7 @@ Nenhuma implementação até o momento
 
 ### Comportamental 6 - Chain Of Responsability
 
-#### Estrutura Geral
 
-![Estrutura Geral Chain Of Responsability](../../assets/gofs-comportamentais/diagrama/.jpg)
 #### Aplicabilidade
 
 Em Orientação a Objetos, Chain of Responsibility é um padrão GOF cuja principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia. Devido a isso, é um padrão que utiliza a ideia de baixo acoplamento por permitir que outros objetos da cadeia tenham a oportunidade de tratar uma solicitação.
@@ -237,9 +233,6 @@ Nenhuma implementação até o momento
 
 ### Comportamental 8 - Iterator
 
-#### Estrutura Geral
-
-![Estrutura Geral Iterator](../../assets/gofs-comportamentais/diagrama/.png)
 #### Aplicabilidade
 
 Em programação de computadores, um iterador se refere tanto ao objeto que permite ao programador percorrer um container, (uma coleção de elementos) particularmente listas,quanto ao padrão de projetos Iterator, no qual um iterador é usado para percorrer um container e acessar seus elementos. O padrão Iterator desacopla os algoritmos dos recipientes, porém em alguns casos, os algoritmos são necessariamente específicos dos containers e, portanto, não podem ser desacoplados.
