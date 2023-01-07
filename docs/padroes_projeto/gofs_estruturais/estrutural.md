@@ -25,8 +25,8 @@ Os padrões de projeto GoF (Gang of Four) são uma série de padrões que fornec
 
 Existem 23 padrões de projeto e estão dividividas em três categorias:
 
-- Criacional (Tema deste documento): dizem respeito ao processo de criação de objetos;
-- Estrutural: lidam com a composição de classes ou objetos; e
+- Criacional: dizem respeito ao processo de criação de objetos;
+- Estrutural (Tema deste documento): lidam com a composição de classes ou objetos; e
 - Comportamental: caracterizam as maneiras pelas quais classes ou objetos interagem e distribuem responsabilidades.
 
 Os padrões estruturais estão preocupados com a forma como as classes e os objetos são compostos a partir de estruturas maiores. Padrões de classes estruturais usam herança para compor interfaces ou implementações. Como um exemplo simples, considere como a herança múltipla mistura duas ou mais classes em uma. O resultado é uma classe que combina as propriedades de suas classes pai. Esse padrão é particularmente útil para fazer com que bibliotecas de classes desenvolvidas independentemente funcionem juntas.

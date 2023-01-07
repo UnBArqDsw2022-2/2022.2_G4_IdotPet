@@ -41,7 +41,7 @@ Cada componente possui sua própria pasta com suas próprias classes distacadas 
 
 <figure>
   <img src="../../assets/padrao_emergente/mvc2_idotpet.png" alt="Modelo MVC iDotPet"/>
-  <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
+  <figcaption align="center"> Figura 2 - Códigos do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
 
 ### Arquitetura Limpa
@@ -56,8 +56,8 @@ se o sistema usa REST API a camada adaptadora seria das classes que utilizariam 
 O principal é que nenhuma classe de uma camada se comunica com outra externa, porém uma camada externa pode utilizar de objetos de uma camada interna.
 
 <figure>
-  <img src="../../assets/padrao_emergente/arquitetura_limpa.png" alt="Modelo MVC"/>
-  <figcaption align="center"> Figura 2 - Modelo Exemplo Arquitetura Limpa. Fonte: Higor (2013), Devmedia </figcaption>
+  <img src="../../assets/padrao_emergente/arquitetura-limpa.png" alt="Modelo Clean Architecture"/>
+  <figcaption align="center"> Figura 4 - Modelo Exemplo Arquitetura Limpa. Fonte: Adaptação de The Clean Code Blog </figcaption>
 </figure>
 
 #### Implementação no IdotPet
