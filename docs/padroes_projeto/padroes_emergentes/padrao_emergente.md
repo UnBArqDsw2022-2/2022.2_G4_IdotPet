@@ -35,6 +35,11 @@ A View é o que manda as informações para a visão do usuário, que disponibil
 No iDotPet foi-se implementado o padrão MVC no backend com o Model possuindo classes de criação de instâncias, o Controller possuindo classes de controle e funções de inputs do aplicativo, etc, e o View para disponibilizar visualmente dados do usuário. 
 Cada componente possui sua própria pasta com suas próprias classes distacadas na Figura 2. A Figura 3 mostra as classes de View, Controller e Model do User.
 <figure>
+  <img src="../../assets/padrao_emergente/mvc1_idotpet.png" alt="Modelo MVC iDotPet"/>
+  <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
+</figure>
+
+<figure>
   <img src="../../assets/padrao_emergente/mvc2_idotpet.png" alt="Modelo MVC iDotPet"/>
   <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
