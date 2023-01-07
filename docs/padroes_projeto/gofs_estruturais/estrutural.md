@@ -12,6 +12,7 @@
 | 04/01/2023   | 0.6   | Terminados padrões Facade e Proxy        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 | 06/01/2023   | 0.7   | Adicionado exemplo Toy Facade        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
 | 06/01/2023   | 0.8   | Adicionado exemplo Toy FlyWeight        | [Herick Lima](https://github.com/hericklima22) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Kayro César](https://github.com/kayrocesar) |
+| 06/01/2023   | 0.9   | Código implementação Proxy        | [Herick Lima](https://github.com/hericklima22) & [Thalisson Alves](https://github.com/Thalisson-Alves) & [Kayro César](https://github.com/kayrocesar) |
 
 ## Introdução
 
@@ -126,151 +127,61 @@ O resultado final da implementação do padrão de projeto Facade no exemplo apr
 ![Gif App Facade](../../assets/gofs-estruturais/diagrama/facade-smarthome.gif)
 
 
-### Estrutural 2 - FlyWeight
-Flyweight é um padrão de design estrutural que permite ajustar mais objetos na quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
+### Estrutural 2 - Proxy
+
+Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
+
+#### Estrutura Geral
+
+![Estrutura Geral Proxy](../../assets/gofs-estruturais/diagrama/proxy.png)
 
 #### Aplicabilidade
-Use o padrão Flyweight quando seu programa tiver que suportar um grande número de objetos que mal cabem na RAM disponível.
+
+O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
+
 #### Implementação no IdotPet
-Nenhuma implementação até o momento
 
-#### Aplicação com exemplo Toy
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
 
-A seguir é apresentado um exemplo toy utilizando o FlyWeight com flutter acerca de redução de uso de memória. Vamos dizer que queremos desenhar um fundo personalizado usando duas formas geométricas diferentes, quadrados e cículos. Também queremos colocar um total de 1000 formas em posições aleatórias. Isso será implementado usando o padrão FlyWeight.
+~~~python
+def exception_handler_proxy(function):
+  logger = getLogger()
 
-![Diagrama de classes exemplo](../../assets/gofs-estruturais/diagrama/toyflyweight.webp)
+  def wrapper(*args, **kwargs):
+    try:
+      logger.info(f'Running function {function._name_} with {args=} and {kwargs}')
+      result = function(*args, **kwargs)
+      logger.info(f'Finished function {function._name_} with {result=}')
+      return result
+    except EntityNotFoundException as e:
+      logger.warning(f'Some entity was not found. {e}')
+      raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
+    except ValidationError as e:
+      logger.warning(f'One or more fields are invalid. {e}')
+      raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+      logger.critical(f'An unexpected error occurred. {e}')
+      raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-~~~dart
-class ShapeFlyweightFactory {
-  final ShapeFactory shapeFactory;
-  final Map<ShapeType, IPositionedShape> shapesMap = Map<ShapeType, IPositionedShape>();
+  return wrapper
 
-  ShapeFlyweightFactory({
-    @required this.shapeFactory,
-  }): assert(shapeFactory != null);
 
-  IPositionedShape getShape(ShapeType shapeType) {
-    if (!shapesMap.containsKey(shapeType)) {
-      shapesMap[shapeType] = shapeFactory.createShape(shapeType);
-    }
+@exception_handler_proxy
+def update_user_endpoint(user_data: CreateUserScheme):
+  if not is_valid(user_data):
+    raise ValidationError()
 
-    return shapesMap[shapeType];
-  }
-  
-  int getShapeInstancesCount() {
-    return shapesMap.length;
-  }
-}
+  repository = UserRepository()
+
+  user = repository.get_by_id(user_data.id)
+  if user is None:
+    raise EntityNotFoundException()
+
+  update_fields(user, user_data)
+  repository.save(user)
+
+  return user
 ~~~
-
-
-~~~dart
-class FlyweightExample extends StatefulWidget {
-  @override
-  _FlyweightExampleState createState() => _FlyweightExampleState();
-}
-
-class _FlyweightExampleState extends State<FlyweightExample> { 
-  static const int SHAPES_COUNT = 1000;
-
-  final ShapeFactory shapeFactory = ShapeFactory();   
-  
-  ShapeFlyweightFactory _shapeFlyweightFactory; 
-  List<IPositionedShape> _shapesList;
-  int _shapeInstancesCount = 0;
-  bool _useFlyweightFactory = false;
-
-  @override
-  void initState() {
-    super.initState();
-
-                            
-    _shapeFlyweightFactory = ShapeFlyweightFactory(
-      shapeFactory: shapeFactory,
-    );
-
-_buildShapesList();
-}
-
-void _buildShapesList() {
-  var shapeInstancesCount = 0;
-  _shapesList = List<IPositionedShape>();
-
-  for (var i = 0; i < SHAPES_COUNT; i++) { 
-    var shapeType = _getRandomShapeType(); 
-    var shape = _useFlyweightFactory 
-        ? _shapeFlyweightFactory.getShape(shapeType) 
-        : shapeFactory.createShape(shapeType);
-
-    shapeInstancesCount++; 
-    _shapesList.add(shape);
-
-  }
-
-  setState(() {
-    _shapeInstancesCount = _useFlyweightFactory
-        ? _shapeFlyweightFactory.getShapeInstancesCount() 
-        : shapeInstancesCount;
-  });
-}
-
-ShapeType _getRandomShapeType() {
-  var values = ShapeType.values;
-  return values[Random().nextInt(values.length)];
-}
-
-void _toggleUseFlyweightFactory(bool value) {
-  setState(() {
-    _useFlyweightFactory = value;
-  });
-
-_buildShapesList();
-}
-
-@override
-Widget build(BuildContext context) {
-  return Stack(
-    children: <Widget>[
-      for (var shape in _shapesList)
-        PositionedShapeWrapper( 
-          shape: shape,
-        ), 
-      Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          SwitchListTile.adaptive(
-            title: Text(
-              'Use flyweight factory', 
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            activeColor: Colors.black,
-            value: _useFlyweightFactory,
-            onChanged: _toggleUseFlyweightFactory,
-          ),
-        ],
-      ),
-      Center(
-        child: Text(
-          'Shape instances count: $_shapeInstancesCount', 
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-~~~
-
-O resultado final da implementação do padrão de projeto FlyWeight no exemplo apresentado fica assim:
-
-![Resultado FlyWeight](../../assets/gofs-estruturais/diagrama/giftoyflyweight.gif)
-
-
 
 
 ### Estrutural 3 - Bridge
@@ -289,19 +200,13 @@ A Abstração nesse modelo nada mais é do que a interface que o cliente usa par
 Nenhuma implementação até o momento
 
 
-### Estrutural 4 - Proxy
-
-Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
-
-#### Estrutura Geral
-
-![Estrutura Geral Proxy](../../assets/gofs-estruturais/diagrama/proxy.png)
+### Estrutural 4 - FlyWeight
+Flyweight é um padrão de design estrutural que permite ajustar mais objetos na quantidade disponível de RAM, compartilhando partes comuns do estado entre vários objetos, em vez de manter todos os dados em cada objeto.
 
 #### Aplicabilidade
-
-O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface que um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele transmita o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
-
+Use o padrão Flyweight quando seu programa tiver que suportar um grande número de objetos que mal cabem na RAM disponível.
 #### Implementação no IdotPet
+Nenhuma implementação até o momento
 
 
 ### Estrutural 5 - Decorator
