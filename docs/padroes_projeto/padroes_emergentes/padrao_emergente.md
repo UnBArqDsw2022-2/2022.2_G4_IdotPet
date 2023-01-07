@@ -41,31 +41,21 @@ Cada componente possui sua própria pasta com suas próprias classes distacadas 
 ### Arquitetura Limpa
 
 O padrão Arquitetura Limpa (Clean Architecture) foi proposto por Robert Martin a.k.a Uncle Bob com o objetivo de promover a implementação de sistemas que favorecem reusabilidade de código, coesão, independência de tecnologia e testabilidade. Muita representada pela imagem da Figura 1 pois explica bem a organização desse padrão que é dividida em Entidade, Casos de Uso, Adaptadores, Frameworks Externos e cada uma encapsula a anterior.
+- Entidades são as classes e objetos do projeto;
+- Casos de uso são as implementaç~eos das regras de negócios;
+- Adaptadores são as classes que fazem um mediação entre as camadas internas e a camada externa. Por exemplo,
+se o sistema usa REST API a camada adaptadora seria das classes que utilizariam os métodos REST.
+- Frameworks Externos são o que a classe diz ser, frameworks, bibliotecas, que cuidam de interfaces com usuários, envio de emails, notificação, comunicação com terceiros, etc.
+
+O principal é que nenhuma classe de uma camada se comunica com outra externa, porém uma camada externa pode utilizar de objetos de uma camada interna.
 
 <figure>
   <img src="docs/assets/padrao_emergente/arquitetura_limpa.png?raw=true" alt="Modelo MVC"/>
-  <figcaption align="center"> Figura 1- Modelo Exemplo Arquitetura Limpa. Fonte: Higor (2013), Devmedia </figcaption>
+  <figcaption align="center"> Figura 2 - Modelo Exemplo Arquitetura Limpa. Fonte: Higor (2013), Devmedia </figcaption>
 </figure>
 
 #### Implementação no IdotPet
-No iDotPet foi-se implementado o padrão MVC no backend com o Model possuindo classes de criação de instâncias, o Controller possuindo classes de controle e funções de inputs do aplicativo, etc, e o View para disponibilizar visualmente dados do usuário. 
-Cada componente possui sua própria pasta com suas próprias classes distacadas na Figura 2. A Figura 3 mostra as classes de View, Controller e Model do User.
-<figure>
-  <img src="docs/assets/padrao_emergente/mvc2_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
-  <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
-</figure>
-
-## Possível implementação em código
-
-<figure>
-  <img src="docs/assets/padrao_emergente/mvc_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
-  <figcaption align="center"> Figura 3 - Algumas classes do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
-</figure>
-
-<figure>
-  <img src="docs/assets/padrao_emergente/mvc_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
-  <figcaption align="center"> Figura 3 - Algumas classes do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
-</figure>
+No iDotPet foi-se implementado o padrão de Arquitetura Limpa no frontend para aumentar a coesão, abaixar o acomplamento e separação de interesse, além da inversão de depedências, onde a camada X não pode usar outra camada externa Y.
 
 ## Referências
 
