@@ -51,7 +51,7 @@ Tende ser mais fácil entender, manter, estender e reutilizar no projeto quando 
 O projeto iDotPet conta com várias classes especialistas, uma delas é o userModel que tem foco em criar instâncias de objetos Users ou Usuarios, sendo assim além de criadora, especialista na criação de Users. A Figura 1 mostra o código de modelo da classe Usuario
 
 <figure>
-  <img src="docs/assets/grasp_especialista/userModel.png?raw=true" alt="Código de userModel"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/grasp_especialista/userModel.png?raw=true" alt="Código de userModel"/>
   <figcaption align="center" >Figura 1 - Código da classe userModel. Fonte: Autores </figcaption>
 </figure>
 
