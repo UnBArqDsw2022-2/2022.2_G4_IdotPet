@@ -52,7 +52,7 @@ Além disso, permite flexibilidade de tempo de compilação por meio de subclass
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/factory.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/factory.png" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 1 - Estrutura geral factory. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Como ainda não foi possível realizar a implementação deste padrão no projet
 
 
 <figure>
-  <img src="../../assets/gof_criacionais/exemplo_factory.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/exemplo_factory.PNG" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 2 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ class IosAlertDialog extends CustomDialog {
 Abaixo, uma animação do funcionamento do widget com flutter.
 
 <figure>
-  <img src="../../assets/gof_criacionais/animacao_factory.gif" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/animacao_factory.gif" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 3 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -183,7 +183,7 @@ Além disso, há uma camada adicional no padrão de projeto Builder — Diretor.
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 4 - Estrutura geral builder. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -211,7 +211,7 @@ Como ainda não foi possível realizar a implementação deste padrão no projet
 
 
 <figure>
-  <img src="../../assets/gof_criacionais/exemplo_builder.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/exemplo_builder.PNG" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 5 - Exemplo de builder em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -229,7 +229,7 @@ O exemplo de codificação é muito extenso e pode ser vista na referência DEV 
 
 
 <figure>
-  <img src="../../assets/gof_criacionais/animacao_builder.gif" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/animacao_builder.gif" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 6 - Exemplo de Builder em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -246,7 +246,7 @@ O principal objetivo do padrão de projeto Abstract Factory é encapsular a cria
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 7 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -275,7 +275,7 @@ A ideia principal desse padrão é tornar a própria classe responsável por ras
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/singleton.PNG" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/singleton.PNG" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 8 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
 </figure>
 
