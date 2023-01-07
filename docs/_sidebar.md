@@ -56,7 +56,7 @@
    - **Participações**
         - [Modelagem](modelagem/participacoes_modelagem.md)
 
-- **Padões de Projeto**
+- **Padrões de Projeto**
     - **GRASPs**
         - [GRASP Criador](padroes_projeto/grasps/grasp_criador.md)
         - [GRASP Especialista](padroes_projeto/grasps/grasp_especialista.md)
