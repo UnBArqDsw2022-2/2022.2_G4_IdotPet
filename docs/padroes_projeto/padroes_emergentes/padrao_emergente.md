@@ -7,6 +7,7 @@
 | 04/01/2023   | 0.1   | Criação da base do documento   | [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) |
 | 05/01/2023   | 0.2   | Preenchimento da Introdução   | [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) |
 | 06/01/2023   | 0.3   | Adição do Padrão Arquitetura Limpa   | [Pedro Cassiano](https://github.com/PedroLucasCM) |
+| 06/01/2023   | 0.4   | Correção Ortográficas e de Imagens   | [Pedro Cassiano](https://github.com/PedroLucasCM) |
 
 ## Introdução
 
@@ -27,20 +28,20 @@ O Controller é o que faz as operações, que recebe os inputs e dados, se utili
 A View é o que manda as informações para a visão do usuário, que disponibiliza a visualização dos dados.
 
 <figure>
-  <img src="../../assets/padrao_emergente/mvc.jpg" alt="Modelo MVC"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/padrao_emergente/mvc.jpg?raw=true" alt="Modelo MVC"/>
   <figcaption align="center"> Figura 1- Modelo MVC. Fonte: Higor (2013), Devmedia </figcaption>
 </figure>
 
 #### Implementação no IdotPet
 No iDotPet foi-se implementado o padrão MVC no backend com o Model possuindo classes de criação de instâncias, o Controller possuindo classes de controle e funções de inputs do aplicativo, etc, e o View para disponibilizar visualmente dados do usuário. 
-Cada componente possui sua própria pasta com suas próprias classes distacadas na Figura 2. A Figura 3 mostra as classes de View, Controller e Model do User.
+Cada componente possui sua própria pasta com suas próprias classes destacadas na Figura 2. A Figura 3 mostra as classes de View, Controller e Model do User.
 <figure>
-  <img src="../../assets/padrao_emergente/mvc1_idotpet.png" alt="Modelo MVC iDotPet"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/padrao_emergente/mvc1_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
   <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
 
 <figure>
-  <img src="../../assets/padrao_emergente/mvc2_idotpet.png" alt="Modelo MVC iDotPet"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/padrao_emergente/mvc2_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
   <figcaption align="center"> Figura 2 - Códigos do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
 
@@ -56,7 +57,7 @@ se o sistema usa REST API a camada adaptadora seria das classes que utilizariam 
 O principal é que nenhuma classe de uma camada se comunica com outra externa, porém uma camada externa pode utilizar de objetos de uma camada interna.
 
 <figure>
-  <img src="../../assets/padrao_emergente/arquitetura_limpa.png" alt="Modelo Clean Architecture"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/padrao_emergente/arquitetura_limpa.png?raw=true" alt="Modelo Clean Architecture"/>
   <figcaption align="center"> Figura 4 - Modelo Exemplo Arquitetura Limpa. Fonte: Adaptação de The Clean Code Blog </figcaption>
 </figure>
 
