@@ -12,6 +12,7 @@
 | 04/01/2023 | 0.6 | Factory, Abstract Factory e Singleton | [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
 | 05/01/2023 | 0.7 | Exemplo toy Factory | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) &  [Eduardo Maia Rezende](https://github.com/eduardomr) |
 | 05/01/2023 | 0.8 | Exemplo toy Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
+| 06/01/2023 | 0.9 | Exemplo Abstract Factory | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
 
 
 ## Introdução
@@ -262,7 +263,33 @@ O Abstract Factory deve ser considerado quando o código de um sistema precisa t
 
 ### Aplicação no iDotPet
 
-Ainda não foi aplicado no projeto.
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
+
+~~~python
+def repository_factory(model_class: T) -> BaseRepository[T]:
+    if issubclass(model_class, BaseUserModel):
+        return BaseUserRepository(model_class)
+    elif model_class is PetModel:
+        return PetRepository()
+    else:
+        return BaseRepository(model_class)
+
+def create_user_endpoint(user_data: OngUserScheme | UserScheme, repository_factory: Callable):
+    user_model_class = None
+    if user_data.type == 'ong':
+        user_model_class = OngUserModel
+    elif user_data.type == 'user':
+        user_model_class = UserModel
+    else:
+        raise UnknownUserTypeException()
+
+    user_model = user_model_class(**user_data.dict())
+
+    repository = repository_factory(user_model_class)
+    repository.create(user_model)
+
+    return user_model
+~~~
 
 ## Criacional 4 - Singleton
 
