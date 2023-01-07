@@ -52,7 +52,7 @@ O GRASP polimorfismo foi utilizado na herança do Usuario em UsuarioAnunciante e
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v3).png?raw=true" alt="Diagrama de Classe"/>
-  <figcaption align="center" >Figura 2 - Diagrama de Classe (completo). Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 1 - Diagrama de Classe (completo). Fonte: Autores </figcaption>
 </figure>
 
 ### Referências
