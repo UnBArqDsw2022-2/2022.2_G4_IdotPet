@@ -6,6 +6,7 @@
 | :- | :- | :- | :- |
 | 04/01/2023   | 0.1   | Criação da base do documento   | [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) |
 | 05/01/2023   | 0.2   | Preenchimento da Introdução   | [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) |
+| 06/01/2023   | 0.3   | Adição do Padrão Arquitetura Limpa   | [Pedro Cassiano](https://github.com/PedroLucasCM) |
 
 ## Introdução
 
