@@ -85,3 +85,8 @@
     - [Sprint 2 - Fechamento](sprints/sprint2/fechamento_sprint2.md)
     - [Sprint 3 - Abertura](sprints/sprint3/abertura_sprint3.md)
     - [Sprint 3 - Fechamento](sprints/sprint3/fechamento_sprint3.md)
+    - [Sprint 4 - Abertura](sprints/sprint4/abertura_sprint4.md)
+    - [Sprint 4 - Fechamento](sprints/sprint4/fechamento_sprint4.md)
+    - [Sprint 5 - Abertura](sprints/sprint5/abertura_sprint5.md)
+    - [Sprint 5 - Fechamento](sprints/sprint5/fechamento_sprint5.md)
+    - [Sprint 6 - Ata](sprints/sprint6/ata_sprint6.md)
