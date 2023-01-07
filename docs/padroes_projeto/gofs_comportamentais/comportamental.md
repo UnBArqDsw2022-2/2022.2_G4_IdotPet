@@ -4,6 +4,8 @@
 | :- | :- | :- | :- |
 | 05/01/2023   | 0.1   | Criação da base do documento   | [Herick Lima](https://github.com/hericklima22) & [Kayro César](https://github.com/kayrocesar)  |
 | 05/01/2023   | 0.2   | Melhorias na introdução   | [Herick Lima](https://github.com/hericklima22) & [Kayro César](https://github.com/kayrocesar)  |
+| 06/01/2023 | 0.3 | Exemplo Strategy | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
+| 06/01/2023 | 0.4 | Exemplo Observer | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
 
 ## Introdução
 Os padrões de projeto GoF (Gang of Four) são uma série de padrões que fornecem uma base, modelo ou descrição de como resolver problemas frequentes durante o desenvolvimento do software. Os padrões de projeto fornecem muitos benefícios, que podem incluir:
@@ -36,7 +38,31 @@ Foi realizado uma reunião via ferramenta Discord, onde foi elencado os padrões
 
 #### Implementação no IdotPet
 
- Nenhuma implementação até o momento
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
+
+~~~python
+def create_user_endpoint(user_data: OngUserScheme | UserScheme):
+    if user_data.type == 'ong':
+        strategy = CreateOngUserStrategy()
+    else:
+        strategy = CreateUserStrategy()
+
+    return strategy.save(user_data)
+
+class CreateOngUserStrategy:
+    def save(self, ong_user_data):
+        ong_user_model = OngUserModel(**ong_user_data.dict())
+        repository = repository_factory(OngUserModel)
+        repository.create(ong_user_model)
+        return ong_user_data
+
+class CreateUserStrategy:
+    def save(self, user_data):
+        user_model = UserModel(**user_data.dict())
+        repository = repository_factory(UserModel)
+        repository.create(user_model)
+        return user_model
+~~~
 
  
 #### Aplicação com exemplo Toy
@@ -393,7 +419,59 @@ Nenhuma implementação até o momento
 O Observer é um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente. Permite que objetos interessados sejam avisados da mudança de estado ou outros eventos ocorrendo num outro objeto.
 
 #### Implementação no IdotPet
-Nenhuma implementação até o momento
+
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
+
+~~~python
+class EventType(Enum):
+    TYPING = auto()
+    RECORDING_AUDIO = auto()
+    MESSAGE_SENT = auto()
+
+class Message:
+    event_type: EventType
+    content: str
+    sender: int
+    receiver: int
+
+class Observer(ABC):
+    @abstractclassmethod
+    def update(self, message: Message) -> None:
+        pass
+
+class WebsocketObserver(Observer):
+    def update(self, message: Message) -> None:
+        ...
+
+class FirebaseObserver(Observer):
+    def update(self, message: Message) -> None:
+        ...
+
+class Publisher:
+    def __init__(self) -> None:
+        self.observers = []
+
+    def attach(self, observer: Observer) -> None:
+        self.observers.append(observer)
+
+    def detach(self, observer: Observer) -> None:
+        self.observers.remove(observer)
+
+    def notify(self, message: Message) -> None:
+        for observer in self.observers:
+            observer.update(message)
+
+def main():
+    publisher = Publisher()
+    publisher.attach(WebsocketObserver())
+    publisher.attach(FirebaseObserver())
+    ...
+    while True:
+        ...
+        data = json.loads(socket.recv(2048).decode('utf-8'))
+        message = Message(**data)
+        publisher.notify(message)
+~~~
 
 ### Comportamental 5 - State
 
