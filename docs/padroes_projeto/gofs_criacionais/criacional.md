@@ -13,6 +13,7 @@
 | 05/01/2023 | 0.7 | Exemplo toy Factory | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) &  [Eduardo Maia Rezende](https://github.com/eduardomr) |
 | 05/01/2023 | 0.8 | Exemplo toy Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
 | 06/01/2023 | 0.9 | Exemplo Abstract Factory | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
+| 06/01/2023 | 0.10 | Exemplo Singleton | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
 
 
 ## Introdução
@@ -316,7 +317,31 @@ Singleton pode ser usado nos casos em que a criação da instância de uma class
 
 ### Aplicação no iDotPet
 
-Ainda não foi aplicado no projeto.
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
+
+~~~python
+class Settings(BaseSettings):
+    DB_USERNAME: str = 'postgres'
+    DB_PASSWORD: str = 'postgres'
+    DB_HOST: str = 'localhost'
+    DB_NAME: str = 'idotpet'
+    DB_PORT: int = 5432
+
+    JWT_SECRET: str = 'super_secret'
+    JWT_TOKEN_EXPIRE_MINUTES: int = 60*24*7
+    JWT_ALGORITHM: str = 'HS256'
+
+
+_settings: Settings | None = None
+
+
+def get_settings() -> Settings:
+    global _settings
+
+    if _settings is None:
+        _settings = Settings()
+    return _settings
+~~~
 
 
 ## Referências
