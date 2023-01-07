@@ -64,7 +64,7 @@
         - [GRASP Polimorfismo](padroes_projeto/grasps/grasp_polimorfismo.md)
     - **GoFs**
         - [GoFs Comportamental](padroes_projeto/gofs_comportamentais/comportamental.md)
-        - [GoFs Criacional](padroes_projeto/criacionais/criacional.md)
+        - [GoFs Criacional](padroes_projeto/gofs_criacionais/criacional.md)
         - [GoFs Estrutural](padroes_projeto/gofs_estruturais/estrutural.md)
     - **Padrões Emergentes**
       - [Padrões Emergentes](padroes_projeto/padroes_emergentes/padrao_emergente.md)
