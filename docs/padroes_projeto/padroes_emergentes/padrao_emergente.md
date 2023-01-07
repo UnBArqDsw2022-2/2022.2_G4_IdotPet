@@ -41,7 +41,7 @@ Cada componente possui sua própria pasta com suas próprias classes distacadas 
 
 <figure>
   <img src="../../assets/padrao_emergente/mvc2_idotpet.png" alt="Modelo MVC iDotPet"/>
-  <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
+  <figcaption align="center"> Figura 2 - Códigos do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
 
 ### Arquitetura Limpa
