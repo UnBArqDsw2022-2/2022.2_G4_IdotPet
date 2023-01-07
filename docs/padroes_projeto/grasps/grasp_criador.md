@@ -62,7 +62,7 @@ A Figura 2 mostra o código criador do Usuário.
 
 ### Implementação em Código
 <figure>
-  <img src="docs/assets/grasp_especialista/userModel.png?raw=true" alt="Código de userModel"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/grasp_especialista/userModel.png?raw=true" alt="Código de userModel"/>
   <figcaption align="center" >Figura 2 - Código da classe userModel. Fonte: Autores </figcaption>
 </figure>
 
