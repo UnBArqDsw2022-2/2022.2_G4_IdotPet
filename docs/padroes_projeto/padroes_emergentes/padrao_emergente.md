@@ -27,7 +27,7 @@ O Controller é o que faz as operações, que recebe os inputs e dados, se utili
 A View é o que manda as informações para a visão do usuário, que disponibiliza a visualização dos dados.
 
 <figure>
-  <img src="docs/assets/padrao_emergente/mvc.jpg?raw=true" alt="Modelo MVC"/>
+  <img src="../../assets/padrao_emergente/mvc.jpg?raw=true" alt="Modelo MVC"/>
   <figcaption align="center"> Figura 1- Modelo MVC. Fonte: Higor (2013), Devmedia </figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ A View é o que manda as informações para a visão do usuário, que disponibil
 No iDotPet foi-se implementado o padrão MVC no backend com o Model possuindo classes de criação de instâncias, o Controller possuindo classes de controle e funções de inputs do aplicativo, etc, e o View para disponibilizar visualmente dados do usuário. 
 Cada componente possui sua própria pasta com suas próprias classes distacadas na Figura 2. A Figura 3 mostra as classes de View, Controller e Model do User.
 <figure>
-  <img src="docs/assets/padrao_emergente/mvc2_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
+  <img src="../../assets/padrao_emergente/mvc2_idotpet.png?raw=true" alt="Modelo MVC iDotPet"/>
   <figcaption align="center"> Figura 2 - Pastas do padrão MVC no Projeto iDotPet. Fonte: Autores. </figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ se o sistema usa REST API a camada adaptadora seria das classes que utilizariam 
 O principal é que nenhuma classe de uma camada se comunica com outra externa, porém uma camada externa pode utilizar de objetos de uma camada interna.
 
 <figure>
-  <img src="docs/assets/padrao_emergente/arquitetura_limpa.png?raw=true" alt="Modelo MVC"/>
+  <img src="../../assets/padrao_emergente/arquitetura_limpa.png?raw=true" alt="Modelo MVC"/>
   <figcaption align="center"> Figura 2 - Modelo Exemplo Arquitetura Limpa. Fonte: Higor (2013), Devmedia </figcaption>
 </figure>
 
