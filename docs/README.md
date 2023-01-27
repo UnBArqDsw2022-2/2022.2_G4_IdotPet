@@ -24,7 +24,7 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 
 ## Sobre
 
-O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que querem doar das pessoas que querem adotar um animal de estimação. Nesse sentido, a pessoa que quer adotar um pet encontrará nesta aplicação um catálogo com vários animais disponíveis para doação, com fotos e informações adicionais como vacinação, localização e etc.
+O IdotPet é um aplicativo móvel desenvolvido para conectar doadores de pets com pessoas interessadas em adotá-los. Ele permite que os usuários cadastrem informações sobre seus animais, incluindo fotos e detalhes de personalidade, para que os potenciais adotantes possam encontrar o animal perfeito para eles. Além disso, o aplicativo fornece recursos para ajudar os usuários a preparar seus lares para a chegada de um novo animal de estimação e conectá-los com organizações de proteção animal locais. Com o IdotPet, encontrar o animal de estimação perfeito para a sua família nunca foi tão fácil e divertido.
 
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
