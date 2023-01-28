@@ -146,10 +146,10 @@ O IdotPet é um aplicativo móvel desenvolvido para conectar doadores de pets co
 [//]: # (Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.)
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: Scrum e Kanban<br>
+**Principais Metodologias Adotadas: Scrum e Kanban<br>
 **Principais Linguagens Utilizadas e/ou Pretendidas**: Python e Dart<br>
 **Principais Tecnologias Utilizadas e/ou Pretendidas**: FastAPI (Back-end) e Flutter (Front-end)<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+**Principal Estilo Arquitetural Adotado: xxxxxx<br>
 
 [//]: # (## O Projeto está rodando?)
 
