@@ -38,7 +38,8 @@
     - Diagramas Estáticos
       - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
      
-      
+**Arquitetura de Software & Reutilização**
+  - [Documento de Arquitetura](arquitetura_reutilização/documento_de_arquitetura.md)
 
 
 - **Sprints**
