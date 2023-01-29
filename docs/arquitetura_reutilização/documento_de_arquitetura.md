@@ -2,6 +2,7 @@
 | Versão | Data | Modificação | Autor(es) | Revisores |
 |:-:|:-:|:-:|:-:|:-:|
 | 0.1 | 27/01/2022 | Criação do documento | [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| |
+| 0.1 | 28/01/2022 | Documento de Visão de Dados | [Eduardo Maia](https://github.com/eduardomr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)| |
 
 # Documento de Arquitetura de Software - DAS
 
@@ -84,7 +85,12 @@ O **Flutter** é uma ferramenta criada pelo Google que facilita o processo de de
 <center><iframe height="600" width="700" src="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_sequencia"></iframe></center>
 
 ## 8. Visão de Dados
-<center><iframe height="600" width="700" src=""></iframe></center>
+O Diagrama Entidade-Relacionamento (ERD) é uma representação gráfica da estrutura de dados de um sistema. É uma ferramenta importante para a modelagem conceitual de um sistema de informação, pois permite a visualização e o entendimento da estrutura lógica dos dados. A utilização de um ERD permite identificar e especificar as entidades envolvidas, as relações entre elas e os atributos dessas entidades.
+
+O ERD ajuda a desenvolver uma visão clara e coerente do sistema, o que facilita a comunicação entre equipes, incluindo desenvolvedores, gerentes de projeto e stakeholders. Além disso, um ERD é uma base sólida para a modelagem de banco de dados e é usado como guia para a implementação do sistema.
+
+<center><img src="https://user-images.githubusercontent.com/#" alt="Diagrama Entidade Relacionamento"></center>
+<figcaption align="center" >Figura 1 - Diagrama Entidade-Relacionamento. Fonte : Autor</figcaption>
 
 ## 9. Tamanho e Desempenho
 
