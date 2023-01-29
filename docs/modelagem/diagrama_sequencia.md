@@ -7,6 +7,7 @@
 | 02/12/2022 | 0.1    | Criação e estruturação do documento | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|
 | 04/12/2022 | 0.2    | Inclusão de diagrama do projeto | [Eduardo Maia Rezende](https://github.com/eduardomr) & [Kayro César Silva Machado](https://github.com/kayrocesar)|
 | 04/12/2022 | 0.3    | Correção gramatical | [Thalisson Alves](https://github.com/Thalisson-Alves)|
+| 29/01/2023 | 0.4   | Correção do diagrama | [Eduardo Maia](https://github.com/eduardomr) & [Herick Lima](https://github.com/hericklima22)|
 
 
 ## Introdução
@@ -51,10 +52,14 @@ A partir de reuniões realizadas entre a equipe do projeto foram identificadas a
 
 ## Diagrama de Sequência
 
+  ![Diagrama de Sequência](../assets/diagrama_sequencia/diag_sequencia_v2.png)
+  <figcaption align="center" >Figura 1 - Diagrama de Sequência (Versão Atual). Fonte: Autores </figcaption>
 
-  ![Diagrama de Sequência](../assets/diagrama_sequencia/diag_sequencia_v1.png)
-  <figcaption align="center" >Figura 1 - Diagrama de Sequência. Fonte: Autores </figcaption>
-
+  <details>
+    <summary>Clique para apresentar versão anterior do diagrama</summary>
+    ![Diagrama de Sequência](../assets/diagrama_sequencia/diag_sequencia_v1.png)
+    <figcaption align="center" >Figura 1 - Diagrama de Sequência (Versão Anterior). Fonte: Autores </figcaption>
+  </details>
 
 ## Referências
 
