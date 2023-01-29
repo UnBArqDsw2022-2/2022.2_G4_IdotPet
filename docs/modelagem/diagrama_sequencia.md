@@ -57,7 +57,7 @@ A partir de reuniões realizadas entre a equipe do projeto foram identificadas a
 
   <details>
     <summary>Clique para apresentar versão anterior do diagrama</summary>
-    ![Diagrama de Sequência](../assets/diagrama_sequencia/diag_sequencia_v1.png)
+    <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/diagrama_sequencia/diag_sequencia_v1.png" alt="Diagrama de Sequência v1">
     <figcaption align="center" >Figura 1 - Diagrama de Sequência (Versão Anterior). Fonte: Autores </figcaption>
   </details>
 
