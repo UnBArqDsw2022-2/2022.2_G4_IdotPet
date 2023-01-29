@@ -89,7 +89,7 @@ O Diagrama Entidade-Relacionamento (ERD) é uma representação gráfica da estr
 
 O ERD ajuda a desenvolver uma visão clara e coerente do sistema, o que facilita a comunicação entre equipes, incluindo desenvolvedores, gerentes de projeto e stakeholders. Além disso, um ERD é uma base sólida para a modelagem de banco de dados e é usado como guia para a implementação do sistema.
 
-<center><img src="https://user-images.githubusercontent.com/#" alt="Diagrama Entidade Relacionamento"></center>
+<center><img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/%23131-DAS/docs/assets/ERD.png" alt="Diagrama Entidade Relacionamento"></center>
 <figcaption align="center" >Figura 1 - Diagrama Entidade-Relacionamento. Fonte : Autor</figcaption>
 
 ## 9. Tamanho e Desempenho
