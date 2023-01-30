@@ -28,18 +28,19 @@ Criado pela Google, o Flutter é um dos principais frameworks focado em desenvol
 
 Exemplos :
 
-Naa figura 1 temos a definição de um Widget para um campo de formulário.
+Na figura 2 temos a definição de um Widget para um campo de formulário.
 
-![Widget_code](https://user-images.githubusercontent.com/67024690/215378211-ffd7a52e-9e6f-4a3b-8665-13ec6a42ecf0.png)
-
-<center> Figura 2 - Logo do Flutter. Fonte: Flutter</center>
-<br>
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/Widget_code.png?raw=true" alt="image2"/>
+  <figcaption align="center" >Figura 2 - Widget para formulário. Fonte: Autores</figcaption>
+</figure>
 
 Na figura 3 temos a utilização do widget com vários campos usando a mesma função.
 
-![Widget_usage](https://user-images.githubusercontent.com/67024690/215378224-f6687e27-5304-46e2-99d8-cc789e9bece1.png)
-
-<center> Figura 3 - Logo do Flutter. Fonte: Flutter </center>
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/Widget_usage.png?raw=true" alt="image2"/>
+  <figcaption align="center" >Figura 3 - Utilização do widget para formulário. Fonte: Autores</figcaption>
+</figure>
 
 ### Widgets
 
