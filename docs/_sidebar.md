@@ -36,6 +36,7 @@
 
   - **Módulo Projeto Orientado a Abordagens Tradicionais**
     - Diagramas Estáticos
+      - [Diagrama de Pacotes](modelagem/DiagramasEstaticos/DiagramaDePacotes.md)
       - [Diagrama de Classes](modelagem/diagrama_classe.md)
       - [Diagrama de Pacotes](modelagem/diagrama_pacotes.md)
       - [Diagrama de Componentes](modelagem/diagrama_componentes.md)
@@ -75,7 +76,9 @@
 
   - **Participações**
     - [Participações](padroes_projeto/participacoes_padroes.md)
-
+    
+    **Arquitetura de Software & Reutilização**
+  - [Documento de Arquitetura](arquitetura_reutilização/documento_de_arquitetura.md)
 
 
 - **Sprints**
