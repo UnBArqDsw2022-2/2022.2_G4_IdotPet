@@ -12,6 +12,8 @@
 | 04/01/2023 | 0.6 | Factory, Abstract Factory e Singleton | [Klyssmann Oliveira](https://github.com/klyssmannoliveira), [Pedro Cassiano](https://github.com/PedroLucasCM) & [Victor Cabral](https://github.com/victordscabral) |
 | 05/01/2023 | 0.7 | Exemplo toy Factory | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) &  [Eduardo Maia Rezende](https://github.com/eduardomr) |
 | 05/01/2023 | 0.8 | Exemplo toy Builder | [Klyssmann Oliveira](https://github.com/klyssmannoliveira) & [Vitor Eduardo](https://github.com/vitorekr) |
+| 06/01/2023 | 0.9 | Exemplo Abstract Factory | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
+| 06/01/2023 | 0.10 | Exemplo Singleton | [Thalisson Alves](https://github.com/Thalisson-Alves) & [João Durso](https://github.com/jvsdurso) & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
 
 
 ## Introdução
@@ -52,7 +54,7 @@ Além disso, permite flexibilidade de tempo de compilação por meio de subclass
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/factory.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/factory.png" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 1 - Estrutura geral factory. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -78,7 +80,7 @@ Como ainda não foi possível realizar a implementação deste padrão no projet
 
 
 <figure>
-  <img src="../../assets/gof_criacionais/exemplo_factory.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/exemplo_factory.PNG" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 2 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -166,7 +168,7 @@ class IosAlertDialog extends CustomDialog {
 Abaixo, uma animação do funcionamento do widget com flutter.
 
 <figure>
-  <img src="../../assets/gof_criacionais/animacao_factory.gif" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/animacao_factory.gif" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 3 - Exemplo de Factory em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -183,7 +185,7 @@ Além disso, há uma camada adicional no padrão de projeto Builder — Diretor.
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/builder.png" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 4 - Estrutura geral builder. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -211,7 +213,7 @@ Como ainda não foi possível realizar a implementação deste padrão no projet
 
 
 <figure>
-  <img src="../../assets/gof_criacionais/exemplo_builder.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/exemplo_builder.PNG" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 5 - Exemplo de builder em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -229,7 +231,7 @@ O exemplo de codificação é muito extenso e pode ser vista na referência DEV 
 
 
 <figure>
-  <img src="../../assets/gof_criacionais/animacao_builder.gif" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/animacao_builder.gif" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 6 - Exemplo de Builder em flutter. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -246,7 +248,7 @@ O principal objetivo do padrão de projeto Abstract Factory é encapsular a cria
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/abstract_factory.png" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 7 - Estrutura geral abstract factory. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -262,7 +264,33 @@ O Abstract Factory deve ser considerado quando o código de um sistema precisa t
 
 ### Aplicação no iDotPet
 
-Ainda não foi aplicado no projeto.
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
+
+~~~python
+def repository_factory(model_class: T) -> BaseRepository[T]:
+    if issubclass(model_class, BaseUserModel):
+        return BaseUserRepository(model_class)
+    elif model_class is PetModel:
+        return PetRepository()
+    else:
+        return BaseRepository(model_class)
+
+def create_user_endpoint(user_data: OngUserScheme | UserScheme, repository_factory: Callable):
+    user_model_class = None
+    if user_data.type == 'ong':
+        user_model_class = OngUserModel
+    elif user_data.type == 'user':
+        user_model_class = UserModel
+    else:
+        raise UnknownUserTypeException()
+
+    user_model = user_model_class(**user_data.dict())
+
+    repository = repository_factory(user_model_class)
+    repository.create(user_model)
+
+    return user_model
+~~~
 
 ## Criacional 4 - Singleton
 
@@ -275,7 +303,7 @@ A ideia principal desse padrão é tornar a própria classe responsável por ras
 ### Estrutura geral
 
 <figure>
-  <img src="../../assets/gof_criacionais/singleton.PNG" alt="Estrutura geral"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IdotPet/master/docs/assets/gof_criacionais/singleton.PNG" alt="Estrutura geral"/>
   <figcaption align="center" >Figura 8 - Estrutura geral singleton. Fonte: DEV Community </figcaption>
 </figure>
 
@@ -289,7 +317,31 @@ Singleton pode ser usado nos casos em que a criação da instância de uma class
 
 ### Aplicação no iDotPet
 
-Ainda não foi aplicado no projeto.
+A implementação a seguir foi realizada no back-end da aplicação do IdotPet.
+
+~~~python
+class Settings(BaseSettings):
+    DB_USERNAME: str = 'postgres'
+    DB_PASSWORD: str = 'postgres'
+    DB_HOST: str = 'localhost'
+    DB_NAME: str = 'idotpet'
+    DB_PORT: int = 5432
+
+    JWT_SECRET: str = 'super_secret'
+    JWT_TOKEN_EXPIRE_MINUTES: int = 60*24*7
+    JWT_ALGORITHM: str = 'HS256'
+
+
+_settings: Settings | None = None
+
+
+def get_settings() -> Settings:
+    global _settings
+
+    if _settings is None:
+        _settings = Settings()
+    return _settings
+~~~
 
 
 ## Referências
