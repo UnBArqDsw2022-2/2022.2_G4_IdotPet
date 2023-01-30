@@ -1,19 +1,6 @@
 <p align = "center"> <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/logo/logo-redonda.png" height="400px" width="400px" /> </p>
 
 
-Projeto realizado pelos alunos do Grupo 04 da disciplina de Arquitetura e Desenho de Software da Universidade de Brasília em 2022/2.
-
-## Introdução
-
-
-## Tecnologias
-
-A geração do site estático é realizada utilizando o [Docsify](https://docsify.js.org/).
-</br>
-=======
-<p align = "center"> <img src="https://raw.githubusercontent.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/master/docs/assets/logo/logo-redonda.png" height="400px" width="400px" /> </p>
-
-
 O presente repositório tem como objetivo o auxílio e registro do processo de desenvolvimento e resultados obtidos no projeto do grupo 4 da disciplina de Arquitetura e Desenho de Software da Universidade de Brasília ministrada pela professora Milene Serrano no semestre de 2022/2.
 
 # IdotPet
@@ -176,4 +163,3 @@ O IdotPet é um aplicativo móvel desenvolvido para conectar doadores de pets co
 [//]: # (## Informações Complementares )
 
 [//]: # (Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.)
->>>>>>> 09f826a155544ed912c1cfcf4fe2ca60ac2b34c0
