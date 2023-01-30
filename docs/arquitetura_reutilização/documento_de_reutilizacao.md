@@ -5,6 +5,8 @@
 | 29/01/2023 | 0.2 | Adição da reutilização no frontend | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
 | 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
 | 29/01/2023 | 0.3 | Adição das imagens | Kayro, Pedro e Durso](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
+| 30/01/2023 | 0.3 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [João Durso](https://github.com/jvsdurso) |
+
 
 # Documento de Reutilização de Software
 
@@ -30,6 +32,17 @@ Criado pela Google, o Flutter é um dos principais frameworks focado em desenvol
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/flutter.png?raw=true" alt="image1"/>
   <figcaption align="center" >Figura 1 - Logo do Flutter. Fonte: Flutter </figcaption>
 </figure>
+
+Exemplos :
+
+Definição de um Widget para um campo de formulário.
+
+![Widget_code](https://user-images.githubusercontent.com/67024690/215378211-ffd7a52e-9e6f-4a3b-8665-13ec6a42ecf0.png)
+
+Aqui é a utilização com vários campos usando a mesma função.
+
+![Widget_usage](https://user-images.githubusercontent.com/67024690/215378224-f6687e27-5304-46e2-99d8-cc789e9bece1.png)
+
 
 ### Widgets
 
