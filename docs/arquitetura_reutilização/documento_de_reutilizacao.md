@@ -1,11 +1,11 @@
 ## Histórico de Versão
-| Versão | Data | Modificação | Autor(es) |
-|:-:|:-:|:-:|:-:|
-| 28/01/2023 | 0.1 | Criação do documento | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
-| 29/01/2023 | 0.2 | Adição da reutilização no frontend | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
-| 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thalisson Alves](https://github.com/Thalisson-Alves)|
-| 30/01/2023 | 0.4 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [João Durso](https://github.com/jvsdurso) |
-| 29/01/2023 | 0.5 | Adição texto na parte do backend | [Victor Cabral](https://github.com/victordscabral) & [Kayro César](https://github.com/kayrocesar)|
+| Versão | Data | Modificação | Autor(es) | Revisores |
+|:-:|:-:|:-:|:-:|:-:|
+| 28/01/2023 | 0.1 | Criação do documento | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)| [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) & [Kayro César](https://github.com/kayrocesar)|
+| 29/01/2023 | 0.2 | Adição da reutilização no frontend | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)| [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) & [Kayro César](https://github.com/kayrocesar)|
+| 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thalisson Alves](https://github.com/Thalisson-Alves)| [Pedro Cassiano](https://github.com/PedroLucasCM) & [João Durso](https://github.com/jvsdurso) & [Kayro César](https://github.com/kayrocesar)|
+| 30/01/2023 | 0.4 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [João Durso](https://github.com/jvsdurso) | [Pedro Cassiano](https://github.com/PedroLucasCM) & [Kayro César](https://github.com/kayrocesar)|
+| 29/01/2023 | 0.5 | Adição texto na parte do backend | [Victor Cabral](https://github.com/victordscabral) & [Kayro César](https://github.com/kayrocesar)|[Pedro Cassiano](https://github.com/PedroLucasCM) |
 
 # Documento de Reutilização de Software
 
