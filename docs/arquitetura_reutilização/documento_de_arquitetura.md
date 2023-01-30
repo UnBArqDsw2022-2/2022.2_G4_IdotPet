@@ -105,3 +105,12 @@ O ERD ajuda a desenvolver uma visão clara e coerente do sistema, o que facilita
 
 ### 9.2. Visão Geral
 
+O aplicativo IdotPet é projetado com uma visão geral de simplicidade e eficiência. A arquitetura MVC (Model-View-Controller) é usada no desenvolvimento do backend utilizando o framework FastAPI, garantindo que a lógica de negócios, a apresentação dos dados e as interações do usuário sejam separadas e claramente definidas. Isso torna o desenvolvimento mais fácil e organizado, além de melhorar a manutenibilidade do código.
+Em resumo, a visão geral do aplicativo IdotPet é baseada na arquitetura MVC com o uso do FastAPI, arquitetura Clean Architecture com o uso do Flutter e reutilização de código, garantindo que o aplicativo seja desenvolvido de forma organizada, escalável e eficiente.
+
+#### 9.2.1 ScreenShots da Aplicação em Execução
+
+![Tela Login](../assets/tela_login.PNG)
+![Tela Cadastro](../assets/tela_cadastro.PNG)
+![Tela Home](../assets/tela_home.PNG)
+![Tela Cadastro Pet](../assets/tela_castro_pet.PNG)
