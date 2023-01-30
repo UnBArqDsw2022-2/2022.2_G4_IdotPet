@@ -65,4 +65,3 @@ O IdotPet é um aplicativo móvel desenvolvido para conectar doadores de pets co
 [//]: # (## Informações Complementares )
 
 [//]: # (Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.)
->>>>>>> 09f826a155544ed912c1cfcf4fe2ca60ac2b34c0
