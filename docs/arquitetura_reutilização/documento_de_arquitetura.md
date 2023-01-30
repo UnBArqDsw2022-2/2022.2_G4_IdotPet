@@ -134,3 +134,8 @@ Em resumo, a visão geral do aplicativo IdotPet é baseada na arquitetura MVC co
 #### Cadastro de anúncio do pet
 
 ![Tela Cadastro Pet](../assets/tela_castro_pet.PNG)
+
+
+#### Cadastro de anúncio do pet - parte 2
+
+![Tela Cadastro Pet 2](../assets/tela_castro_pet_2.PNG)
