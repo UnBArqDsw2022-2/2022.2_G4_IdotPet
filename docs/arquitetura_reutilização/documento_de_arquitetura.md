@@ -1,8 +1,8 @@
 ## Histórico de Versão
 | Versão | Data | Modificação | Autor(es) | Revisores |
 |:-:|:-:|:-:|:-:|:-:|
-| 0.1 | 27/01/2022 | Criação do documento | [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)| |
-| 0.1 | 28/01/2022 | Documento de Visão de Dados | [Eduardo Maia](https://github.com/eduardomr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)| |
+| 0.1 | 27/01/2022 | Criação do documento | [Eduardo Maia](https://github.com/eduardomr) & [Klyssmann Oliveira](https://github.com/klyssmannoliveira)|[Kayro César](https://github.com/kayrocesar) & [João Durso](https://github.com/jvsdurso)  & [Nicolas Roberto](https://github.com/Nicolas-Roberto)  |
+| 0.1 | 28/01/2022 | Documento de Visão de Dados | [Eduardo Maia](https://github.com/eduardomr) & [Luan Cavalcante](https://github.com/Luan-Cavalcante)|[Kayro César](https://github.com/kayrocesar) & [João Durso](https://github.com/jvsdurso)  & [Nicolas Roberto](https://github.com/Nicolas-Roberto) |
 
 # Documento de Arquitetura de Software - DAS
 
