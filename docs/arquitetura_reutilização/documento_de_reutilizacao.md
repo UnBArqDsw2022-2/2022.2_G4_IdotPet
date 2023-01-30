@@ -3,7 +3,8 @@
 |:-:|:-:|:-:|:-:|
 | 28/01/2023 | 0.1 | Criação do documento | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
 | 29/01/2023 | 0.2 | Adição da reutilização no frontend | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
-| 29/01/2023 | 0.3 | Adição das imagens e correções| [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
+| 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
+| 29/01/2023 | 0.3 | Adição das imagens | Kayro, Pedro e Durso](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
 
 # Documento de Reutilização de Software
 
@@ -96,23 +97,49 @@ Para importar o pacote:
 
 ## Reutilização no Backend
 
-### FastAPI e Jose
+### FastAPI
 
-Framework
-
-### security
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <figcaption align="center" >Figura 8 - TEXTO. Fonte: Autores </figcaption>
+</figure>
 
 ### SQL Alchemy
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <figcaption align="center" >Figura 9 - TEXTO. Fonte: Autores </figcaption>
+</figure>
 
 ### base_repository.py
 
 Genérico para qualquer classe para acessar o banco.
 
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <figcaption align="center" >Figura 10 - base_repository.py. Fonte: Autores </figcaption>
+</figure>
+
 ### database.py
 
-### docker
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <figcaption align="center" >Figura 11 - database.py. Fonte: Autores </figcaption>
+</figure>
+
+### Docker
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <figcaption align="center" >Figura 12 - Docker File. Fonte: Autores </figcaption>
+</figure>
 
 ### docker-compose
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <figcaption align="center" >Figura 13 - docker-compose. Fonte: Autores </figcaption>
+</figure>
 
 ## Referências
 
