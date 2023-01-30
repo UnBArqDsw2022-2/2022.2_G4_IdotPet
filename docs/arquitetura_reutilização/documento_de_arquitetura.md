@@ -110,7 +110,27 @@ Em resumo, a visão geral do aplicativo IdotPet é baseada na arquitetura MVC co
 
 #### 9.2.1 ScreenShots da Aplicação em Execução
 
+#### Login
+
 ![Tela Login](../assets/tela_login.PNG)
+
+<br>
+<br>
+
+#### Cadastro
+
 ![Tela Cadastro](../assets/tela_cadastro.PNG)
+
+<br>
+<br>
+
+#### Home
+
 ![Tela Home](../assets/tela_home.PNG)
+
+<br>
+<br>
+
+#### Cadastro de anúncio do pet
+
 ![Tela Cadastro Pet](../assets/tela_castro_pet.PNG)
