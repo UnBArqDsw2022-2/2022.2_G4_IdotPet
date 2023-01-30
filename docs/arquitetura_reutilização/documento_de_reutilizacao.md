@@ -5,7 +5,7 @@
 | 29/01/2023 | 0.2 | Adição da reutilização no frontend | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
 | 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
 | 29/01/2023 | 0.3 | Adição das imagens | Kayro, Pedro e Durso](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
-| 30/01/2023 | 0.3 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) |
+| 30/01/2023 | 0.3 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [João Durso](https://github.com/jvsdurso) |
 
 
 # Documento de Reutilização de Software
