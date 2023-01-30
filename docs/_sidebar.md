@@ -79,6 +79,7 @@
     
 - **Arquitetura de Software & Reutilização**
     - [Documento de Arquitetura](arquitetura_reutilização/documento_de_arquitetura.md)
+    - [Documento de Reutilização](arquitetura_reutilização/documento_de_reutilizacao.md)
     - **Participações**
       - [Participações](arquitetura_reutilização/participacoes_arqui.md)
 
