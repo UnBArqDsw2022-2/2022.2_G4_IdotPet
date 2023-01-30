@@ -22,7 +22,7 @@ Nosso diagrama inicial mostra suas classes como Pet, Usuario, UsuarioAnunciante,
 ## Diagrama de Classe
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v3).png?raw=true" alt="Diagrama de Classe"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v4).png?raw=true" alt="Diagrama de Classe"/>
   <figcaption align="center" >Figura 1 - Diagrama de Classe. Fonte: Autores </figcaption>
 </figure>
 
@@ -31,6 +31,8 @@ Nosso diagrama inicial mostra suas classes como Pet, Usuario, UsuarioAnunciante,
 [Versão 1](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v1).png?raw=true)
 
 [Versão 2](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v2).png?raw=true)
+
+[Versão 3](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/diagrama_classe/diagrama_classe(v3).png?raw=true)
 
 
 ## Referências
