@@ -8,7 +8,7 @@
 | 03/01/2023   | 0.2   | Preenchimento inicial do documento   | [Victor Cabral](https://github.com/victordscabral) e [Klyssmann Oliveira](https://github.com/klyssmannoliveira) |
 | 04/01/2023   | 0.3   | Preenchimento da metodologia   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
 | 04/01/2023   | 0.4   | Aplicação dos GRASPs   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) |
-| 05/01/2023   | 0.5   | Correção do GRASP   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) e [Thales Alves](https://github.com/Thalisson-Alves)|
+| 05/01/2023   | 0.5   | Correção do GRASP   | [Victor Cabral](https://github.com/victordscabral) e [Pedro Cassiano](https://github.com/PedroLucasCM) e [Thalisson Alves](https://github.com/Thalisson-Alves)|
 
 ## Introdução
 
