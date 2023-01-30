@@ -21,25 +21,17 @@ Essa reutilização leva em conta tanto o nível de código quanto de requisitos
 
 Criado pela Google, o Flutter é um dos principais frameworks focado em desenvolvimento mobile tanto Android quanto iOS. Ele possui a linguagem Dart como base sendo muito utilizado no mercado. Um grande diferencial dessa tecnologia é que o código acaba sendo compilado para a linguagem base do dispositivo mobile, não necessitando de terceiros para acessar direto aos recursos nativos do sistema.
 
+Na figura 1 temos a definição de um Widget para um campo de formulário. Já na figura 2 temos a utilização do widget com vários campos usando a mesma função.
+
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/flutter.png?raw=true" alt="image1"/>
-  <figcaption align="center" >Figura 1 - Logo do Flutter. Fonte: Flutter </figcaption>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/Widget_code.png?raw=true" alt="image1"/>
+  <figcaption align="center" >Figura 1 - Widget para formulário. Fonte: Autores</figcaption>
 </figure>
 
-Exemplos :
-
-Naa figura 1 temos a definição de um Widget para um campo de formulário.
-
-![Widget_code](https://user-images.githubusercontent.com/67024690/215378211-ffd7a52e-9e6f-4a3b-8665-13ec6a42ecf0.png)
-
-<center> Figura 2 - Logo do Flutter. Fonte: Flutter</center>
-<br>
-
-Na figura 3 temos a utilização do widget com vários campos usando a mesma função.
-
-![Widget_usage](https://user-images.githubusercontent.com/67024690/215378224-f6687e27-5304-46e2-99d8-cc789e9bece1.png)
-
-<center> Figura 3 - Logo do Flutter. Fonte: Flutter </center>
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/Widget_usage.png?raw=true" alt="image2"/>
+  <figcaption align="center" >Figura 2 - Utilização do widget para formulário. Fonte: Autores</figcaption>
+</figure>
 
 ### Widgets
 
@@ -57,12 +49,12 @@ Para importar o pacote:
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/barra_navegacao.png?raw=true" alt="image2"/>
-  <figcaption align="center" >Figura 4 - Widget: barra de navegação. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 3 - Widget: barra de navegação. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/nome_login.png?raw=true" alt="image3"/>
-  <figcaption align="center" >Figura 5 - Widget: campo de nome no login. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 4 - Widget: campo de nome no login. Fonte: Autores </figcaption>
 </figure>
 
 ### GetX
@@ -77,17 +69,17 @@ Para importar o pacote:
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/app_bindings.png?raw=true" alt="image4"/>
-  <figcaption align="center" >Figura 6 - App Bindings. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 5 - App Bindings. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/app_routes.png?raw=true" alt="image5"/>
-  <figcaption align="center" >Figura 7 - App Routes. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 6 - App Routes. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/use_case.png?raw=true" alt="image6"/>
-  <figcaption align="center" >Figura 8 - User Use Case. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 7 - User Use Case. Fonte: Autores </figcaption>
 </figure>
 
 ### Dio
@@ -100,7 +92,7 @@ Para importar o pacote:
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="image7"/>
-  <figcaption align="center" >Figura 9 - User API. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 8 - User API. Fonte: Autores </figcaption>
 </figure>
 
 ## Reutilização no Backend
@@ -111,44 +103,45 @@ O FastAPI é um framework Python focado no desenvolvimento de API’s, tem como 
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/fast_api.png?raw=true" alt="image8"/>
-  <figcaption align="center" >Figura 10 - Utilização do FastAPI. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 9 - Utilização do FastAPI. Fonte: Autores </figcaption>
 </figure>
 
 ### SQL Alchemy
 Desenvolvido para a linguagem de programação Python, o SQLAlchemy é um framework de mapeamento objeto-relacional SQL (ORM). O Mapeamento objeto-relacional ou simplesmente ORM é uma técnica de programação que auxilia na conversão de dados entre banco de dados relacionais e linguagens de programação que são orientadas à objetos.
 
 A utilização deste Framework faz com que o programador reduza a programação de acesso ao banco de dados, desta forma, obtendo uma produtividade significativa no desenvolvimento de suas aplicações.
+
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/sql_alchemy.png?raw=true" alt="image9"/>
-  <figcaption align="center" >Figura 11 - Utilização do SQL Alchemy. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 10 - Utilização do SQL Alchemy. Fonte: Autores </figcaption>
 </figure>
 
 ### base_repository.py
 
-Genérico de uma classe para acessar o model do banco de dados. A figura 10 mostra o base repository e a figura 11 mostra ele sendo utilizado no repository factory.
+Genérico de uma classe para acessar o model do banco de dados. A figura 11 mostra o base repository e a figura 12 mostra ele sendo utilizado no repository factory.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/base_repository.png?raw=true" alt="image10"/>
-  <figcaption align="center" >Figura 12 - base_repository.py. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 11 - base_repository.py. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/repository_factory.png?raw=true" alt="image10"/>
-  <figcaption align="center" >Figura 13 - repository_factory. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 12 - repository_factory. Fonte: Autores </figcaption>
 </figure>
 
 ### database.py
 
-Foi criado com objetivo de ser um utilitário para facilitar o processo de se conectar ao banco dados. Possibilita abrir sessão para realizar funções como SELECT e CREATE por exemplo. No figura 12 temos o código do database.py e na 13 um exemplo do próprio sendo utilizado.
+Foi criado com objetivo de ser um utilitário para facilitar o processo de se conectar ao banco dados. Possibilita abrir sessão para realizar funções como SELECT e CREATE por exemplo. No figura 13 temos o código do database.py e na 14 um exemplo do próprio sendo utilizado.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/database.png?raw=true" alt="image11"/>
-  <figcaption align="center" >Figura 14 - database.py. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 13 - database.py. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/usando_database.png?raw=true" alt="image11"/>
-  <figcaption align="center" >Figura 15 - Usando database.py. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 14 - Usando database.py. Fonte: Autores </figcaption>
 </figure>
 
 ### Docker
@@ -159,12 +152,12 @@ A seguir são apresentados o Dockerfile para gerar as imagens e o docker-compose
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/dockerfile.png?raw=true" alt="image12"/>
-  <figcaption align="center" >Figura 16 - Dockerfile. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 15 - Dockerfile. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/dockercompose.png?raw=true" alt="image14"/>
-  <figcaption align="center" >Figura 17 - docker-compose. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 16 - docker-compose. Fonte: Autores </figcaption>
 </figure>
 
 ## Referências
