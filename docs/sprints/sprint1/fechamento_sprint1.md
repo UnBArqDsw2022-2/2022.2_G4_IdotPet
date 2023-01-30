@@ -39,9 +39,13 @@
 ## Débitos Técnicos Gerados
 
 [#7 - Modelagem BPMN](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/7)
+<br>
 [#14 - Organização do Git Pages](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/14)
+<br>
 [#23 - Acompanhamento do Design Sprint](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/23)
+<br>
 [#24 - Storyboarding](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/24)
+<br>
 [#28 - Abertura e Fechamento da Sprint 1](https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/issues/28)
 
 ## Retrospectiva

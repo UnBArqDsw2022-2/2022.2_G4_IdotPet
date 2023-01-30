@@ -24,4 +24,44 @@ O presente repositório tem como objetivo o auxílio e registro do processo de d
 
 ## Sobre
 
-O IdotPet será uma aplicação mobile com objetivo de aproximar as pessoas que querem doar das pessoas que querem adotar um animal de estimação. Nesse sentido, a pessoa que quer adotar um pet encontrará nesta aplicação um catálogo com vários animais disponíveis para doação, com fotos e informações adicionais como vacinação, localização e etc.
+O IdotPet é um aplicativo móvel desenvolvido para conectar doadores de pets com pessoas interessadas em adotá-los. Ele permite que os usuários cadastrem informações sobre seus animais, incluindo fotos e detalhes de personalidade, para que os potenciais adotantes possam encontrar o animal perfeito para eles. Além disso, o aplicativo fornece recursos para ajudar os usuários a preparar seus lares para a chegada de um novo animal de estimação e conectá-los com organizações de proteção animal locais. Com o IdotPet, encontrar o animal de estimação perfeito para a sua família nunca foi tão fácil e divertido.
+
+
+## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
+
+![Primeira Entrega](./assets/entrega1.png)
+![Primeira Entrega](./assets/entrega1.1.png)
+
+## Screenshots Segunda Entrega <<FOCO: DSW&#40;Modelagem&#41;>>
+![Segunda Entrega](./assets/entrega2.png)
+![Segunda Entrega](./assets/entrega2.1.png)
+
+
+
+
+## Screenshots Terceira Entrega <<FOCO: DSW&#40;Padrões de Projeto&#41;>>)
+![Terceira Entrega](./assets/entrega3.png)
+![Quarta Entrega](./assets/entrega3.1.png)
+
+
+[//]: # (## Screenshots Quarta Entrega &#40;FINAL&#41; <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>)
+
+[//]: # (Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.)
+
+## Descritivo dos Principais Aspectos Técnicos 
+**Principais Metodologias Adotadas**: Scrum e Kanban<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: Python e Dart<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: FastAPI (Back-end) e Flutter (Front-end)<br>
+**Principais Estilos Arquiteturais Adotados**: MVC & Clean Archtecture<br>
+
+[//]: # (## O Projeto está rodando?)
+
+[//]: # (&#40; &#41; SIM)
+
+[//]: # (&#40; &#41; NÃO)
+
+[//]: # (Se SIM, insira um manual &#40;ou um script&#41; para auxiliar ainda mais os interessados em consultar o projeto.)
+
+[//]: # (## Informações Complementares )
+
+[//]: # (Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.)

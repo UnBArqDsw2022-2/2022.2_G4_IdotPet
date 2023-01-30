@@ -5,8 +5,7 @@
 | Data       | Versão | Modificação                              | Autor                                                                                                                                                                |
 | :--------- | :----- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 18/11/2022 | 0.1    | Criação da primeira versão do documento  | [Vitor Kühl](https://github.com/vitorekr) & [Thalisson Alves](https://github.com/Thalisson-Alves) |
-| 18/11/2022 | 0.2    | Adição de tecnologias de _back-end_  | [Vitor Kühl](https://github.com/vitorekr) & 
-Thalisson Alves](https://github.com/Thalisson-Alves) |
+| 18/11/2022 | 0.2    | Adição de tecnologias de _back-end_  | [Vitor Kühl](https://github.com/vitorekr) & [Thalisson Alves](https://github.com/Thalisson-Alves) |
  20/11/2022 | 0.3    | Revisão gramatical do artefato | [João Durso](https://github.com/jvsdurso)| 
 
 ## Introdução
@@ -57,10 +56,10 @@ PostgreSQL é um banco de dados relacional _open source_, possui mais de 35 anos
 
 Docker é uma ferramenta de plataforma como serviço (PaaS) usada para virtualização de nível de sistema operacional para entregar software em contêineres. Essa ferramenta auxilia na eliminação de tarefas repetitivas como configuração do ambiente para desenvolvimento e produção. Além disso ela garante que sempre estaremos usando o mesmo ambiente, assim não teremos problemas de dependências ou configurações específicas em alguma máquina, eliminando desculpas para o uso daquela famosa frase "Mas na minha máquina funciona".
 
-<!---## Conclusão
+## Conclusão
 
 Após reuniões e discussões internas, chegamos na conclusão de que as tecnologias acima serão utilizadas no processo de desenvolvimento do projeto. Porém, não é descartado possíveis mudanças que venham a serem propostas antes do começo do desenvolvimento.
---->
+
 
 ## Referências
 
@@ -74,4 +73,4 @@ Após reuniões e discussões internas, chegamos na conclusão de que as tecnolo
 
 > ANDRADE, Ana. O que é o SQLAlchemy?. [S. l.]: TreinaWeb, 1 nov. 2019. Disponível em: https://www.treinaweb.com.br/blog/o-que-e-o-sqlalchemy. Acesso em: 18 nov. 2022.
 
-> Docker (software). In: WIKIPÉDIA: a enciclopédia livre. Disponível em: https://pt.wikipedia.org/wiki/Docker_(software)#Refer%C3%AAncias. Acesso em: 18 nov. 2022.
+> Docker (software). In: WIKIPEDIA: a enciclopédia livre. Disponível em: https://pt.wikipedia.org/wiki/Docker_(software)#Refer%C3%AAncias. Acesso em: 18 nov. 2022.
