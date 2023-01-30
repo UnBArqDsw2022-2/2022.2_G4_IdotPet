@@ -68,7 +68,6 @@ O **Flutter** é uma ferramenta criada pelo Google que facilita o processo de de
 
 
 ## 5. Visão de Implementação
-<center><iframe height="600" width="700" src="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_implantacao"></iframe></center>
 
 ### 5.1. Diagrama de Componentes
 <center><iframe height="600" width="700" src="https://unbarqdsw2022-2.github.io/2022.2_G4_IdotPet/#/modelagem/diagrama_componentes?id=diagrama-de-componentes"></iframe></center>
