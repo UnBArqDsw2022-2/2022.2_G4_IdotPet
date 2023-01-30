@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!-- docs/_sidebar.md -->
 
 - **Diretrizes**
@@ -166,8 +166,10 @@
   - **Participações**
     - [Participações](padroes_projeto/participacoes_padroes.md)
     
-    **Arquitetura de Software & Reutilização**
-  - [Documento de Arquitetura](arquitetura_reutilização/documento_de_arquitetura.md)
+- **Arquitetura de Software & Reutilização**
+    - [Documento de Arquitetura](arquitetura_reutilização/documento_de_arquitetura.md)
+    - **Participações**
+      - [Participações](padroes_projeto/participacoes_padroes.md)
 
 
 - **Sprints**
@@ -182,4 +184,3 @@
     - [Sprint 5 - Abertura](sprints/sprint5/abertura_sprint5.md)
     - [Sprint 5 - Fechamento](sprints/sprint5/fechamento_sprint5.md)
     - [Sprint 6 - Ata](sprints/sprint6/ata_sprint6.md)
->>>>>>> 09f826a155544ed912c1cfcf4fe2ca60ac2b34c0
