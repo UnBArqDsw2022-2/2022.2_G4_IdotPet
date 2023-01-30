@@ -99,13 +99,17 @@ Para importar o pacote:
 
 ### FastAPI
 
+O FastAPI é um framework Python focado no desenvolvimento de API’s, tem como principais características ser moderno, rápido e simples. É um framework relativamente novo, teve a sua primeira versão lançada no dia 15 de Novembro de 2018.
+
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/fast_api.png?raw=true" alt="image8"/>
   <figcaption align="center" >Figura 8 - Utilização do FastAPI. Fonte: Autores </figcaption>
 </figure>
 
 ### SQL Alchemy
+Desenvolvido para a linguagem de programação Python, o SQLAlchemy é um framework de mapeamento objeto-relacional SQL (ORM). O Mapeamento objeto-relacional ou simplesmente ORM é uma técnica de programação que auxilia na conversão de dados entre banco de dados relacionais e linguagens de programação que são orientadas à objetos.
 
+A utilização deste Framework faz com que o programador reduza a programação de acesso ao banco de dados, desta forma, obtendo uma produtividade significativa no desenvolvimento de suas aplicações.
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/sql_alchemy.png?raw=true" alt="image9"/>
   <figcaption align="center" >Figura 9 - Utilização do SQL Alchemy. Fonte: Autores </figcaption>
@@ -113,7 +117,7 @@ Para importar o pacote:
 
 ### base_repository.py
 
-Genérico para qualquer classe para acessar o banco.
+Genérico de uma classe para acessar o model do banco de dados. A figura 10 mostra o base repository e a figura 11 mostra ele sendo utilizado no repository factory.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/base_repository.png?raw=true" alt="image10"/>
@@ -126,6 +130,7 @@ Genérico para qualquer classe para acessar o banco.
 </figure>
 
 ### database.py
+
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/database.png?raw=true" alt="image11"/>
