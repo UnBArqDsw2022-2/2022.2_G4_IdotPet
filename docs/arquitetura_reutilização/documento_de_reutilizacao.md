@@ -19,23 +19,19 @@ Essa reutilização leva em conta tanto o nível de código quanto de requisitos
 
 ### Flutter
 
-Criado pela Google, o Flutter é um dos principais frameworks focado em desenvolvimento mobile tanto Android quanto iOS. Ele possui a linguagem Dart como base sendo muito utilizado no mercado. Um grande diferencial dessa tecnologia é que o código acaba sendo compilado para a linguagem base do dispositivo mobile, não necessitando de terceiros para acessar direto aos recursos nativos do sistema.
-
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/flutter.png?raw=true" alt="image1"/>
   <figcaption align="center" >Figura 1 - Logo do Flutter. Fonte: Flutter </figcaption>
 </figure>
 
-Exemplos :
+Criado pela Google, o Flutter é um dos principais frameworks focado em desenvolvimento mobile tanto Android quanto iOS. Ele possui a linguagem Dart como base sendo muito utilizado no mercado. Um grande diferencial dessa tecnologia é que o código acaba sendo compilado para a linguagem base do dispositivo mobile, não necessitando de terceiros para acessar direto aos recursos nativos do sistema.
 
-Na figura 2 temos a definição de um Widget para um campo de formulário.
+Na figura 2 temos a definição de um Widget para um campo de formulário. Já na figura 3 temos a utilização do widget com vários campos usando a mesma função.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/Widget_code.png?raw=true" alt="image2"/>
   <figcaption align="center" >Figura 2 - Widget para formulário. Fonte: Autores</figcaption>
 </figure>
-
-Na figura 3 temos a utilização do widget com vários campos usando a mesma função.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/Widget_usage.png?raw=true" alt="image2"/>
