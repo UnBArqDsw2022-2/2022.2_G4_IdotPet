@@ -27,7 +27,7 @@ Dois conceitos importantes quanto a reutilização e frameworks são os de Hot-S
 Criado pela Google, o Flutter é um dos principais frameworks focado em desenvolvimento mobile tanto Android quanto iOS. Ele possui a linguagem Dart como base sendo muito utilizado no mercado. Um grande diferencial dessa tecnologia é que o código acaba sendo compilado para a linguagem base do dispositivo mobile, não necessitando de terceiros para acessar direto aos recursos nativos do sistema.
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/flutter.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/flutter.png?raw=true" alt="image1"/>
   <figcaption align="center" >Figura 1 - Logo do Flutter. Fonte: Flutter </figcaption>
 </figure>
 
@@ -46,12 +46,12 @@ Para importar o pacote:
 - import 'package:flutter/material.dart';
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/barra_navegacao.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/barra_navegacao.png?raw=true" alt="image2"/>
   <figcaption align="center" >Figura 2 - Widget: barra de navegação. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/nome_login.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/nome_login.png?raw=true" alt="image3"/>
   <figcaption align="center" >Figura 3 - Widget: campo de nome no login. Fonte: Autores </figcaption>
 </figure>
 
@@ -68,17 +68,17 @@ Para importar o pacote:
 - import 'package:get/get.dart';
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/app_bindings.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/app_bindings.png?raw=true" alt="image4"/>
   <figcaption align="center" >Figura 4 - App Bindings. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/app_routes.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/app_routes.png?raw=true" alt="image5"/>
   <figcaption align="center" >Figura 5 - App Routes. Fonte: Autores </figcaption>
 </figure>
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/use_case.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/use_case.png?raw=true" alt="image6"/>
   <figcaption align="center" >Figura 6 - User Use Case. Fonte: Autores </figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ Para importar o pacote:
 - import 'package:dio/dio.dart';
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="image7"/>
   <figcaption align="center" >Figura 7 - User API. Fonte: Autores </figcaption>
 </figure>
 
@@ -100,15 +100,15 @@ Para importar o pacote:
 ### FastAPI
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
-  <figcaption align="center" >Figura 8 - TEXTO. Fonte: Autores </figcaption>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/fast_api.png?raw=true" alt="image8"/>
+  <figcaption align="center" >Figura 8 - Utilização do FastAPI. Fonte: Autores </figcaption>
 </figure>
 
 ### SQL Alchemy
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
-  <figcaption align="center" >Figura 9 - TEXTO. Fonte: Autores </figcaption>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/sql_alchemy.png?raw=true" alt="image9"/>
+  <figcaption align="center" >Figura 9 - Utilização do SQL Alchemy. Fonte: Autores </figcaption>
 </figure>
 
 ### base_repository.py
@@ -116,29 +116,39 @@ Para importar o pacote:
 Genérico para qualquer classe para acessar o banco.
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/base_repository.png?raw=true" alt="image10"/>
   <figcaption align="center" >Figura 10 - base_repository.py. Fonte: Autores </figcaption>
+</figure>
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/repository_factory.png?raw=true" alt="image10"/>
+  <figcaption align="center" >Figura 11 - repository_factory. Fonte: Autores </figcaption>
 </figure>
 
 ### database.py
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
-  <figcaption align="center" >Figura 11 - database.py. Fonte: Autores </figcaption>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/database.png?raw=true" alt="image11"/>
+  <figcaption align="center" >Figura 12 - database.py. Fonte: Autores </figcaption>
+</figure>
+
+<figure>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/usando_database.png?raw=true" alt="image11"/>
+  <figcaption align="center" >Figura 13 - Usando database.py. Fonte: Autores </figcaption>
 </figure>
 
 ### Docker
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
-  <figcaption align="center" >Figura 12 - Docker File. Fonte: Autores </figcaption>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/dockerfile.png?raw=true" alt="image12"/>
+  <figcaption align="center" >Figura 14 - Docker File. Fonte: Autores </figcaption>
 </figure>
 
 ### docker-compose
 
 <figure>
-  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/user_api.png?raw=true" alt="flutter"/>
-  <figcaption align="center" >Figura 13 - docker-compose. Fonte: Autores </figcaption>
+  <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/dockercompose.png?raw=true" alt="image14"/>
+  <figcaption align="center" >Figura 15 - docker-compose. Fonte: Autores </figcaption>
 </figure>
 
 ## Referências
