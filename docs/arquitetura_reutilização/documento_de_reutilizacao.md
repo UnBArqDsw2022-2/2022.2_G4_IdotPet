@@ -3,10 +3,9 @@
 |:-:|:-:|:-:|:-:|
 | 28/01/2023 | 0.1 | Criação do documento | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
 | 29/01/2023 | 0.2 | Adição da reutilização no frontend | [Victor Cabral](https://github.com/victordscabral) & [Herick Lima](https://github.com/hericklima22)|
-| 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
-| 29/01/2023 | 0.3 | Adição das imagens | Kayro, Pedro e Durso](https://github.com/Nicolas-Roberto) & [Thales Alves](https://github.com/Thalisson-Alves)|
-| 30/01/2023 | 0.3 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [João Durso](https://github.com/jvsdurso) |
-
+| 29/01/2023 | 0.3 | Adição das imagens | [Nicolas Roberto](https://github.com/Nicolas-Roberto) & [Thalisson Alves](https://github.com/Thalisson-Alves)|
+| 30/01/2023 | 0.4 | Adição de reusabilidade do Flutter | [Luan Cavalcante](https://github.com/Luan-Cavalcante) & [João Durso](https://github.com/jvsdurso) |
+| 29/01/2023 | 0.5 | Adição texto na parte do backend | [Victor Cabral](https://github.com/victordscabral) & [Kayro César](https://github.com/kayrocesar)|
 
 # Documento de Reutilização de Software
 
@@ -15,12 +14,6 @@
 A reutilização de software consiste na utilização de conceitos, produtos e soluções já pré-elaboradas ou adquiridas para evitar retrabalho, aumentando a qualidade e produtividade do processo e produto de software. Também reduz custos, padroniza os produtos de software e facilita a manutenção e testes.   
 
 Essa reutilização leva em conta tanto o nível de código quanto de requisitos, projeto e outros. Bibliotecas, plugins, serviços, frameworks são alguns exemplos de ferramentas utilizadas para reutilização.
-
-Dois conceitos importantes quanto a reutilização e frameworks são os de Hot-Spots e Frozen-Spots.
-
-- Hot-Spots: flexíveis e projetados para serem genéricos e adaptáveis as necessidades, sendo normalmente representados por classes abstratas.
-
-- Frozen-Spots: fixos nas instanciações do framework, definindo a arquitetura geral do sistema.
 
 ## Reutilização no Frontend
 
@@ -69,8 +62,6 @@ Para importar o pacote:
 </figure>
 
 ### GetX
-
-package:get/get.dart
 
 Conforme dito na documentação esse pacote combina um gerenciador de estado de alta performance, injeção de dependência inteligente e gerenciamento de rotas de uma forma rápida e prática. 
 
@@ -144,6 +135,7 @@ Genérico de uma classe para acessar o model do banco de dados. A figura 10 most
 
 ### database.py
 
+Foi criado com objetivo de ser um utilitário para facilitar o processo de se conectar ao banco dados. Possibilita abrir sessão para realizar funções como SELECT e CREATE por exemplo. No figura 12 temos o código do database.py e na 13 um exemplo do próprio sendo utilizado.
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/database.png?raw=true" alt="image11"/>
@@ -157,12 +149,14 @@ Genérico de uma classe para acessar o model do banco de dados. A figura 10 most
 
 ### Docker
 
+O Docker foi utilizado como forma de reutilização pela equipe. Ele facilita a elaboração e administração de ambientes isolados através do empacotamento de uma aplicação ou ambiente dentro de um container. Condiz muito com a proposta de reutilização de software, simplificando e facilitando o fluxo de atividades dos desenvolvedores.
+
+A seguir são apresentados o Dockerfile para gerar as imagens e o docker-compose para gerir os containers do Docker.
+
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/dockerfile.png?raw=true" alt="image12"/>
-  <figcaption align="center" >Figura 14 - Docker File. Fonte: Autores </figcaption>
+  <figcaption align="center" >Figura 14 - Dockerfile. Fonte: Autores </figcaption>
 </figure>
-
-### docker-compose
 
 <figure>
   <img src="https://github.com/UnBArqDsw2022-2/2022.2_G4_IDotPet/blob/master/docs/assets/reutilizacao/dockercompose.png?raw=true" alt="image14"/>
@@ -175,14 +169,14 @@ Genérico de uma classe para acessar o model do banco de dados. A figura 10 most
 
 > Devmedia. Reutilização de Sofware. DevMedia. Disponível em: https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956. Acesso em: 28 de jan. 2023.
 
-> https://api.flutter.dev/flutter/material/material-library.html
+> Api Flutter. Material Library. Api Flutter. Disponível em: https://api.flutter.dev/flutter/material/material-library.html. Acesso em: 29 de jan. 2023.
 
-> https://pub.dev/packages/get
+> Pub Dev. get 4.6.5. Pub Dev. Disponível em: https://pub.dev/packages/get. Acesso em: 29 de jan. 2023.
 
-> https://pub.dev/packages/dio 
+> Pub Dev. dio 4.0.6. Pub Dev. Disponível em: https://pub.dev/packages/dio. Acesso em: 29 de jan. 2023.
 
-> https://blog.flutterando.com.br/consumindo-api-utilizando-o-dio-9ec72aeceeaa
+> OSSADA Toshi. Consumindo API utilizando o Dio. Flutterando. Disponível em: https://blog.flutterando.com.br/consumindo-api-utilizando-o-dio-9ec72aeceeaa. Acesso em: 29 de jan. 2023.
 
-> https://flutterparainiciantes.com.br/widgets/
+> Flutter para iniciantes. Widgets. Flutter para iniciantes. Disponível em: https://flutterparainiciantes.com.br/widgets/. Acesso em: 29 de jan. 2023.
 
-> https://flutterparainiciantes.com.br/interface/material/ 
+> Flutter para iniciantes. Material. Flutter para iniciantes. Disponível em: https://flutterparainiciantes.com.br/interface/material/. Acesso em: 29 de jan. 2023.
